@@ -1,0 +1,216 @@
+name,email,title_or_role,organization,pillar,category,project,award,notes,rsvp
+Alfred Wiggins,alfred.wiggins@rva.gov,Deputy CAO for Operations,,cross-pillar,cross_pillar_official,,,All pillars — operational authority,
+Amy Popovich,Amy.Popovich@rva.gov,Deputy CAO for Human Services,,cross-pillar,cross_pillar_official,,,"Pillars 3, 5 — Social Services, Neighborhood & Community Services",
+Sharon Ebert,sharon.ebert@rva.gov,Deputy CAO for Community Development,,cross-pillar,cross_pillar_official,,,"Pillars 2, 4, 6 — HCD, OMBD, built environment",
+Matthew Slaats,matthew.slaats@rva.gov,Senior Civic Innovation Manager / Interim Council Chief of Staff,,cross-pillar,cross_pillar_official,,,"All — civic engagement, participatory budgeting",
+Mira Signer,mira.signer@rva.gov,Mayor's Press Secretary,,cross-pillar,cross_pillar_official,,,All — MAP communications; namesake of winning MIRA project,
+Chaya Braxton,chaya.braxton2@rva.gov,"Policy Strategist, Strategic Communications",,cross-pillar,cross_pillar_official,,,All — policy + RVA Rapid Transit board,
+Michael Kolbe,michael.kolbe@rva.gov,RVA Hacks Programming Lead / City staff,,cross-pillar,cross_pillar_official,,,All — pillar coordination,
+Ford Prior,priorww@gmail.com,RVA Hacks Platform & Tech Lead,,cross-pillar,cross_pillar_official,,,All — continuation pathway,
+Nick Serfass,nick@rvatech.com,"CEO, rvatech/",,cross-pillar,cross_pillar_official,,,All — represents 150+ Richmond tech companies,
+Andrea Goulet,andrea@andreagoulet.com,"Co-Founder, Corgibytes",,cross-pillar,cross_pillar_official,,,All — software modernization; rvatech DEI,
+Jimmy Chou,jchou@singlestoneconsulting.com,Singlestone Consulting,,cross-pillar,cross_pillar_official,,,All — tech delivery; *also note Luke Rabin (SIMBY winner) is at Singlestone,
+Nick Pericle,nick@tenexity.ai,tenexity.ai,,cross-pillar,cross_pillar_official,,,All — AI implementation,
+Melanie Frank,melanie.frank@capitalone.com,Capital One,,cross-pillar,cross_pillar_official,,,All — data/fintech; civic tech interest,
+Demario Bell,belldde@amazon.com,Amazon,,cross-pillar,cross_pillar_official,,,All — cloud/infra,
+Shamim Mohammad,shamim_mohammad@carmax.com,CarMax,,cross-pillar,cross_pillar_official,,,All — data/tech corporate,
+Daniel Rubio,drubio432@gmail.com,,,pillar-1,builder,MIRA** ⭐ Mayor's Choice Award,MIRA** ⭐ Mayor's Choice Award,Prize recipient,
+Priyesh Jain,jain.priyesh@gmail.com,,,pillar-1,builder,MIRA,,Slack submitter — same team,
+Jonathan,jonathan.code@atomicmail.io,,,pillar-1,builder,Byrd Park Geese** ⭐ City Hall Award,Byrd Park Geese** ⭐ City Hall Award,Prize recipient — byrdparkgeese.com (TEXT311),
+Charlie Trochlil,charlie.trochlil@gmail.com,,,pillar-1,builder,Byrd Park Geese,,Slack submitter — same team,
+Baskaran Jeyarajan,baskaran.jeyarajan@gmail.com,,,pillar-1,builder,CivicPulse AI,,github.com/jbazkar/pillar-thriving-city-hall,
+Andre Tolleris,tollerisandre@gmail.com,,,pillar-1,builder,City Budget Dashboard,,Tableau public viz of Richmond budget,
+Taksheel Shetty,shettytaksheel2003@gmail.com,,,pillar-1,builder,Open City Webapp,,github.com/ricksond/open-city-webapp,
+Aidan Henn,aidan.henn@gmail.com,,,pillar-1,builder,Hey804,,github.com/tmishra-sp/hey804,
+Joshua Philip,jsphilip12@gmail.com,,,pillar-1,builder,rvaHelp (Hackstreet Boys),,hackathon.joshuaphilip.com,
+Ankit Srivastava,ankits@ithena.ai,,,pillar-1,builder,RVA Contract Lens (Team Aether),,Ithena AI; github.com/ankitSrivastavaITH/team-aether,
+Sera Davenport,davenport.sera@gmail.com,,,pillar-1,builder,MAP Tracker,,github.com/davenportsera/MAP-Tracker,
+Letitia Shelton,letitia.shelton@rva.gov *(confirm),"Director of Finance, City of Richmond",,pillar-1,committee,,,Controls financial data; procurement; budget actuals,
+Hal Dowdy,(via wiki.hackrva.org),"President, HackRVA",,pillar-1,committee,,,Makerspace; bridges City IT and open-source culture,
+James Burke,(via southshore.llc),"Co-Founder, South Shore Analytics",,pillar-1,committee,,,Data engineering/viz consultancy,
+Doug Gernat,douglas.gernat@rva.gov,"IT Services Manager, City of Richmond — DIT gatekeeper",,pillar-1,vip,,,,
+Matthew Slaats,matthew.slaats@rva.gov,Civic Innovation Manager — resident services focus,,pillar-1,vip,,,,
+Mira Signer,mira.signer@rva.gov,Mayor's Press Secretary,,pillar-1,vip,,,,
+Luke Rabin,luke@startwithbldr.com,,,pillar-2,builder,SIMBY** ⭐ Neighborhoods Award,SIMBY** ⭐ Neighborhoods Award,Prize recipient — simbyrva.vercel.app,
+Luke Rabin,lrabin@singlestoneconsulting.com,,,pillar-2,builder,SIMBY,,Same person — Singlestone work email,
+Corey Samuel,yeroc3012@gmail.com,,,pillar-2,builder,AHPT Dashboard,,ahpt-staff-web — affordable housing tracking,
+Jayakanthan Narayan,2005jay@gmail.com,,,pillar-2,builder,311RVA (Transformers),,github.com/posixplus/311RVA-hack4RVA,
+Marcus Thoreson,arcusthoreso@gmail.com,,,pillar-2,builder,RVA Neighborhood Watch,,github.com/sic-itur-ad-snack-stra/rva-neighborhood-watch — ⚠️ see note below,
+Morgan Stuart,morgansstuart243@gmail.com,,,pillar-2,builder,RVA Plotline,,rva-plotline.fly.dev,
+Edwin Huertas,edwin@shockoe.com,,,pillar-2,builder,RVA Dev Tracker,,"CEO, Shockoe Inc (mobile/digital agency) — rva-dev-tracker.vercel.app",
+Merrick Malone,merrick.malone@rva.gov *(confirm),"Director, Housing & Community Development",,pillar-2,committee,,,CDBG/HOME/Affordable Housing Trust Fund,
+Dr. Mae Worthey-Thomas,(via mwclt.org),"CEO, Maggie Walker Community Land Trust",,pillar-2,committee,,,Land bank; appointed Feb 2025,
+Zac Frederick,(via crescentdevelopmentrva.com),"Founder & CEO, Crescent Development",,pillar-2,committee,,,LIHTC affordable housing developer,
+Sharon Ebert,sharon.ebert@rva.gov,DCAO for Community Development — HCD oversight,,pillar-2,vip,,,,
+Chris McNamara,chris.mcnamara@virginiahousing.com,Virginia Housing — state housing finance,,pillar-2,vip,,,,
+Claire Jordan,cjordan1@costar.com,CoStar — real estate data,,pillar-2,vip,,,,
+Martha Shickle,martha@planrva.org,"Executive Director, PlanRVA — regional land use/transportation planning *(also chairs PHA board)",,pillar-2,vip,,,,
+Annika Schunn,aschunn@homeofva.org,"Policy Advocate, HOME of Virginia (Housing Opportunities Made Equal) — fair housing + affordable housing policy",,pillar-2,vip,,,,
+Woody Rogers,wrogers@pharva.com,"Policy Director, Partnership for Housing Affordability (PHA) — Richmond Regional Housing Framework",,pillar-2,vip,,,,
+Kathryn Thompson,kthompson@pharva.com,"Development Director, Partnership for Housing Affordability (PHA)",,pillar-2,vip,,,,
+Toria Edmonds-Howell,toria@hernewfangled.com,,,pillar-3,builder,Youth Employment RVA — Unboxed** ⭐ Families Award,Youth Employment RVA — Unboxed** ⭐ Families Award,Prize contact; github.com/Awurakua/Youth-Employment-RVA,
+Toria Edmonds-Howell,hey@hernewfangled.com,,,pillar-3,builder,Youth Employment RVA,,Alt/Slack email — same person,
+Sarang Shibu,sarangshibu98@gmail.com,,,pillar-3,builder,Richmond People Data,,richmond-people-data.vercel.app,
+Subhash Krishnamoorthy,subhashkrishnamoorthy0806@gmail.com,,,pillar-3,builder,RVA Community Platform,,rvacommunityplatform.org,
+Sravan Kumar Borra,sravanborra1504@gmail.com,,,pillar-3,builder,Ecowarriors,,Demo video submitted,
+Nana Kofi Okae,nanaokae4@gmail.com,,,pillar-3,builder,Unnamed Families project,,Demo video submitted via Drive,
+Eva Colen,eva.colen@rva.gov,"Director, Office of Children and Families",,pillar-3,committee,,,Confirmed at happy hour.** Architect of Universal Preschool,
+Dearsley Vernon,(via cisrva.org/leadership-team),"VP of Programs, Communities in Schools of Richmond",,pillar-3,committee,,,School-based wraparound services,
+Jenna Pagano,(via paganowellnessclinic.com),"Founder, Pagano Wellness Clinic",,pillar-3,committee,,,Mental health; HIPAA compliance; Medicaid,
+Eva Colen,eva.colen@rva.gov,"Director, OCF — direct program owner",,pillar-3,vip,,,,
+Amy Popovich,Amy.Popovich@rva.gov,DCAO for Human Services — Social Services in portfolio,,pillar-3,vip,,,,
+Jacqueline Hale,jacqueline.hale@rva.gov,"Early Childhood Specialist, OCF",,pillar-3,vip,,,,
+Taikein Cooper,tcooper@rps.fund,"CEO, Richmond Ed Fund — RPS philanthropic partner",,pillar-3,vip,,,,
+Taikein Cooper,taikein@richmondedfund.org,"Same person, secondary email",,pillar-3,vip,,,,
+Angela Patton,angela@girlsforachange.org,"CEO/Founder, Girls for a Change — 40K youth served",,pillar-3,vip,,,,
+Bridget Cochran,bridget.cochran@vdh.virginia.gov,Virginia Dept. of Health — public/maternal health data,,pillar-3,vip,,,,
+Sidney Edwards,edwardssi@ymcarichmond.org,"Associate VP of Equity Advancement, YMCA of Greater Richmond — founded their DEI department",,pillar-3,vip,,,,
+Sean Miller *(confirm),smiller@bgccva.org,Boys & Girls Clubs — ⚠️ smiller@bgccva.org may be Sean Miller at Boys & Girls Clubs of Metro Richmond (Sean@bgcmr.org); verify chapter,,pillar-3,vip,,,,
+Michael Mitchell,mikemitchell523@gmail.com,,,pillar-4,builder,TradePath RVA** ⭐ Economy Award,TradePath RVA** ⭐ Economy Award,Prize recipient — tradepathrva.com,
+Rob Newton,rob@hopdrive.com,,,pillar-4,builder,TradePath RVA,,Slack submitter — HopDrive (local mobility tech); same team,
+David Vilarino,vilarino.dave@gmail.com,,,pillar-4,builder,iBuild,,ibf-internal.red — submitted twice,
+Jake Yesbeck,yesbeckjs@gmail.com,,,pillar-4,builder,Career Bridge,,river-city-hackers.onrender.com,
+Sam Pritchard,im.sam.pritchard@gmail.com,,,pillar-4,builder,You Get What You Give,,getwhatyougive-rva.com,
+Mia Wang,lotuslove980@gmail.com,,,pillar-4,builder,hack4rva (Miaaj),,github.com/Miaaj/hack4rva,
+Pat Foster,pat.foster@rva.gov *(confirm),"Director, Office of Minority Business Development",,pillar-4,committee,,,Controls City procurement; MBE certification,
+Floyd E. Miller II,(via thembl.org/about-us/team),"President & CEO, Metropolitan Business League",,pillar-4,committee,,,50+ yr minority business association,
+Melody Joy Short,(via LinkedIn),"Founder, Short Consulting / Richmond Night Market",,pillar-4,committee,,,Small biz consultant; vendor/maker economy,
+Sharon Ebert,sharon.ebert@rva.gov,DCAO Community Development — OMBD in portfolio,,pillar-4,vip,,,,
+Heather Lyne,hlyne@1717collective.org,1717 Collective — entrepreneurial ecosystems; RVA Hacks organizer,,pillar-4,vip,,,,
+Adam Woodward,adam@unmba.io,UNMBA — minority business support,,pillar-4,vip,,,,
+April Palmer,april@unmba.io,UNMBA — minority business support,,pillar-4,vip,,,,
+Christopher Bowell,cbowell@summithumancapital.com,"Business Development Manager (Healthcare IT), Summit Human Capital — workforce solutions",,pillar-4,vip,,,,
+H. McElfish *(first name unresolved),hmcelfish@summithumancapital.com,Summit Human Capital — workforce solutions,,pillar-4,vip,,,,
+Charles Merritt,charles@buddy.insure,Buddy (FinTech) — small business insurance/fintech,,pillar-4,vip,,,,
+Michael Mitchell,mikemitchell523@gmail.com,,,pillar-5,builder,TradePath RVA** ⭐ Inclusive Communities Award,TradePath RVA** ⭐ Inclusive Communities Award,Same project as Economy winner — dual award,
+Charles Wilson,CharlesWilsonk10@gmail.com,,,pillar-5,builder,TradePath RVA / 804me,,⚠️ Listed as Inclusive Communities prize recipient; Slack profile linked to 804me. May be on both teams or transferred. Confirm.,
+Whitney Zentgraf,wmzentgraf@gmail.com,,,pillar-5,builder,rvahelps.me,,rvahelps.me — community resource navigation,
+Circletrust Team,teamcircletrust@gmail.com,,,pillar-5,builder,CircleTrust,,github.com/circletrust/circletrust — team inbox,
+Karla Almendarez-Ramos,karla.almendarez-ramos@rva.gov,"Manager, Office of Immigrant & Refugee Engagement",,pillar-5,committee,,,Confirmed at happy hour.** Daily translation/interpreter ops,
+Kate Ayers,kate@reestablishrichmond.org,"Executive Director, ReEstablish Richmond",,pillar-5,committee,,,RSVPed No to happy hour (out of town) — still key partner,
+Dr. Tiffany Jana,(via tmiconsultinginc.com),"Founder & CEO, TMI Consulting",,pillar-5,committee,,,World's first DEI-focused B Corp; equity measurement,
+Karla Almendarez-Ramos,karla.almendarez-ramos@rva.gov,"Manager, OIRE — direct program owner",,pillar-5,vip,,,,
+Aneesah Smith,aneesah.smith@rva.gov,"Equity & Inclusion Advisor, City of Richmond",,pillar-5,vip,,,,
+Amy Popovich,Amy.Popovich@rva.gov,DCAO Human Services — Justice Services in portfolio,,pillar-5,vip,,,,
+"Helen Rai, MSW",helen@reestablishrichmond.org,"Director of Client Engagement, ReEstablish Richmond — manages intake + Health & Wellness program",,pillar-5,vip,,,,
+Info,info@shcenter.org,Sacred Heart Center — immigrant services,,pillar-5,vip,,,,
+DeJuan Brown,dejuanbrown@gmail.com,Community advocate — DEI/grassroots nonprofits,,pillar-5,vip,,,,
+Jared Jarreau,jared.jarreau@gmail.com,,,pillar-6,builder,Ride Shift RVA** ⭐ Moonshot Award,Ride Shift RVA** ⭐ Moonshot Award,Prize recipient,
+Matthew Dinkel,matt@mdinkel.com,,,pillar-6,builder,Ride Shift RVA,,Prize co-recipient,
+Daniel Larner,daniel@dlarner.dev,,,pillar-6,builder,Ride Shift RVA,,Prize co-contact,
+Daniel Larner,dlarner3194@gmail.com,,,pillar-6,builder,Ride Shift RVA,,Same person — Slack email (alt),
+Angelika Aquiro,ang68593@gmail.com,,,pillar-6,builder,StreetLights (Team Aurea),,ang-aq.github.io/Streetlights,
+William Baxter,wbaxter3@gmail.com,,,pillar-6,builder,All Your Bass project,,all-your-bass-are-belong-to-us-sandy.vercel.app,
+Sasha Lewis,sasha@novafoundry.com,,,pillar-6,builder,Nova Foundry project,,Nova Foundry — local design/tech studio; gdrive submission,
+Dawn Oleksy,dawn.oleksy@rva.gov *(confirm),"Energy Program Manager, Office of Sustainability",,pillar-6,committee,,,RVAgreen 2050; solar programs; $250K clean energy grant,
+Rob Jones,(via groundworkrva.org — ask Nathan Burrell at happy hour),"Executive Director, Groundwork RVA",,pillar-6,committee,,,Environmental justice; youth Green Teams,
+Patrick Farley,(via patrickfarley.net),"Principal, Patrick Farley Architect",,pillar-6,committee,,,Net-zero design; Richmond's first residential grid-tied PV,
+Daniel Klein,daniel.klein@rva.gov,"Sustainability Coordinator, Office of Sustainability — Dawn Oleksy's team",,pillar-6,vip,,,,
+Nathan Burrell,nathan@groundworkrva.org,Groundwork RVA — same org as Rob Jones (Tri-Part Nonprofit Lead),,pillar-6,vip,,,,
+Hunter Applewhite,hunter.applewhite@dominionenergy.com,Dominion Energy — energy/utility grid interface,,pillar-6,vip,,,,
+Martha Shickle,martha@planrva.org,"Executive Director, PlanRVA — regional transportation/land use",,pillar-6,vip,,,,
+Shannon Orcutt,sorcutt@thejamesriver.org,"Government Affairs & Policy Manager, James River Association",,pillar-6,vip,,,,
+Justin Doyle,jdoyle@thejamesriver.org,"Director of Community Conservation, James River Association",,pillar-6,vip,,,,
+Todd B. Waldo,twaldo@shockoeinstitute.org,"Chief Operating Officer, Shockoe Institute — slavery heritage + community impact; on Better Housing Coalition board",,pillar-6,vip,,,,
+Daniel Blackin,blackindaniel@gmail.com,,,pillar-7,builder,Neighborhood Remembered** ⭐ Storytelling Award,Neighborhood Remembered** ⭐ Storytelling Award,Prize recipient — richmondstories.online,
+Andrey V. Karpov,andreyvkarpov@outlook.com,,,pillar-7,builder,Neighborhood Remembered,,Slack submitter — same team (HireTheBest-LLC/rva-voices),
+Tejesh Annavarapu,tejeshannavarapu1804@gmail.com,,,pillar-7,builder,What's on RVA,,whats-on-rva2.vercel.app,
+Subhash Jaini,sjaini@precizion.io,,,pillar-7,builder,ExplorerVA,,Precizion — explorerva.org,
+Kshiteej Herode,herodekshiteej@gmail.com,,,pillar-7,builder,Vicino,,vicino2.vercel.app,
+Dr. Sylvio Lynch III,sylvio.lynchiii@rva.gov,"Secretary, History & Culture Commission / Planning & Dev Review",,pillar-7,committee,,,Confirmed at happy hour.** Liaison for historical markers and monuments,
+Enjoli Moon,(via thejxnproject.org),"Founder, Afrikana Film Festival / The JXN Project",,pillar-7,committee,,,Jackson Ward preservation; cultural powerhouse,
+Hannah Ayers,(via fieldstudiofilms.com),"Director / Co-Owner, Field Studio",,pillar-7,committee,,,"Emmy-winning documentary; PBS ""Future of America's Past""",
+Dr. Sylvio Lynch III,sylvio.lynchiii@rva.gov,"Secretary, History & Culture Commission — direct program owner",,pillar-7,vip,,,,
+Mira Signer,mira.signer@rva.gov,Mayor's Press Secretary — civic narrative/communications,,pillar-7,vip,,,,
+Meg Hughes,mhughes@thevalentine.org,The Valentine (Richmond history museum) — RSVPed No but highly relevant,,pillar-7,vip,,,,
+Christian Markow,cmarkow@lostoffice.co,Lost Office — creative/design studio,,pillar-7,vip,,,,
+Ford Prior,priorww@gmail.com,Platform / Tech / Community / Leadership,,all,organizer,,,,
+Michael Kolbe,michael.kolbe@rva.gov,Programming / Planning / Pillar Coordination,,all,organizer,,,,
+Crystal Harvey,crystal.harvey@endurance-it.com,Operations / Logistics,,all,organizer,,,,
+Heather Lyne,hlyne@1717collective.org,Entrepreneurial Ecosystems,,all,organizer,,,,
+Will Melton,wmelton@xponent21.com,Partnerships / Community,,all,organizer,,,,
+Mike Huddleston,mike.huddleston@arctiq.com,Sponsorships / Corporate Relations,,all,organizer,,,,
+Sinclair Jenks,sinclair.jenks@insightglobal.com,Marketing / Communications,,all,organizer,,,,
+Alfred Wiggins,alfred.wiggins@rva.gov,"DCAO Operations, City of Richmond",,all,happy_hour_vip,,,All,Delivered
+Amy Popovich,Amy.Popovich@rva.gov,"DCAO Human Services, City of Richmond",,all,happy_hour_vip,,,"3, 5",Not delivered
+Peter Breil,peter.briel@rva.gov,"Director of Citizen Service & Response, City of Richmond — runs RVA311 *(Legistar spells surname ""Breil"")",,all,happy_hour_vip,,,1,Not delivered
+Mira Signer,mira.signer@rva.gov,Mayor's Press Secretary,,all,happy_hour_vip,,,All,Viewed
+Sharon Ebert,sharon.ebert@rva.gov,DCAO Community Development,,all,happy_hour_vip,,,"2, 4, 6",Delivered
+Matthew Slaats,matthew.slaats@rva.gov,Senior Civic Innovation Manager,,all,happy_hour_vip,,,All,Delivered
+Chaya Braxton,chaya.braxton2@rva.gov,Policy Strategist / Rapid Transit Board,,all,happy_hour_vip,,,All,Delivered
+Daniel Klein,daniel.klein@rva.gov,"Sustainability Coordinator, OOS",,all,happy_hour_vip,,,6,Going (+1)
+Jacqueline Hale,jacqueline.hale@rva.gov,"Early Childhood Specialist, OCF",,all,happy_hour_vip,,,3,Going (+1)
+Eva Colen,eva.colen@rva.gov,"Director, Office of Children & Families",,all,happy_hour_vip,,,3,Delivered
+Aneesah Smith,aneesah.smith@rva.gov,Equity & Inclusion Advisor,,all,happy_hour_vip,,,5,Viewed
+Karla Almendarez-Ramos,karla.almendarez-ramos@rva.gov,"Manager, OIRE",,all,happy_hour_vip,,,5,Going (+2)
+Dr. Sylvio Lynch III,sylvio.lynchiii@rva.gov,"Secretary, History & Culture Commission",,all,happy_hour_vip,,,7,Viewed
+Michael Kolbe,michael.kolbe@rva.gov,City staff / RVA Hacks programming,,all,happy_hour_vip,,,All,Going (+3 guests)
+Sarah Abubaker,sarah.abubaker@rva.gov,"4th District City Council Member, Richmond City Council — championed RVA311 deep-dive session Feb 2025",,all,happy_hour_vip,,,1,No
+Rvamayor,rvamayor@rva.gov,Mayor's Office inbox,,all,happy_hour_vip,,,All,Delivered
+Kate Ayers,kate@reestablishrichmond.org,"Executive Director, ReEstablish Richmond",,all,happy_hour_vip,,,5,No (out of town)
+"Helen Rai, MSW",helen@reestablishrichmond.org,"Director of Client Engagement, ReEstablish Richmond",,all,happy_hour_vip,,,5,Delivered
+Angela Patton,angela@girlsforachange.org,"CEO/Founder, Girls for a Change",,all,happy_hour_vip,,,"3, 5",Delivered
+Nathan Burrell,nathan@groundworkrva.org,Groundwork RVA,,all,happy_hour_vip,,,6,Going (+1)
+Taikein Cooper,tcooper@rps.fund,"CEO, Richmond Ed Fund",,all,happy_hour_vip,,,3,Delivered
+Taikein Cooper *(alt email),taikein@richmondedfund.org,"CEO, Richmond Ed Fund — secondary address",,all,happy_hour_vip,,,3,Not delivered
+Martha Shickle,martha@planrva.org,"Executive Director, PlanRVA",,all,happy_hour_vip,,,"2, 6",Going (+2)
+Bridget Cochran,bridget.cochran@vdh.virginia.gov,Virginia Dept. of Health,,all,happy_hour_vip,,,3,Going (+1)
+Darrell *(last name unresolved),darrell@the24foundation.org,The 24 Foundation (Charlotte-based cancer survivorship cycling org — Richmond connection TBD),,all,happy_hour_vip,,,TBD,Viewed
+Info,info@shcenter.org,Sacred Heart Center,,all,happy_hour_vip,,,5,Not delivered
+Sean Miller *(confirm),smiller@bgccva.org,Boys & Girls Clubs — verify Metro Richmond vs Central VA chapter,,all,happy_hour_vip,,,3,Not delivered
+Sidney Edwards,edwardssi@ymcarichmond.org,"Associate VP Equity Advancement, YMCA of Greater Richmond",,all,happy_hour_vip,,,3,Delivered
+William Thornton,thorntonw@ymcarichmond.org,YMCA of Greater Richmond,,all,happy_hour_vip,,,3,No
+Annika Schunn,aschunn@homeofva.org,"Policy Advocate, HOME of Virginia",,all,happy_hour_vip,,,2,Viewed
+Woody Rogers,wrogers@pharva.com,"Policy Director, Partnership for Housing Affordability",,all,happy_hour_vip,,,2,Viewed
+Kathryn Thompson,kthompson@pharva.com,"Development Director, Partnership for Housing Affordability",,all,happy_hour_vip,,,2,Going
+Debbie Irwin,debbie@lighthousenetwork.co,"Executive Director, Lighthouse Network (startup accelerator, 1717 E Cary St)",,all,happy_hour_vip,,,4,Going (+1)
+Shannon Orcutt,sorcutt@thejamesriver.org,"Government Affairs & Policy Manager, James River Association",,all,happy_hour_vip,,,6,Viewed
+Justin Doyle,jdoyle@thejamesriver.org,"Director of Community Conservation, James River Association",,all,happy_hour_vip,,,6,Viewed
+Todd B. Waldo,twaldo@shockoeinstitute.org,"COO, Shockoe Institute",,all,happy_hour_vip,,,"6, 7",Going (+1)
+Richard Hankins,richard@psgrichmond.org,"Executive Director, Partnership for Smarter Growth (PSG)",,all,happy_hour_vip,,,"2, 6",Delivered
+DeJuan Brown,dejuanbrown@gmail.com,Community advocate,,all,happy_hour_vip,,,5,Delivered
+Chris Edwards,cedwards@lmronline.org,"President & CEO, Leadership Metro Richmond (LMR)",,all,happy_hour_vip,,,All,Viewed
+Nick Serfass,nick@rvatech.com,"CEO, rvatech/",,all,happy_hour_vip,,,All,Viewed
+Andrea Goulet,andrea@andreagoulet.com,"Co-Founder, Corgibytes",,all,happy_hour_vip,,,All,Delivered
+Jimmy Chou,jchou@singlestoneconsulting.com,Singlestone Consulting,,all,happy_hour_vip,,,All,Viewed
+Adam Woodward,adam@unmba.io,UNMBA,,all,happy_hour_vip,,,4,Viewed
+April Palmer,april@unmba.io,UNMBA,,all,happy_hour_vip,,,4,Delivered
+Ankit Mathur,ankit@technicallyankit.com,"CTO, United Network for Organ Sharing (UNOS); also on Lighthouse Network board",,all,happy_hour_vip,,,All,Going
+Ashley Ray,ashleyray@beemergent.com,"Owner/Founder, Emergent Social Solutions; Comms Director for Girls for a Change",,all,happy_hour_vip,,,"5, 7",Going (+2)
+Andrew Ilnicki,andrew.ilnicki@richmond.edu,University of Richmond,,all,happy_hour_vip,,,TBD,Delivered
+Garret Westlake,gmwestlake@vcu.edu,VCU,,all,happy_hour_vip,,,TBD,Delivered
+Judi Crenshaw,jwcrenshaw@vcu.edu,VCU,,all,happy_hour_vip,,,TBD,Going (+1)
+Patrice Perry,perryp@vcu.edu,"Visiting Assistant Professor, Management & Entrepreneurship, VCU School of Business",,all,happy_hour_vip,,,4,Viewed
+Catherine Ingrassia,cingrass@vcu.edu,VCU,,all,happy_hour_vip,,,TBD,Delivered (+1)
+Aspen Anders,andersas@vcu.edu,VCU,,all,happy_hour_vip,,,TBD,Going (+1)
+Sarah Banwarth,sebanwarth@vcu.edu,VCU,,all,happy_hour_vip,,,TBD,No
+Marcus Thoreson,marcus.thoreson@unos.org,UNOS (⚠️ may also be hackathon builder),,all,happy_hour_vip,,,2,Going (+2)
+Chris McNamara,chris.mcnamara@virginiahousing.com,Virginia Housing,,all,happy_hour_vip,,,2,Delivered
+Claire Jordan,cjordan1@costar.com,CoStar,,all,happy_hour_vip,,,2,Viewed
+Hunter Applewhite,hunter.applewhite@dominionenergy.com,Dominion Energy,,all,happy_hour_vip,,,6,Delivered
+Melanie Frank,melanie.frank@capitalone.com,Capital One,,all,happy_hour_vip,,,All,Viewed
+Demario Bell,belldde@amazon.com,Amazon,,all,happy_hour_vip,,,All,Delivered
+Shamim Mohammad,shamim_mohammad@carmax.com,CarMax,,all,happy_hour_vip,,,All,Delivered
+Paul Devitt,pauldevitt@geico.com,GEICO,,all,happy_hour_vip,,,TBD,Going (+1)
+Rohit Deep,cfell@geico.com,GEICO (⚠️ unusual email — confirm),,all,happy_hour_vip,,,TBD,Delivered
+Nick Pericle,nick@tenexity.ai,tenexity.ai,,all,happy_hour_vip,,,All,Viewed
+Romain Lhéritier,romain@ipponusa.com,"CEO & Co-Founder, Ippon Technologies USA (Richmond tech consulting)",,all,happy_hour_vip,,,All,Delivered
+Clair Ratliff,clair.freudenberg@endurance-it.com,Endurance IT,,all,happy_hour_vip,,,All,Going
+Crystal Harvey,crystal.harvey@endurance-it.com,Endurance IT / RVA Hacks,,all,happy_hour_vip,,,All,Going
+Mike Huddleston,mike.huddleston@arctiq.com,Arctiq / RVA Hacks,,all,happy_hour_vip,,,All,Delivered
+Sinclair Jenks,sinclair.jenks@insightglobal.com,Insight Global / RVA Hacks,,all,happy_hour_vip,,,All,Going (+1)
+Will Melton,wmelton@xponent21.com,Xponent21 / RVA Hacks,,all,happy_hour_vip,,,All,Delivered
+Will Willis,william.willis@aireadyrva.com,AI Ready RVA,,all,happy_hour_vip,,,All,Going (+1)
+Heather Lyne,hlyne@1717collective.org,1717 Collective / RVA Hacks,,all,happy_hour_vip,,,4,Going (+1)
+Charles Merritt,charles@buddy.insure,Buddy (FinTech),,all,happy_hour_vip,,,4,Going (+1)
+Meg Hughes,mhughes@thevalentine.org,The Valentine (history museum),,all,happy_hour_vip,,,7,No
+Christian Markow,cmarkow@lostoffice.co,Lost Office,,all,happy_hour_vip,,,7,Going
+Ryan Shriver,ryanshriver@mac.com,Unknown,,all,happy_hour_vip,,,TBD,No
+Katia Mastropas,mastropaska@gmail.com,Unknown,,all,happy_hour_vip,,,TBD,No
+Gray Crenshaw,gray.crenshaw@gmail.com,Unknown,,all,happy_hour_vip,,,TBD,Going (+1)
+Jordan Coleman,jordan.coleman824@gmail.com,Unknown,,all,happy_hour_vip,,,TBD,Viewed
+Vivian Vendt,vivianvendt@gmail.com,Unknown,,all,happy_hour_vip,,,TBD,Going (+1)
+Michael Millions,mikemillions@gmail.com,Unknown,,all,happy_hour_vip,,,TBD,Going (+2)
+Zachary Brown,zachary.s.brown@gmail.com,Unknown,,all,happy_hour_vip,,,TBD,Going (+1)
+Madison Johnson,+18049375831 (phone only),Unknown,,all,happy_hour_vip,,,TBD,Viewed
+DeJuan Brown,dejuanbrown@gmail.com,Community advocate,,all,happy_hour_vip,,,5,Delivered

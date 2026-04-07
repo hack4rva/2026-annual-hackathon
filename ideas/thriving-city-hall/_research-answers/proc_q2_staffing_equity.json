@@ -1,0 +1,1369 @@
+{
+  "run_id": "trun_1848795af0f24b80b2cf84bff5a64f9a",
+  "interaction_id": "trun_1848795af0f24b80b2cf84bff5a64f9a",
+  "result_url": "https://platform.parallel.ai/play/deep-research/trun_1848795af0f24b80b2cf84bff5a64f9a",
+  "status": "completed",
+  "output": {
+    "basis": [
+      {
+        "field": "office_of_minority_business_development_role",
+        "reasoning": "The most relevant excerpt provides a direct description of the OMBD\u2019s programs and services, including facilitating minority participation, setting goals, and conducting compliance reviews to promote open and competitive procurement. This supports the field value that OMBD is charged with goal setting and compliance oversight for minority business participation in city contracting. Another excerpt explicitly presents the OMBD mission to ensure minority-owned and other disadvantaged businesses have opportunities in the City\u2019s contracting, which aligns with the field value\u2019s emphasis on verification and equal opportunity goals. A third excerpt reinforces the OMBD\u2019s stated mission/vision framework, confirming the organizational purpose within procurement equity. A fourth excerpt contains a concrete performance target (a 9% FY2025 minority spend goal) and notes that the City tracks and reports on this participation, directly supporting the quantified objective in the field value. An additional excerpt documents the MBE compliance framework and the use of compliance monitoring tools (e.g., a software solution) to implement these goals, which corroborates the field value\u2019s claim about monitoring and verification processes. A further excerpt establishes the OMBD\u2019s role within procurement transparency efforts, indicating public-facing data on program outcomes and opportunities for minority businesses, which aligns with the stated public reporting objective. Collectively, these excerpts establish the OMBD\u2019s mandate (verification of MBEs, compliance with minority procurement goals), governance (goal setting and monitoring), tools (compliance monitoring software), and public reporting/visibility, which together define the office\u2019s role in the procurement landscape as described in the field value.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "Minority Business Development\nFY2022\nPerformance\nresult\nFY2023\nPerformance\nresult\nFY2024\nPerformance\nTarget\nFY2025\nPerformance\nTarget\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "The City of Richmond makes contract information available so residents and businesses can see how public funds are used. Through the **Open Data Portal** , you can explore both **active and inactive contracts** . This data is updated monthly and i"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "public_reporting_of_equity_data",
+        "reasoning": "The most directly relevant pieces indicate the city\u2019s public reporting of MBE/SWaM participation and transparency mechanisms. The statement that the City tracks the percentage of minority spend and publicly reports it, including a FY2025 performance target of 9% and historical figures around $27M to $50M, directly supports the field value about public reporting and tracking of MBE/SWaM procurement spend. Additionally, references to the Procurement Transparency Dashboard and public data portals corroborate how these figures are published and made accessible to the public. The Office of Minority Business Development is described as responsible for goal setting and compliance review, which underpins both the tracking and the public reporting of these metrics. The inclusion of explicit URLs or portal references (Open Data Portal and OpenGov portal) strengthens the connection to publicly available reporting. The later excerpts expand on what data is published (contract details, supplier names, bid amounts) and the existence of MBEs/ESBs directories, which reinforces the public and transparent reporting framework surrounding equity in procurement.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "To view contract information please select: [City Contracts](https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/about_data)",
+              "City manages all formal invitations for bids through **OpenGov** . This ensures transparency in the competitive process and lets the public see details about invitation for bid contract awards. Information available includes:",
+              "All procurement documents related to open and closed invitations for bid.",
+              "The City of Richmond's Office of Minority Business Development (OMBD) provides directories of Minority Business Enterprises (MBEs) and Emerging Small Businesses (ESBs). The directories include:\nCompany name\nContact person\nPhysical address\nCity\nState\nZip\nPhone\nEmail\nWebsite\nBusiness Type\nCommodity Code(s)",
+              "portunities for City Contracts:** Registration and certification for the MBE/ESB Program can open up opportunities on city contracts that have specific MBE/ESB participation goals.",
+              "ow to Get Started:** Interested firms can use the link below to get registered or certified.\n[Supplier Diversity Management System](https://richmondombd.diversitycompliance.com/?TN=richmondombd",
+              "Oct 21, 2025 \u2014 The City of Richmond's Office of Minority Business Development (OMBD) provides directories of Minority Business Enterprises (MBEs) and Emerging Small Businesses",
+              "The City of Richmond makes contract information available so residents and businesses can see how public funds are used. Through the **Open Data Portal** , you can explore both **active and inactive contracts** . This data is updated monthly and i",
+              " transparency ensures that every dollar the City of Richmond spends is open to public view and accountable to residents. When contracts, bids, and supplier participation are clear and accessible:\n**Taxpayers gain trust** knowing their money is used fairly and responsibly.\n**Businesses have equal opportunity** to compete for city work, supporting local growth.\n**The community benefits** from greater equity, efficiency, and oversight in government spending.\nBy making procurement information easy to navigate, Richmond demonstrates its commitment to fairness, inclusion, and the wise use of public funds"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "fy2025_procurement_department_initiatives",
+        "reasoning": "The finegrained field value concerns a concrete initiative: a P-Card Program Reset announced on April 30, 2025, which reduced the total number of purchasing cards from 320 to 67. The most relevant excerpt directly states this action, including the exact dates and numeric change, demonstrating the internal control tightening and scope of the initiative. This supports the field value\u2019s description of a targeted corrective action within the procurement process and shows how it impacted card issuance without staff FTE changes in this instance. Other excerpts discuss procurement staffing, budgets, or transparency dashboards, which provide useful background but do not substantively confirm the P-Card reset details or its quantitative impact.\"",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/p-card-progress",
+            "excerpts": [
+              "On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67. Sep 9, 2025 \u2014 On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67."
+            ],
+            "title": "P-card Progress | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "mbe_swam_spending_analysis",
+        "reasoning": "The finegrained value encapsulates specific numeric results and targets for MBE/SWaM spending: a FY22 result percent of 10.0, and FY24/FY25 targets at 9.0 percent, alongside corresponding dollar figures (FY22 result of 27,267,368.0, FY24 target of 50,000,000.0, and FY25 target of 30,000,000.0). The most directly supportive excerpts present the explicit dollar amounts for minority spend across years and the percentage spend figures across the same year set, aligning exactly with the fields in the value. The excerpt that lists Minority Spend Dollars shows a sequence of four values (27267368, 29000000, 50000000, 30000000) which maps to FY22 results and FY24/FY25 targets, thereby providing the precise numerical anchors requested. Another excerpt provides the corresponding percentage line (10%, 10%, 10%, 9%), which directly aligns with the FY22 result and FY24/FY25 targets in percent terms. Additional excerpts describe the Office of Minority Business Development\u2019s role and public reporting ecosystem, which contextualizes that these metrics are tracked and publicly discussed, strengthening the interpretation that the figures are part of a public accountability framework. Taken together, these excerpts coherently support the exact numeric values in the finegrained field value and validate that Richmond publicly tracks and reports these MBE/SWaM metrics as part of its procurement equity program.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000",
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OVERVIEW**\nThe Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "contract_processing_timelines",
+        "reasoning": "The requested field contract_processing_timelines encodes four numbers: the RFP average completion days for FY23, the RFP target completion days for FY25, the IFB average award days for FY23, and the IFB target award days for FY25. One excerpt presents a compact row titled \u201cRFP Average Time from Initiation to Completion\u201d with the values \u201cN/A, 307 days, 307 days, 150 days,\u201d which directly provides the current RFP average (307 days) and the target (150 days), matching the first two components of the field value. A second excerpt provides the same RFP line, reinforcing these same figures. A third excerpt provides the IFB line, labeled \u201cIFB - Average Time from Advertisement to Award,\u201d with the values \u201cN/A, 118 days, 118 days, 90 days,\u201d which maps directly to the IFB average and target components in the field value. Taken together, these excerpts conclusively support all four numbers in the finegrained field value and demonstrate the public reporting of both current performance and targets for RFPs and IFBs within Richmond\u2019s procurement timelines.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n",
+              "IFB - Average Time from Advertisement to Award\nN/A\n118 days\n118 days\n90 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "procurement_staff_count",
+        "reasoning": "The target field value represents the total procurement staff count. The most directly relevant excerpt explicitly lists a total staffing figure of 32.00 for the procurement context, which aligns with the requested value. This excerpt appears to present the overall staffing for the department during the FY2025 proposed budget, making it the strongest support for the stated staffing count. The next excerpt also conveys a total staffing line within the same planning document, showing a sequential progression of staffing totals (including a 32.00 total), which corroborates the 32.0 figure as part of the broader procurement staffing narrative. A third item appears to be a grand-total line that aggregates staffing across categories or funds; while it shows a total, its scope may be broader than procurement-specific staffing, making it supportive but less precise for the exact procurement staff count. Additional excerpts touch on general staffing by fund or department within the procurement context but do not alone confirm the exact procurement staff headcount; they serve to triangulate the budgetary staffing landscape and provide corroborating context that the procurement function operates with a multi-fund staffing footprint. Taken together, the clearest, most direct confirmation is the explicit total staffing line showing 32.00, with corroboration from adjacent budget lines that pertain to Procurement Services staffing totals in the same fiscal plan.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Total Staffing\n20.00\n18.00\n27.00\n32.00\n",
+              "**Total Staffing**\n**20.00**\n**18.00**\n**27.00**\n**32.00**",
+              "**Grand Total**\n**24.00**\n**29.00**\n**5.00**",
+              "General Fund Staffing\n17.00\n15.00\n24.00\n29.00\n",
+              "**Update Personnel Expenditures**\n**FTE: 1.00**\n**$717,907**\n\u2022\nTechnical adjustment to support personnel costs. Changes reflect updates in staffing due to\nadministrative actions, creation, consolidation, reorganization efforts, and includes the addition of a\nContracting Officer position. It also includes updates for the required contributions to the Richmond\nRetirement System (RRS), Virginia Retirement System (VRS), FICA, MedFICA, group life, and healthcare\npremiums. These are routine actions which occur at the beginning of each budget cycle."
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "barriers_for_small_and_minority_vendors",
+        "reasoning": "Evidence indicates that the procurement process relies on compliance monitoring software (B2GNow) and formal goal-setting processes to track MBE/ESB participation, which can introduce administrative steps and documentation requirements that may burden smaller firms seeking certification or contracts. The existence of an independent procurement services assessment suggests ongoing scrutiny of practices and potential improvements to efficiency, which can reflect prior barriers identified through oversight. Public metrics show extended procurement cycle times for RFPs (307 days from initiation to completion) and IFB-advertisement-to-award timelines (118 days), highlighting end-to-end delays that can deter smaller vendors with fewer resources. Certification and open data discussions imply transparency efforts but also delineate the speed and complexity of the certification process, which may create delays for smaller firms attempting to participate. Taken together, these excerpts support the notion that documentation, verification, and lengthy cycles are real, publicly acknowledged barriers, while also showing the steps the city has taken (like B2GNow and OMBD activities) to address them.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Technical adjustment to account for new and/or increases in existing department contracts. Contract\nincludes compliance monitoring and goal setting software AskReply Inc. (B2GNow).",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days",
+              "IFB - Average Time from Advertisement to Award\nN/A\n118 days\n118 days\n90 days",
+              "**Conduct Procurement Services Assessment**\n**FTE: 0.00**\n**$90,000**\n\u2022\nSupport an independent assessment of the current business practices and procedures of the Department\nof Procurement Services. It is expected that recommendations to improve efficiency and oversight will\nresult from this assessment."
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "rocessing Time:** The registration process takes approximately 24-48 hours if all information is provided. The certification process is less than 30 days",
+              "The City of Richmond's Office of Minority Business Development (OMBD) provides directories of Minority Business Enterprises (MBEs) and Emerging Small Businesses (ESBs). The directories include:\nCompany name\nContact person\nPhysical address\nCity\nState\nZip\nPhone\nEmail\nWebsite\nBusiness Type\nCommodity Code(s)",
+              "portunities for City Contracts:** Registration and certification for the MBE/ESB Program can open up opportunities on city contracts that have specific MBE/ESB participation goals.",
+              "ow to Get Started:** Interested firms can use the link below to get registered or certified.\n[Supplier Diversity Management System](https://richmondombd.diversitycompliance.com/?TN=richmondombd"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2025-08/OCA%20Annual%20Report%20-%20FY%202025.pdf",
+            "excerpts": [
+              "Aug 22, 2025 \u2014 The Committee meets periodically to review audit reports, discuss internal control concerns, and provide input on audit planning and priorities. The OCA's Email us: askcityauditor@rva.gov. Call us: 804-646-5616. Visit us: 900 E ... The results of this audit were referred to the City of Richmond Office of the."
+            ],
+            "title": "[PDF] Office of the City Auditor (OCA) - Annual Report Fiscal Year 2025"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "procurement_staffing_composition",
+        "reasoning": "The target field value specifies two precise quantities to extract from the City of Richmond\u2019s procurement staffing data: the FY2024 adopted total FTE (27.0) and the FY2025 proposed total FTE (32.0). An excerpt that lists a row labeled Total Staffing with a sequence of four numbers including 27.00 and 32.00 directly maps to those two values, indicating the FY2024 adopted figure and the FY2025 proposed figure. This provides the strongest, most direct support for the requested fine-grained field. Additional excerpts that present a similar four-column Total Staffing row show the same four-number pattern, including 20.00, 18.00, 27.00, and 32.00, which corroborates the existence of a multi-year staffing table and helps confirm the location and labeling of the FY2024 and FY2025 columns, even if the exact column headers require interpretation. Excerpts listing General Fund Staffing in parallel four-column rows (which include 17.00, 15.00, 24.00, 29.00) reinforce the structure of the staffing table and further support that the 27.00/32.00 figures correspond to the total department staffing for the two fiscal years in question. Overall, the most relevant excerpts provide explicit Total Staffing rows containing the FY2024 adopted total and the FY2025 proposed total, while the less direct ones supply contextual confirmation of the data layout and labeling.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Total Staffing\n20.00\n18.00\n27.00\n32.00\n",
+              "**Total Staffing**\n**20.00**\n**18.00**\n**27.00**\n**32.00**",
+              "18.00",
+              "27.00",
+              "32.00",
+              "General Fund Staffing\n17.00\n15.00\n24.00\n29.00\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "recent_oversight_and_media_coverage",
+        "reasoning": "The most directly relevant material concerns recent oversight and media activity affecting procurement operations. A press/medium coverage item notes that audits identified high-risk issues and unaddressed findings across city departments, which illustrates ongoing scrutiny and accountability challenges in city operations. The excerpt states that nearly 50 high-risk issues were found and that the results were referred to the City Auditor, underscoring heightened attention to internal controls and procurement processes. Directly related to procurement oversight, the Inspector General report on MBE compliance highlights specific audit activity within procurement-related governance, reflecting formal review of compliance with minority business program goals. Additionally, city auditor oversight is referenced through the annual FY2025 report, which discusses inadequate internal controls and oversight, providing a broader context for ongoing scrutiny of procurement functions. There is also mention of a committee that meets periodically to review audit reports and set priorities, indicating formal governance processes around auditing and oversight. Finally, related items about the P-card program and associated governance actions demonstrate concrete, public actions aimed at tightening controls in procurement operations. Together, these excerpts construct a narrative of active oversight, audits, and media/public-facing accountability applicable to the field value describing recent oversight and media coverage of Richmond\u2019s procurement equity/operations.Quotes from the excerpts illustrate the core points: the existence of an inspector general/MBD-focused audit, the City Auditor\u2019s ongoing involvement with high-risk issues, and public updates on procurement governance actions such as the P-card reset and committee oversight.",
+        "citations": [
+          {
+            "url": "https://www.vpm.org/news/2025-12-02/rva-auditor-riad-ali-city-hall-finance-dpu-avula-donald",
+            "excerpts": [
+              "2 Dec 2025 \u00b7 Nearly 50 high-risk issues found during audits of Richmond City departments have not been fixed by their target date, City Auditor Riad Ali wrote in a new"
+            ],
+            "title": "Richmond City auditor finds nearly 50 unfixed, high-risk issues"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2025-08/OCA%20Annual%20Report%20-%20FY%202025.pdf",
+            "excerpts": [
+              "The OCA found inadequate internal controls, oversight, and inventory monitoring that resulted in inaccurate and unreliable inventory data and misstatement of",
+              "Aug 22, 2025 \u2014 The Committee meets periodically to review audit reports, discuss internal control concerns, and provide input on audit planning and priorities. The OCA's Email us: askcityauditor@rva.gov. Call us: 804-646-5616. Visit us: 900 E ... The results of this audit were referred to the City of Richmond Office of the."
+            ],
+            "title": "[PDF] Office of the City Auditor (OCA) - Annual Report Fiscal Year 2025"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/p-card-progress",
+            "excerpts": [
+              "On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67. Sep 9, 2025 \u2014 On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67."
+            ],
+            "title": "P-card Progress | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "richmond_performance_against_equity_goals",
+        "reasoning": "Direct, explicit references to historical MBE spend shares and the 2025 target are most relevant for assessing whether Richmond meets its internal equity goals. The excerpt detailing a historical 10% minority spend and a 2025 target of 9% directly supports the fine-grained field value\u2019s claims about Richmond\u2019s performance against its internal MBE target. A closely related excerpt presents the 9% 2025 target alongside the historical 10% figure, reinforcing the contrast between past performance and the new target. An excerpt noting the Virginia state SWaM goal of 42% provides the needed external benchmark against which Richmond\u2019s internal targets can be contextualized. Public-facing procurement dashboards and OMBD program descriptions are relevant for understanding how these goals are tracked, reported, and supported by governance and transparency practices. The combination of explicit numeric targets, public reporting mechanisms, and descriptive program governance collectively substantiates the field value\u2019s statements about internal targets, historical performance, and comparison to state objectives. The strongest support comes from the excerpts that state the 10% historical minority spend and the 9% 2025 target, followed by the explicit note of the state 42% SWaM goal for context, and then corroborating materials on OMBD programs and public dashboards for reporting and tracking mechanisms.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n",
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "Minority Business Development\nFY2022\nPerformance\nresult\nFY2023\nPerformance\nresult\nFY2024\nPerformance\nTarget\nFY2025\nPerformance\nTarget\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "The City of Richmond's Office of Minority Business Development (OMBD) provides directories of Minority Business Enterprises (MBEs) and Emerging Small Businesses (ESBs). The directories include:\nCompany name\nContact person\nPhysical address\nCity\nState\nZip\nPhone\nEmail\nWebsite\nBusiness Type\nCommodity Code(s)"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61",
+            "excerpts": [
+              "The bill provides that executive branch agencies and covered institutions are required to increase their small SWaM business utilization rates by three percent"
+            ],
+            "title": "HB61 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61/text/HB61S1",
+            "excerpts": [
+              "The goal of the Program shall be the achievement of a 42 percent small SWaM business utilization rate, including a five percent utilization rate directed to"
+            ],
+            "title": "HB61S1 - 2026 Regular Session - Virginia LIS"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "fy2025_procurement_department_initiatives.initiative_name",
+        "reasoning": "The field value 'P-Card Program Reset' corresponds to an initiative name describing a reset of the P-card program. The excerpt explicitly states: 'On April 30, 2025, Mayor Danny Avula announced a p-card reset' and notes the total number of p-cards was reduced, which directly demonstrates an initiative action tied to a P-card program reset. This direct reference provides direct evidence of the initiative name being the P-card program reset, fulfilling the criteria for relevance to the specified fine-grained field value.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/p-card-progress",
+            "excerpts": [
+              "On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67. Sep 9, 2025 \u2014 On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67."
+            ],
+            "title": "P-card Progress | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "staff_turnover_and_institutional_knowledge",
+        "reasoning": "The requested field concerns turnover and institutional knowledge within the City\u2019s Procurement Services. The provided excerpts do not contain a publicly disclosed turnover rate specific to the Procurement Services department. However, several excerpts establish the department\u2019s staffing scale and planned changes: the budget documents show total staffing figures and changes over multiple years, including a grand total of staff across fund types, which helps establish the size of the department and the potential impact of turnover on operations. For example, the plan lists a total staff amount in the procurement area and related administrative/analytical positions, showing the department\u2019s staffing envelope and recent or proposed adjustments. This context is relevant because turnover and loss of institutional knowledge depend on both the number of staff and the rate at which they depart relative to that headcount. Additionally, a citywide HR recruitment and hiring process audit documents turnover costs at the city level, quantifying the financial impact of turnover but explicitly notes that these figures are not broken out by individual departments like Procurement Services. This supports the claim that while turnover costs exist and are measured citywide, there is no publicly available, department-specific turnover rate or qualitative assessment of institutional knowledge loss for Procurement Services in the cited materials. Other procurement-related documents discuss transparency, MBE/SWaM goals, and program structures, but do not provide department-level turnover metrics. Taken together, the most direct public evidence confirms the absence of a Procurement Services-specific turnover rate and highlights citywide turnover cost considerations, with staffing totals and department-level role counts offering indirect context about the potential magnitude of turnover impact within Procurement Services.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "**Total Staffing**\n**20.00**\n**18.00**\n**27.00**\n**32.00**",
+              "Total Staffing\n20.00\n18.00\n27.00\n32.00\n",
+              "General Fund Staffing\n17.00\n15.00\n24.00\n29.00\n",
+              "**GENERAL FUND PERSONNEL COMPLEMENT/POSITION CONTROL**\nThe chart below represents the department's General Fund personnel detail by position title. The number of positions\naccount for all General Fund currently filled positions and any funded vacant positions.",
+              "**Conduct Procurement Services Assessment**\n**FTE: 0.00**\n**$90,000**\n\u2022\nSupport an independent assessment of the current business practices and procedures of the Department\nof Procurement Services. It is expected that recommendations to improve efficiency and oversight will\nresult from this assessment.",
+              "Contracting Officer\n2.00\n5.00\n3.00",
+              "**Grand Total**\n**24.00**\n**29.00**\n**5.00**",
+              "Management Analyst, Principal\n1.00\n0.00\n(1.00)",
+              "18.00",
+              "Administrative Technician, Senior\n2.00\n\u2014\n(2.00)\n",
+              "Contracting Officer\n2.00\n5.00\n3.00\n",
+              "Management Analyst, Principal\n1.00\n0.00\n(1.00)\n",
+              "Procurement Analyst\n5.00\n6.00\n1.00\n",
+              "Procurement Analyst, Senior\n6.00\n9.00\n3.00\n",
+              "Technology Coordinator (Agency)\n1.00\n0.00\n(1.00)\n",
+              "FTE: 1.00",
+              "Grand Total\n24.00\n29.00\n5.00\n",
+              "FTE: 4.00",
+              "$244,650",
+              "Add three Procurement Analysts and one Operations Analyst to address backlog of procurement\nrequests and increase deliverables, drive cost savings, mitigate, and increase strategic purchasing efforts.",
+              "OVERVIEW",
+              "mission",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "VISION",
+              "Greater economic and social equity in our community through the pursuit of parity in the amount the City of Richmond\nspends, as well as opportunities for growth and development through procure goods/services and technical assistance\nusing taxpayer dollars and user fees.",
+              "OBJECTIVES",
+              "Increase technical assistance activities to attract, retain and grow businesses",
+              "Identify procurement opportunities within the city administration as well as the city\u2019s anchor institutions",
+              "Take advantage of the latest technology to enable opportunity and ensure diversity",
+              "Assist in the preparation of MBE/ESB with the goal of qualify for lending opportunities",
+              "Collaborate with internal/external organizations"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2021-06/2021-14%20DHR%20Recruitment%20%26%20Hiring%20Process%205.26.21.pdf",
+            "excerpts": [
+              "Based on the median turnover rate, employee turnover costs the City approximately $6.7M per year. Finding #6 \u2013 Best Practices \u2013 The Auditors reviewed HR"
+            ],
+            "title": "[PDF] Human Resources Recruitment & Hiring Process Audit - RVA.gov"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2025-08/OCA%20Annual%20Report%20-%20FY%202025.pdf",
+            "excerpts": [
+              "The OCA found inadequate internal controls, oversight, and inventory monitoring that resulted in inaccurate and unreliable inventory data and misstatement of",
+              "Aug 22, 2025 \u2014 The Committee meets periodically to review audit reports, discuss internal control concerns, and provide input on audit planning and priorities. The OCA's Email us: askcityauditor@rva.gov. Call us: 804-646-5616. Visit us: 900 E ... The results of this audit were referred to the City of Richmond Office of the."
+            ],
+            "title": "[PDF] Office of the City Auditor (OCA) - Annual Report Fiscal Year 2025"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61",
+            "excerpts": [
+              "The bill provides that executive branch agencies and covered institutions are required to increase their small SWaM business utilization rates by three percent"
+            ],
+            "title": "HB61 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61/text/HB61S1",
+            "excerpts": [
+              "The goal of the Program shall be the achievement of a 42 percent small SWaM business utilization rate, including a five percent utilization rate directed to"
+            ],
+            "title": "HB61S1 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://www.vpm.org/news/2025-12-02/rva-auditor-riad-ali-city-hall-finance-dpu-avula-donald",
+            "excerpts": [
+              "2 Dec 2025 \u00b7 Nearly 50 high-risk issues found during audits of Richmond City departments have not been fixed by their target date, City Auditor Riad Ali wrote in a new"
+            ],
+            "title": "Richmond City auditor finds nearly 50 unfixed, high-risk issues"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/p-card-progress",
+            "excerpts": [
+              "On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67. Sep 9, 2025 \u2014 On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67."
+            ],
+            "title": "P-card Progress | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "Oct 21, 2025 \u2014 The City of Richmond's Office of Minority Business Development (OMBD) provides directories of Minority Business Enterprises (MBEs) and Emerging Small Businesses",
+              "The City of Richmond makes contract information available so residents and businesses can see how public funds are used. Through the **Open Data Portal** , you can explore both **active and inactive contracts** . This data is updated monthly and i",
+              "Agency or department name",
+              "Contract number",
+              "Dollar amount of the award",
+              "Supplier name",
+              "Procurement type or method",
+              "Contract description",
+              "Purchase category",
+              "Effective and end dates",
+              "To view contract information please select: [City Contracts](https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/about_data)",
+              "City manages all formal invitations for bids through **OpenGov** . This ensures transparency in the competitive process and lets the public see details about invitation for bid contract awards. Information available includes:",
+              "All procurement documents related to open and closed invitations for bid.",
+              "If awarded, successful and unsuccessful bidder names.",
+              "If awarded, successful and unsuccessful bid amounts.",
+              "To view successful and unsuccessful bidders/bid amounts select \"Closed\" projects: [OpenGov](https://procurement.opengov.com/portal/rva)",
+              "All publicly distributed procurement documents related to open and closed requests for proposals.",
+              "To view select: [OpenGov](https://procurement.opengov.com/portal/rva)",
+              "rocessing Time:** The registration process takes approximately 24-48 hours if all information is provided. The certification process is less than 30 days",
+              " transparency ensures that every dollar the City of Richmond spends is open to public view and accountable to residents. When contracts, bids, and supplier participation are clear and accessible:\n**Taxpayers gain trust** knowing their money is used fairly and responsibly.\n**Businesses have equal opportunity** to compete for city work, supporting local growth.\n**The community benefits** from greater equity, efficiency, and oversight in government spending.\nBy making procurement information easy to navigate, Richmond demonstrates its commitment to fairness, inclusion, and the wise use of public funds",
+              "The City of Richmond's Office of Minority Business Development (OMBD) provides directories of Minority Business Enterprises (MBEs) and Emerging Small Businesses (ESBs). The directories include:\nCompany name\nContact person\nPhysical address\nCity\nState\nZip\nPhone\nEmail\nWebsite\nBusiness Type\nCommodity Code(s)",
+              "portunities for City Contracts:** Registration and certification for the MBE/ESB Program can open up opportunities on city contracts that have specific MBE/ESB participation goals.",
+              "ow to Get Started:** Interested firms can use the link below to get registered or certified.\n[Supplier Diversity Management System](https://richmondombd.diversitycompliance.com/?TN=richmondombd"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "fy2025_procurement_department_initiatives.description",
+        "reasoning": "The identified excerpt directly describes an initiative announced on April 30, 2025 to tighten internal controls over city purchasing, including a reduction of purchasing cards from 320 to 67. This content directly supports a description field about procurement initiatives in fy2025, illustrating governance actions aimed at tightening controls and limiting procurement-card usage. By citing the observed numbers and the stated purpose (tightening controls), the excerpt corroborates the existence and scope of the 2025 initiative as described in the target field.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/p-card-progress",
+            "excerpts": [
+              "On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67. Sep 9, 2025 \u2014 On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67."
+            ],
+            "title": "P-card Progress | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "public_data_release_considerations",
+        "reasoning": "The field value asserts that Richmond already maintains strong procurement transparency with data made public on the Open Data Portal, and that formal procurement documents and bid outcomes are accessible through the OpenGov portal. The most directly supportive content states that contract information is publicly available so residents can see how public funds are used, and that Open Data Portal and OpenGov are used to surface active and inactive contracts and bid outcomes, respectively. This directly corroborates the existence of public data channels and transparent publishing practices. Additional excerpts reinforce this transparency posture by describing OpenGov handling of invitations for bids and procurement data visibility, further validating a public, accessible procurement data ecosystem. Other excerpts describe the OpenGov/Open Data interfaces and OMBD\u2019s role in supporting procurement transparency, which aligns with the described governance framework for data release. A later note discusses general transparency benefits and the role of OpenGov in presenting procurement information to the public, which supports the overall claim of public data availability. Although the excerpts collectively support the existence of transparent data practices and access pathways, there is no explicit excerpt detailing FOIA-derived redaction rules; thus, while FOIA is a known overarching constraint in public records, the sourced excerpts here do not explicitly quantify FOIA redactions, leaving some room for interpretation about the precise legal boundaries. Overall, the excerpts coherently substantiate the claim of robust public data release practices through Public Data Portals and OpenGov, with a reasonable level of confidence that the described channels exist and are used for transparency.",
+        "citations": [
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "The City of Richmond makes contract information available so residents and businesses can see how public funds are used. Through the **Open Data Portal** , you can explore both **active and inactive contracts** . This data is updated monthly and i",
+              "City manages all formal invitations for bids through **OpenGov** . This ensures transparency in the competitive process and lets the public see details about invitation for bid contract awards. Information available includes:",
+              "To view contract information please select: [City Contracts](https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/about_data)",
+              "Supplier name",
+              " transparency ensures that every dollar the City of Richmond spends is open to public view and accountable to residents. When contracts, bids, and supplier participation are clear and accessible:\n**Taxpayers gain trust** knowing their money is used fairly and responsibly.\n**Businesses have equal opportunity** to compete for city work, supporting local growth.\n**The community benefits** from greater equity, efficiency, and oversight in government spending.\nBy making procurement information easy to navigate, Richmond demonstrates its commitment to fairness, inclusion, and the wise use of public funds",
+              "The City of Richmond's Office of Minority Business Development (OMBD) provides directories of Minority Business Enterprises (MBEs) and Emerging Small Businesses (ESBs). The directories include:\nCompany name\nContact person\nPhysical address\nCity\nState\nZip\nPhone\nEmail\nWebsite\nBusiness Type\nCommodity Code(s)",
+              "portunities for City Contracts:** Registration and certification for the MBE/ESB Program can open up opportunities on city contracts that have specific MBE/ESB participation goals.",
+              "ow to Get Started:** Interested firms can use the link below to get registered or certified.\n[Supplier Diversity Management System](https://richmondombd.diversitycompliance.com/?TN=richmondombd"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "virginia_and_richmond_mbe_swam_goals",
+        "reasoning": "- The strongest alignment comes from excerpts explicitly naming the Virginia HB61/SWaM goal and its target, specifying a 42% small SWaM utilization rate, which directly matches the finegrained field value\u2019s Virginia-side goal. These excerpts also reference HB61 in the context of 2026/Governance, validating the state-level target and its source. - Next, the Richmond-specific target is stated as a city MBEs goal at 9%, which directly supports the finegrained field value\u2019s Richmond-specific target. This provides precise alignment with the requested field. - Excerpts that discuss the percentage of Minority Spend (commonly 10% in some contexts) and related spend data give supporting context about how diversity spending is tracked and discussed publicly, even if they do not reproduce the exact Richmond 9% figure. This helps corroborate the existence of public diversity spend tracking and targets. - Excerpts describing the Minority Business Development function and its goal-setting/compliance review processes reinforce that there are formal mechanisms to set and assess MBE/ESB participation goals, aligning with the field value\u2019s implications about tracking and reporting. - Excerpts explicitly mentioning MBE/ESB program preparation and collaboration indicate that the process supports vendor readiness for MBE/ESB participation, which is relevant to the practical side of meeting stated goals. - Excerpts outlining OMBD\u2019s mission and city-wide procurement equity objectives provide high-level justification for why these targets exist and how the city aims to achieve equity, further supporting the field value. - Excerpts about opportunities for City Contracts and the supplier diversity management system corroborate the infrastructure around MBE/SWaM participation, reporting, and governance, contributing to the overall interpretation of the field value. - The order reflects a progression from explicit numeric goals (state and city) to governance/programmatic context and finally to implementation/support tools.",
+        "citations": [
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61",
+            "excerpts": [
+              "The bill provides that executive branch agencies and covered institutions are required to increase their small SWaM business utilization rates by three percent"
+            ],
+            "title": "HB61 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61/text/HB61S1",
+            "excerpts": [
+              "The goal of the Program shall be the achievement of a 42 percent small SWaM business utilization rate, including a five percent utilization rate directed to"
+            ],
+            "title": "HB61S1 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "Assist in the preparation of MBE/ESB with the goal of qualify for lending opportunities",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OBJECTIVES**\n\u2022 Increase technical assistance activities to attract, retain and grow businesses\n\u2022 Identify procurement opportunities within the city administration as well as the city\u2019s anchor institutions\n\u2022 Take advantage of the latest technology to enable opportunity and ensure diversity\n\u2022 Assist in the preparation of MBE/ESB with the goal of qualify for lending opportunities\n\u2022 Collaborate with internal/external organizations"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "portunities for City Contracts:** Registration and certification for the MBE/ESB Program can open up opportunities on city contracts that have specific MBE/ESB participation goals.",
+              "ow to Get Started:** Interested firms can use the link below to get registered or certified.\n[Supplier Diversity Management System](https://richmondombd.diversitycompliance.com/?TN=richmondombd"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "mbe_swam_spending_analysis.minority_spend_percentage_fy22_result",
+        "reasoning": "The finegrained field value represents the percentage of procurement spend going to MBE/SWaM-certified businesses in FY22. Excerpts describing the 'Percent of Minority Spend' explicitly list percentages, with lines showing 10% across multiple entries, which aligns with the target value of 10.0. This provides direct support for the numeric figure. Other excerpts present 9% or provide qualitative descriptions of the OMBD programs and goals, which are contextually relevant but do not confirm the exact 10.0% figure. Therefore, the strongest support comes from the explicit 10% entries, while the qualitative program descriptions help confirm that the city tracks and manages MBE/SWaM spend but do not contradict the numeric value.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "office_of_minority_business_development_role.mission",
+        "reasoning": "The clearest support comes from a document dedicated to MBE Compliance, which explicitly notes that verification of Minority Business Enterprises and compliance with the city's Minority Business requirements are within the office\u2019s mandate, aligning directly with the stated field value. Additional excerpts describe OMBD\u2019s broader role in setting goals, conducting compliance reviews of contract goals, and providing programs and technical assistance to MBEs, which reinforces the Office of Minority Business Development as the entity responsible for monitoring and fostering compliance in procurement. Other excerpts illustrate the mission to facilitate opportunities for MBEs/ESBs/DBEs and to promote open procurement practices, further supporting that OMBD is the key office charged with minority business verification and compliance in the procurement landscape. Taken together, these excerpts collectively corroborate that OMBD has an ordinance-backed role in verifying MBEs and ensuring compliance with minority business requirements, with the strongest, most direct support coming from the dedicated MBE Compliance document, and supplementary support from materials describing OMBD\u2019s compliance-related activities and mission.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "Minority Business Development\nFY2022\nPerformance\nresult\nFY2023\nPerformance\nresult\nFY2024\nPerformance\nTarget\nFY2025\nPerformance\nTarget\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "The City of Richmond makes contract information available so residents and businesses can see how public funds are used. Through the **Open Data Portal** , you can explore both **active and inactive contracts** . This data is updated monthly and i"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "executive_summary",
+        "reasoning": "The most directly relevant excerpt confirms the staffing level: it reports the total staffing as 32 positions within the procurement department, aligning with the executive summary\u2019s staffing claim for the 2025-2026 period. The procurement timeline is supported by the excerpt documenting an average RFP cycle time of 307 days, and a separate excerpt notes a target time of 150 days for that cycle, which directly corroborates the stated end-to-end timeline challenge and aspirational target. On equity goals, there is an excerpt presenting a 9% minority spend target for the Office of Minority Business Development in FY2025, with historical performance around 10%, which aligns with the field value\u2019s discussion of OMBD targets and observed performance. The broader SWaM context plus a state goal are supported by additional references describing a 42% SWaM utilization goal at the state level, which the field value contrasts with the city\u2019s own target. Public transparency is evidenced by excerpts describing contract data/public reporting and the procurement transparency dashboard, which supports the claim that data is publicly accessible. Governance/oversight signals are strengthened by excerpts about an Inspector General/MBE compliance focus, a p-card reset in 2025, and ongoing City Auditor attention to high-risk issues, which substantiate the described governance backdrop. Additional supporting context comes from excerpts detailing OMBD\u2019s role in goal setting/compliance and the mission to foster minority/small business participation, reinforcing the connection between staffing/effectiveness and equity goals. Overall, the strongest evidence directly supports staffing counts, procurement cycle times, and specific equity targets; secondary evidence corroborates transparency and governance/oversight dynamics. If any claim were to be challenged, the strongest counterpoints would be around the nuance of exact current-year figures for some metrics, but the core values (32 staff, 307-day RFP cycle, 9% minority spend target, and publicly reported procurement data with strong oversight) are well-supported by the extracts provided.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "**Total Staffing**\n**20.00**\n**18.00**\n**27.00**\n**32.00**",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61",
+            "excerpts": [
+              "The bill provides that executive branch agencies and covered institutions are required to increase their small SWaM business utilization rates by three percent"
+            ],
+            "title": "HB61 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61/text/HB61S1",
+            "excerpts": [
+              "The goal of the Program shall be the achievement of a 42 percent small SWaM business utilization rate, including a five percent utilization rate directed to"
+            ],
+            "title": "HB61S1 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/p-card-progress",
+            "excerpts": [
+              "On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67. Sep 9, 2025 \u2014 On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67."
+            ],
+            "title": "P-card Progress | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2025-08/OCA%20Annual%20Report%20-%20FY%202025.pdf",
+            "excerpts": [
+              "Aug 22, 2025 \u2014 The Committee meets periodically to review audit reports, discuss internal control concerns, and provide input on audit planning and priorities. The OCA's Email us: askcityauditor@rva.gov. Call us: 804-646-5616. Visit us: 900 E ... The results of this audit were referred to the City of Richmond Office of the."
+            ],
+            "title": "[PDF] Office of the City Auditor (OCA) - Annual Report Fiscal Year 2025"
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "The City of Richmond's Office of Minority Business Development (OMBD) provides directories of Minority Business Enterprises (MBEs) and Emerging Small Businesses (ESBs). The directories include:\nCompany name\nContact person\nPhysical address\nCity\nState\nZip\nPhone\nEmail\nWebsite\nBusiness Type\nCommodity Code(s)"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "mbe_swam_spending_analysis.minority_spend_dollars_fy22_result",
+        "reasoning": "The target value is a specific dollar amount for minority spend dollars (FY22). Excerpts that explicitly present the dollar figure align directly with the field value, providing concrete evidence of the exact amount spent with minority-owned or SWaM-certified entities. Excerpt describing the Minority Spend Dollars shows a figure of 27,267,368, which matches the target value. The repeat of the same dollar figure in another excerpt reinforces the precision of the number and its relevance to the finegrained field. Excerpts outlining the Office of Minority Business Development (OMBD) programs, services, and mission explain how the city supports minority and small businesses, including goal setting and compliance review, which is important contextual information for understanding how such spend is tracked and how targets might be set and evaluated. This contextual information supports the relevance of the dollar figure by showing the governance and processes behind minority spending. Additional excerpts that present the percentage of spend or discuss procurement timelines provide broader context about procurement metrics but do not directly supply the exact FY22 dollar amount; they are therefore less directly supportive of the specific numeric field value. Taken together, the most direct support comes from the explicit dollar figures, with strong contextual backing from the programmatic descriptions that explain tracking and goal-setting around minority procurement.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000",
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OVERVIEW**\nThe Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "contract_processing_timelines.ifb_average_award_days_fy23",
+        "reasoning": "The precise fine-grained field value represents the average number of days from IFB advertisement to award for FY23. The excerpt that states the IFB - Average Time from Advertisement to Award as 118 days directly corroborates this value. The other excerpts report alternative procurement timelines (e.g., RFP average times and a separate IFB metric with a different figure), which provide contextual benchmarking but do not directly confirm the FY23 IFB advertisement-to-award duration. Therefore, the most relevant excerpt provides exact alignment with the field value, while the remaining excerpts offer broader procurement timeline context that is less directly tied to the stated field.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "IFB - Average Time from Advertisement to Award\nN/A\n118 days\n118 days\n90 days\n",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "mbe_swam_spending_analysis.minority_spend_percentage_fy25_target",
+        "reasoning": "The finegrained field represents the 9.0 percent minority spend target for FY25. Excerpts that explicitly present a 9% figure directly support this value as the target. One excerpt shows a line with 9% among minority spend percentages, which aligns with the stated target value. Another excerpt also contains a line indicating 9% in the context of the percentage of minority spend, reinforcing the presence of a 9% figure in the same documentation. While other excerpts show a 10% figure for minority spend, which provides contextual background about other potential targets, these do not confirm the requested 9.0% target. Therefore, the most relevant content directly corroborates the 9% target, with secondary context from nearby 10% figures.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "mbe_swam_spending_analysis.minority_spend_percentage_fy24_target",
+        "reasoning": "The key value we are validating is a targeted share of procurement spend allocated to MBE/SWaM-certified businesses for FY24, expressed as a percentage. The most directly relevant information is a line that specifies the percentage of minority spend as 9%, aligning with the requested fine-grained field value. Related excerpts that present other percentage figures (such as 10%) for % of Minority Spend provide contextual contrast and show that the org tracks a target percentage, though they are not the exact target value in question. Additional excerpts describe the Office of Minority Business Development programs and the mission to promote minority and small business participation, which corroborates that formal targets and reporting exist and are publicly discussed. Finally, excerpts mentioning procurement process metrics like average time to complete a contract are tangential to the specific target value but still help establish the broader procurement landscape and governance around MBE/SWaM spending.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000",
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OVERVIEW**\nThe Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "contract_processing_timelines.ifb_target_award_days_fy25",
+        "reasoning": "The finegrained field value corresponds to a specific target timeframe for IFB award processing in FY25. One excerpt explicitly lists an IFB timeline section and includes a line for 90 days under the IFB - Average Time from Advertisement to Award, which directly supports the 90-day target for IFB awards in FY25. This provides direct evidence for the 90.0 value in the specified field path. The other excerpts present RFP timelines (such as 307 days and 150 days) and an additional 118 days line for a different procurement stage; while informative about overall procurement timelines, they do not directly verify the IFB target award days, making them supportive but not as directly relevant to the precise IFB FY25 target data. Therefore, the most relevant excerpt is the one that explicitly shows the 90-day figure for IFB target award days, followed by excerpts that provide related but not exact(IFB-specific) timing data for context. ",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "IFB - Average Time from Advertisement to Award\nN/A\n118 days\n118 days\n90 days\n",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "recent_oversight_and_media_coverage.p_card_audit_summary",
+        "reasoning": "The field value describes a concrete event: a p-card reset announced by the city administration, with a quantified reduction in active purchasing cards from 320 to 67, implemented to tighten internal controls and reduce misuse. The most directly supporting excerpt states the exact date, the nature of the action (p-card reset), the quantitative change, and the stated purpose (improve oversight and reduce risk of misuse). This excerpt is the primary source for the field value and thus most relevant. The other excerpts discuss related governance, audits, and compliance programs that establish a broader backdrop of internal controls and oversight within City operations, which corroborate the context of ongoing control improvements but do not confirm the specific p-card reset details. Taken together, these excerpts support the existence of a governance emphasis on procurement controls around the same period, while the primary excerpt supplies the precise event and figures requested by the field value.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/p-card-progress",
+            "excerpts": [
+              "On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67. Sep 9, 2025 \u2014 On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67."
+            ],
+            "title": "P-card Progress | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.vpm.org/news/2025-12-02/rva-auditor-riad-ali-city-hall-finance-dpu-avula-donald",
+            "excerpts": [
+              "2 Dec 2025 \u00b7 Nearly 50 high-risk issues found during audits of Richmond City departments have not been fixed by their target date, City Auditor Riad Ali wrote in a new"
+            ],
+            "title": "Richmond City auditor finds nearly 50 unfixed, high-risk issues"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2025-08/OCA%20Annual%20Report%20-%20FY%202025.pdf",
+            "excerpts": [
+              "Aug 22, 2025 \u2014 The Committee meets periodically to review audit reports, discuss internal control concerns, and provide input on audit planning and priorities. The OCA's Email us: askcityauditor@rva.gov. Call us: 804-646-5616. Visit us: 900 E ... The results of this audit were referred to the City of Richmond Office of the.",
+              "The OCA found inadequate internal controls, oversight, and inventory monitoring that resulted in inaccurate and unreliable inventory data and misstatement of"
+            ],
+            "title": "[PDF] Office of the City Auditor (OCA) - Annual Report Fiscal Year 2025"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "staff_caseload_and_workload_analysis",
+        "reasoning": "- The most directly relevant items are those that give actual staffing totals for the procurement department, showing the scale of the team whose caseload would be assessed. Explicit total staffing figures (including yearly or proposed totals) establish the baseline size of the team that would manage contracts, which is essential for any per-person workload calculation. - Corroborating staffing detail that breaks down by function or role (e.g., Procurement Analysts, Contracting Officer, Director) helps map the distribution of work and potential bottlenecks, informing how many contracts per staff member might occur in practice. - Publicly reported contract processing timelines serve as a strong proxy for workload and efficiency: if average times to complete an RFP or IFB are lengthy, that reflects a high workload or process inefficiencies. For example, published figures show an average time of 307 days for RFPs and 118 days from advertisement to award for IFBs, which indicate substantial workload and ongoing efforts to reduce these times toward targets. - Any notes about changes in staffing (e.g., adding Procurement Analysts or a Contracting Officer) illuminate how the department intends to address workload, backlogs, or capability enhancements, which is directly relevant to assessing current and upcoming caseload capacity. - Public discussion of minority business engagement (MBE/SWaM) and related spending targets provides context for workload in terms of programmatic goals and reporting, though these items are more about external objectives than internal caseload per se. - The combination of total staffing figures, role-level breakdowns, and concrete contract-processing timelines offers the best assembled evidence to infer the likely contract workload per staff member, even when a direct contracts-per-staff statistic is not published. When taken together, these excerpts imply that the City acknowledges substantial workload, has set performance targets to reduce processing times, and has undertaken staffing changes to address backlog and strategic sourcing efforts. - The absence of an official, published per-staff caseload metric is itself informative and aligns with the cited finding that the City does not publish a precise contracts-per-staff statistic, while still providing enough indirect evidence to gauge workload pressure via processing times and staffing plans.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Total Staffing\n20.00\n18.00\n27.00\n32.00\n",
+              "**Total Staffing**\n**20.00**\n**18.00**\n**27.00**\n**32.00**",
+              "**Grand Total**\n**24.00**\n**29.00**\n**5.00**",
+              "Procurement Analyst\n5.00\n6.00\n1.00",
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OVERVIEW**\nThe Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "**PROCUREMENT SERVICES**",
+              "**GENERAL FUND PERSONNEL COMPLEMENT/POSITION CONTROL**\nThe chart below represents the department's General Fund personnel detail by position title. The number of positions\naccount for all General Fund currently filled positions and any funded vacant positions.",
+              "General Fund Staffing\n17.00\n15.00\n24.00\n29.00\n",
+              "Support an independent assessment of the current business practices and procedures of the Department\nof Procurement Services. It is expected that recommendations to improve efficiency and oversight will\nresult from this assessment.",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n",
+              "Procurement Analyst\n5.00\n6.00\n1.00\n",
+              "**Update Personnel Expenditures**\n**FTE: 1.00**\n**$717,907**\n\u2022\nTechnical adjustment to support personnel costs. Changes reflect updates in staffing due to\nadministrative actions, creation, consolidation, reorganization efforts, and includes the addition of a\nContracting Officer position. It also includes updates for the required contributions to the Richmond\nRetirement System (RRS), Virginia Retirement System (VRS), FICA, MedFICA, group life, and healthcare\npremiums. These are routine actions which occur at the beginning of each budget cycle.",
+              "**Improve Strategic Sourcing**\n**FTE: 4.00**\n**$244,650**\n\u2022\nAdd three Procurement Analysts and one Operations Analyst to address backlog of procurement\nrequests and increase deliverables, drive cost savings, mitigate, and increase strategic purchasing efforts."
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "office_of_minority_business_development_role.key_objectives",
+        "reasoning": "The primary objective described for the OMBD in the finegrained field value is to track and report the share of city procurement dollars going to minority-owned businesses, verify business status as Minority Business Enterprises, ensure compliance with procurement goals, and use a monitoring system to streamline these processes. The most relevant excerpt explicitly discusses MBE compliance verification and the use of a compliance framework, aligning directly with verification and monitoring objectives. Additional excerpts lay out the OMBD\u2019s mission to promote participation of MBEs and other small businesses in contracting opportunities, and to carry out goal-setting and compliance review, which underpin both the tracking and compliance aspects. Further excerpts describe the existence of public-facing data and dashboards for contract transparency, which relate to public reporting and visibility of procurement spend. A separate excerpt provides a clear target for minority spend (a performance target for FY2025), reinforcing the objective of tracking and meeting spend goals. One excerpt presents a 10% figure for minority spend, which is in the same domain of spend tracking and targets, though it slightly differs from the 9% target noted in the field value, suggesting possible differences in dataset, timeframe, or reporting period. Overall, the content collectively supports the notion that OMBD has formal objectives around tracking spend with minority businesses, verifying status, ensuring compliance, and publicly reporting on these metrics.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "Minority Business Development\nFY2022\nPerformance\nresult\nFY2023\nPerformance\nresult\nFY2024\nPerformance\nTarget\nFY2025\nPerformance\nTarget\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "The City of Richmond makes contract information available so residents and businesses can see how public funds are used. Through the **Open Data Portal** , you can explore both **active and inactive contracts** . This data is updated monthly and i"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "contract_processing_timelines.rfp_average_completion_days_fy23",
+        "reasoning": "The target field represents the RFP average completion time for FY23. Excerpts describing an RFP average time from initiation to completion as 307 days directly support the requested value. The repetition of the same RFP metric in two excerpts strengthens the evidence for the 307-day figure. Another excerpt discusses a different procurement type (IFB) with a distinct timeline, which is less relevant to the RFP-specific field but provides contextual procurement timing information. There is clear alignment between the request and the excerpts that report the same RFP completion duration, establishing strong support for the field value.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n",
+              "IFB - Average Time from Advertisement to Award\nN/A\n118 days\n118 days\n90 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "mbe_swam_spending_analysis.minority_spend_dollars_fy24_target",
+        "reasoning": "The targeted field value is a numeric target for minority spend dollars for fiscal year 24, specifically 50,000,000. The most directly supporting excerpts present explicit dollar figures for minority spend, including a line showing a value of 50,000,000, which aligns with the target in the field. Additional directly relevant content includes another excerpt listing the same 50,000,000 figure in the minority spend dollars series, reinforcing the target amount. Contextual excerpts describe the Office of Minority Business Development (OMBD) programs, goal-setting, and compliance activities aimed at ensuring minority and small business participation in city procurement, which supports why a formal spending target exists and is publicly discussed. Other excerpts provide related metrics (percent of spend going to minority businesses) and general procurement performance data (e.g., RFP timelines) that help situate the target within broader procurement governance, but do not contradict or directly confirm the exact target value. Overall, the set of excerpts collectively corroborates the existence of a ~$50M minority spend target and the governance framework around OMBD that sets and monitors such goals; there is no conflicting evidence in the provided excerpts.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000",
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OVERVIEW**\nThe Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "recent_oversight_and_media_coverage.unresolved_audit_issues",
+        "reasoning": "The FY2025 Annual Report from the Office of the City Auditor explicitly notes unresolved high-risk issues across city departments and mentions inadequate internal controls and oversight. This supports the fine-grained field value by establishing a citywide context of persistent governance and control weaknesses that would reasonably affect procurement activities. Additionally, the audit context is connected to procurement functions even if not exclusively about procurement services, reinforcing how such issues can influence procurement operations and scrutiny. The other excerpts provide corroborating details: one describes the auditor\u2019s identification of high-risk issues not fixed by target dates, which directly aligns with the notion of ongoing unresolved risks; another highlights the broader internal control concerns within the city\u2019s operations. A procurement-specific document on MBE compliance is relevant for the broader governance and oversight environment, and a separate item shows governance-related procurement process changes (p-card governance) that may intersect with oversight, while still tying back to the theme of oversight and controls affecting procurement. Together, these excerpts substantiate the claim of unresolved high-risk issues and heightened oversight impacting procurement activities across the city.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2025-08/OCA%20Annual%20Report%20-%20FY%202025.pdf",
+            "excerpts": [
+              "The OCA found inadequate internal controls, oversight, and inventory monitoring that resulted in inaccurate and unreliable inventory data and misstatement of",
+              "Aug 22, 2025 \u2014 The Committee meets periodically to review audit reports, discuss internal control concerns, and provide input on audit planning and priorities. The OCA's Email us: askcityauditor@rva.gov. Call us: 804-646-5616. Visit us: 900 E ... The results of this audit were referred to the City of Richmond Office of the."
+            ],
+            "title": "[PDF] Office of the City Auditor (OCA) - Annual Report Fiscal Year 2025"
+          },
+          {
+            "url": "https://www.vpm.org/news/2025-12-02/rva-auditor-riad-ali-city-hall-finance-dpu-avula-donald",
+            "excerpts": [
+              "2 Dec 2025 \u00b7 Nearly 50 high-risk issues found during audits of Richmond City departments have not been fixed by their target date, City Auditor Riad Ali wrote in a new"
+            ],
+            "title": "Richmond City auditor finds nearly 50 unfixed, high-risk issues"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/p-card-progress",
+            "excerpts": [
+              "On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67. Sep 9, 2025 \u2014 On April 30, 2025, Mayor Danny Avula announced a p-card reset. The total number of p-cards (purchasing cards) held by City employees was reduced from 320 to 67."
+            ],
+            "title": "P-card Progress | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "office_of_minority_business_development_role.vision",
+        "reasoning": "The question seeks whether there is a stated vision for the Office of Minority Business Development (OMBD). Several excerpts discuss OMBD\u2019s purpose and activities, which are directly relevant to whether a formal vision exists. One excerpt presents the OMBD programs and services aimed at ensuring equal opportunity for minority and small businesses in City procurement, including goal setting, compliance review of contract goals, and training/technical assistance. This shows an organizational focus and strategic intent, which could be components of a vision, even if the word 'vision' is not used. Another excerpt states the mission explicitly as: facilitating, producing, and advancing opportunities for minority business enterprises (MBE), emerging small businesses (ESB), and disadvantaged business enterprises (DBE) to participate in contracting opportunities, by promoting and executing technical assistance programs. This is a clear, mission-like articulation that strongly informs the organizational purpose and strategic direction, and it is highly relevant to whether a formal vision exists or is implied. A third OMBD-focused excerpt repeats the mission emphasis and reinforces the strategic intent behind OMBD\u2019s activities, which again supports the idea that the organization has a defined purpose, potentially serving as or contributing to a stated vision. An excerpt that references MBE compliance notes the Office of Minority Business Development\u2019s role in verification and compliance, which indicates governance and accountability mechanisms tied to OMBD\u2019s mandate, again relevant to an overarching vision in practice. While these excerpts collectively demonstrate a clear mandate, mission, and governance context for OMBD, none explicitly quotes a formal, standalone \u2018vision\u2019 statement. A broader procurement transparency excerpt describes public access to contract data, which is relevant to procurement operations generally but does not address OMBD's vision and thus is less directly supportive of a vision claim for OMBD. Overall, the strongest support comes from explicit mission and program description excerpts, which imply a strategic orientation that could function as, or be part of, a formal vision. However, there is no direct quotation or explicit label of a \u2018vision\u2019 for the OMBD in these excerpts. Therefore, the evidence most strongly supports the presence of a mission-oriented, programmatic direction rather than a explicit, formal vision statement, aligning with the notion that the requested explicit vision is not contained in the provided documentation.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "Minority Business Development\nFY2022\nPerformance\nresult\nFY2023\nPerformance\nresult\nFY2024\nPerformance\nTarget\nFY2025\nPerformance\nTarget\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "The City of Richmond makes contract information available so residents and businesses can see how public funds are used. Through the **Open Data Portal** , you can explore both **active and inactive contracts** . This data is updated monthly and i"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "virginia_and_richmond_mbe_swam_goals.virginia_state_swam_goal_source",
+        "reasoning": "The fine-grained field value identifies HB61 as the Virginia state SWaM goal source. The most relevant evidence is wording that explicitly sets a SWaM utilization goal tied to HB61, including a stated numeric target of 42 percent for small SWaM business utilization. The supporting material describes the Program\u2019s goal centered on achieving a defined SWaM utilization rate and explicitly ties it to HB61, making it a direct match for the field value. Additional supporting language confirms that HB61/ HB61S1 relate to SWaM utilization metrics and state-level objectives, reinforcing the sourcing and context of the goal as stemming from the 2026 Regular Session. Excerpts focusing on Richmond\u2019s internal procurement plans or dashboards provide contextual background on outreach and transparency but do not directly address the Virginia HB61 source or the national/statewide target, so they are less directly relevant to this specific field value.",
+        "citations": [
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61/text/HB61S1",
+            "excerpts": [
+              "The goal of the Program shall be the achievement of a 42 percent small SWaM business utilization rate, including a five percent utilization rate directed to"
+            ],
+            "title": "HB61S1 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61",
+            "excerpts": [
+              "The bill provides that executive branch agencies and covered institutions are required to increase their small SWaM business utilization rates by three percent"
+            ],
+            "title": "HB61 - 2026 Regular Session - Virginia LIS"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "procurement_staffing_composition.fy2025_proposed_fte",
+        "reasoning": "The specific finegrained field value refers to the FY2025 proposed full-time equivalent (FTE) staffing for procurement. The most directly relevant excerpts explicitly present a total staffing figure of 32.00 within a section labeled Total Staffing, which directly supports the intended value for the procurement staffing composition in the FY2025 proposed plan. The accompanying excerpts show consistent 32.00 entries in the same context, reinforcing that 32.0 is the total staffing figure in the proposed plan. While other excerpts show different numbers in nearby lines, they do not match the queried field value and appear to be ancillary or alternative staffing line items. Therefore, these excerpts collectively support that the procurement staffing total for FY2025 proposed FTE is 32.0.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Total Staffing\n20.00\n18.00\n27.00\n32.00\n",
+              "**Total Staffing**\n**20.00**\n**18.00**\n**27.00**\n**32.00**",
+              "32.00"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "mbe_swam_spending_analysis.minority_spend_dollars_fy25_target",
+        "reasoning": "The target value 30,000,000 appears within excerpts that present Minority Spend Dollars, indicating a numeric target within the FY25 plan. The overlapping figures in these excerpts demonstrate there is a reported range of dollar values tied to minority spend, with 30,000,000 appearing as a concrete figure associated with the city\u2019s minority procurement spend. Excerpts describing the Office of Minority Business Development (OMBD) outline the agency\u2019s role in setting contract goals and ensuring minority participation, which supports the interpretation that there is a formal target framework guiding spend, including the 30,000,000 figure. Excerpts detailing the percentage shares of minority spend provide additional context about measurement but do not directly validate the exact dollar target, so they are supportive but secondary. Excerpts focusing on RFP processing times are not directly tied to the dollar spending target and thus are less relevant for this specific field value. Overall, the most compelling support for the requested field value comes from the explicit presentation of Minority Spend Dollars including the 30,000,000 figure within the FY25 plan, with corroborating governance context from OMBD materials, and supplementary context from percentage spend disclosures.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000",
+              "The Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "**OVERVIEW**\nThe Office of Minority Business Development\u2019s (OMBD) programs and services ensure minority-owned, emerging\nsmall, and disadvantaged businesses have an equal opportunity to compete for the City\u2019s procurement of goods and\nservices. Our programs/services help foster open and competitive procurement practices within the city. OMBD\nprovides goal setting and compliance review of contract goals, as well as conduct training seminars and technical\nassistance programs that promote minority and small business growth, development, and sustainability.",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "recent_oversight_and_media_coverage.planned_procurement_assessment",
+        "reasoning": "The finegrained field value notes that there is no documentation detailing a specific, future planned independent assessment of the Department of Procurement Services, while highlighting ongoing oversight from multiple bodies. The excerpts collectively support this framing: the City Auditor has identified and reported high-risk issues across city departments and continues to oversee city operations, including ongoing reporting on internal controls (supporting the notion of broad, continuous oversight rather than a single, named future assessment). The Office of the City Auditor\u2019s annual and related reports corroborate a pattern of oversight rather than a published plan for an independent procurement-specific assessment. Additionally, there is explicit documentation on MBE compliance oversight by the Inspector General, which aligns with ongoing monitoring rather than a standalone planned evaluation. These sources together confirm that oversight is active and multifaceted, while a dedicated, future procurement-specific assessment is not detailed in the provided materials.",
+        "citations": [
+          {
+            "url": "https://www.vpm.org/news/2025-12-02/rva-auditor-riad-ali-city-hall-finance-dpu-avula-donald",
+            "excerpts": [
+              "2 Dec 2025 \u00b7 Nearly 50 high-risk issues found during audits of Richmond City departments have not been fixed by their target date, City Auditor Riad Ali wrote in a new"
+            ],
+            "title": "Richmond City auditor finds nearly 50 unfixed, high-risk issues"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2025-08/OCA%20Annual%20Report%20-%20FY%202025.pdf",
+            "excerpts": [
+              "The OCA found inadequate internal controls, oversight, and inventory monitoring that resulted in inaccurate and unreliable inventory data and misstatement of",
+              "Aug 22, 2025 \u2014 The Committee meets periodically to review audit reports, discuss internal control concerns, and provide input on audit planning and priorities. The OCA's Email us: askcityauditor@rva.gov. Call us: 804-646-5616. Visit us: 900 E ... The results of this audit were referred to the City of Richmond Office of the."
+            ],
+            "title": "[PDF] Office of the City Auditor (OCA) - Annual Report Fiscal Year 2025"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2024-09/IG%202021-02%20MBE%20Compliance.pdf",
+            "excerpts": [
+              "Sep 7, 2024 \u2014 By ordinance, the Office of Minority Business Development is charged with verification of Minority Business Enterprises and compliance with Minority . Business\u00a0... 8 pages"
+            ],
+            "title": "MBE Compliance"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "procurement_staffing_composition.fy2024_adopted_fte",
+        "reasoning": "The finegrained field value represents the FY2024 adopted FTE for procurement staffing. Excerpt content that explicitly shows a Total Staffing value of 27.00 aligns directly with an FTE count for a staffing category that likely corresponds to procurement. The repeated appearance of 27.00 in the Total Staffing sections across the excerpts strongly supports that 27.0 is the adopted procurement staffing figure for FY2024. Other numbers present (20.00, 18.00, 32.00) appear in the same staffing document but are not labeled as procurement or as the adopted procurement FTE; they would pertain to other departments or categories. Therefore, the most relevant evidence directly corroborating the target value is the explicit 27.00 listed under a Total Staffing heading, with corroboration from multiple near-identical lines that suggest consistency in the document\u2019s staffing totals. The association is based on document structure (Total Staffing) and the context (FY2024 adopted staffing totals), which is consistent with a procurement staffing figure at 27.0 FTE.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Total Staffing\n20.00\n18.00\n27.00\n32.00\n",
+              "**Total Staffing**\n**20.00**\n**18.00**\n**27.00**\n**32.00**",
+              "27.00"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "virginia_and_richmond_mbe_swam_goals.virginia_state_swam_goal_percentage",
+        "reasoning": "The most relevant excerpt directly states the goal of a 42 percent small SWaM business utilization rate, which aligns precisely with the requested state SWaM goal percentage. This provides the strongest primary evidence for the finegrained field value. Excerpts that describe the mission and objectives around MBE/ESB participation in City of Richmond contracting reinforce the context that the city aims to promote minority business participation and develop programs to support it, which are the mechanisms by which a state SWaM goal would be pursued. While these excerpts do not quantify Richmond\u2019s current performance against the goal, they establish the intent and ongoing activities to increase MBE/ESB participation, which supports interpretation that the state target is relevant and actively pursued in the city context. Additional excerpts describe procurement-related transparency and compliance-oriented information for MBE/ESB participation, which further indicates public tracking and reporting activity that could relate to measuring progress toward the goal. The combination of a clearly stated state SWaM target and Richmond\u2019s mission and objectives around MBE/ESB participation provides a coherent basis to connect the field value to available evidence, though explicit Richmond-side performance against the 42% target is not directly stated in these excerpts. The evidence collectively supports the claim that there is a 42% SWaM goal in the relevant policy landscape and that Richmond has aligned objectives and programs to pursue MBE/ESB participation, which underpins the interpretation that the target exists and is being pursued publicly.",
+        "citations": [
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61/text/HB61S1",
+            "excerpts": [
+              "The goal of the Program shall be the achievement of a 42 percent small SWaM business utilization rate, including a five percent utilization rate directed to"
+            ],
+            "title": "HB61S1 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OBJECTIVES**\n\u2022 Increase technical assistance activities to attract, retain and grow businesses\n\u2022 Identify procurement opportunities within the city administration as well as the city\u2019s anchor institutions\n\u2022 Take advantage of the latest technology to enable opportunity and ensure diversity\n\u2022 Assist in the preparation of MBE/ESB with the goal of qualify for lending opportunities\n\u2022 Collaborate with internal/external organizations"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "portunities for City Contracts:** Registration and certification for the MBE/ESB Program can open up opportunities on city contracts that have specific MBE/ESB participation goals.",
+              "ow to Get Started:** Interested firms can use the link below to get registered or certified.\n[Supplier Diversity Management System](https://richmondombd.diversitycompliance.com/?TN=richmondombd"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "contract_processing_timelines.rfp_target_completion_days_fy25",
+        "reasoning": "The target field value represents the RFP (procurement) target completion days for FY25. Excerpts that list exact day counts show the requested metric: the first two excerpts explicitly present a 150 days figure at the end, directly aligning with the target value. Those precise matches provide strong, direct evidence for the 150.0-day target. The third excerpt lists 118 days and 90 days for related timelines (likely from IFB processes like advertisement-to-award), which are relevant for contextual understanding of procurement timelines but do not support the exact 150-day target; they help illustrate that other stages have different durations, reinforcing that 150 days is a specific target rather than a general trend. Therefore, the most relevant content are the excerpts that show the exact 150-day figure, followed by the excerpt with related but non-matching timelines as supportive context.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days",
+              "RFP Average Time from Initiation to Completion\nN/A\n307 days\n307 days\n150 days\n",
+              "IFB - Average Time from Advertisement to Award\nN/A\n118 days\n118 days\n90 days\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "procurement_staffing_composition.position_title",
+        "reasoning": "The referenced fine-grained field seeks the total staffing for the Department of Procurement Services. Excerpts that label a line as Total Staffing and present a consolidated set of numbers match this target; they offer the clearest evidence of the overall staffing level. Direct evidence: a line showing Total Staffing along with multiple figures implies the departmental total staffing. Supporting evidence includes: a second excerpt that repeats the Total Staffing label and numbers, reinforcing consistency across the document. Additional context comes from excerpts that show related staffing figures under a General Fund Staffing heading, which helps triangulate the staffing structure, though it may not strictly represent the total for the procurement department. Even more granular fragments that list single numbers (e.g., 18.00, 27.00, 32.00) are relevant for understanding composition but are less direct for establishing the single total figure. Taken together, the strongest support for the total staffing value comes from the explicit Total Staffing lines; the surrounding and fund-specific numbers add corroborative context but are less central to the exact field value.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "Total Staffing\n20.00\n18.00\n27.00\n32.00\n",
+              "**Total Staffing**\n**20.00**\n**18.00**\n**27.00**\n**32.00**",
+              "32.00",
+              "General Fund Staffing\n17.00\n15.00\n24.00\n29.00\n",
+              "18.00",
+              "27.00"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "virginia_and_richmond_mbe_swam_goals.richmond_city_mbe_goal_percentage",
+        "reasoning": "The most directly relevant excerpt is the one that presents a numeric percentage within a section labeled as minority spend metrics, which includes a 9% figure in the context of Minority Spend% targets. This directly aligns with the requested finegrained field value for Richmond\u2019s MBE goal percentage. Secondary relevance comes from excerpts that establish that the city has formal MBE/SWaM goals and programs, such as mission statements and objective sections that describe advancing opportunities for MBE/ESB, and references to a procurement transparency dashboard that notes MBE/ESB participation goals in procurement opportunities. These help corroborate that Richmond maintains explicit targets for MBE/SWaM engagement and public reporting mechanisms, even if they do not repeat the exact numeric percentage. The remaining excerpts provide broader context (e.g., SWaM targets at higher levels, or institutional plans) but do not directly state Richmond\u2019s numeric goal, so they are less supportive of the exact value but still relevant for understanding the landscape and governance around these goals.\n",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OBJECTIVES**\n\u2022 Increase technical assistance activities to attract, retain and grow businesses\n\u2022 Identify procurement opportunities within the city administration as well as the city\u2019s anchor institutions\n\u2022 Take advantage of the latest technology to enable opportunity and ensure diversity\n\u2022 Assist in the preparation of MBE/ESB with the goal of qualify for lending opportunities\n\u2022 Collaborate with internal/external organizations",
+              "Assist in the preparation of MBE/ESB with the goal of qualify for lending opportunities",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "portunities for City Contracts:** Registration and certification for the MBE/ESB Program can open up opportunities on city contracts that have specific MBE/ESB participation goals."
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61",
+            "excerpts": [
+              "The bill provides that executive branch agencies and covered institutions are required to increase their small SWaM business utilization rates by three percent"
+            ],
+            "title": "HB61 - 2026 Regular Session - Virginia LIS"
+          },
+          {
+            "url": "https://lis.virginia.gov/bill-details/20261/HB61/text/HB61S1",
+            "excerpts": [
+              "The goal of the Program shall be the achievement of a 42 percent small SWaM business utilization rate, including a five percent utilization rate directed to"
+            ],
+            "title": "HB61S1 - 2026 Regular Session - Virginia LIS"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "virginia_and_richmond_mbe_swam_goals.richmond_city_mbe_goal_source",
+        "reasoning": "The fine-grained field value identifies the FY2025 Proposed Annual Fiscal Plan as the source for Richmond\u2019s MBE/SWaM goals. Therefore, the most relevant excerpts are those that explicitly reference the FY2025 Proposed Annual Fiscal Plan and provide substantive details from that document, such as Minority Spend percentages, Minority Spend dollars, and the plan\u2019s mission and objectives related to MBE/ESB and procurement opportunities. Specifically, passages that present the document title (FY 2025 Proposed Annual Fiscal Plan) and show Minority Spend metrics or the plan\u2019s stated mission demonstrate direct alignment with the requested source. For example, passages presenting the title of the FY25 plan alongside Minority Spend percentages and dollar amounts illustrate how the plan sets procurement diversity targets and how Richmond aims to achieve them. Passages outlining the plan\u2019s objectives and mission (to promote MBE/ESB/DBE participation, technical assistance, and procurement opportunities) further corroborate the document as the source of the city\u2019s MBE goals. Excerpts that discuss the broader policy context or other documents (e.g., legislative bills, procurement dashboards) are less directly tied to the specific FY25 plan as the stated source but can provide supporting context about ongoing SWaM/MBE initiatives.",
+        "citations": [
+          {
+            "url": "https://rva.gov/sites/default/files/2024-06/FY25%20Proposed%20Annual%20Fiscal%20Plan%20-%20Web%20Version%20V2.pdf",
+            "excerpts": [
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %\n",
+              "Minority Spend Dollars\n$27,267,368\n$29,000,000\n$50,000,000\n$30,000,000\n",
+              "% of Minority Spend\n10 %\n10 %\n10 %\n9 %",
+              "Assist in the preparation of MBE/ESB with the goal of qualify for lending opportunities",
+              "**MISSION**\nOur mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "Our mission is to facilitate, produce, and advance opportunities for Minority Business Enterprises (MBE), Emerging\nSmall Businesses (ESB), and Disadvantaged Business Enterprises (DBE) to successfully participate in the full array of\ncontracting opportunities available in the City of Richmond by promoting and executing a wide variety of technical\nassistance programs.",
+              "**OBJECTIVES**\n\u2022 Increase technical assistance activities to attract, retain and grow businesses\n\u2022 Identify procurement opportunities within the city administration as well as the city\u2019s anchor institutions\n\u2022 Take advantage of the latest technology to enable opportunity and ensure diversity\n\u2022 Assist in the preparation of MBE/ESB with the goal of qualify for lending opportunities\n\u2022 Collaborate with internal/external organizations"
+            ],
+            "title": "FY 2025 Proposed Annual Fiscal Plan and ..."
+          },
+          {
+            "url": "https://rva.gov/procurement-services/procurement-transparency-dashboard",
+            "excerpts": [
+              "portunities for City Contracts:** Registration and certification for the MBE/ESB Program can open up opportunities on city contracts that have specific MBE/ESB participation goals.",
+              "ow to Get Started:** Interested firms can use the link below to get registered or certified.\n[Supplier Diversity Management System](https://richmondombd.diversitycompliance.com/?TN=richmondombd"
+            ],
+            "title": "Procurement Transparency Dashboard | Richmond"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "type": "json",
+    "beta_fields": null,
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "executive_summary": {
+          "type": "string",
+          "description": "A high-level summary of the key findings regarding the City of Richmond's procurement operations, staffing, and MBE/SWaM equity landscape for the 2025-2026 period."
+        },
+        "procurement_staff_count": {
+          "type": "number",
+          "description": "The total number of staff positions proposed for the Department of Procurement Services in the City of Richmond's FY2025 budget."
+        },
+        "staff_caseload_and_workload_analysis": {
+          "type": "string",
+          "description": "An analysis of the procurement staff's workload, including any available metrics on contracts per person and qualitative information on backlogs and strategic purchasing efforts."
+        },
+        "contract_processing_timelines": {
+          "type": "object",
+          "properties": {
+            "rfp_average_completion_days_fy23": {
+              "type": "number",
+              "description": "The average number of days from initiation to completion for a Request for Proposal (RFP) in FY2023."
+            },
+            "rfp_target_completion_days_fy25": {
+              "type": "number",
+              "description": "The target for the average number of days from initiation to completion for an RFP in FY2025."
+            },
+            "ifb_average_award_days_fy23": {
+              "type": "number",
+              "description": "The average number of days from advertisement to award for an Invitation for Bid (IFB) in FY2023."
+            },
+            "ifb_target_award_days_fy25": {
+              "type": "number",
+              "description": "The target for the average number of days from advertisement to award for an IFB in FY2025."
+            }
+          },
+          "required": [
+            "rfp_average_completion_days_fy23",
+            "rfp_target_completion_days_fy25",
+            "ifb_average_award_days_fy23",
+            "ifb_target_award_days_fy25"
+          ],
+          "additionalProperties": false
+        },
+        "staff_turnover_and_institutional_knowledge": {
+          "type": "string",
+          "description": "Information regarding the staff turnover rate in the procurement department and a qualitative assessment of how employee departures impact institutional knowledge."
+        },
+        "mbe_swam_spending_analysis": {
+          "type": "object",
+          "properties": {
+            "minority_spend_percentage_fy22_result": {
+              "type": "number",
+              "description": "The percentage of procurement spending with minority-owned businesses in FY2022."
+            },
+            "minority_spend_percentage_fy24_target": {
+              "type": "number",
+              "description": "The target percentage for procurement spending with minority-owned businesses in FY2024."
+            },
+            "minority_spend_percentage_fy25_target": {
+              "type": "number",
+              "description": "The target percentage for procurement spending with minority-owned businesses in FY2025."
+            },
+            "minority_spend_dollars_fy22_result": {
+              "type": "number",
+              "description": "The total dollar amount of procurement spending with minority-owned businesses in FY2022."
+            },
+            "minority_spend_dollars_fy24_target": {
+              "type": "number",
+              "description": "The target dollar amount for procurement spending with minority-owned businesses in FY2024."
+            },
+            "minority_spend_dollars_fy25_target": {
+              "type": "number",
+              "description": "The target dollar amount for procurement spending with minority-owned businesses in FY2025."
+            }
+          },
+          "required": [
+            "minority_spend_percentage_fy22_result",
+            "minority_spend_percentage_fy24_target",
+            "minority_spend_percentage_fy25_target",
+            "minority_spend_dollars_fy22_result",
+            "minority_spend_dollars_fy24_target",
+            "minority_spend_dollars_fy25_target"
+          ],
+          "additionalProperties": false
+        },
+        "public_reporting_of_equity_data": {
+          "type": "string",
+          "description": "Details on whether and how the city tracks and publicly reports its MBE/SWaM spending data, including information on the available transparency dashboards and portals."
+        },
+        "virginia_and_richmond_mbe_swam_goals": {
+          "type": "object",
+          "properties": {
+            "virginia_state_swam_goal_percentage": {
+              "type": "number",
+              "description": "The statewide goal for Small, Women-owned, and Minority-owned (SWaM) business utilization rate."
+            },
+            "virginia_state_swam_goal_source": {
+              "type": "string",
+              "description": "The source document or executive order for the statewide SWaM goal."
+            },
+            "richmond_city_mbe_goal_percentage": {
+              "type": "number",
+              "description": "The City of Richmond's target for the percentage of spending with Minority Business Enterprises (MBE)."
+            },
+            "richmond_city_mbe_goal_source": {
+              "type": "string",
+              "description": "The source document, such as the city budget, for Richmond's MBE spending goal."
+            }
+          },
+          "required": [
+            "virginia_state_swam_goal_percentage",
+            "virginia_state_swam_goal_source",
+            "richmond_city_mbe_goal_percentage",
+            "richmond_city_mbe_goal_source"
+          ],
+          "additionalProperties": false
+        },
+        "richmond_performance_against_equity_goals": {
+          "type": "string",
+          "description": "An assessment of how the City of Richmond's actual MBE/SWaM spending compares to its stated goals and targets."
+        },
+        "barriers_for_small_and_minority_vendors": {
+          "type": "string",
+          "description": "An analysis of potential barriers within the current procurement process that may affect small or minority-owned vendors, such as compliance documentation, bonding requirements, or bid complexity."
+        },
+        "public_data_release_considerations": {
+          "type": "string",
+          "description": "A discussion of potential privacy concerns, competitive sensitivity issues, or legal constraints that the city must manage when making procurement data public."
+        },
+        "recent_oversight_and_media_coverage": {
+          "type": "object",
+          "properties": {
+            "planned_procurement_assessment": {
+              "type": "string",
+              "description": "Details about the planned independent assessment of the Department of Procurement Services' business practices and procedures."
+            },
+            "p_card_audit_summary": {
+              "type": "string",
+              "description": "Summary of the recent audit of the city's purchasing card (p-card) program and the subsequent 'p-card reset'."
+            },
+            "unresolved_audit_issues": {
+              "type": "string",
+              "description": "Information on any high-risk issues found during audits of city departments that have not been fixed, as reported by the City Auditor."
+            }
+          },
+          "required": [
+            "planned_procurement_assessment",
+            "p_card_audit_summary",
+            "unresolved_audit_issues"
+          ],
+          "additionalProperties": false
+        },
+        "procurement_staffing_composition": {
+          "type": "object",
+          "properties": {
+            "position_title": {
+              "type": "string",
+              "description": "The official title of the position within the Department of Procurement Services."
+            },
+            "fy2024_adopted_fte": {
+              "type": "number",
+              "description": "The number of adopted Full-Time Equivalent (FTE) positions for this role in FY2024."
+            },
+            "fy2025_proposed_fte": {
+              "type": "number",
+              "description": "The number of proposed Full-Time Equivalent (FTE) positions for this role in FY2025."
+            }
+          },
+          "required": [
+            "position_title",
+            "fy2024_adopted_fte",
+            "fy2025_proposed_fte"
+          ],
+          "additionalProperties": false
+        },
+        "fy2025_procurement_department_initiatives": {
+          "type": "object",
+          "properties": {
+            "initiative_name": {
+              "type": "string",
+              "description": "The name of the initiative for the Department of Procurement Services in FY2025."
+            },
+            "description": {
+              "type": "string",
+              "description": "A description of the initiative and its purpose, such as addressing backlogs or improving strategic sourcing."
+            },
+            "fte_impact": {
+              "type": "number",
+              "description": "The number of new Full-Time Equivalent (FTE) positions associated with this initiative."
+            },
+            "budget_impact_dollars": {
+              "type": "number",
+              "description": "The financial budget allocated to this initiative in dollars."
+            }
+          },
+          "required": [
+            "initiative_name",
+            "description",
+            "fte_impact",
+            "budget_impact_dollars"
+          ],
+          "additionalProperties": false
+        },
+        "office_of_minority_business_development_role": {
+          "type": "object",
+          "properties": {
+            "mission": {
+              "type": "string",
+              "description": "The stated mission of the Office of Minority Business Development (OMBD)."
+            },
+            "vision": {
+              "type": "string",
+              "description": "The stated vision of the OMBD."
+            },
+            "key_objectives": {
+              "type": "string",
+              "description": "A list of the primary objectives for the OMBD, such as increasing technical assistance and identifying procurement opportunities."
+            }
+          },
+          "required": [
+            "mission",
+            "vision",
+            "key_objectives"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "executive_summary",
+        "procurement_staff_count",
+        "staff_caseload_and_workload_analysis",
+        "contract_processing_timelines",
+        "staff_turnover_and_institutional_knowledge",
+        "mbe_swam_spending_analysis",
+        "public_reporting_of_equity_data",
+        "virginia_and_richmond_mbe_swam_goals",
+        "richmond_performance_against_equity_goals",
+        "barriers_for_small_and_minority_vendors",
+        "public_data_release_considerations",
+        "recent_oversight_and_media_coverage",
+        "procurement_staffing_composition",
+        "fy2025_procurement_department_initiatives",
+        "office_of_minority_business_development_role"
+      ],
+      "additionalProperties": false
+    },
+    "content_file": "proc_q2_staffing_equity.md"
+  }
+}

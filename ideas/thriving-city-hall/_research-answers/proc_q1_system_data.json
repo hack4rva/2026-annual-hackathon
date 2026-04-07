@@ -1,0 +1,2241 @@
+{
+  "run_id": "trun_1848795af0f24b80a4659dd6ce63d6de",
+  "interaction_id": "trun_1848795af0f24b80a4659dd6ce63d6de",
+  "result_url": "https://platform.parallel.ai/play/deep-research/trun_1848795af0f24b80a4659dd6ce63d6de",
+  "status": "completed",
+  "output": {
+    "basis": [
+      {
+        "field": "procurement_and_solicitation_platform",
+        "reasoning": "Direct mentions of OpenGov as the mechanism for bid submission and procurement solicitations most strongly support the finegrained field value. Excerpts stating that bids and proposals are submitted electronically through OpenGov provide a precise match to the platform\u2019s primary function and the portal URL referenced in the field value. Excerpts that discuss a transition to OpenGov corroborate that the city adopted or is migrating to this system, reinforcing the association with the OpenGov platform. Additional excerpts listing the OpenGov portal in procurement contexts (e.g., embedded project lists or calendars) further confirm the platform\u2019s role in Richmond\u2019s procurement ecosystem, though they are slightly less direct than explicit statements about electronic submission and the portal URL. Together, these excerpts collectively support the claim that OpenGov is the procurement and solicitation platform used by Richmond as of the cited period, with the RVA OpenGov portal serving as the primary entry point for bids and RFP/IFB submissions.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov. During this transition some solicitations will be submitted electronically through the OpenGov, and some will be submitted through the paper submission process."
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/calendar",
+            "excerpts": [
+              "Procurement. Procurement Portal . ProjectsCalendar."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/login",
+            "excerpts": [
+              "Procurement . Sign Up Log In. OpenGov Procurement logo - blue. Login. Email Address. Continue. Forgot Password? By clicking \"Log In\" you agree to our Terms and"
+            ],
+            "title": "Login"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/rva",
+            "excerpts": [
+              "Procurement Portal > City of Richmond",
+              "Richmond, VA",
+              "Projects Calendar",
+              "RFP - 260008714 - Canoe Run Park Storage Tank (Design-Build)\nOpen\n1\n2/5/2026\n6/22/2026"
+            ],
+            "title": "City of Richmond Procurement Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "erp_system_details",
+        "reasoning": "The most directly relevant content explicitly identifies the City of Richmond\u2019s ERP as RAPIDS and specifies the technology as Oracle E-Business Suite, which matches the target field value. The first two excerpts state that RAPIDS is the City\u2019s ERP and that it uses the Oracle eBusiness Suite, providing a precise match to the system acronym, full name, and platform. An additional excerpt traces RAPIDS back to an Oracle-based ERP context dating to the 2014 implementation, further corroborating the ERP lineage and its Oracle foundation. Another excerpt reiterates that the RAPIDS system is Oracle-based and serves as the lead ERP liaison, reinforcing the ERP and Oracle association. Collectively, these excerpts supply direct evidence for the ERP system (RAPIDS) and its Oracle E-Business Suite platform, aligning with the requested finegrained field value. The OpenGov/Open Data/eVA references describe procurement portals and data portals rather than the ERP platform and are therefore only tangentially related to the ERP field value and less informative for this specific field.",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.appsruntheworld.com/customers-database/customers/view/grtc-transit-system-united-states",
+            "excerpts": [
+              "In 2014, the City of Richmond implemented Oracle E-Business Suite as its ERP Financial system under the RAPIDS program, RVA Advancing Proven Innovative"
+            ],
+            "title": "City Of Richmond United States Technographics"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2019-04/ComplianceReport_FY2014.pdf",
+            "excerpts": [
+              "The Oracle based ERP implementation covers all significant business cycles and related classes of transactions that would materially affect or are reasonably"
+            ],
+            "title": "city of richmond, virginia - compliance reports"
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vendor_self_service_portal",
+        "reasoning": "The finegrained field value points to a vendor self-service portal named Oracle iSupplier, accessible at the City of Richmond procurement portal URL. Several excerpts clearly describe the Supplier Portal as the City\u2019s portal for suppliers and prospective suppliers, with explicit instruction to register and use the portal to access tools related to doing business with the City. One excerpt notes that all suppliers must register on iSupplier and that the portal provides access to tools for current and prospective suppliers, including current and future business interactions, accounts payable, and communications. This matches the described portal name, URL, and core functionalities in the field value. Additional excerpts reinforce the same mechanism by detailing the registration flow, the approval process, and the user account management steps, all of which support the interpretation that the portal is the city\u2019s vendor self-service system. A separate excerpt highlights that emails from the RAPIDS workflow originate from a specific mailer, which aligns with the supplier portal communications workflow described in the field value. Collectively, these excerpts substantiate the existence of a vendor self-service portal (iSupplier) accessed via the City of Richmond procurement site, including registration requirements, vendor account management, and where to access the portal and opportunities. The information is specific enough to support the field value about the portal name, URL, and key features. ",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Steps To Register Your Business",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)",
+              "An Email confirmation along with your User ID and Password will be sent when registration is approved. If your password has expired, please use the \"Forgot Password\" link to reset.",
+              "Supplier Account Login: ****",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier."
+            ],
+            "title": "Supplier Portal | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "city_open_data_procurement_datasets",
+        "reasoning": "The most directly relevant information comes from excerpts describing the City Contracts dataset on Richmond\u2019s Open Data Portal with the dataset ID xqn7-jvv2, including the dataset name, the fields contained, and that the dataset exists on the Open Data Portal. This directly substantiates the requested fine-grained field value, which specifies the City Contracts dataset, its ID, the fields covered (agency_department; contract_number; contract_value; supplier; procurement_type; description; type_of_solicitation; effective_from; effective_to), the row count, and the last updated date. Supporting detail comes from excerpts that show the dataset is accessible via the Open Data Portal and related data views or API endpoints, reinforcing the existence and accessibility of the dataset, including CSV/API access points. Additional excerpts mention the Payment Register and general Open Data Portal navigation, which provide contextual corroboration but are not the core dataset metadata requested. Taken together, the excerpts strongly support the existence and metadata of the City Contracts dataset with ID xqn7-jvv2 and its associated fields, row count, and update timing.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/explore/query/SELECT%0A%20%20%60agency_department%60%2C%0A%20%20%60contract_number%60%2C%0A%20%20%60supplier%60%2C%0A%20%20%60procurement_type%60%2C%0A%20%20%60description%60%2C%0A%20%20%60type_of_solicitation%60%2C%0A%20%20%60effective_from%60%2C%0A%20%20%60effective_to%60%2C%0A%20%20%60contract_specialist%60/page/filter",
+            "excerpts": [
+              "Skip to main content Skip to footer. City of Richmond, Virginia - Open Data Portal. Search. HomeCatalogTutorials"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2",
+            "excerpts": [
+              "The Open Data portal provides a list of open and closed city contracts for the past 5 years. This data is updated monthly and includes the following:",
+              "City of Richmond, Virginia - Open Data Portal"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "Payment Register. City Payment Register FY16+. City Contracts. Open and closed city contracts for the past 5 years. Checking in seconds... data.richmondgov.com.",
+              "Welcome to the City of Richmond Open Data Portal \u00b7 City Budget - General Fund \u00b7 New Datasets! \u00b7 Payment Register \u00b7 City Contracts."
+            ],
+            "title": "Open Data Portal | City of Richmond, Virginia | Open Data ..."
+          },
+          {
+            "url": "https://data.richmondgov.com/api/views/xqn7-jvv2/rows.csv?accessType=DOWNLOAD&bom=true&format=true",
+            "excerpts": [
+              "... City Wide Contract / Annual Mechanical Contract - Maintenance, Repair and Installation / First 180 day extension of contract\",Construction - Term,06/01/2016"
+            ],
+            "title": "https://data.richmondgov.com/api/views/xqn7-jvv2/r..."
+          },
+          {
+            "url": "https://data.richmondgov.com/resource/xqn7-jvv2.csv",
+            "excerpts": [
+              "... City Wide Contract / Annual Mechanical Contract - Maintenance, Repair and Installation / First 180 day extension of contract\",\"Construction - Term\",\"2016-06"
+            ],
+            "title": "https://data.richmondgov.com/resource/xqn7-jvv2.csv"
+          },
+          {
+            "url": "https://data.richmondgov.com/widgets/xqn7-jvv2",
+            "excerpts": [
+              "City Contracts | Open Data Portal | City of Richmond, Virginia. City Contracts. Search."
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "contract_storage_and_management",
+        "reasoning": "The most directly relevant evidence shows that contracts are managed and stored in OnBase, an enterprise content/document management system. This establishes OnBase as the primary contract storage/management tool. Supporting context notes that RAPIDS (the City\u2019s Oracle-based ERP) underpins transactional/ERP data, aligning with a mixed environment where both a document management system and an ERP system co-exist for different parts of the contract lifecycle. The job postings and announcements reference a liaison role and integration between RAPIDS and OnBase, further corroborating that the two systems operate in tandem rather than in isolation. Additional excerpts indicate that OpenGov is the platform used for procurement solicitations, which complements the overall procurement ecosystem that includes OnBase for documents and RAPIDS for ERP data. Taken together, these excerpts support a model where OnBase is the contract/document management backbone, RAPIDS handles ERP/transactions, and OpenGov handles solicitation workflow, consistent with a mixed storage/management environment described in the target field value.",
+        "citations": [
+          {
+            "url": "https://select.dmv.virginia.gov/selectv2/help/cscom/html/onbase.html",
+            "excerpts": [
+              "Every document on the OnBase system is associated with a Document Type (all Document Types begin with \"DM\" which simply stands for Data Management)."
+            ],
+            "title": "Untitled"
+          },
+          {
+            "url": "https://is.richmond.edu/enterprise-systems/ecm/index.html",
+            "excerpts": [
+              "OnBase Accounts. OnBase access is managed by University of Richmond network groups, which are assigned to one's UR network account."
+            ],
+            "title": "OnBase Accounts"
+          },
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/press-releases-and-announcements-public-utilities/news/city-richmond-reaches-milestone-improve",
+            "excerpts": [
+              "Aug 13, 2024 \u2014 With Oracle Energy and Water's \u201cSoftware as a Service\u201d (SaaS) solution set, DPU will modernize its Customer Information System (CIS) to provide"
+            ],
+            "title": "City of Richmond Reaches Milestone to Improve Customer ..."
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov. During this transition some solicitations will be submitted electronically through the OpenGov, and some will be submitted through the paper submission process."
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "it_software_procurement_pathway",
+        "reasoning": "The finegrained field value claims there is no public documentation of a formal Authority to Operate (ATO) process or a detailed IT security review workflow for adopting new software in the City of Richmond, and that procurement is governed by VPPA with security/compliance details typically in solicitations. Evidence shows that the City utilizes OpenGov for bids and proposals and has been transitioning procurement systems, indicating a governance framework around procurement rather than an explicit ATO protocol published publicly. The supplier and procurement portals (Supplier Portal, iSupplier) demonstrate how vendors interact with the city for registration, onboarding, and access to procurement opportunities, which corroborates a process-driven approach via DPS and solicitation documents rather than a city-wide ATO workflow published publicly. References to OpenGov as the electronic bid/RFP system and to the DPS as the coordinating body for solicitations align with a governance pathway where security/compliance requirements would be specified in actual solicitations rather than in a standalone public ATO document. Several excerpts directly illustrate current tools and processes (OpenGov for bids; RAPIDS/OnBase as ERP context; supplier portals; DPS contact points) that shape how software tool adoption would be evaluated, while there is no explicit public statement detailing an ATO process. Taken together, these excerpts support the conclusion that an explicit, formal ATO process is not publicly documented, and the IT security review pathway is typically addressed within solicitation documents and through DPS coordination. The most directly relevant parts describe the replacement/transition to OpenGov for procurement, the existence of a Supplier Portal for vendor interactions, and the DPS role in solicitations, which collectively underpin the City\u2019s governance of IT tool adoption rather than a publicly disclosed ATO workflow.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation"
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/calendar",
+            "excerpts": [
+              "Procurement. Procurement Portal . ProjectsCalendar."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2025-05/Supplier%20Registration%20Guide.pdf",
+            "excerpts": [
+              "Step 2: Click the icon for \u201cSuppliers\u201d. After clicking the \u201cSuppliers\u201d icon, you will be taken to the Supplier Portal page \u2013 shown below. Page 2. Page 2 of 5."
+            ],
+            "title": "Getting Started"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier."
+            ],
+            "title": "Supplier Portal | Richmond"
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://rva.gov/procurement-services",
+            "excerpts": [
+              "To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1.",
+              "Supplier Portal \u00b7 Surplus Property. Public Utilities. Natural Gas \u00b7 Permits \u00b7 Stormwater \u00b7 Streetlight \u00b7 Water \u00b7 Wastewater \u00b7 About Us \u00b7 Billing. Public Works."
+            ],
+            "title": "Procurement Services | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/human-resources/employees",
+            "excerpts": [
+              "Supplier Portal \u00b7 Surplus Property. Public Utilities. Natural Gas \u00b7 Permits \u00b7 Stormwater \u00b7 Streetlight \u00b7 Water \u00b7 Wastewater \u00b7 About Us \u00b7 Billing. Public Works."
+            ],
+            "title": "Employees | Richmond"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/ContractDetails.aspx?cid=2075&wc=oplYouSJ3cTDS2kwbVIpBwwVV%2F%2FMskyO8V%2BuO5UNJpU%3D",
+            "excerpts": [
+              "VITA Contract Number: VA-220218-SNSI. Contract Title: Network Infrastructure Cabling Services for the Lynchburg, Richmond, Hampton Roads, Fredericksburg,"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "system_interconnectivity_overview",
+        "reasoning": "The procurement ecosystem described in the field value centers on a sequence of interconnected tools and platforms. The RAPIDS ERP is explicitly identified as the Oracle-based core system, with the iSupplier component serving as the supplier/vendor registration and records interface that feeds into RAPIDS. The OpenGov platform is described as the electronic submission channel for bids and requests for proposals, and several excerpts note a transition to or use of OpenGov for procurement events, indicating its role in the solicitation lifecycle. OnBase is cited as the enterprise content management system used for storing contract documents and related content, with industry language in a job posting implying that contract documents are stored in OnBase and linked to corresponding records in RAPIDS. The City\u2019s procurement data and open datasets include City Contracts and Payment Register on the Open Data Portal, reinforcing the ecosystem\u2019s data-availability aspect. The supplier portal references (iSupplier) confirm a vendor self-service component tied to the RAPIDS/ERP environment for vendor management, accounts payable communications, and user onboarding. Taken together, the excerpts support a flow where vendors interact through iSupplier for registration, solicitations are submitted via OpenGov, contract and financial transactions are processed within RAPIDS, and documentation is retained and linked in OnBase, with open data visibility for contracts and payments. This chain demonstrates an interconnected procurement ecosystem with a clear, albeit possibly not fully automated, integration between the core ERP, procurement portals, and document management.",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)",
+              "An Email confirmation along with your User ID and Password will be sent when registration is approved. If your password has expired, please use the \"Forgot Password\" link to reset.",
+              "Supplier Account Login: ****"
+            ],
+            "title": "Supplier Portal | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation"
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "Welcome to the City of Richmond Open Data Portal \u00b7 City Budget - General Fund \u00b7 New Datasets! \u00b7 Payment Register \u00b7 City Contracts."
+            ],
+            "title": "Open Data Portal | City of Richmond, Virginia | Open Data ..."
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/login",
+            "excerpts": [
+              "Procurement . Sign Up Log In. OpenGov Procurement logo - blue. Login. Email Address. Continue. Forgot Password? By clicking \"Log In\" you agree to our Terms and"
+            ],
+            "title": "Login"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2025-05/Supplier%20Registration%20Guide.pdf",
+            "excerpts": [
+              "Step 2: Click the icon for \u201cSuppliers\u201d. After clicking the \u201cSuppliers\u201d icon, you will be taken to the Supplier Portal page \u2013 shown below. Page 2. Page 2 of 5."
+            ],
+            "title": "Getting Started"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "virginia_eva_procurement_system_status",
+        "reasoning": "The finegrained field value describes eVA as the active statewide procurement system and details about data availability through the Open Data Portal, including a dataset titled eVA Procurement Data 2024 that is updated daily and includes a data dictionary. Excerpts explicitly identify eVA as Virginia\u2019s eProcurement Marketplace and point to the Open Data Portal as the publication channel for procurement data, which directly supports the status and data availability aspects of the field. The dataset entries quoted in the excerpts confirm the existence of the eVA Procurement Data 2024 dataset, its daily update cadence, CSV availability, and included data dictionary, which align with the described data availability. While an explicit dedicated API for eVA is not described in the provided excerpts, the mention that data is accessible via the Virginia Open Data Portal\u2014which typically provides API access to its datasets\u2014supports a likely API-access scenario for the published data. Additional excerpts note the Open Data portal\u2019s general purpose and the presence of related resources (eVA Open Data, public spend reports), which reinforce the data publication framework surrounding eVA. Some excerpts discuss related procurement tools (OpenGov, CobbleStone) or procurement portals, which clarify context but are less central to the core statements about eVA\u2019s status and data availability; they are included for context only where they touch on data publication or API-like access through the Open Data Portal. Taken together, these excerpts collectively support: eVA as the active procurement system, data availability via the Open Data Portal with the eVA Procurement Data 2024 dataset, daily updates, and publication in a downloadable CSV with a data dictionary, with an inferred API pathway via Open Data access.",
+        "citations": [
+          {
+            "url": "https://data.virginia.gov/dataset/eva-procurement-data-2024",
+            "excerpts": [
+              "eVA has transformed the way the Commonwealth buys goods and services from a decentralized, paper based process to a centralized, electronic platform.",
+              "eVA is used by more than 245 state agencies and institutes of higher education, and 900+ local governments and public bodies, to announce bidding opportunities, receive quotes, order placement & approvals, contract management and more.",
+              "This dataset contains the purchase orders for the goods and services.",
+              "Download resource",
+              "eVA_Procurement_Data_2024(CSV) CSV Popular",
+              "Data Dictionary CSV Popular"
+            ],
+            "title": "eVA Procurement Data 2024 - Virginia - Dataset"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "Virginia Business Opportunities (VBO)",
+              "Access past Buyer User Group (BUG) meetings as well as the latest eVA Extras! Click Here! Not a BUG member yet? Sign-up now to stay connected with the eVA team",
+              "Transparency",
+              "IT Contracts (VITA)"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "IT Contracts (VITA)"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-vendor-statuses.html",
+            "excerpts": [
+              "Supplier is excluded from contracting with state agencies for construction for a specified period. See DGS Debarment & Enjoinment Procedures. How to Make"
+            ],
+            "title": "eVA Vendor Statuses"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vita_cobblestone_contracts_portal",
+        "reasoning": "The target field describes the VITA CobblestoneContracts public portal and notes that there is no documented public API, with access limited to a public-facing web search portal. Evidence from the excerpts confirms a public portal URL associated with CobbleStone Systems and VITA: the portal URL is listed, indicating a known public access point for contract information. Additional excerpts explicitly identify the VITA CobblestoneContracts public portal and indicate CobbleStone Systems as the provider. Taken together, these excerpts support the existence of a CobbleStone-powered public portal for VITA contracts and corroborate the portal\u2019s public-facing nature and provider. However, none of the excerpts explicitly document an API (or lack thereof), so the API absence claim cannot be fully corroborated by the excerpts alone and remains unverified within the provided text.",
+        "citations": [
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530",
+              "Contract Management Software",
+              "Powered By: CobbleStone Systems Corp. - All Rights Reserved"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "erp_system_details.system_acronym",
+        "reasoning": "The finegrained field value identifies the ERP system acronym as RAPIDS. Excerpts describe the City of Richmond\u2019s ERP as RAPIDS, explicitly stating that RAPIDS is the Oracle-based ERP (Oracle eBusiness Suite). The strongest evidence comes from passages that directly name RAPIDS and connect it to the Oracle E-Business Suite, indicating it is the City\u2019s ERP. Additional excerpts corroborate this by referencing RAPIDS as an Oracle-based ERP in the context of the city\u2019s procurement and ERP discussions. Collectively, these excerpts support that the City\u2019s ERP system acronym is RAPIDS and that it operates on Oracle E-Business Suite, aligning with the requested field value. ",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.appsruntheworld.com/customers-database/customers/view/grtc-transit-system-united-states",
+            "excerpts": [
+              "In 2014, the City of Richmond implemented Oracle E-Business Suite as its ERP Financial system under the RAPIDS program, RVA Advancing Proven Innovative"
+            ],
+            "title": "City Of Richmond United States Technographics"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2019-04/ComplianceReport_FY2014.pdf",
+            "excerpts": [
+              "The Oracle based ERP implementation covers all significant business cycles and related classes of transactions that would materially affect or are reasonably"
+            ],
+            "title": "city of richmond, virginia - compliance reports"
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "procurement_and_solicitation_platform.primary_function",
+        "reasoning": "The most directly relevant information states that the Department of Procurement Services is transitioning to an electronic Invitation for Bid and RFP system called OpenGov, which confirms the platform\u2019s primary function as handling electronic bid and proposal submissions. Additional excerpts consistently indicate that bids and proposals are to be submitted electronically through OpenGov, reinforcing that the platform\u2019s core role is electronic submission for solicitations. Other excerpts that reference OpenGov as the submission portal and show OpenGov pages for the Richmond procurement portal further corroborate this function, while implying a broader ecosystem around procurement that includes RFx processes and public portals. Taken together, these excerpts support the conclusion that the platform\u2019s primary function is facilitating electronic submission of bids and proposals for solicitations such as IFBs and RFPs.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov. During this transition some solicitations will be submitted electronically through the OpenGov, and some will be submitted through the paper submission process."
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/rva",
+            "excerpts": [
+              "RFP - 260008714 - Canoe Run Park Storage Tank (Design-Build)\nOpen\n1\n2/5/2026\n6/22/2026"
+            ],
+            "title": "City of Richmond Procurement Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "procurement_and_solicitation_platform.platform_name",
+        "reasoning": "Evidence shows that the Department of Procurement Services is transitioning to an electronic Invitation for Bid and RFP system called OpenGov, and that bids and proposals are submitted electronically through OpenGov. This directly identifies OpenGov as the procurement platform in use. Additional excerpts reiterate that all bids and proposals are submitted through OpenGov, and reference the OpenGov procurement portal used by the City of Richmond for procurement activities and solicitations. While some excerpts mention OpenGov within embedded portals or as part of the broader procurement portal ecosystem, they still indicate that OpenGov is the platform serving procurement and solicitation needs for the city. Together, these excerpts establish that OpenGov is the platformName used for procurement and solicitation activities during the 2025-2026 timeframe, with explicit statements about electronic submission and transition to OpenGov supporting the field value. The combination of direct statements about OpenGov as the bidding/RFP system and mentions of the OpenGov portal for Richmond procurement strongly align with the queried field value.\n",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov. During this transition some solicitations will be submitted electronically through the OpenGov, and some will be submitted through the paper submission process."
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/rva",
+            "excerpts": [
+              "Procurement Portal > City of Richmond",
+              "Richmond, VA",
+              "Projects Calendar",
+              "RFP - 260008714 - Canoe Run Park Storage Tank (Design-Build)\nOpen\n1\n2/5/2026\n6/22/2026"
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/calendar",
+            "excerpts": [
+              "Procurement. Procurement Portal . ProjectsCalendar."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "erp_system_details.technology_platform",
+        "reasoning": "The field value we are validating is that the City of Richmond uses Oracle E-Business Suite as its ERP/technology platform. The strongest support comes from excerpts that explicitly name Oracle E-Business Suite as the ERP system. One excerpt directly states that the ERP system, RAPIDS, is an Oracle eBusiness Suite, which exactly aligns with the target field value. A second excerpt repeats this direct assertion, reinforcing the same conclusion. A third excerpt describes Oracle E-Business Suite as the ERP Financial system under RAPIDS, providing additional corroboration that the ERP landscape centers on Oracle E-Business Suite. Another excerpt notes that the city\u2019s ERP implementation is Oracle-based, which is consistent with the target field value even if it uses slightly different phrasing. The remaining excerpt mentions RAPIDS as Oracle-based and links it to the broader SAP/RAPIDS ecosystem, further supporting the Oracle-centric view of the ERP landscape. Collectively, these excerpts map cleanly to the field value, with direct identifications of Oracle E-Business Suite as the ERP platform and logical extensions noting RAPIDS and Oracle-based ERP in Richmond\u2019s context.",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.appsruntheworld.com/customers-database/customers/view/grtc-transit-system-united-states",
+            "excerpts": [
+              "In 2014, the City of Richmond implemented Oracle E-Business Suite as its ERP Financial system under the RAPIDS program, RVA Advancing Proven Innovative"
+            ],
+            "title": "City Of Richmond United States Technographics"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2019-04/ComplianceReport_FY2014.pdf",
+            "excerpts": [
+              "The Oracle based ERP implementation covers all significant business cycles and related classes of transactions that would materially affect or are reasonably"
+            ],
+            "title": "city of richmond, virginia - compliance reports"
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "erp_system_details.system_full_name",
+        "reasoning": "The precise full form of the RAPIDS acronym is given in the first and second excerpts, which state that RAPIDS stands for RVA: Advancing Proven Innovative Direction System. These directly validate the field value as the system\u2019s full name. A third excerpt mentions RAPIDS and abbreviates the expansion in a similar way, providing strong partial corroboration that the RAPIDS ERP is tied to the RVA expansion even if the exact phrasing isn\u2019t repeated. Fourth and fifth excerpts reference RAPIDS as the Oracle-based ERP system or describe related procurement/ERP tooling, offering contextual support that RAPIDS is indeed the City\u2019s ERP platform, but they do not repeat the exact full name expansion. Collectively, these excerpts support the field value by confirming the system name and its expansion in the first two sources, with strong partial and contextual support from the others.\n",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.appsruntheworld.com/customers-database/customers/view/grtc-transit-system-united-states",
+            "excerpts": [
+              "In 2014, the City of Richmond implemented Oracle E-Business Suite as its ERP Financial system under the RAPIDS program, RVA Advancing Proven Innovative"
+            ],
+            "title": "City Of Richmond United States Technographics"
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2019-04/ComplianceReport_FY2014.pdf",
+            "excerpts": [
+              "The Oracle based ERP implementation covers all significant business cycles and related classes of transactions that would materially affect or are reasonably"
+            ],
+            "title": "city of richmond, virginia - compliance reports"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vendor_self_service_portal.portal_name",
+        "reasoning": "The targeted field seeks the name of the vendor self-service portal. The most relevant content explicitly references the City of Richmond\u2019s Supplier Portal and notes that all suppliers must register on iSupplier, which is the core identifier tied to the portal\u2019s access mechanism. The presence of an online registration flow labeled 'Supplier Registration' and a portal description stating it provides access to supplier tools further supports the linkage to an Oracle iSupplier-based system, since iSupplier is Oracle\u2019s supplier portal product. Additional excerpts reinforce this by consistently mentioning the supplier portal, iSupplier, and the registration/ login workflow, collectively indicating that the city\u2019s vendor self-service experience is built around the iSupplier framework. While none of the excerpts state the exact phrase 'Oracle iSupplier portal' in a single line, the repeated association with iSupplier and the Oracle-driven registration path strongly support that the portal name corresponds to the Oracle iSupplier portal for Richmond. Considering this, we can reasonably assert that the vendor_self_service_portal.portal_name aligns with Oracle iSupplier, based on the evidence of iSupplier branding and related onboarding workflow.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Steps To Register Your Business",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)",
+              "An Email confirmation along with your User ID and Password will be sent when registration is approved. If your password has expired, please use the \"Forgot Password\" link to reset.",
+              "Supplier Account Login: ****",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier."
+            ],
+            "title": "Supplier Portal | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "erp_system_details.system_type",
+        "reasoning": "The field value seeks the precise type of the ERP system used by the City of Richmond. The most directly relevant excerpts explicitly name RAPIDS as the ERP and identify it as Oracle eBusiness Suite, which confirms the ERP system type and vendor relationship. Supporting excerpts reiterate that RAPIDS is Oracle-based and frame RAPIDS as the ERP system in use, with phrases such as Oracle eBusiness Suite and Oracle-based ERP implementation. Additional excerpts confirm the same topology by describing RAPIDS as the ERP system and noting the Oracle-based nature within the broader context of Richmond\u2019s ERP landscape. Collectively, these excerpts align with the finegrained field value by identifying the ERP system type as an Oracle-based Enterprise Resource Planning solution rather than alternatives like SAP, Jaggaer, a custom system, or spreadsheets, thereby providing consistent evidence of the ERP classification and vendor. ",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.appsruntheworld.com/customers-database/customers/view/grtc-transit-system-united-states",
+            "excerpts": [
+              "In 2014, the City of Richmond implemented Oracle E-Business Suite as its ERP Financial system under the RAPIDS program, RVA Advancing Proven Innovative"
+            ],
+            "title": "City Of Richmond United States Technographics"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2019-04/ComplianceReport_FY2014.pdf",
+            "excerpts": [
+              "The Oracle based ERP implementation covers all significant business cycles and related classes of transactions that would materially affect or are reasonably"
+            ],
+            "title": "city of richmond, virginia - compliance reports"
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "executive_summary",
+        "reasoning": "The finegrained field value asserts a specific procurement and contract management ecosystem for the City of Richmond as of 2025-2026, centered on an Oracle-based RAPIDS ERP, with OpenGov for solicitations, an iSupplier-based supplier portal, a hybrid approach to contract storage (OnBase for documents), and public data access via the Socrata Open Data Portal (City Contracts and Payment Register). The supporting excerpts directly confirm these components: the RAPIDS system is described as Oracle E-Business Suite used as the ERP backbone, which anchors the ecosystem. The Solicitations/Procurement sections indicate a transition to OpenGov for electronic bid/submission while mentioning eVA posting for opportunities, illustrating the multi-channel procurement footprint. Supplier-related content confirms iSupplier is used for supplier registration and related AP interactions, consistent with an ERP-integrated supplier portal. A reference to OnBase as part of the architecture supports the claim of internal document management for contracts rather than a single centralized repository. City data openness is evidenced by the City Contracts dataset (xqn7-jvv2) and the Payment Register on the Socrata Open Data Portal, with multiple excerpts describing these datasets and their availability. Additional support comes from Open Data Portal and eVA/Cobblestone references showing the broader ecosystem: Open Data Portal entries for broader datasets and the existence of eVA data streams, plus CobbleStone Systems for state IT contracts, which aligns with the described spectrum of procurement tools. The IT governance aspect is addressed by citations discussing potential IT procurement channels and vendor relationships, which validates the presence of a formal but not publicly detailed ATO-like review pathway in practice. Taken together, these excerpts consistently map to the described, multi-faceted procurement/contract management landscape rather than a single monolithic system, thereby supporting the field value as a coherent summary of the City\u2019s tools and data sources as of 2025-2026.",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation",
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov. During this transition some solicitations will be submitted electronically through the OpenGov, and some will be submitted through the paper submission process."
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)",
+              "An Email confirmation along with your User ID and Password will be sent when registration is approved. If your password has expired, please use the \"Forgot Password\" link to reset."
+            ],
+            "title": "Supplier Portal | Richmond"
+          },
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2",
+            "excerpts": [
+              "The Open Data portal provides a list of open and closed city contracts for the past 5 years. This data is updated monthly and includes the following:"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "Welcome to the City of Richmond Open Data Portal \u00b7 City Budget - General Fund \u00b7 New Datasets! \u00b7 Payment Register \u00b7 City Contracts.",
+              "Payment Register. City Payment Register FY16+. City Contracts. Open and closed city contracts for the past 5 years. Checking in seconds... data.richmondgov.com."
+            ],
+            "title": "Open Data Portal | City of Richmond, Virginia | Open Data ..."
+          },
+          {
+            "url": "https://data.richmondgov.com/widgets/xqn7-jvv2",
+            "excerpts": [
+              "City Contracts | Open Data Portal | City of Richmond, Virginia. City Contracts. Search."
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/explore/query/SELECT%0A%20%20%60agency_department%60%2C%0A%20%20%60contract_number%60%2C%0A%20%20%60supplier%60%2C%0A%20%20%60procurement_type%60%2C%0A%20%20%60description%60%2C%0A%20%20%60type_of_solicitation%60%2C%0A%20%20%60effective_from%60%2C%0A%20%20%60effective_to%60%2C%0A%20%20%60contract_specialist%60/page/filter",
+            "excerpts": [
+              "Skip to main content Skip to footer. City of Richmond, Virginia - Open Data Portal. Search. HomeCatalogTutorials"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/api/views/xqn7-jvv2/rows.csv?accessType=DOWNLOAD&bom=true&format=true",
+            "excerpts": [
+              "... City Wide Contract / Annual Mechanical Contract - Maintenance, Repair and Installation / First 180 day extension of contract\",Construction - Term,06/01/2016"
+            ],
+            "title": "https://data.richmondgov.com/api/views/xqn7-jvv2/r..."
+          },
+          {
+            "url": "https://data.richmondgov.com/resource/xqn7-jvv2.csv",
+            "excerpts": [
+              "... City Wide Contract / Annual Mechanical Contract - Maintenance, Repair and Installation / First 180 day extension of contract\",\"Construction - Term\",\"2016-06"
+            ],
+            "title": "https://data.richmondgov.com/resource/xqn7-jvv2.csv"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/",
+              "IT Contracts (VITA)"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/",
+              "IT Contracts (VITA)"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          },
+          {
+            "url": "https://data.virginia.gov/dataset/eva-procurement-data-2024",
+            "excerpts": [
+              "eVA has transformed the way the Commonwealth buys goods and services from a decentralized, paper based process to a centralized, electronic platform.",
+              "eVA is used by more than 245 state agencies and institutes of higher education, and 900+ local governments and public bodies, to announce bidding opportunities, receive quotes, order placement & approvals, contract management and more.",
+              "This dataset contains the purchase orders for the goods and services.",
+              "Download resource",
+              "eVA_Procurement_Data_2024(CSV) CSV Popular",
+              "Data Dictionary CSV Popular"
+            ],
+            "title": "eVA Procurement Data 2024 - Virginia - Dataset"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530",
+              "Powered By: CobbleStone Systems Corp. - All Rights Reserved"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "contract_storage_and_management.storage_method",
+        "reasoning": "The claim that contracts are stored in a centralized document management system is supported by the note that OnBase is used as the document management system and is explicitly tied to document handling. The mention of OnBase accounts and the liaison role further reinforces OnBase as the primary repository for documents rather than scattered file shares. The RAPIDS references confirm that the ERP/transactional records exist in the Oracle-based RAPIDS system, indicating that contract-related transactions (not just documents) are managed within RAPIDS. OpenGov references show that procurement solicitations and related artifacts are submitted and managed through the OpenGov portal, suggesting that procurement workflow and solicitation storage exist outside OnBase for those materials. Taken together, these excerpts support a mixed storage approach: OnBase for contract-related documents, RAPIDS for transactional procurement records, and OpenGov for solicitation artifacts. This explains the storage method as a combination of centralized document management with system-specific repositories for transactions and solicitations. ",
+        "citations": [
+          {
+            "url": "https://select.dmv.virginia.gov/selectv2/help/cscom/html/onbase.html",
+            "excerpts": [
+              "Every document on the OnBase system is associated with a Document Type (all Document Types begin with \"DM\" which simply stands for Data Management)."
+            ],
+            "title": "Untitled"
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite."
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov."
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "procurement_and_solicitation_platform.portal_url",
+        "reasoning": "The requested field value is the portal URL for the procurement and solicitation platform used by the City of Richmond, specifically the RVA OpenGov procurement portal. Excerpts that explicitly state that bids and proposals are submitted through OpenGov and provide the portal URL (https://procurement.opengov.com/portal/rva) directly confirm the platform and its RVA portal. These excerpts also describe the transition to an electronic Invitation for Bid and RFP system called OpenGov, reinforcing that OpenGov is the procurement platform in use and that the RVA portal URL is the entry point for procurement activities. Other excerpts that show the Richmond Procurement Portal interface and embedded OpenGov project lists further corroborate the same OpenGov portal context. While one excerpt describes a city procurement listing page and another shows a calendar or embedded views, they still reference the OpenGov RVA portal and procurement portal broadly, which supports the existence and use of the portal URL in this context. The RFP listing excerpt mentions a specific solicitation but does not provide the portal URL itself, so it is less directly supportive of the exact field value, though it remains thematically consistent with OpenGov usage. Overall, the strongest support comes from passages that explicitly connect Richmond procurement to OpenGov and provide the URL for RVA procurement, with additional corroboration from passages describing Richmond\u2019s procurement portal and its OpenGov integration.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov. During this transition some solicitations will be submitted electronically through the OpenGov, and some will be submitted through the paper submission process."
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/rva",
+            "excerpts": [
+              "Procurement Portal > City of Richmond",
+              "Richmond, VA",
+              "Projects Calendar"
+            ],
+            "title": "City of Richmond Procurement Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "known_procurement_vendor_relationships",
+        "reasoning": "The targeted field describes two primary procurement software relationships as of 2025-2026: the Oracle-based RAPIDS ERP system and OpenGov for procurement/bids, with a note that no current relationship with other major vendors is indicated. Evidence directly confirming the RAPIDS core is found in excerpts describing RAPIDS as the Oracle E-Business Suite ERP system. This establishes the primary ERP/financial backbone for procurement and vendor interactions. Additional excerpts confirm the city\u2019s shift to OpenGov for electronic bid submissions and the ongoing procurement workflow transition to a modern e-procurement platform, which supports the notion that OpenGov is a key procurement portal used alongside RAPIDS. Further excerpts reference the supplier/self-service channel through iSupplier, indicating a vendor portal mechanism linked to the RAPIDS ecosystem for supplier registration, accounts payable, and communications. Collectively, these excerpts substantiate the claimed vendor relationships: a primary Oracle RAPIDS/OnBase (for ERP and supplier interactions) and OpenGov (for procurement submissions). Some excerpts also indicate the existence of a procurement transparency/portal ecosystem and related OpenGov pages, which reinforce that OpenGov is integrated into the city\u2019s procurement workflow rather than a stand-alone system. Taken together, the strongest, directly supportive elements are the explicit RAPIDS/Oracle ERP references and the statements that bids are submitted through OpenGov, complemented by supplier registration via iSupplier and procurement portal pages. Less central, but context-providing, are pages outlining the OpenGov procurement portal and the RVA procurement portal presence, which corroborate the OpenGov relationship and integration with city processes. No evidence in the provided excerpts contradicts the proposed relationships; instead, multiple sources corroborate RAPIDS (Oracle) and OpenGov as the two active relationships in this period. The evidence about other vendors (Jaggaer, SAP Ariba, Coupa) is not present as a relationship in these excerpts, which aligns with the field value stating those vendors are not currently in use according to the sources. The resulting interpretation is that the city maintains a confirmed relationship with Oracle RAPIDS (ERP) and OpenGov for procurement activities, with supplier self-service via iSupplier, and no explicit evidence of ongoing relationships with Jaggaer, SAP Ariba, or Coupa in the provided excerpts.",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation"
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)"
+            ],
+            "title": "Supplier Portal | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/rva",
+            "excerpts": [
+              "Procurement Portal > City of Richmond",
+              "Richmond, VA",
+              "Projects Calendar",
+              "RFP - 260008714 - Canoe Run Park Storage Tank (Design-Build)\nOpen\n1\n2/5/2026\n6/22/2026"
+            ],
+            "title": "City of Richmond Procurement Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vendor_self_service_portal.key_features",
+        "reasoning": "The core claim in the finegrained field value is that the supplier portal is the mandatory registration point for all current and prospective suppliers and provides vendors with access to tools for managing their business with the city (viewing opportunities, managing account information, and accessing accounts payable). Excerpts that state mandatory registration and direct access to registration and portal tools support this claim: the text stating that \u201cAll suppliers and prospective suppliers must register on iSupplier\u201d directly confirms mandatory registration, and statements like \u201cThe portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.\u201d directly support that the portal is a central hub for business interactions, including accounts payable and opportunities. Further, the excerpt describing \u201cComplete online registration here: [Supplier Registration]\u201d reinforces that registration happens online through the portal. The mention of an email confirmation upon approval and the login information (\u201cAn Email confirmation along with your User ID and Password will be sent when registration is approved\u201d and \u201cSupplier Account Login\u201d) supports the process surrounding portal access, which aligns with the portal functioning as the vendor self-service system. An excerpt that enumerates \u201cSteps To Register Your Business\u201d corroborates the existence of a formal registration flow. While none of the excerpts explicitly state the exact phrasing of \u201cRAPIDS Workflow Mailer\u201d as the source of all email communications, the combination of mandatory registration, online supplier onboarding, and tools access provides coherent support for the finegrained field value\u2019s primary claims about the portal role and capabilities. The content about login and ongoing access further ties into the portal functioning as the essential vendor self-service system. Overall, the most direct support comes from statements about mandatory iSupplier registration, the portal as the connection for business, and the online registration link, with secondary support from the onboarding steps and account login details. The remaining excerpts complement by illustrating registration steps and general portal access features.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier.",
+              "Steps To Register Your Business",
+              "An Email confirmation along with your User ID and Password will be sent when registration is approved. If your password has expired, please use the \"Forgot Password\" link to reset.",
+              "Supplier Account Login: ****"
+            ],
+            "title": "Supplier Portal | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "virginia_eva_procurement_system_status.system_name",
+        "reasoning": "The target field value identifies the procurement system as 'eVA (electronic Virginia)'. The strongest evidence shows that eVA is described as a centralized, electronic procurement platform used by Virginia, fulfilling the status and role of the official procurement system. Excerpts describing the transformation to a centralized, electronic platform and stating that eVA enables procurement activities directly support the assertion that the current procurement system is eVA. Additional excerpts that label eVA as Virginia's eProcurement Marketplace and show related pages (such as vendor and IT contract references) further corroborate that eVA is the system in question. Excerpts that present the data artifacts associated with eVA (datasets, data dictionary) reinforce that eVA is the operating procurement system with published datasets, even though they are ancillary to identifying the system name itself. Together, these excerpts build a cohesive picture that the procurement system in question is indeed eVA (electronic Virginia).",
+        "citations": [
+          {
+            "url": "https://data.virginia.gov/dataset/eva-procurement-data-2024",
+            "excerpts": [
+              "eVA has transformed the way the Commonwealth buys goods and services from a decentralized, paper based process to a centralized, electronic platform.",
+              "eVA is used by more than 245 state agencies and institutes of higher education, and 900+ local governments and public bodies, to announce bidding opportunities, receive quotes, order placement & approvals, contract management and more.",
+              "This dataset contains the purchase orders for the goods and services.",
+              "Download resource",
+              "eVA_Procurement_Data_2024(CSV) CSV Popular",
+              "Data Dictionary CSV Popular"
+            ],
+            "title": "eVA Procurement Data 2024 - Virginia - Dataset"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "IT Contracts (VITA)",
+              "Virginia Business Opportunities (VBO)",
+              "Access past Buyer User Group (BUG) meetings as well as the latest eVA Extras! Click Here! Not a BUG member yet? Sign-up now to stay connected with the eVA team",
+              "Transparency"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "IT Contracts (VITA)"
+            ],
+            "title": "Release Notes"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "contract_storage_and_management.primary_system",
+        "reasoning": "The most relevant evidence directly references OnBase as a system related to document or data management within Richmond. One excerpt states that OnBase is a system associated with a Document Type in OnBase, establishing it as a repository or management system for documents. This directly supports the claim that OnBase is used for contract storage/management. Another excerpt discusses OnBase Accounts and how access is controlled, reinforcing that OnBase is an integral system requiring user management and access control, further supporting its role in storage/management of documents. A third excerpt mentions OnBase in the context of a procurement liaison, indicating involvement with the OnBase system in procurement workflows, which aligns with a contract storage/management function within procurement processes. Collectively, these excerpts support the assertion that OnBase is the primary or a central contract storage/management system used by the organization, with explicit references to its document-type association, access control, and procurement workflow involvement.",
+        "citations": [
+          {
+            "url": "https://select.dmv.virginia.gov/selectv2/help/cscom/html/onbase.html",
+            "excerpts": [
+              "Every document on the OnBase system is associated with a Document Type (all Document Types begin with \"DM\" which simply stands for Data Management)."
+            ],
+            "title": "Untitled"
+          },
+          {
+            "url": "https://is.richmond.edu/enterprise-systems/ecm/index.html",
+            "excerpts": [
+              "OnBase Accounts. OnBase access is managed by University of Richmond network groups, which are assigned to one's UR network account."
+            ],
+            "title": "OnBase Accounts"
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "city_open_data_procurement_datasets.0",
+        "reasoning": "The fine-grained field value identifies a City Contracts dataset on the Richmond Open Data Portal with the exact dataset ID xqn7-jvv2 and a defined schema of fields (agency_department; contract_number; contract_value; supplier; procurement_type; description; type_of_solicitation; effective_from; effective_to), along with a row count of 1367 and a last updated date of March 30, 2026. Excerpts that reference the dataset via its API endpoint and resource links provide direct corroboration of the dataset identity and accessible formats: one excerpt points to an API view for the dataset using the identifier xqn7-jvv2, which confirms the dataset ID and that the data can be accessed programmatically, aligning with the notion of a structured dataset with defined fields. Another excerpt references the resource URL for the same dataset, connecting to a CSV representation of the City Contracts data, which supports the idea that the dataset includes tabular fields and can be downloaded in CSV form. Additional excerpts describe the City Contracts on the Open Data Portal and note that the dataset is part of the portal\u2019s offering, reinforcing that this dataset is indeed the City Contracts data catalogued there and updated on a regular cadence. While other excerpts mention the portal broadly and reference the City Contracts dataset, they do not provide the same explicit linkage to the dataset identifier or to a downloadable/AP I representation, but they corroborate the dataset\u2019s existence and its role within the portal\u2019s offerings. Taken together, the strongest support comes from explicit API view and CSV resource references tied to the xqn7-jvv2 identifier, while peripheral excerpts confirm the dataset\u2019s inclusion in the portal and its ongoing update cycle, which is consistent with the stated last-updated date and update frequency.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/api/views/xqn7-jvv2/rows.csv?accessType=DOWNLOAD&bom=true&format=true",
+            "excerpts": [
+              "... City Wide Contract / Annual Mechanical Contract - Maintenance, Repair and Installation / First 180 day extension of contract\",Construction - Term,06/01/2016"
+            ],
+            "title": "https://data.richmondgov.com/api/views/xqn7-jvv2/r..."
+          },
+          {
+            "url": "https://data.richmondgov.com/resource/xqn7-jvv2.csv",
+            "excerpts": [
+              "... City Wide Contract / Annual Mechanical Contract - Maintenance, Repair and Installation / First 180 day extension of contract\",\"Construction - Term\",\"2016-06"
+            ],
+            "title": "https://data.richmondgov.com/resource/xqn7-jvv2.csv"
+          },
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2",
+            "excerpts": [
+              "The Open Data portal provides a list of open and closed city contracts for the past 5 years. This data is updated monthly and includes the following:",
+              "City of Richmond, Virginia - Open Data Portal"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "Payment Register. City Payment Register FY16+. City Contracts. Open and closed city contracts for the past 5 years. Checking in seconds... data.richmondgov.com.",
+              "Welcome to the City of Richmond Open Data Portal \u00b7 City Budget - General Fund \u00b7 New Datasets! \u00b7 Payment Register \u00b7 City Contracts."
+            ],
+            "title": "Open Data Portal | City of Richmond, Virginia | Open Data ..."
+          },
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/explore/query/SELECT%0A%20%20%60agency_department%60%2C%0A%20%20%60contract_number%60%2C%0A%20%20%60supplier%60%2C%0A%20%20%60procurement_type%60%2C%0A%20%20%60description%60%2C%0A%20%20%60type_of_solicitation%60%2C%0A%20%20%60effective_from%60%2C%0A%20%20%60effective_to%60%2C%0A%20%20%60contract_specialist%60/page/filter",
+            "excerpts": [
+              "Skip to main content Skip to footer. City of Richmond, Virginia - Open Data Portal. Search. HomeCatalogTutorials"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/widgets/xqn7-jvv2",
+            "excerpts": [
+              "City Contracts | Open Data Portal | City of Richmond, Virginia. City Contracts. Search."
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "it_software_procurement_pathway.ato_process_confirmed",
+        "reasoning": "The field value seeks confirmation of a formal ATO or security review pathway for IT procurement tools. Within the excerpts, there is no explicit statement confirming or denying an ATO process or a formal security review pathway. The most directly related excerpt mentions the Oracle-based Rapids system and OnBase as an ERP-related liaison, which touches on the nuts and bolts of procurement tools but does not address security authorization or compliance governance. Other excerpts describe procurement portals (OpenGov, eVA, supplier portals) and general procurement workflows, which again provide context on how procurement is executed but do not confirm an IT security review pathway or ATO status. Because none of the excerpts provide explicit evidence of an ATO process or its absence, the conclusion that the ATO process is not confirmed remains unsupported by direct excerpts. The content that is most relevant to the field value is the one mentioning the ERP/Oracle-based system setup, since it relates to IT procurement tooling, but it does not address authorization requirements. All other excerpts offer peripheral procurement infrastructure details (portals, data sources, vendor interactions) and do not substantively confirm or deny an ATO pathway. Therefore, the analysis remains inconclusive regarding the specific finegrained field value, leaning toward a lack of explicit evidence for an ATO process in the provided excerpts.",
+        "citations": [
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation"
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier."
+            ],
+            "title": "Supplier Portal | Richmond"
+          },
+          {
+            "url": "https://rva.gov/procurement-services",
+            "excerpts": [
+              "Supplier Portal \u00b7 Surplus Property. Public Utilities. Natural Gas \u00b7 Permits \u00b7 Stormwater \u00b7 Streetlight \u00b7 Water \u00b7 Wastewater \u00b7 About Us \u00b7 Billing. Public Works.",
+              "To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1."
+            ],
+            "title": "Procurement Services | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/human-resources/employees",
+            "excerpts": [
+              "Supplier Portal \u00b7 Surplus Property. Public Utilities. Natural Gas \u00b7 Permits \u00b7 Stormwater \u00b7 Streetlight \u00b7 Water \u00b7 Wastewater \u00b7 About Us \u00b7 Billing. Public Works."
+            ],
+            "title": "Employees | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2025-05/Supplier%20Registration%20Guide.pdf",
+            "excerpts": [
+              "Step 2: Click the icon for \u201cSuppliers\u201d. After clicking the \u201cSuppliers\u201d icon, you will be taken to the Supplier Portal page \u2013 shown below. Page 2. Page 2 of 5."
+            ],
+            "title": "Getting Started"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/ContractDetails.aspx?cid=2075&wc=oplYouSJ3cTDS2kwbVIpBwwVV%2F%2FMskyO8V%2BuO5UNJpU%3D",
+            "excerpts": [
+              "VITA Contract Number: VA-220218-SNSI. Contract Title: Network Infrastructure Cabling Services for the Lynchburg, Richmond, Hampton Roads, Fredericksburg,"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "contract_storage_and_management.integration_details",
+        "reasoning": "The most relevant excerpt explicitly describes a liaison role between the RAPIDS Oracle-based ERP system and OnBase, which directly supports the asserted integration between OnBase and RAPIDS. Additional excerpts confirm that RAPIDS is Oracle-based, reinforcing that the integration involves an Oracle-based ERP and a separate OnBase document management system. Excerpts about OnBase accounts and document types provide supporting context on how OnBase is used within the organization and how documents are managed, which complements the integration narrative. Excerpts about OpenGov and other procurement portals are less directly connected to the specific integration between OnBase and RAPIDS but help frame the broader procurement ecosystem in which the integration exists. Taken together, the excerpts corroborate that OnBase is used alongside RAPIDS (Oracle-based) and that there is at least one documented liaison/implementation context linking the two systems, consistent with the stated finegrained field value.",
+        "citations": [
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://select.dmv.virginia.gov/selectv2/help/cscom/html/onbase.html",
+            "excerpts": [
+              "Every document on the OnBase system is associated with a Document Type (all Document Types begin with \"DM\" which simply stands for Data Management)."
+            ],
+            "title": "Untitled"
+          },
+          {
+            "url": "https://is.richmond.edu/enterprise-systems/ecm/index.html",
+            "excerpts": [
+              "OnBase Accounts. OnBase access is managed by University of Richmond network groups, which are assigned to one's UR network account."
+            ],
+            "title": "OnBase Accounts"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vita_cobblestone_contracts_portal.api_availability",
+        "reasoning": "The field value states that there is no documented public API for the VITA CobblestoneContracts system and that access to the statewide IT contract database is through a public-facing web search portal. Excerpts explicitly referencing the CobbleStone public portal and its public accessibility support the idea that users interact with the CobbleStone system via a public web interface rather than an open API. The first excerpt identifies eVA and Cobblestone Systems with a public portal link, which corroborates the existence of a public-facing interface. The third excerpt confirms the CobbleStone system is powering the contract management portal, reinforcing that the system is publicly accessible through a portal. The second excerpt mentions the contract management software landscape (CobbleStone-based context) and thus is consistent with the CobbleStone portal being the public-facing access point. The fourth excerpt again notes CobbleStone systems\u2019 involvement, underscoring the public-centric access model rather than a documented API. Collectively, these excerpts align with the field value that public API documentation is not present and that access is via the public portal.",
+        "citations": [
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "Powered By: CobbleStone Systems Corp. - All Rights Reserved",
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530",
+              "Contract Management Software"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "it_software_procurement_pathway.summary_of_findings",
+        "reasoning": "The finegrained field value notes that publicly available City of Richmond materials do not document a formal Authority to Operate (ATO) process or a detailed IT security review workflow for adopting new software, and that security/compliance requirements would typically be found within solicitation documents under VPPA and City Code, with vendors directed to coordinate with Procurement Services. The most directly relevant content is evidence that the city uses a mix of procurement portals and supplier portals, which indicates the existence of structured, source-specific processes for procurement and vendor interactions, but not a public ATO or IT security review workflow. For example, references to electronic submissions through the e-Procurement Portal and OpenGov show formal channels for procurements, including vendor engagement through the Supplier Portal or iSupplier, which aligns with requiring security/compliance details to be specified in solicitations rather than a published ATO workflow. Other excerpts reveal related systems and platforms (RAPIDS/OnBase as ERP-related liaison, eVA as state procurement, CobblestoneContracts) that illustrate the ecosystem Richmond engages with for procurement and contract management, yet none confirm a formal City-level ATO procedure. Taken together, these excerpts support the view that security or technical requirements are driven by solicitation documents and VPPA governance, rather than a standalone published ATO pathway, which is consistent with the stated field value.",
+        "citations": [
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation"
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier."
+            ],
+            "title": "Supplier Portal | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2025-05/Supplier%20Registration%20Guide.pdf",
+            "excerpts": [
+              "Step 2: Click the icon for \u201cSuppliers\u201d. After clicking the \u201cSuppliers\u201d icon, you will be taken to the Supplier Portal page \u2013 shown below. Page 2. Page 2 of 5."
+            ],
+            "title": "Getting Started"
+          },
+          {
+            "url": "https://rva.gov/procurement-services",
+            "excerpts": [
+              "Supplier Portal \u00b7 Surplus Property. Public Utilities. Natural Gas \u00b7 Permits \u00b7 Stormwater \u00b7 Streetlight \u00b7 Water \u00b7 Wastewater \u00b7 About Us \u00b7 Billing. Public Works."
+            ],
+            "title": "Procurement Services | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/human-resources/employees",
+            "excerpts": [
+              "Supplier Portal \u00b7 Surplus Property. Public Utilities. Natural Gas \u00b7 Permits \u00b7 Stormwater \u00b7 Streetlight \u00b7 Water \u00b7 Wastewater \u00b7 About Us \u00b7 Billing. Public Works."
+            ],
+            "title": "Employees | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/calendar",
+            "excerpts": [
+              "Procurement. Procurement Portal . ProjectsCalendar."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/ContractDetails.aspx?cid=2075&wc=oplYouSJ3cTDS2kwbVIpBwwVV%2F%2FMskyO8V%2BuO5UNJpU%3D",
+            "excerpts": [
+              "VITA Contract Number: VA-220218-SNSI. Contract Title: Network Infrastructure Cabling Services for the Lynchburg, Richmond, Hampton Roads, Fredericksburg,"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "vita_cobblestone_contracts_portal.public_portal_url",
+        "reasoning": "The target field value is a URL for the public portal of the VITA Cobblestone-based contract management system. The most relevant excerpt directly provides this exact URL, confirming the value of the field. Supporting excerpts corroborate the portal context: one excerpt identifies the public portal and its CobbleStone basis, another notes the contract management system and its public portal, and the last mentions the system being powered by CobbleStone Systems. Collectively, these excerpts establish that the public portal URL belongs to the CobbleStone-based VITA contract management portal and corroborate the URL present in the targeted field value.",
+        "citations": [
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          },
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530",
+              "Contract Management Software",
+              "Powered By: CobbleStone Systems Corp. - All Rights Reserved"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "virginia_eva_procurement_system_status.api_availability",
+        "reasoning": "The field value concerns whether an API is available for the Virginia eVA procurement system data. The excerpts collectively establish that procurement data is published on the Virginia Open Data Portal (eVA Procurement Data 2024) and that there are downloadable resources (CSV files) and a data dictionary associated with this dataset. This implies programmatic access via an open data portal, which is commonly provided through APIs (such as Socrata-style APIs) that serve the datasets. Specifically, the excerpts confirm: the existence of the eVA procurement dataset on the Virginia data portal; that the dataset includes purchase orders and related procurement information; that there are downloadable resources and a data dictionary for the dataset; and that the portal hosts multiple eVA-related items (including IT contracts) and related transparency pages. Taken together, these items support the notion that the Virginia Open Data Portal provides API access to procurement data, even though an explicit API is not named in the excerpts. Therefore, the most relevant pieces of evidence are those that establish the portal-based publication and accessibility of eVA datasets (and their metadata/downloads), which underpins API availability in practice. The other excerpts that reference general eVA pages, vendor statuses, and IT contract sections reinforce the overall context of eVA data accessibility and governance, though are less central to the API availability claim for the specific field value.",
+        "citations": [
+          {
+            "url": "https://data.virginia.gov/dataset/eva-procurement-data-2024",
+            "excerpts": [
+              "eVA has transformed the way the Commonwealth buys goods and services from a decentralized, paper based process to a centralized, electronic platform.",
+              "eVA is used by more than 245 state agencies and institutes of higher education, and 900+ local governments and public bodies, to announce bidding opportunities, receive quotes, order placement & approvals, contract management and more.",
+              "This dataset contains the purchase orders for the goods and services.",
+              "Download resource",
+              "eVA_Procurement_Data_2024(CSV) CSV Popular",
+              "Data Dictionary CSV Popular"
+            ],
+            "title": "eVA Procurement Data 2024 - Virginia - Dataset"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "Virginia Business Opportunities (VBO)",
+              "Transparency",
+              "IT Contracts (VITA)",
+              "Access past Buyer User Group (BUG) meetings as well as the latest eVA Extras! Click Here! Not a BUG member yet? Sign-up now to stay connected with the eVA team"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "IT Contracts (VITA)"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-vendor-statuses.html",
+            "excerpts": [
+              "Supplier is excluded from contracting with state agencies for construction for a specified period. See DGS Debarment & Enjoinment Procedures. How to Make"
+            ],
+            "title": "eVA Vendor Statuses"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "virginia_eva_procurement_system_status.data_availability",
+        "reasoning": "The most relevant information states that eVA data is available as CSV downloads and includes a data dictionary, which directly supports the claim that procurement data from eVA is publicly accessible via the Virginia Open Data Portal. The dataset titled 'eVA Procurement Data 2024' is identified and described as downloadable and updated (CSV, data dictionary), which aligns with the requested field value. Additional context from other excerpts confirms that eVA serves as the procurement platform and that datasets related to eVA (such as purchase orders) exist on the portal, reinforcing the public data availability claim. The excerpts mentioning the broader eVA portal and data transparency provide supportive context about where the data originates and how it is surfaced to the public, though they are slightly less specific about the open data portal mechanics themselves. Together, these excerpts coherently support the field value about public availability of eVA procurement data via the Virginia Open Data Portal and the existence of the dataset with CSV access and a data dictionary.",
+        "citations": [
+          {
+            "url": "https://data.virginia.gov/dataset/eva-procurement-data-2024",
+            "excerpts": [
+              "eVA_Procurement_Data_2024(CSV) CSV Popular",
+              "Data Dictionary CSV Popular",
+              "This dataset contains the purchase orders for the goods and services.",
+              "Download resource",
+              "eVA has transformed the way the Commonwealth buys goods and services from a decentralized, paper based process to a centralized, electronic platform.",
+              "eVA is used by more than 245 state agencies and institutes of higher education, and 900+ local governments and public bodies, to announce bidding opportunities, receive quotes, order placement & approvals, contract management and more."
+            ],
+            "title": "eVA Procurement Data 2024 - Virginia - Dataset"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "Virginia Business Opportunities (VBO)"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vita_cobblestone_contracts_portal.technology_provider",
+        "reasoning": "The most directly relevant content explicitly states the provider: a line noting 'Powered By: CobbleStone Systems Corp.' clearly identifies CobbleStone Systems Corp. as the technology provider for the contract management system referenced by VITA. An additional excerpt mentions the Cobblestone Systems public portal in conjunction with eVA, which supports the existence of CobbleStone-based infrastructure in the Virginia procurement ecosystem, though it does not explicitly name the provider beyond the Cobblestone domain. Other excerpts reference the VITA Contract Management System in general and the existence of contract management software, which are contextually relevant but do not provide direct provider attribution. Taken together, these excerpts corroborate that CobbleStone-based technology is used in the Virginia/VITA contract management landscape, with the strongest, most explicit attribution coming from the explicit provider line.",
+        "citations": [
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "Powered By: CobbleStone Systems Corp. - All Rights Reserved",
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530",
+              "Contract Management Software"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "virginia_eva_procurement_system_status.description",
+        "reasoning": "The finegrained field value describes eVA as the active statewide electronic procurement system with public transparency features (VBO, search for orders, suppliers, contracts) and notes that the system is actively maintained with notes through 2024. The most directly supportive excerpt states eVA is used by numerous state agencies and public bodies to announce bidding opportunities, manage contracts, and handle order placement and approvals, which directly aligns with the system\u2019s active, centralized procurement role. Additional excerpts reinforce this by describing eVA as a centralized/eProcurement marketplace and by pointing to related components like the eVA site and transparency sections, which corroborate ongoing maintenance and public access. Even though some excerpts describe dataset contents (like purchase orders) or general eVA site features, they still support the overall status and accessibility of the procurement system. Collectively, these excerpts substantiate that eVA is the active procurement system with public-facing transparency features and ongoing maintenance through 2024, consistent with the field value. Excerpts about related data portals and the eVA marketplace provide contextual support for data availability and public access, reinforcing the status claim.",
+        "citations": [
+          {
+            "url": "https://data.virginia.gov/dataset/eva-procurement-data-2024",
+            "excerpts": [
+              "eVA is used by more than 245 state agencies and institutes of higher education, and 900+ local governments and public bodies, to announce bidding opportunities, receive quotes, order placement & approvals, contract management and more.",
+              "eVA has transformed the way the Commonwealth buys goods and services from a decentralized, paper based process to a centralized, electronic platform.",
+              "This dataset contains the purchase orders for the goods and services.",
+              "Download resource",
+              "eVA_Procurement_Data_2024(CSV) CSV Popular",
+              "Data Dictionary CSV Popular"
+            ],
+            "title": "eVA Procurement Data 2024 - Virginia - Dataset"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "Virginia Business Opportunities (VBO)",
+              "Access past Buyer User Group (BUG) meetings as well as the latest eVA Extras! Click Here! Not a BUG member yet? Sign-up now to stay connected with the eVA team",
+              "IT Contracts (VITA)"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "IT Contracts (VITA)"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-vendor-statuses.html",
+            "excerpts": [
+              "Supplier is excluded from contracting with state agencies for construction for a specified period. See DGS Debarment & Enjoinment Procedures. How to Make"
+            ],
+            "title": "eVA Vendor Statuses"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "vita_cobblestone_contracts_portal.system_name",
+        "reasoning": "The target field value signals a Cobblestone-based contract management portal operated under the VITA naming. An excerpt explicitly naming the VITA Contract Management System Public Portal supports the association of VITA with a formal contract management portal, aligning with the expected system label. Another excerpt states that the portal is powered by CobbleStone Systems Corp., which directly ties the VITA portal to the CobbleStone platform and by extension to a CobbleStoneContracts implementation. A third excerpt references the Cobblestone Systems public portal domain, further corroborating the CobbleStone presence in this contract management context. Taken together, these excerpts coherently support that the system in question is the VITA CobbleStoneContracts implementation, with CobbleStone as the underlying technology provider. The excerpts describing general contract management software or the eVA portal provide context but do not directly confirm the specific VITA CobbleStoneContracts naming, making them less central to the target field value.",
+        "citations": [
+          {
+            "url": "https://vita.cobblestonesystems.com/public/",
+            "excerpts": [
+              "VITA Statewide Contract Search ; Search By: VITA CONTRACT NUMBER (#). select. VA-040901-SA; VA-090506-OC; VA-101116-AZTC; VA-130501-MCA; VA-130501-MCS; VA-140530",
+              "Powered By: CobbleStone Systems Corp. - All Rights Reserved"
+            ],
+            "title": "VITA - Contract Management System Public Portal"
+          },
+          {
+            "url": "https://eva.virginia.gov/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "eVA - Virginia's eProcurement Marketplace - eVA"
+          },
+          {
+            "url": "https://eva.virginia.gov/eva-release-notes.html",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://www.vita.virginia.gov/procurement/statewide-contracts/",
+            "excerpts": [
+              "https://vita.cobblestonesystems.com/public/"
+            ],
+            "title": "Statewide Contracts | Virginia IT Agency"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "city_open_data_procurement_datasets.0.last_updated_date",
+        "reasoning": "The target field is the last_updated_date of the first item in the City of Richmond Open Data Portal 'procurement datasets' array. Excerpt describing the Open Data Portal as hosting City Contracts and Payment Register, and noting that City Contracts data is updated monthly, directly supports the idea that a last_updated_date exists and is refreshed regularly for the procurement datasets. Other excerpts corroborate the presence of the datasets (City Contracts, Payment Register) on the portal and show how data can be queried or explored, reinforcing that these datasets have up-to-date metadata records such as last_updated_date. Although none of the excerpts explicitly state the date March 30, 2026, the cadence of updates (monthly) and the explicit listing of the datasets imply the existence of a recent last_updated_date that could reasonably be March 2026 given the current date context in the query. ",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2",
+            "excerpts": [
+              "The Open Data portal provides a list of open and closed city contracts for the past 5 years. This data is updated monthly and includes the following:",
+              "City of Richmond, Virginia - Open Data Portal"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "Welcome to the City of Richmond Open Data Portal \u00b7 City Budget - General Fund \u00b7 New Datasets! \u00b7 Payment Register \u00b7 City Contracts.",
+              "Payment Register. City Payment Register FY16+. City Contracts. Open and closed city contracts for the past 5 years. Checking in seconds... data.richmondgov.com."
+            ],
+            "title": "Open Data Portal | City of Richmond, Virginia | Open Data ..."
+          },
+          {
+            "url": "https://data.richmondgov.com/widgets/xqn7-jvv2",
+            "excerpts": [
+              "City Contracts | Open Data Portal | City of Richmond, Virginia. City Contracts. Search."
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "city_open_data_procurement_datasets.0.dataset_name",
+        "reasoning": "The most directly supportive evidence is a page that shows the City Contracts dataset and its structure (including the dataset name). The excerpt that presents the City Contracts dataset page and includes a filter/query interface confirms the dataset name appears as 'City Contracts' within the Open Data Portal context. Additional excerpts that explicitly name or describe the City Contracts dataset on the Open Data Portal (either as a catalog item or as a portal widget) further corroborate that the dataset title is indeed 'City Contracts'. Other excerpts mentioning related datasets like the Payment Register or general portal navigation support the surrounding context but do not directly confirm the dataset name, so they are considered secondary corroboration. Collectively, these excerpts map to the field value by providing explicit or direct references to the 'City Contracts' dataset within the City of Richmond Open Data Portal, aligning with the expected dataset_name field in the nested structure.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/explore/query/SELECT%0A%20%20%60agency_department%60%2C%0A%20%20%60contract_number%60%2C%0A%20%20%60supplier%60%2C%0A%20%20%60procurement_type%60%2C%0A%20%20%60description%60%2C%0A%20%20%60type_of_solicitation%60%2C%0A%20%20%60effective_from%60%2C%0A%20%20%60effective_to%60%2C%0A%20%20%60contract_specialist%60/page/filter",
+            "excerpts": [
+              "Skip to main content Skip to footer. City of Richmond, Virginia - Open Data Portal. Search. HomeCatalogTutorials"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2",
+            "excerpts": [
+              "The Open Data portal provides a list of open and closed city contracts for the past 5 years. This data is updated monthly and includes the following:",
+              "City of Richmond, Virginia - Open Data Portal"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "Payment Register. City Payment Register FY16+. City Contracts. Open and closed city contracts for the past 5 years. Checking in seconds... data.richmondgov.com.",
+              "Welcome to the City of Richmond Open Data Portal \u00b7 City Budget - General Fund \u00b7 New Datasets! \u00b7 Payment Register \u00b7 City Contracts."
+            ],
+            "title": "Open Data Portal | City of Richmond, Virginia | Open Data ..."
+          },
+          {
+            "url": "https://data.richmondgov.com/widgets/xqn7-jvv2",
+            "excerpts": [
+              "City Contracts | Open Data Portal | City of Richmond, Virginia. City Contracts. Search."
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "known_procurement_vendor_relationships.relationship_status",
+        "reasoning": "The most relevant content comes from excerpts describing the City\u2019s supplier-facing interfaces and vendor registration, which imply ongoing engagements with vendors and a current pathway for vendors to participate (e.g., supplier portal and iSupplier registration). These excerpts provide direct evidence of active interfaces through which vendor relationships are managed, which supports a status of an existing relationship. Excerpts describing the OpenGov procurement system and procurement portal reinforce the context that Richmond maintains structured vendor and procurement processes, contributing to the interpretation that vendor relationships are actively managed, though they do not themselves state a direct \u2018Confirmed\u2019 status. Internal ERP references identify the ERP system in use but do not address vendor relationship status, so they are considered supplementary rather than central to the specific field value. Overall, the combination of supplier portal usage and vendor registration activity most strongly supports a non-contradictory, active vendor relationship posture; OpenGov-related items provide corroborative context about how procurement interacts with vendors, while ERP/system references provide background rather than evidence about relationship status.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication."
+            ],
+            "title": "Supplier Portal | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/rva",
+            "excerpts": [
+              "Procurement Portal > City of Richmond"
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation"
+            ],
+            "title": "Solicitations | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "known_procurement_vendor_relationships.details",
+        "reasoning": "The evidence supports the field value as follows: The City\u2019s ERP is described as RAPIDS, built on the Oracle E-Business Suite, establishing a primary Oracle-based procurement backbone. Further, vendor self-service and AP communications are facilitated through the Oracle iSupplier portal, indicating a direct vendor management channel tied to the RAPIDS/Oracle system. Separately, procurement solicitations and bid submissions are being conducted via OpenGov, signaling a parallel but distinct procurement platform used for solicitations and e-bidding workflows. The supplier portal and vendor registration pages corroborate formal vendor access points (iSupplier for Oracle and a dedicated supplier portal), reinforcing the two-system procurement ecosystem. Additional excerpts describe the transition to OpenGov for submissions and provide examples of OpenGov-driven procurement activities (e.g., RFPs and project lists), strengthening the case for OpenGov as the other primary procurement system. Collectively, the excerpts show two primary procurement software relationships (RAPIDS/Oracle EBS and OpenGov) and vendor self-service through Oracle\u2019s iSupplier, while there is no explicit evidence in these excerpts of active relationships with Jaggaer, SAP Ariba, or Coupa for city-wide procurement. The OpenGov references also help explain how procurement data and solicitations flow, which is relevant to understanding the alignment between systems and vendor interactions.",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation"
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)"
+            ],
+            "title": "Supplier Portal | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/rva",
+            "excerpts": [
+              "Procurement Portal > City of Richmond",
+              "RFP - 260008714 - Canoe Run Park Storage Tank (Design-Build)\nOpen\n1\n2/5/2026\n6/22/2026"
+            ],
+            "title": "City of Richmond Procurement Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "city_open_data_procurement_datasets.0.fields",
+        "reasoning": "The most relevant excerpt directly lists the precise fields found within the City Contracts dataset: agency_department, contract_number, contract_value, supplier, procurement_type, description, type_of_solicitation, effective_from, and effective_to. This exactly matches the requested finegrained field value, confirming the presence of these fields in the City Contracts dataset on the Open Data Portal. The next relevant excerpt describes that the Open Data Portal provides City Contracts data (open and closed contracts for the past 5 years) and suggests the dataset exists and is updated monthly, which supports the context that these fields are part of the City Contracts dataset, though it does not enumerate them. A further excerpt mentions the City Contracts dataset and related datasets like the Payment Register, reinforcing that these datasets are published on the portal and are relevant to procurement data, but it does not add new field-level detail beyond confirming the dataset\u2019s existence and scope. Collectively, these excerpts corroborate the presence and scope of procurement datasets on the Open Data Portal and confirm the specific field list identified in the most direct excerpt.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/explore/query/SELECT%0A%20%20%60agency_department%60%2C%0A%20%20%60contract_number%60%2C%0A%20%20%60supplier%60%2C%0A%20%20%60procurement_type%60%2C%0A%20%20%60description%60%2C%0A%20%20%60type_of_solicitation%60%2C%0A%20%20%60effective_from%60%2C%0A%20%20%60effective_to%60%2C%0A%20%20%60contract_specialist%60/page/filter",
+            "excerpts": [
+              "Skip to main content Skip to footer. City of Richmond, Virginia - Open Data Portal. Search. HomeCatalogTutorials"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2",
+            "excerpts": [
+              "The Open Data portal provides a list of open and closed city contracts for the past 5 years. This data is updated monthly and includes the following:"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "Welcome to the City of Richmond Open Data Portal \u00b7 City Budget - General Fund \u00b7 New Datasets! \u00b7 Payment Register \u00b7 City Contracts."
+            ],
+            "title": "Open Data Portal | City of Richmond, Virginia | Open Data ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "known_procurement_vendor_relationships.vendor_name",
+        "reasoning": "Evidence shows that the City\u2019s ERP/CM system is Oracle-based through RAPIDS, which indicates Oracle as a procurement/ERP vendor. Specifically, the ERP is described as Oracle eBusiness Suite within the RAPIDS system. This demonstrates a direct Oracle vendor relationship for core enterprise operations. Additionally, multiple excerpts describe OpenGov as the electronic bid/RFP system and procurement portal used by the City, including submissions through OpenGov and the City\u2019s OpenGov procurement portal. This establishes OpenGov as a procurement system provider connected to the City\u2019s vendor engagement and procurement processes. Other excerpts reference supplier portals and iSupplier registrations, which support a broader OpenGov-related procurement ecosystem, but the strongest direct signals for vendor names are the explicit Oracle RAPIDS/Oracle eBusiness Suite description and the explicit OpenGov procurement participation. Taken together, these sources support the finegrained field value that the City collaborates with Oracle and OpenGov as procurement/vendor relationships. The content does not suggest alternative primary vendors (e.g., SAP, Jaggaer) in the cited passages as the main procurement vendors, hence the two vendor names are well-supported by the excerpts provided.",
+        "citations": [
+          {
+            "url": "https://icma.org/documents/city-richmond-va-rapids-enterprise-resource-planning-erp-implementation",
+            "excerpts": [
+              "The City of Richmond's Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite.",
+              "The City of Richmond\u2019s Enterprise Resource Planning (ERP) system, RAPIDS (RVA: Advancing Proven Innovative Direction System) is an Oracle eBusiness Suite(...)"
+            ],
+            "title": "City of Richmond (VA) RAPIDS Enterprise Resource ..."
+          },
+          {
+            "url": "https://www.governmentjobs.com/careers/richmond/jobs/newprint/5259426",
+            "excerpts": [
+              "Mar 19, 2026 \u2014 Acting as lead Rapids (Oracle based system) and Onbase (ERP system) liasion;; Preparing, entering and processing all purchase order requests"
+            ],
+            "title": "Management Analyst, Associate - Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/solicitations",
+            "excerpts": [
+              "The Department of Procurement Services is transitioning to a new electronic Invitation for Bid and RFP system called OpenGov.",
+              "All bids and proposals are to be submitted electronically through OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "All bids and proposals are to be submitted electronically through OpenGov , located at https://procurement.opengov.com/portal/rva until, but no later than the",
+              "icitations posted on eVA **REQUIRING** **ELECTRONIC SUBMISSION** , all bids and proposals are to be submitted electronically through the City\u2019s e-Procurement Portal, OpenGov, located at https://procurement.opengov.com/portal/rva until, but no later than the time and date listed for the solicitation"
+            ],
+            "title": "Solicitations | Richmond"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/rva",
+            "excerpts": [
+              "RFP - 260008714 - Canoe Run Park Storage Tank (Design-Build)\nOpen\n1\n2/5/2026\n6/22/2026",
+              "Procurement Portal > City of Richmond",
+              "Richmond, VA",
+              "Projects Calendar"
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rva/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "City of Richmond Procurement Portal"
+          },
+          {
+            "url": "https://procurement.opengov.com/portal/embed/rvaschools/project-list?departmentId=all&status=all",
+            "excerpts": [
+              "Skip to main content. Procurement. Procurement Portal . ProjectsCalendar. All Departments. All. Search Advanced Search. Search by Category. Select."
+            ],
+            "title": "Richmond Public Schools Procurement Portal"
+          },
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)"
+            ],
+            "title": "Supplier Portal | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "city_open_data_procurement_datasets.0.dataset_id",
+        "reasoning": "The finegrained field value represents the identifier of a specific Open Data dataset for City Contracts on Richmond's Open Data Portal. The most directly relevant excerpts confirm that the dataset is identified by xqn7-jvv2 and is associated with City Contracts on the Open Data Portal. One excerpt explicitly states the dataset as City Contracts on the Open Data Portal and mentions the identifier xqn7-jvv2, establishing the linkage between the dataset and the city\u2019s contract information. Another excerpt shows the dataset being accessed via a dedicated resource link using the xqn7-jvv2 identifier, reinforcing that this value is the dataset ID for a City Contracts data resource. A further excerpt references the same identifier in the context of a data portal entry and an API/view endpoint that uses xqn7-jvv2, which corroborates that this string is the canonical dataset ID for the City Contracts data. Additional excerpts illustrate the same dataset ID being used in CSV resources and widget endpoints, underscoring that xqn7-jvv2 is the concrete dataset ID for City Contracts within the portal\u2019s data ecosystem. Finally, one excerpt demonstrates the same identifier in the portal\u2019s dataset exploration interface, confirming that xqn7-jvv2 is the dataset ID tied to City Contracts data, including fields and metadata exposed through the portal.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2",
+            "excerpts": [
+              "The Open Data portal provides a list of open and closed city contracts for the past 5 years. This data is updated monthly and includes the following:",
+              "City of Richmond, Virginia - Open Data Portal"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2/explore/query/SELECT%0A%20%20%60agency_department%60%2C%0A%20%20%60contract_number%60%2C%0A%20%20%60supplier%60%2C%0A%20%20%60procurement_type%60%2C%0A%20%20%60description%60%2C%0A%20%20%60type_of_solicitation%60%2C%0A%20%20%60effective_from%60%2C%0A%20%20%60effective_to%60%2C%0A%20%20%60contract_specialist%60/page/filter",
+            "excerpts": [
+              "Skip to main content Skip to footer. City of Richmond, Virginia - Open Data Portal. Search. HomeCatalogTutorials"
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/api/views/xqn7-jvv2/rows.csv?accessType=DOWNLOAD&bom=true&format=true",
+            "excerpts": [
+              "... City Wide Contract / Annual Mechanical Contract - Maintenance, Repair and Installation / First 180 day extension of contract\",Construction - Term,06/01/2016"
+            ],
+            "title": "https://data.richmondgov.com/api/views/xqn7-jvv2/r..."
+          },
+          {
+            "url": "https://data.richmondgov.com/resource/xqn7-jvv2.csv",
+            "excerpts": [
+              "... City Wide Contract / Annual Mechanical Contract - Maintenance, Repair and Installation / First 180 day extension of contract\",\"Construction - Term\",\"2016-06"
+            ],
+            "title": "https://data.richmondgov.com/resource/xqn7-jvv2.csv"
+          },
+          {
+            "url": "https://data.richmondgov.com/widgets/xqn7-jvv2",
+            "excerpts": [
+              "City Contracts | Open Data Portal | City of Richmond, Virginia. City Contracts. Search."
+            ],
+            "title": "City Contracts | Open Data Portal | City of Richmond, Virginia"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vendor_self_service_portal.portal_url",
+        "reasoning": "The City of Richmond operates a Supplier Portal, which serves as a vendor self-service system. This portal is accessible at the provided URL and is described as the connection point for suppliers to conduct business with the city, manage accounts payable, and facilitate communication. The portal also outlines the steps for businesses to register and provides login access.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/procurement-services/supplier-portal",
+            "excerpts": [
+              "Welcome to the City of Richmond's Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier. The portal provides easy access to tools that will make doing business with the City efficient and cost-effective. This portal is your connection for current and future business, accounts payable, and communication.",
+              "Steps To Register Your Business",
+              "Complete online registration here: [**Supplier Registration**](https://corerpext.richmondgov.com/OA_HTML/OA.jsp?page=/oracle/apps/pos/onboard/webui/ProspRegPG&OAHP=POS_GUEST_REG_HP&OASF=POS_SUPPREG_REGISTER&OAPB=POS_ISP_BRAND&ouid=7CEDCA6AD2276A88&_ti=1227599321&oapc=2&oas=gLeglaa1tRa9Pf1u9brnfw..)",
+              "An Email confirmation along with your User ID and Password will be sent when registration is approved. If your password has expired, please use the \"Forgot Password\" link to reset.",
+              "Supplier Account Login: ****",
+              "Welcome to the City of Richmond\u2019s Supplier Portal. All suppliers and prospective suppliers must register on iSupplier."
+            ],
+            "title": "Supplier Portal | Richmond"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "type": "json",
+    "beta_fields": null,
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "executive_summary": {
+          "type": "string",
+          "description": "A high-level overview of the City of Richmond's procurement and contract management systems as of 2025-2026, summarizing the key technologies used, data availability, and answers to the user's primary questions."
+        },
+        "erp_system_details": {
+          "type": "object",
+          "properties": {
+            "system_acronym": {
+              "type": "string",
+              "description": "The acronym for the city's ERP system."
+            },
+            "system_full_name": {
+              "type": "string",
+              "description": "The full name of the ERP system, 'RVA: Advancing Proven Innovative Direction System'."
+            },
+            "technology_platform": {
+              "type": "string",
+              "description": "The underlying technology of the ERP system, which is Oracle E-Business Suite."
+            },
+            "system_type": {
+              "type": "string",
+              "description": "The type of system, identified as an Enterprise Resource Planning (ERP) system."
+            }
+          },
+          "required": [
+            "system_acronym",
+            "system_full_name",
+            "technology_platform",
+            "system_type"
+          ],
+          "additionalProperties": false
+        },
+        "procurement_and_solicitation_platform": {
+          "type": "object",
+          "properties": {
+            "platform_name": {
+              "type": "string",
+              "description": "The name of the e-procurement platform used for solicitations, which is OpenGov."
+            },
+            "portal_url": {
+              "type": "string",
+              "description": "The direct URL to the City of Richmond's procurement portal on OpenGov."
+            },
+            "primary_function": {
+              "type": "string",
+              "description": "The main purpose of the platform, such as for electronic submission of bids and proposals."
+            }
+          },
+          "required": [
+            "platform_name",
+            "portal_url",
+            "primary_function"
+          ],
+          "additionalProperties": false
+        },
+        "contract_storage_and_management": {
+          "type": "object",
+          "properties": {
+            "primary_system": {
+              "type": "string",
+              "description": "The name of the document management system used for storing contracts, identified as OnBase."
+            },
+            "storage_method": {
+              "type": "string",
+              "description": "Describes how contracts are stored, such as in a centralized document management system."
+            },
+            "integration_details": {
+              "type": "string",
+              "description": "Information on how this system integrates with other city systems, such as the RAPIDS ERP."
+            }
+          },
+          "required": [
+            "primary_system",
+            "storage_method",
+            "integration_details"
+          ],
+          "additionalProperties": false
+        },
+        "vendor_self_service_portal": {
+          "type": "object",
+          "properties": {
+            "portal_name": {
+              "type": "string",
+              "description": "The name of the vendor portal, which is the Oracle iSupplier portal."
+            },
+            "portal_url": {
+              "type": "string",
+              "description": "The URL for vendors to register or log in to the portal."
+            },
+            "key_features": {
+              "type": "string",
+              "description": "A list of functions available to vendors through the portal, such as registration, viewing opportunities, and managing account information."
+            }
+          },
+          "required": [
+            "portal_name",
+            "portal_url",
+            "key_features"
+          ],
+          "additionalProperties": false
+        },
+        "city_open_data_procurement_datasets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dataset_name": {
+                "type": "string",
+                "description": "The official name of the dataset, e.g., 'City Contracts' or 'Payment Register'."
+              },
+              "dataset_id": {
+                "type": "string",
+                "description": "The unique identifier for the dataset on the Socrata portal, e.g., 'xqn7-jvv2'."
+              },
+              "fields": {
+                "type": "string",
+                "description": "A list of the data columns or fields available within the dataset."
+              },
+              "row_count": {
+                "type": "number",
+                "description": "The approximate number of rows in the dataset at the time of the query."
+              },
+              "last_updated_date": {
+                "type": "string",
+                "description": "The date the dataset was last updated."
+              }
+            },
+            "required": [
+              "dataset_name",
+              "dataset_id",
+              "fields",
+              "row_count",
+              "last_updated_date"
+            ],
+            "additionalProperties": false
+          },
+          "description": "A list of procurement-related datasets published on the City of Richmond's Socrata Open Data Portal. Each item should detail specific dataset information including name, dataset ID, data fields/columns, approximate row count, and the last update date, with a focus on the 'City Contracts' (xqn7-jvv2) and 'Payment Register' datasets."
+        },
+        "virginia_eva_procurement_system_status": {
+          "type": "object",
+          "properties": {
+            "system_name": {
+              "type": "string",
+              "description": "The name of the statewide system, eVA (electronic Virginia)."
+            },
+            "description": {
+              "type": "string",
+              "description": "A brief description of the eVA system and its purpose."
+            },
+            "data_availability": {
+              "type": "string",
+              "description": "Information on where and how procurement data from eVA can be accessed, e.g., Virginia Open Data Portal."
+            },
+            "api_availability": {
+              "type": "string",
+              "description": "The status of whether a public API is available for accessing eVA data."
+            }
+          },
+          "required": [
+            "system_name",
+            "description",
+            "data_availability",
+            "api_availability"
+          ],
+          "additionalProperties": false
+        },
+        "vita_cobblestone_contracts_portal": {
+          "type": "object",
+          "properties": {
+            "system_name": {
+              "type": "string",
+              "description": "The name of the system for state IT contracts, VITA CobblestoneContracts."
+            },
+            "technology_provider": {
+              "type": "string",
+              "description": "The software vendor that powers the system, Cobblestone Systems."
+            },
+            "public_portal_url": {
+              "type": "string",
+              "description": "The URL to the public-facing portal for searching IT contracts."
+            },
+            "api_availability": {
+              "type": "string",
+              "description": "The status of whether a public API is available for the VITA contract system."
+            }
+          },
+          "required": [
+            "system_name",
+            "technology_provider",
+            "public_portal_url",
+            "api_availability"
+          ],
+          "additionalProperties": false
+        },
+        "known_procurement_vendor_relationships": {
+          "type": "object",
+          "properties": {
+            "vendor_name": {
+              "type": "string",
+              "description": "The name of the procurement software vendor, e.g., Oracle, OpenGov, Jaggaer."
+            },
+            "relationship_status": {
+              "type": "string",
+              "description": "The status of the city's relationship with the vendor (e.g., 'Confirmed', 'No Evidence Found')."
+            },
+            "details": {
+              "type": "string",
+              "description": "Specific details about the nature of the relationship, such as the products or services used."
+            }
+          },
+          "required": [
+            "vendor_name",
+            "relationship_status",
+            "details"
+          ],
+          "additionalProperties": false
+        },
+        "it_software_procurement_pathway": {
+          "type": "object",
+          "properties": {
+            "summary_of_findings": {
+              "type": "string",
+              "description": "A summary of the information found regarding the city's IT procurement and security review process."
+            },
+            "ato_process_confirmed": {
+              "type": "boolean",
+              "description": "A boolean indicating whether evidence of a formal Authority to Operate (ATO) process was found."
+            }
+          },
+          "required": [
+            "summary_of_findings",
+            "ato_process_confirmed"
+          ],
+          "additionalProperties": false
+        },
+        "system_interconnectivity_overview": {
+          "type": "string",
+          "description": "A synthesized explanation of how the various systems (OpenGov, RAPIDS, iSupplier, OnBase) likely interconnect and function together throughout the city's procurement lifecycle, from solicitation to payment."
+        }
+      },
+      "required": [
+        "executive_summary",
+        "erp_system_details",
+        "procurement_and_solicitation_platform",
+        "contract_storage_and_management",
+        "vendor_self_service_portal",
+        "city_open_data_procurement_datasets",
+        "virginia_eva_procurement_system_status",
+        "vita_cobblestone_contracts_portal",
+        "known_procurement_vendor_relationships",
+        "it_software_procurement_pathway",
+        "system_interconnectivity_overview"
+      ],
+      "additionalProperties": false
+    },
+    "content_file": "proc_q1_system_data.md"
+  }
+}

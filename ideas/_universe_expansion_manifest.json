@@ -1,0 +1,234 @@
+{
+  "timestamp": "2026-04-07T02:25:14Z",
+  "processor": "pro-fast",
+  "jobs": [
+    {
+      "idea": "community-story-popup-kit",
+      "pillar": "city-storytelling",
+      "run_id": "trun_3cad0ebea15c480ebf4e225a711ef461",
+      "status": "complete"
+    },
+    {
+      "idea": "displacement-memory-archive",
+      "pillar": "city-storytelling",
+      "run_id": "trun_3cad0ebea15c480eac91f7f405f1ffb0",
+      "status": "complete"
+    },
+    {
+      "idea": "planning-commission-story-feed",
+      "pillar": "city-storytelling",
+      "run_id": "trun_3cad0ebea15c480e91b532adc186373a",
+      "status": "complete"
+    },
+    {
+      "idea": "public-comment-atlas",
+      "pillar": "city-storytelling",
+      "run_id": "trun_3cad0ebea15c480e9304efa1348a993f",
+      "status": "complete"
+    },
+    {
+      "idea": "weekend-culture-sms",
+      "pillar": "city-storytelling",
+      "run_id": "trun_3cad0ebea15c480e9fc8d64b36e9bf3d",
+      "status": "complete"
+    },
+    {
+      "idea": "ada-detour-publisher",
+      "pillar": "thriving-built-environment",
+      "run_id": "trun_3cad0ebea15c480e9728cbb499ae36a1",
+      "status": "complete"
+    },
+    {
+      "idea": "grtc-construction-conflict-detector",
+      "pillar": "thriving-built-environment",
+      "run_id": "trun_3cad0ebea15c480e8345378703857973",
+      "status": "complete"
+    },
+    {
+      "idea": "snow-tier-compass",
+      "pillar": "thriving-built-environment",
+      "run_id": "trun_3cad0ebea15c480ea46823618c1d5dd9",
+      "status": "complete"
+    },
+    {
+      "idea": "storefront-work-window-brief",
+      "pillar": "thriving-built-environment",
+      "run_id": "trun_3cad0ebea15c480eb3c0b279bbe4ddf3",
+      "status": "complete"
+    },
+    {
+      "idea": "whats-on-my-street",
+      "pillar": "thriving-built-environment",
+      "run_id": "trun_3cad0ebea15c480ebd987ba22e589f88",
+      "status": "complete"
+    },
+    {
+      "idea": "city-activity-transparency-system",
+      "pillar": "thriving-city-hall",
+      "run_id": "trun_3cad0ebea15c480e9a2286fb0339b2e6",
+      "status": "complete"
+    },
+    {
+      "idea": "contract-expiry-dashboard",
+      "pillar": "thriving-city-hall",
+      "run_id": "trun_3cad0ebea15c480e9e86fffaa46406c9",
+      "status": "complete"
+    },
+    {
+      "idea": "contract-payment-drift-scanner",
+      "pillar": "thriving-city-hall",
+      "run_id": "trun_3cad0ebea15c480eb63c1e35b0743731",
+      "status": "complete"
+    },
+    {
+      "idea": "council-office-routing-memo",
+      "pillar": "thriving-city-hall",
+      "run_id": "trun_3cad0ebea15c480e9a110f516c5c987d",
+      "status": "complete"
+    },
+    {
+      "idea": "expiry-alerts",
+      "pillar": "thriving-city-hall",
+      "run_id": "trun_3cad0ebea15c480e960df25267a64a17",
+      "status": "complete"
+    },
+    {
+      "idea": "service-wizard",
+      "pillar": "thriving-city-hall",
+      "run_id": "trun_3cad0ebea15c480e92c7ff4394396c61",
+      "status": "complete"
+    },
+    {
+      "idea": "ibuild",
+      "pillar": "thriving-economy",
+      "run_id": "trun_3cad0ebea15c480e81b261eb732bdbec",
+      "status": "complete"
+    },
+    {
+      "idea": "ombd-proactive-match-dashboard",
+      "pillar": "thriving-economy",
+      "run_id": "trun_3cad0ebea15c480ebfb63f074182c708",
+      "status": "complete"
+    },
+    {
+      "idea": "pivot-delta-map",
+      "pillar": "thriving-economy",
+      "run_id": "trun_3cad0ebea15c480e8f928252f955b6eb",
+      "status": "complete"
+    },
+    {
+      "idea": "richmond-business-launch-wizard",
+      "pillar": "thriving-economy",
+      "run_id": "trun_3cad0ebea15c480ebd67b50fb14d599d",
+      "status": "complete"
+    },
+    {
+      "idea": "richmond-spend-mirror",
+      "pillar": "thriving-economy",
+      "run_id": "trun_3cad0ebea15c480ea3f2b227120d6244",
+      "status": "complete"
+    },
+    {
+      "idea": "vendor-onboarding-wizard",
+      "pillar": "thriving-economy",
+      "run_id": "trun_3cad0ebea15c480e8df195bdfb8a3b4d",
+      "status": "complete"
+    },
+    {
+      "idea": "first-job-sms-kit",
+      "pillar": "thriving-families",
+      "run_id": "trun_3cad0ebea15c480eb8d650a3193616df",
+      "status": "complete"
+    },
+    {
+      "idea": "grant-pack-builder",
+      "pillar": "thriving-families",
+      "run_id": "trun_3cad0ebea15c480e8d557260e4ed4bc2",
+      "status": "complete"
+    },
+    {
+      "idea": "grtc-shift-fit-scout",
+      "pillar": "thriving-families",
+      "run_id": "trun_3cad0ebea15c480ea097fbf365755754",
+      "status": "complete"
+    },
+    {
+      "idea": "maternal-metric-lock-in",
+      "pillar": "thriving-families",
+      "run_id": "trun_3cad0ebea15c480e889f6a46b0e9f1ce",
+      "status": "complete"
+    },
+    {
+      "idea": "richmond-youth-hub",
+      "pillar": "thriving-families",
+      "run_id": "trun_3cad0ebea15c480e88d62881d37fe0f1",
+      "status": "complete"
+    },
+    {
+      "idea": "core-eligibility-pack-builder",
+      "pillar": "thriving-inclusive-communities",
+      "run_id": "trun_3cad0ebea15c480e86ceeef6a0119ac6",
+      "status": "complete"
+    },
+    {
+      "idea": "cross-agency-handoff-memo",
+      "pillar": "thriving-inclusive-communities",
+      "run_id": "trun_3cad0ebea15c480ea6aa3b18245c0a75",
+      "status": "complete"
+    },
+    {
+      "idea": "neighborhood-anchor-map",
+      "pillar": "thriving-inclusive-communities",
+      "run_id": "trun_3cad0ebea15c480eb9fc33652187f924",
+      "status": "complete"
+    },
+    {
+      "idea": "reentry-72-hour-navigator",
+      "pillar": "thriving-inclusive-communities",
+      "run_id": "trun_3cad0ebea15c480eb5e842ebf483a292",
+      "status": "complete"
+    },
+    {
+      "idea": "rva-helps",
+      "pillar": "thriving-inclusive-communities",
+      "run_id": "trun_3cad0ebea15c480ebc108e86f7ccdb8d",
+      "status": "complete"
+    },
+    {
+      "idea": "whatsapp-service-finder",
+      "pillar": "thriving-inclusive-communities",
+      "run_id": "trun_3cad0ebea15c480e90015ce0b484139b",
+      "status": "complete"
+    },
+    {
+      "idea": "hud-rent-cap-validator",
+      "pillar": "thriving-neighborhoods",
+      "run_id": "trun_3cad0ebea15c480ea82134a80611bd93",
+      "status": "complete"
+    },
+    {
+      "idea": "participation-analytics-dashboard",
+      "pillar": "thriving-neighborhoods",
+      "run_id": "trun_3cad0ebea15c480e80c7b95935c21248",
+      "status": "complete"
+    },
+    {
+      "idea": "renter-aware-notifications",
+      "pillar": "thriving-neighborhoods",
+      "run_id": "trun_3cad0ebea15c480e86b269ed6ca53617",
+      "status": "complete"
+    },
+    {
+      "idea": "site-sign-text-back",
+      "pillar": "thriving-neighborhoods",
+      "run_id": "trun_3cad0ebea15c480e9fd93966a122a490",
+      "status": "complete"
+    },
+    {
+      "idea": "subsidy-covenant-snapshot",
+      "pillar": "thriving-neighborhoods",
+      "run_id": "trun_3cad0ebea15c480eb56ddd197c3df2eb",
+      "status": "complete"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "fired": [
+    {
+      "dir": "thriving-city-hall/contract-expiry-dashboard",
+      "run_id": "trun_3cad0ebea15c480e9df594115f9fd80d",
+      "status": "queued"
+    }
+  ],
+  "duplicate_waste": ["trun_3cad0ebea15c480ea7813b7d62515bd8"]
+}

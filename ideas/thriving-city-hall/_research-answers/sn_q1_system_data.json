@@ -1,0 +1,1353 @@
+{
+  "run_id": "trun_1848795af0f24b80916f87ea2a9d517a",
+  "interaction_id": "trun_1848795af0f24b80916f87ea2a9d517a",
+  "result_url": "https://platform.parallel.ai/play/deep-research/trun_1848795af0f24b80916f87ea2a9d517a",
+  "status": "completed",
+  "output": {
+    "basis": [
+      {
+        "field": "crm_platform_details",
+        "reasoning": "The finegrained field value specifies a platform named RVA 311 / AvePoint Citizen Services, developed by AvePoint, using Microsoft Dynamics 365 on Microsoft Azure, with adoption occurring in June 2017. The most relevant information appears in excerpts that explicitly connect RVA 311 to AvePoint Citizen Services and to Dynamics 365, and that note the Azure-based hosting. In particular, a statement describing AvePoint Citizen Service deploying Dynamics 365 directly links the platform to the Dynamics 365 technology stack. Additional excerpts confirm that RVA 311 is built on AvePoint's Citizen Services software and that this ecosystem runs on Microsoft Azure. Another excerpt states that RVA 311 is branded as the RVA 311 platform and discusses AvePoint\u2019s role, reinforcing the vendor and platform relationship. A separate excerpt notes that RVA 311 has been live since June, which supports the adoption/timing aspect, though it does not specify the year. Collectively, these excerpts support the platform name, vendor, underlying technologies, and the general timing (June activation), but they do not unambiguously confirm the exact adoption year of June 2017, hence the interpretation remains plausible but not definitively proven for the year.",
+        "citations": [
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Platform Dynamics 365",
+              "Section Title: AvePoint Citizen Services Powers Richmond's RVA 311 Citizen Request System"
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Dubbed [RVA 311](https://www.rva311.com/rvaone/Home/Index) , the platform has been live since June, and as of this week it is housed in and managed by the city\u2019s newly created Department of Citizen Service and Response, said Krystal Onaitis, customer relationship management program manager for Richmond.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "open_data_portal_status",
+        "reasoning": "The finegrained field value asserts that the City of Richmond\u2019s Open Data Portal is reachable at a portal URL, that a specific dataset with id vgg4-hjn8 exists, and that the data fields include SCFId, ReporterDisplayName, Status, and other common 311-related fields, with a stated data recency around 2015 and an update cadence noted as none (legacy dataset). The most directly supportive evidence comes from excerpts describing the Open Data Portal and its purpose for providing data to the public, which establishes the portal\u2019s existence and public-facing nature. Additional excerpts reference the portal at data.richmondgov.com and RVA.gov, reinforcing that the City maintains an open data portal and hosts datasets. There is a concrete exposure of a dataset-related row structure (SCFId, ReporterDisplayName, Status, Summary, Rating, Description, CreatedDate, Category, Location 1) in the excerpts that align with the expected dataset schema, helping to triangulate the kinds of fields present in the portal\u2019s datasets. Although the exact dataset_id vgg4-hjn8 is not repeatedly spelled out in every cited excerpt, the combination of portal references and the presence of structured dataset content (including a dataset-like row with fields such as SCFId, ReporterDisplayName, Status, Category, Location 1) strongly supports the notion that a named dataset exists within the portal and that the portal is the public-facing Open Data resource for Richmond. Taken together, these excerpts corroborate that an Open Data Portal exists for Richmond, that datasets are exposed on that portal, and that the dataset schema includes the fields listed in the finegrained value, with the data recency and cadence indicating a legacy or historical dataset rather than an actively updated feed. The evidence also confirms the portal domains (data.richmondgov.com and rva.gov) as sources for open data access and documentation about RVA311-related data through the portal.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/d/vgg4-hjn8/visualization",
+            "excerpts": [
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,061,684 | Melinda | Archived | Potholes | 2 |  |  | 2014 May 02 03:04:00 AM | 2014 May 05 04:40:00 AM | 3 | 1 | 311 | Three Chopt | 0 | 273 |  | Potholes | 99,018 | 6600 Three Chopt Road Richmond, Virginia (37.58305609\u00b0, -77.53118881\u00b0) |\n",
+              "... 311. Three Chopt. 0. 273. Potholes. 99,018. 6600 Three Chopt Road Richmond ... Richmond, VA 23225, USA (37.54128647\u00b0, -77.51067352\u00b0). 1,158,905. City of",
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,521,548 | Marie423 | Archived | Other | 3 | sidewalk needs repair |  | 2015 Mar 10 07:19:00 AM | 2015 Mar 11 02:40:00 AM | 4 |  |  | NULL | 0 | 1,330 |  | Other | 120,313 | 1305 Nottoway Ave Richmond, Virginia (37.588802\u00b0, -77.454059\u00b0) |\n",
+              "Showing rows 1 to 17 out of 43,273"
+            ],
+            "title": "| Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "This portal will serve as a new way for the citizens of Richmond to access, interpret, and interact with data about their city. Well-Managed Government."
+            ],
+            "title": "Richmond Open Data Portal"
+          },
+          {
+            "url": "https://www.rva.gov/information-technology/open-data-portal",
+            "excerpts": [
+              "The City of Richmond's Open Data Portal provides data to the public in an open format with no fee, legal encumbrance, or registration requirement."
+            ],
+            "title": "Open Data Portal | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "service_directory_and_knowledge_base",
+        "reasoning": "Content on the RVA.gov Services section confirms there is a directory-style landing (a Services page) and an RVA311-specific presence with links to submit requests and contact options. The presence of a \u2018Helpful Links\u2019 page and related RVA311 resources further supports that there is a routed directory guiding users to appropriate departments and external tools. However, none of the excerpts provide a definitive, maintained, itemized knowledge base that formally maps every individual 311 service category to the exact department responsible. Instead, they describe a partial directory and various entry points (service directory pages, helpful links, and submission channels) without asserting a complete, structured taxonomy mapping all categories to departments. Therefore, the evidence supports the existence of a directory-like resource and associated links, but not a comprehensive knowledge base that maps all 311 service types to departments.",
+        "citations": [
+          {
+            "url": "https://rva.gov/common/services",
+            "excerpts": [
+              "Citizen Service & Response/311",
+              "[Contact RVA311](https://www.rva311.com/)",
+              "[RVA 311](http://rva311.com)",
+              "RVA 311 Helpful Links"
+            ],
+            "title": "Services | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links",
+            "excerpts": [
+              "Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000. Or Submit Anytime. on RVA311. To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1.",
+              "Link to online portal where users can look up status of code enforcement cases. Department of Planning and Development Review. Pavement Conditions Index. Link",
+              "Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000 . Or Submit Anytime. on RVA311. Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000. Or Submit Anytime. on RVA311.",
+              "During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000 . Or Submit Anytime. on RVA311.",
+              "City Attorney \u00b7 Budget \u00b7 Circuit Court Clerk \u00b7 Citizen Service & Response/311 \u00b7 City Clerk \u00b7 Commonwealth Attorney \u00b7 Community Wealth Building \u00b7 Economic Need to submit a service request? Reach us by phone.",
+              "Need to submit a service request?",
+              "Reach us by phone",
+              "During the Call Center hours listed below",
+              "Or Submit Anytime",
+              "on [RVA311.co",
+              "Or download our mobile app",
+              "Call Center hours",
+              "RVA 311 Helpful Links"
+            ],
+            "title": "RVA 311 Helpful Links | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week."
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "service_request_taxonomy",
+        "reasoning": "The finegrained field asks for the current taxonomy of 311 service requests in Richmond, including top-level categories and subcategories and how often the taxonomy is updated. Excerpts that enumerate or map departments and service areas directly inform the taxonomy structure, showing the main domains RVA 311 covers (for example, Public Works, Public Utilities, Social Services, Finance) and how these domains are organized within the city\u2019s 311 ecosystem. In particular, excerpts that list department groupings and the departments involved in RVA 311 provide concrete evidence of top-level categories and potential subcategories (e.g., Public Works, Public Utilities, Social Services, Finance and Revenue, Planning and Development, and Other Partners). Additional excerpts enumerate specific service types or city-wide partner mappings that illustrate subcategory examples (such as Permits, Code Enforcement, and other city service areas). Contextual excerpts about how many departments participate and how RVA 311 partners with multiple departments further corroborate the taxonomy\u2019s breadth and structure. At the same time, excerpts that describe how requests are submitted (RVA311 portal, 3-1-1, etc.), and the broader Open Data and API ecosystem ( AvePoint integration, API documentation, and data portals) provide ancillary background but do not directly define the taxonomy values themselves; they are cited as supportive context. The user-provided field value notes that taxonomy update frequency is not published, which aligns with excerpts that discuss the taxonomy without specifying update cadence. Overall, the strongest alignment comes from excerpts detailing department-level groupings and explicit category examples, with supplementary context from excerpts describing the platform and data ecosystems.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "RVA311 partners with over 30 different departments, agencies and teams within the City.\nPublic Works\nPublic Utilities\nsocial services\nFinance and Revenue\nPlanning and Development\nOther Partners\n",
+              "Planning and Development\nZoning and Permitting\ncode enforcement\n",
+              "Finance and Revenue\nPersonal Property Taxes\nBusiness Property Taxes\nReal Estate Taxes\nBusiness Licensing\nCollections\n",
+              "social services\nBenefit Application and Eligibility\nAdult Services\nChild Protective Services\nHomeless Services\n",
+              "Public Works\nSolid Waste\nBulk and Brush\nGrounds Maintenance\nRight of Way Management\nTransportation and Safety\nParking Enforcement\nUrban Forestry\nStreetlight Engineering\nStreetlight Maintenance\n",
+              "Other Partners\nNon-emergency Police\nAnimal Care and Control\nOffice of Elections\n",
+              "Our highly trained call center agents, and our intelligent self-service website and mobile apps handle requests for potholes, sidewalks, stormwater, tax billing 311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with\u00a0...",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "We partner with over 20 different City agencies within the City",
+              "l Center Hours\n\n\n\n\n\n\n\nCall Center is\u00a0 OPEN\u00a0 during the hours listed above regardless of weather. Call Center is\u00a0 CLOSED\u00a0 on Sundays, City holidays and the following holiday weekend Saturdays\n    * March 8\n    * April 19\n    * July 5\n    * November",
+              "Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Residents or visitors can call Monday - Saturday\u00a0 during business hours posted to the left"
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "chatbot_and_ai_assistant_status",
+        "reasoning": "The most directly relevant evidence comes from a statement about RVA311\u2019s current submission channels and the lack of a chatbot, which implies there is no public-facing AI assistant in operation. The cited excerpt describes the current request submission pathways (potholes, sidewalk issues) and indicates that other request types go to RVA311, implying the existing system relies on the portal/mobile app or human interfaces rather than a chatbot. The AI-policy document is relevant because it confirms governance around AI within the City but does not document deployment of a public-facing chatbot, aligning with the claim that no chatbot is deployed. Additional excerpts describe how residents are directed to contact the 311 center by phone or via RVA311.com, reinforcing the absence of an AI assistant on the site. Taken together, these sources support the field value\u2019s claim that there is no active chatbot or AI assistant on rva.gov\u2019s customer service pages, while also noting that an AI policy exists, which governs AI use but does not indicate deployment.",
+        "citations": [
+          {
+            "url": "https://byrdparkgeese.com/",
+            "excerpts": [
+              "Current scope. New request submission currently supports: potholes; sidewalk issues. Other request types are directed to RVA311, similar to the current system."
+            ],
+            "title": "Richmond 311 by Text"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2025-06/AR%202.13%20Artificial%20Intelligence%20%28AI%29%20Policy_FINAL_2025_06_03.pdf",
+            "excerpts": [
+              "Jun 3, 2025 \u2014 This policy outlines the ethical use, deployment, and management of artificial intelligence (AI) technologies in the City of Richmond."
+            ],
+            "title": "Artificial Intelligence (AI) Policy A.R. Number: 2.13 Effective ..."
+          },
+          {
+            "url": "https://rva.gov/citizen-service-and-response",
+            "excerpts": [
+              "To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1.",
+              "In the Department of Citizen Service and Response, our priority is connecting Richmond residents and visitors to the services they need."
+            ],
+            "title": "Citizen Service and Response | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-numbers",
+            "excerpts": [
+              "To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1."
+            ],
+            "title": "RVA 311 Helpful Numbers | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://rva.gov/common/services",
+            "excerpts": [
+              "[Contact RVA311](https://www.rva311.com/)"
+            ],
+            "title": "Services | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "executive_summary",
+        "reasoning": "The claim that RVA 311 runs on AvePoint Citizen Services built on Dynamics 365 and hosted on Microsoft Azure is directly supported by multiple excerpts describing RVA 311 as built on AvePoint Citizen Services and Azure, and explicitly noting Dynamics 365 as the platform layer. Additional excerpts confirm the adoption context, including RVA 311 being launched and housed in the Department of Citizen Service and Response, and that AvePoint\u2019s platform powers Richmond\u2019s RVA 311, with a Cityworks integration via BizTalk. These excerpts also indicate that the public-facing API for submitting service requests is not available to third parties, aligning with the field value\u2019s statement about API availability. Several excerpts describe the channels through which requests can be submitted (RVA311.com portal, self-serve web, mobile apps, and phone) and the fact that self-service and online submissions are accessible 24/7 while the call center operates within defined hours, supporting the described operating model and access patterns. The field value\u2019s note about a structured knowledge base is reflected in excerpts showing a service directory-like presence but not a comprehensive knowledge base mapping all service types to departments, indicating partial alignment with the claim. Taxonomy update cadence is not directly evidenced as a formal cadence; however, several excerpts imply no public, versioned taxonomy with an explicit update frequency. Regarding open data, the Socrata portal references a legacy dataset with an older ID that aligns with the claim of legacy data (data from 2013-2015) and a lack of evidence for current RVA 311 data updates on Socrata, which supports the assertion of no ongoing open data feed from the RVA 311 system. The suggestion of internal integrations (e.g., Cityworks via BizTalk) and non-public access is bolstered by excerpts describing internal integrations rather than public APIs. Finally, the absence of publicly available misroute rate metrics is supported by excerpts that describe partnerships and portals but do not present publicly published performance metrics for misrouting. Overall, the most direct matches are platform, launch context, and integration details, followed by access channels and hours, with open data portal status and taxonomy cadence providing secondary corroboration. The assembled evidence from these excerpts coherently supports the majority of the fine-grained field value, with some aspects (taxonomy cadence, public API existence) having partial or indirect support.\u201d",
+        "citations": [
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "In terms of functionality, RVA 311 is a relatively standard non-emergency citizen service request platform. Residents, visitors and businesses in Richmond can use it to report things like potholes, broken sidewalks or unruly grass, as well as to access 150 sets of frequently asked questions about everything from taxes to parking tickets. Currently seven city departments are providing information and services through the tool, with plans to add more government agencies over time.",
+              "In terms of functionality, RVA 311 is a relatively standard non-emergency citizen service request platform. Residents, visitors and businesses in Richmond can use it to report things like potholes, broken sidewalks or unruly grass, as well as to access 150 sets of frequently asked questions about everything from taxes to parking tickets.",
+              "Currently seven city departments are providing information and services through the tool, with plans to add more government agencies over time."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          },
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "Platform Dynamics 365",
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "The platform easily integrates into Richmond\u2019s Cityworks implementation (without complicating the citizen interface) through MicrosoftBizTalk which sends inbound requests to the solution."
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "We partner with over 20 different City agencies within the City"
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "This portal will serve as a new way for the citizens of Richmond to access, interpret, and interact with data about their city. Well-Managed Government."
+            ],
+            "title": "Richmond Open Data Portal"
+          },
+          {
+            "url": "https://www.rva.gov/information-technology/open-data-portal",
+            "excerpts": [
+              "The City of Richmond's Open Data Portal provides data to the public in an open format with no fee, legal encumbrance, or registration requirement."
+            ],
+            "title": "Open Data Portal | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://data.richmondgov.com/d/vgg4-hjn8/visualization",
+            "excerpts": [
+              "... 311. Three Chopt. 0. 273. Potholes. 99,018. 6600 Three Chopt Road Richmond ... Richmond, VA 23225, USA (37.54128647\u00b0, -77.51067352\u00b0). 1,158,905. City of",
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 893,351 | City of Richmond | Archived | POTHOLES | 3 | POTHOLE IN ALLEY |  | 2014 Jan 14 12:02:00 PM | 2014 Jan 28 04:22:00 AM | 3 | 5 | 311 | Carytown | 0 | 273 |  | Potholes | 91,613 | 3122 W Cary St Richmond, VA (37.5538359\u00b0, -77.4813889\u00b0) |\n"
+            ],
+            "title": "| Open Data Portal | City of Richmond, Virginia"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "crm_platform_details.platform_name",
+        "reasoning": "The most directly relevant excerpt explicitly states that the platform powering Richmond's RVA 311 is AvePoint Citizen Services, i.e., the Richmond RVA 311 Citizen Request System is powered by AvePoint Citizen Services. This aligns closely with the requested platform name. Supporting excerpts reinforce this by describing RVA 311 as built on AvePoint\u2019s Citizen Services software and reiterating that RVA 311 is the platform name, with connections to AvePoint and Microsoft Azure. Additional excerpts mention AvePoint in the context of RVA 311 and specify that the platform is live and managed by the city department, which corroborates the same platform ecosystem. One excerpt mentions Dynamics 365 in association with AvePoint, which complements the understanding that AvePoint Citizen Services is the core platform, even if Dynamics 365 is part of the underlying CRM/analytics stack. The least directly relevant excerpts mention general platform attributes or publication details rather than the explicit platform naming, but they still support the overall linkage between RVA 311 and AvePoint Citizen Services.",
+        "citations": [
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "Section Title: AvePoint Citizen Services Powers Richmond's RVA 311 Citizen Request System",
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Platform Dynamics 365"
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy.",
+              "Dubbed [RVA 311](https://www.rva311.com/rvaone/Home/Index) , the platform has been live since June, and as of this week it is housed in and managed by the city\u2019s newly created Department of Citizen Service and Response, said Krystal Onaitis, customer relationship management program manager for Richmond."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "api_and_integration_options",
+        "reasoning": "The finegrained field value states that there is no public API endpoint for Richmond 311 submissions and that integration with the city\u2019s Cityworks instance exists via BizTalk middleware. It also points to AvePoint Graph API as the general platform API (with no public Richmond 311 submission endpoint) and cites AvePoint\u2019s documentation as the reference. Excerpts directly establish: - RVA RVA311 is built on AvePoint Citizen Services and Dynamics 365, indicating the underlying platform context and that the system is AvePoint-based rather than a generic public API. - A specific note describes RVA311 integration into Cityworks through Microsoft BizTalk, which maps to the claimed internal integration path. - AvePoint Graph API is presented as a unified platform API with general capabilities, and other excerpts describe authentication requirements and endpoint patterns for AvePoint Graph API, supporting the claim that there is a platform API but not a public, city-submission endpoint for 311. - A product brochure and additional AvePoint context reinforce that the integration and data flows are mediated via AvePoint Citizen Services, not a public RVA311 submission API. - Additional surrounding RVA311 and AvePoint references corroborate the ecosystem (AvePoint platform, Cityworks integration, Dynamics 365 linkage) without contradicting the assertion of no public API endpoint for direct RVA311 submissions. Taken together, these excerpts consistently support the view that the Richmond 311 system uses AvePoint and Cityworks integration with BizTalk for inbound requests, that there is an AvePoint Graph API for platform-level access, and that there is no public API endpoint specifically for submitting RVA311 service requests.",
+        "citations": [
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Platform Dynamics 365",
+              "The platform easily integrates into Richmond\u2019s Cityworks implementation (without complicating the citizen interface) through MicrosoftBizTalk which sends inbound requests to the solution."
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          },
+          {
+            "url": "https://learn.avepoint.com/docs/Overview.html",
+            "excerpts": [
+              "The AvePoint Graph API is a robust suite of tools designed to streamline integration and enhance functionality for managing your digital collaboration environment. It allows developers to interact programmatically with AvePoint's solutions, facilitating automation, data integration, and enhanced operational capabilities.",
+              "The API provides advanced features to optimize integration and security:",
+              "Authentication methods: Supports client secret and certificate authentication for secure and efficient access control. This flexibility allows developers to choose the most suitable authentication method for their needs.",
+              "Unified endpoint: The API can be accessed via a unified endpoint format `https://graph-{dc}.avepointonlineservices.com` .",
+              "Comprehensive functionality: Enables seamless interaction with AvePoint services, supporting tasks like data management, reporting, and configuration.",
+              "AvePoint Graph API provides a unified endpoint to accessing AvePoint services data, designed to cater to IT professionals seeking robust data management, data insights, and backup monitoring solutions.",
+              "The AvePoint Graph API employs advanced authentication methods to ensure secure and efficient access to a wide range of functionalities.",
+              "Advanced Authentication Methods: Secure access using client secret and certificate authentication.",
+              "Authentication Method (OAuth 2.0)AvePoint Graph API exclusively uses the OAuth 2.0 protocol for authentication and authorization. This industry-standard framework ensures secure delegated access to resources. Applications must authenticate via the app registered through AOS App registration to obtain OAuth 2.0 access tokens, which grant scoped permissions for interacting with Graph API endpoints. This process prevents unauthorized access by validating identities and enforcing least-privilege principles."
+            ],
+            "title": "Overview"
+          },
+          {
+            "url": "https://cdn.avepoint.com/pdfs/en/AvePoint_Citizen_Services_Product_brochure.pdf",
+            "excerpts": [
+              "By centralizing automated citizen request and case manage- ment, AvePoint Citizen Services modernizes government administration and allows agencies to optimize"
+            ],
+            "title": "Product Brochure_AvePoint Citizen Services"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "request_misroute_rate_information",
+        "reasoning": "- Excerpt describing the 2024/ongoing activity notes that RVA311 handled a large volume of requests (over 83,000) and provides context on how the system operates and scales. This supports that the RVA 311 system is actively used and measured in operational terms, but it does not provide public misrouting metrics; this aligns with the finegrained field value\u2019s claim that published misroute metrics are not found publicly. - Excerpts from the Office of City Auditor pages reference RVA 311 service requests and the broader governance/monitoring context. While these describe governance and audit-related references to RVA311, they do not reveal published misroute-rate metrics; this supports the assertion that publicly accessible KPIs on misrouting are not evident in audited materials. - Excerpts about the Open Data Portal confirm that Richmond publishes some data related to 311 (dataset visibility and fields) but do not provide any misrouting statistics; this supports the notion that public data exist for 311, yet misroute rates are not publicly listed. - Excerpts from AvePoint materials indicate RVA 311 uses AvePoint Citizen Services and Dynamics 365 as the platform, and that there are integration pathways (e.g., Cityworks, BizTalk) and a unified API surface. This provides context on the technical stack and potential data flow implications for misrouted or reclassified requests, but again does not supply public KPIs on misrouting. - Public-facing RVA311 pages confirm channels for submitting requests (online/phone/mobile) and 24/7 access via self-service portals, which is relevant to understanding where misrouting could occur (or be tracked) internally, but not providing public metrics. - Taken together, the excerpts establish that RVA311 operates on AvePoint Citizen Services built on Dynamics 365, publishes some 311-related data publicly, and is subject to internal/external audits; however, there is no evidence of published misroute/reclassification rate metrics, aligning with the field value\u2019s finding of no published metrics or audits confirming misrouting rates. - The most directly connected evidence to the finegrained field value is the combination of: the 83,000+ annual/total requests metric showing operation at scale (context for potential misrouting concerns), and audit/governance references that do not reveal KPIs specifically about misrouting, supporting a conclusion of no public misroute-rate data.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "We partner with over 20 different City agencies within the City and in 2024, RVA311 provided assistance or supported our City partners in responding to over 83,000 requests.",
+              "The Call Center does not close for inclement weather, but is closed on Sundays and City holidays.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week."
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/office-city-auditor",
+            "excerpts": [
+              "Office of City Auditor \u00b7 About Us \u00b7 Staff Profiles \u00b7 Audit Guide \u00b7 Audit Committee ... RVA 311. 311 Service Requests. Request Non Emergency City Services. Job Audit Reports \u00b7 FOIA \u00b7 City Code \u00b7 Fraud, Waste, and Abuse Hotline \u00b7 Website Feedback. QUICK LINKS. Pay Online \u00b7 Jobs \u00b7 Adopt a Pet \u00b7 RVA 311 \u00b7 News and Alerts."
+            ],
+            "title": "Office of City Auditor | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/office-city-auditor/home",
+            "excerpts": [
+              "The Office of the City Auditor plans, conducts, and reports on audits that will result in effective audit coverage of the City of Richmond, focusing on"
+            ],
+            "title": "Office of the City Auditor"
+          },
+          {
+            "url": "https://www.rva.gov/information-technology/open-data-portal",
+            "excerpts": [
+              "The City of Richmond's Open Data Portal provides data to the public in an open format with no fee, legal encumbrance, or registration requirement."
+            ],
+            "title": "Open Data Portal | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://rva.gov/citizen-service-and-response",
+            "excerpts": [
+              "To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1.",
+              "In the Department of Citizen Service and Response, our priority is connecting Richmond residents and visitors to the services they need."
+            ],
+            "title": "Citizen Service and Response | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-numbers",
+            "excerpts": [
+              "To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1."
+            ],
+            "title": "RVA 311 Helpful Numbers | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://cdn.avepoint.com/pdfs/en/AvePoint_Citizen_Services_Product_brochure.pdf",
+            "excerpts": [
+              "By centralizing automated citizen request and case manage- ment, AvePoint Citizen Services modernizes government administration and allows agencies to optimize"
+            ],
+            "title": "Product Brochure_AvePoint Citizen Services"
+          },
+          {
+            "url": "https://www.fac.gov/assets/compliance/2024-Compliance-Supplement.pdf",
+            "excerpts": [
+              "May 2, 2024 \u2014 The Single Audit Act of 1984 established requirements for audits of ... reclassify or increase allocations from the administrative\u00a0... 2,105 pages"
+            ],
+            "title": "COMPLIANCE SUPPLEMENT"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "call_center_operations",
+        "reasoning": "To support the specified call center operations, the most direct evidence shows that after-hours submissions can be made 24/7 through the self-serve web portal (RVA311.com) and mobile apps, with these submissions being queued for processing during normal business hours. Additionally, the self-service portal and mobile apps are stated to be available 24/7, which aligns with the after-hours submission channel described in the field value. The call center hours are described as the \u201cnormal Call Center hours,\u201d and separate statements specify that the Call Center is open during those hours regardless of weather but closed on Sundays and certain holidays, which matches the Sunday status in the field value. There is also a more explicit note that the self-serve web portal and mobile apps operate 24 hours a day, 7 days a week, which reinforces the after-hours submission aspect and supports that after-hours entries are queued and then processed later. Collectively, the excerpts support: weekday hours and Saturday hours as defined by in-portal hours, Sunday being closed, and after-hours submission via RVA311.com and apps with queueing/processing during business hours. The combination of explicit 24/7 submission capability and explicit weekend/weekday hour statements directly maps to the finegrained field value provided.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "l Center Hours\n\n\n\n\n\n\n\nCall Center is\u00a0 OPEN\u00a0 during the hours listed above regardless of weather. Call Center is\u00a0 CLOSED\u00a0 on Sundays, City holidays and the following holiday weekend Saturdays\n    * March 8\n    * April 19\n    * July 5\n    * November",
+              "The Call Center does not close for inclement weather, but is closed on Sundays and City holidays."
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "crm_platform_details.adoption_date",
+        "reasoning": "To support the adoption date value, I look for excerpts that mention when the RVA 311 platform went live or when it was adopted. The strongest match is the excerpt stating that the platform has been live since June, which corresponds to the month portion of the target date. Additional excerpts confirm the platform is built on AvePoint Citizen Services, and links to the AvePoint solution, providing context for the adoption platform but not confirming a specific year. There is no excerpt clearly stating the year of adoption, so while the month aligns, the year cannot be confidently established from the provided excerpts alone. Consequently, the reasoning supports a June adoption timeframe in principle, but with insufficient evidence to confirm the year 2017 beyond doubt. The other excerpts corroborate the platform\u2019s technology (AvePoint Citizen Services on top of Microsoft Azure) and the launch narrative, which reinforce the overall adoption timeline but do not fix the exact date.\n",
+        "citations": [
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Dubbed [RVA 311](https://www.rva311.com/rvaone/Home/Index) , the platform has been live since June, and as of this week it is housed in and managed by the city\u2019s newly created Department of Citizen Service and Response, said Krystal Onaitis, customer relationship management program manager for Richmond.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          },
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Platform Dynamics 365",
+              "Section Title: AvePoint Citizen Services Powers Richmond's RVA 311 Citizen Request System"
+            ],
+            "title": "RVA 311 - AvePoint"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "crm_platform_details.underlying_technology",
+        "reasoning": "The finegrained field value identifies the underlying technology as a combination of Microsoft Dynamics 365 and Microsoft Azure. The most directly supporting information is that RVA 311 is described as deploying Dynamics 365 within AvePoint Citizen Services, which explicitly links the RVA 311 system to Microsoft Dynamics 365 and Microsoft technologies. Additional corroboration comes from sources stating that RVA 311 is built on AvePoint's Citizen Services software, which itself runs on Microsoft Azure, thereby confirming the Azure component of the stack. Collectively, these excerpts triangulate that the current RVA 311 platform relies on Microsoft Dynamics 365 and Microsoft Azure, consistent with an AvePoint-based deployment.",
+        "citations": [
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Platform Dynamics 365",
+              "Section Title: AvePoint Citizen Services Powers Richmond's RVA 311 Citizen Request System"
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Dubbed [RVA 311](https://www.rva311.com/rvaone/Home/Index) , the platform has been live since June, and as of this week it is housed in and managed by the city\u2019s newly created Department of Citizen Service and Response, said Krystal Onaitis, customer relationship management program manager for Richmond.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "open_data_portal_status.dataset_id",
+        "reasoning": "The finegrained field value is the dataset identifier for the Richmond Open Data Portal\u2019s 311-related dataset. Evidence from the excerpts shows portal entries and visualizations hosted under a path that includes the dataset identifier vgg4-hjn8 (for example, the Open Data Portal entries reference the visualization path d/vgg4-hjn8/visualization). This direct URL structure is a clear indicator of the dataset_id in use, matching the requested field. The repeated appearance of the same dataset path across multiple excerpts reinforces that vgg4-hjn8 is the correct dataset identifier associated with the open data portal visualization for 311-related data. Therefore, these excerpts collectively support the precise value of the finegrained field.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/d/vgg4-hjn8/visualization",
+            "excerpts": [
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,061,684 | Melinda | Archived | Potholes | 2 |  |  | 2014 May 02 03:04:00 AM | 2014 May 05 04:40:00 AM | 3 | 1 | 311 | Three Chopt | 0 | 273 |  | Potholes | 99,018 | 6600 Three Chopt Road Richmond, Virginia (37.58305609\u00b0, -77.53118881\u00b0) |\n",
+              "... 311. Three Chopt. 0. 273. Potholes. 99,018. 6600 Three Chopt Road Richmond ... Richmond, VA 23225, USA (37.54128647\u00b0, -77.51067352\u00b0). 1,158,905. City of",
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,521,548 | Marie423 | Archived | Other | 3 | sidewalk needs repair |  | 2015 Mar 10 07:19:00 AM | 2015 Mar 11 02:40:00 AM | 4 |  |  | NULL | 0 | 1,330 |  | Other | 120,313 | 1305 Nottoway Ave Richmond, Virginia (37.588802\u00b0, -77.454059\u00b0) |\n"
+            ],
+            "title": "| Open Data Portal | City of Richmond, Virginia"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "open_data_portal_status.portal_url",
+        "reasoning": "Excerpts that explicitly reference the domain data.richmondgov.com or the Richmond Open Data Portal demonstrate evidence about the portal URL in question. The first excerpt shows a data source hosted on data.richmondgov.com with a visualization path, indicating the portal domain is in use. The third excerpt explicitly repeats the Open Data Portal context and includes the same domain, reinforcing that the portal is hosted under data.richmondgov.com. The fifth excerpt notes that the page is showing rows from data.richmondgov.com, directly supporting the existence of that portal domain. The fourth excerpt mirrors the portal structure with a similar URL pattern, further corroborating the portal\u2019s URL. Additional excerpts mentioning the Open Data Portal and Richmond data portal (without the exact URL) still support the existence of a Richmond Open Data Portal and help corroborate that the portal is on the Richmond data domain. Taken together, these excerpts collectively confirm the portal URL as the City of Richmond Open Data Portal domain and illustrate its usage in real portal pages and data views.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/d/vgg4-hjn8/visualization",
+            "excerpts": [
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,061,684 | Melinda | Archived | Potholes | 2 |  |  | 2014 May 02 03:04:00 AM | 2014 May 05 04:40:00 AM | 3 | 1 | 311 | Three Chopt | 0 | 273 |  | Potholes | 99,018 | 6600 Three Chopt Road Richmond, Virginia (37.58305609\u00b0, -77.53118881\u00b0) |\n",
+              "... 311. Three Chopt. 0. 273. Potholes. 99,018. 6600 Three Chopt Road Richmond ... Richmond, VA 23225, USA (37.54128647\u00b0, -77.51067352\u00b0). 1,158,905. City of",
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,521,548 | Marie423 | Archived | Other | 3 | sidewalk needs repair |  | 2015 Mar 10 07:19:00 AM | 2015 Mar 11 02:40:00 AM | 4 |  |  | NULL | 0 | 1,330 |  | Other | 120,313 | 1305 Nottoway Ave Richmond, Virginia (37.588802\u00b0, -77.454059\u00b0) |\n",
+              "Showing rows 1 to 17 out of 43,273"
+            ],
+            "title": "| Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "This portal will serve as a new way for the citizens of Richmond to access, interpret, and interact with data about their city. Well-Managed Government."
+            ],
+            "title": "Richmond Open Data Portal"
+          },
+          {
+            "url": "https://www.rva.gov/information-technology/open-data-portal",
+            "excerpts": [
+              "The City of Richmond's Open Data Portal provides data to the public in an open format with no fee, legal encumbrance, or registration requirement."
+            ],
+            "title": "Open Data Portal | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "open_data_portal_status.data_recency",
+        "reasoning": "The most relevant excerpt directly shows a 2015 timestamp in the context of a data record, which aligns with the requested data recency value of 2015. This supports the idea that the open data records include entries from around that year, indicating contemporaneous activity and potential publishing cadence around 2015. The next most relevant excerpts reference the Open Data Portal and its visualization/dataset structure, which provides contextual evidence that the portal existed and contained structured data around that period, reinforcing the plausibility that 2015 was within the recency window for published data. Additional excerpts describe the portal\u2019s purpose and access points, supporting the interpretation that the portal actively served data around that time, even if they do not state a specific recency year. One excerpt mentions the portal\u2019s openness and data access philosophy, which helps frame the likelihood that 2015 data could exist on the platform. A final excerpt mentions general portal behavior (e.g., showing rows) without a date, which is less directly supportive of the exact 2015 recency field but remains related since it confirms ongoing portal activity.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/d/vgg4-hjn8/visualization",
+            "excerpts": [
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,521,548 | Marie423 | Archived | Other | 3 | sidewalk needs repair |  | 2015 Mar 10 07:19:00 AM | 2015 Mar 11 02:40:00 AM | 4 |  |  | NULL | 0 | 1,330 |  | Other | 120,313 | 1305 Nottoway Ave Richmond, Virginia (37.588802\u00b0, -77.454059\u00b0) |\n",
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,061,684 | Melinda | Archived | Potholes | 2 |  |  | 2014 May 02 03:04:00 AM | 2014 May 05 04:40:00 AM | 3 | 1 | 311 | Three Chopt | 0 | 273 |  | Potholes | 99,018 | 6600 Three Chopt Road Richmond, Virginia (37.58305609\u00b0, -77.53118881\u00b0) |\n",
+              "... 311. Three Chopt. 0. 273. Potholes. 99,018. 6600 Three Chopt Road Richmond ... Richmond, VA 23225, USA (37.54128647\u00b0, -77.51067352\u00b0). 1,158,905. City of",
+              "Showing rows 1 to 17 out of 43,273"
+            ],
+            "title": "| Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://www.rva.gov/information-technology/open-data-portal",
+            "excerpts": [
+              "The City of Richmond's Open Data Portal provides data to the public in an open format with no fee, legal encumbrance, or registration requirement."
+            ],
+            "title": "Open Data Portal | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "This portal will serve as a new way for the citizens of Richmond to access, interpret, and interact with data about their city. Well-Managed Government."
+            ],
+            "title": "Richmond Open Data Portal"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "open_data_portal_status.update_cadence",
+        "reasoning": "The target field value asserts that the open data portal dataset has no update cadence and is a legacy dataset not actively updated. The most relevant excerpts are those that tie to the specific open data portal and include concrete date information for dataset entries, which can imply activity or inactivity over time. One excerpt presents a visualization entry from the portal with a timestamped record showing creation and closure dates in 2014, which indicates the dataset contains historical data and could suggest that some parts of the data are not being actively updated. Another excerpt shows a similar set of 2015 timestamps, reinforcing the presence of older records. A separate excerpt repeatedly references the open data portal and its purpose, which helps establish the context that this is the City of Richmond\u2019s open data resource. A further excerpt notes the portal's general description that data is provided openly, which does not itself confirm cadence but frames expectations about data updates. The remaining excerpts provide meta-information about the portal (e.g., the headline about the portal and data access) without explicit cadence details.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/d/vgg4-hjn8/visualization",
+            "excerpts": [
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,061,684 | Melinda | Archived | Potholes | 2 |  |  | 2014 May 02 03:04:00 AM | 2014 May 05 04:40:00 AM | 3 | 1 | 311 | Three Chopt | 0 | 273 |  | Potholes | 99,018 | 6600 Three Chopt Road Richmond, Virginia (37.58305609\u00b0, -77.53118881\u00b0) |\n",
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,521,548 | Marie423 | Archived | Other | 3 | sidewalk needs repair |  | 2015 Mar 10 07:19:00 AM | 2015 Mar 11 02:40:00 AM | 4 |  |  | NULL | 0 | 1,330 |  | Other | 120,313 | 1305 Nottoway Ave Richmond, Virginia (37.588802\u00b0, -77.454059\u00b0) |\n",
+              "... 311. Three Chopt. 0. 273. Potholes. 99,018. 6600 Three Chopt Road Richmond ... Richmond, VA 23225, USA (37.54128647\u00b0, -77.51067352\u00b0). 1,158,905. City of",
+              "Showing rows 1 to 17 out of 43,273"
+            ],
+            "title": "| Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "This portal will serve as a new way for the citizens of Richmond to access, interpret, and interact with data about their city. Well-Managed Government."
+            ],
+            "title": "Richmond Open Data Portal"
+          },
+          {
+            "url": "https://www.rva.gov/information-technology/open-data-portal",
+            "excerpts": [
+              "The City of Richmond's Open Data Portal provides data to the public in an open format with no fee, legal encumbrance, or registration requirement."
+            ],
+            "title": "Open Data Portal | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "chatbot_and_ai_assistant_status.findings",
+        "reasoning": "The status of a public-facing chatbot on rva.gov is supported by direct references to customer service contact methods and organizational AI governance. The CSR pages explicitly describe how residents should reach the City\u2019s services, listing phone numbers and the RVA311 portal as primary channels, which indicates a focus on traditional contact channels rather than a deployed chatbot. The presence of an AI policy dated 2025 confirms governance around AI technologies, but the policy text does not indicate any deployment of a public-facing chatbot on the city\u2019s website, which supports the conclusion that there is no active chatbot in operation. Contextual pages about CSR and RVA311 provide supporting background on how service requests are routed (via phone, RVA311 portal, or apps) and thus align with the inference that automated chat tools are not the primary user-facing mechanism, at least as evidenced by the cited materials. The cited portal and contact links corroborate ongoing reliance on established channels rather than a live chatbot experience.",
+        "citations": [
+          {
+            "url": "https://rva.gov/citizen-service-and-response",
+            "excerpts": [
+              "To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1.",
+              "In the Department of Citizen Service and Response, our priority is connecting Richmond residents and visitors to the services they need."
+            ],
+            "title": "Citizen Service and Response | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-numbers",
+            "excerpts": [
+              "To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1."
+            ],
+            "title": "RVA 311 Helpful Numbers | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://rva.gov/common/services",
+            "excerpts": [
+              "[Contact RVA311](https://www.rva311.com/)"
+            ],
+            "title": "Services | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/sites/default/files/2025-06/AR%202.13%20Artificial%20Intelligence%20%28AI%29%20Policy_FINAL_2025_06_03.pdf",
+            "excerpts": [
+              "Jun 3, 2025 \u2014 This policy outlines the ethical use, deployment, and management of artificial intelligence (AI) technologies in the City of Richmond."
+            ],
+            "title": "Artificial Intelligence (AI) Policy A.R. Number: 2.13 Effective ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "open_data_portal_status.dataset_found",
+        "reasoning": "The field value asserts that a dataset exists on the Open Data Portal (dataset_found = True). Excerpts that describe the Open Data Portal as a source for public data and that present data-driven content strongly support the presence of datasets on the portal. The statement that the portal provides data to the public in an open format reinforces the implication that datasets are available there. A visualization within the portal listing various data points (such as 311-related fields like RequestType, Category, etc.) further corroborates that dataset-like content exists on the portal. Conversely, while some excerpts emphasize the portal\u2019s purpose and accessibility, they do not explicitly state the exact boolean about a dataset\u2019s existence in the specific field, so there is partial support rather than definitive confirmation. Collectively, these excerpts indicate the portal does host open data and datasets, which aligns with a True value for the field, but the lack of an explicit statement means the evidence is not airtight.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/information-technology/open-data-portal",
+            "excerpts": [
+              "The City of Richmond's Open Data Portal provides data to the public in an open format with no fee, legal encumbrance, or registration requirement."
+            ],
+            "title": "Open Data Portal | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://data.richmondgov.com/d/vgg4-hjn8/visualization",
+            "excerpts": [
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,061,684 | Melinda | Archived | Potholes | 2 |  |  | 2014 May 02 03:04:00 AM | 2014 May 05 04:40:00 AM | 3 | 1 | 311 | Three Chopt | 0 | 273 |  | Potholes | 99,018 | 6600 Three Chopt Road Richmond, Virginia (37.58305609\u00b0, -77.53118881\u00b0) |\n",
+              "... 311. Three Chopt. 0. 273. Potholes. 99,018. 6600 Three Chopt Road Richmond ... Richmond, VA 23225, USA (37.54128647\u00b0, -77.51067352\u00b0). 1,158,905. City of",
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,521,548 | Marie423 | Archived | Other | 3 | sidewalk needs repair |  | 2015 Mar 10 07:19:00 AM | 2015 Mar 11 02:40:00 AM | 4 |  |  | NULL | 0 | 1,330 |  | Other | 120,313 | 1305 Nottoway Ave Richmond, Virginia (37.588802\u00b0, -77.454059\u00b0) |\n",
+              "Showing rows 1 to 17 out of 43,273"
+            ],
+            "title": "| Open Data Portal | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://data.richmondgov.com/",
+            "excerpts": [
+              "This portal will serve as a new way for the citizens of Richmond to access, interpret, and interact with data about their city. Well-Managed Government."
+            ],
+            "title": "Richmond Open Data Portal"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "service_request_taxonomy.partner_department_count",
+        "reasoning": "- The most directly relevant excerpt states that RVA311 partnerships include over 20 different City agencies, which speaks to the order-of-magnitude of partner departments and is the closest contextual support to a numeric count, even though it does not state the exact value of 20.0. This helps establish that the system has at least this many partner departments and that the count is in the tens. \n- Another excerpt explicitly notes that RVA311 partners with over 30 different departments, which provides a higher bound on the scope of partnerships and confirms that the total number of partner departments is greater than 20.0. This corroborates that the system collaborates with a broad set of entities, though it also introduces ambiguity about the exact count.\n- Additional excerpts list various departments and functional areas (Planning and Development, Finance and Revenue, Public Works, Social Services, etc.). While these lists illustrate the breadth of partners, they do not provide a precise count. They still support the notion that there are many distinct partner departments involved with RVA311, reinforcing the context that the count is multi-digit and in the tens to multiple tens range. \nOverall, the excerpts collectively indicate a multi-department partnership landscape with counts reported as \u201cover 20\u201d and \u201cover 30,\u201d but none provide an exact figure of 20.0. Therefore, the direct evidence for the precise value 20.0 is not explicitly stated; the data supports a range that includes values around and above 20, aligning with a medium confidence level about the exact 20.0 figure.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "We partner with over 20 different City agencies within the City",
+              "RVA311 partners with over 30 different departments, agencies and teams within the City.\nPublic Works\nPublic Utilities\nsocial services\nFinance and Revenue\nPlanning and Development\nOther Partners\n",
+              "Planning and Development\nZoning and Permitting\ncode enforcement\n",
+              "Public Works\nSolid Waste\nBulk and Brush\nGrounds Maintenance\nRight of Way Management\nTransportation and Safety\nParking Enforcement\nUrban Forestry\nStreetlight Engineering\nStreetlight Maintenance\n",
+              "Other Partners\nNon-emergency Police\nAnimal Care and Control\nOffice of Elections\n"
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "open_data_portal_status.data_fields",
+        "reasoning": "The open data portal is shown to contain fields such as SCFId, ReporterDisplayName, Status, Summary, Description, CreatedDate, Category, and Location 1. A representative visualization row lists these column headers in sequence, establishing that the portal exposes SCFId, ReporterDisplayName, Status, Summary, Description, CreatedDate, Category, and Location 1 as part of the dataset\u2019s schema. Additionally, a sample record demonstrates concrete values for these fields (e.g., a row containing identifiers, a reporter, a status, a summary like 'sidewalk needs repair', a date such as CreatedDate, a category like 'Other', and a Location 1 entry with an address). This confirms that the dataset on the Richmond Open Data Portal includes the exact fields requested in the finegrained field value and that those fields are populated in actual records. Another excerpt reinforces the presence of the same column headers, including the textual alignment of the fields such as the header sequence that includes SCFId, ReporterDisplayName, Status, Summary, Description, CreatedDate, Category, and Location 1. A final excerpt notes the portal is actively serving data and shows that rows are being displayed, which supports that these fields are part of an accessible, current dataset. Taken together, these excerpts directly substantiate the existence and naming of the requested fields within the portal\u2019s 311/open data dataset and illustrate practical examples of their content.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/d/vgg4-hjn8/visualization",
+            "excerpts": [
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,061,684 | Melinda | Archived | Potholes | 2 |  |  | 2014 May 02 03:04:00 AM | 2014 May 05 04:40:00 AM | 3 | 1 | 311 | Three Chopt | 0 | 273 |  | Potholes | 99,018 | 6600 Three Chopt Road Richmond, Virginia (37.58305609\u00b0, -77.53118881\u00b0) |\n",
+              "| SCFId | ReporterDisplayName | Status | Summary | Rating | Description | Notes | CreatedDate | Closed | Precinct | CouncilDistrict | Sector | Neighborhood | ReportedUsingMobile | RequestTypeId | RequestTypeAnswers | Category | ObjectID | Location 1 |\n| 1,521,548 | Marie423 | Archived | Other | 3 | sidewalk needs repair |  | 2015 Mar 10 07:19:00 AM | 2015 Mar 11 02:40:00 AM | 4 |  |  | NULL | 0 | 1,330 |  | Other | 120,313 | 1305 Nottoway Ave Richmond, Virginia (37.588802\u00b0, -77.454059\u00b0) |\n",
+              "... 311. Three Chopt. 0. 273. Potholes. 99,018. 6600 Three Chopt Road Richmond ... Richmond, VA 23225, USA (37.54128647\u00b0, -77.51067352\u00b0). 1,158,905. City of",
+              "Showing rows 1 to 17 out of 43,273"
+            ],
+            "title": "| Open Data Portal | City of Richmond, Virginia"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "api_and_integration_options.authentication_methods",
+        "reasoning": "The field value asserts that there is no publicly specified 311 submission API in the given context, and that authentication methods for such an API are not described. Excerpts describing the AvePoint Graph API explicitly enumerate authentication methods, including OAuth 2.0, client secret, and certificate-based authentication, and mention a unified API endpoint for AvePoint services. This supports the interpretation that while a robust API with various authentication options exists for AvePoint services, the user-facing public 311 submission API and its authentication details are not defined in the provided material. Additional excerpts outline general API overview and integration capabilities, reinforcing that API access exists and can be integrated, but without asserting specifics about a public 311 submission API for the City of Richmond. Taken together, these excerpts support a cautious conclusion: there is an API and authentication framework for AvePoint services, but the provided context does not specify a dedicated public 311 submission API or its authentication scheme. The cited authorization methods (OAuth 2.0, client secrets, certificates) are relevant to AVEPOINT Graph API access and could imply how integrations might authenticate against AvePoint services, but they do not establish a public 311 submission API for Richmond as of the given timeframe. The presence of a documented API and its security model is relevant context, but it does not satisfy the explicit, public 311 submission API details requested.\n",
+        "citations": [
+          {
+            "url": "https://learn.avepoint.com/docs/Overview.html",
+            "excerpts": [
+              "Authentication Method (OAuth 2.0)AvePoint Graph API exclusively uses the OAuth 2.0 protocol for authentication and authorization. This industry-standard framework ensures secure delegated access to resources. Applications must authenticate via the app registered through AOS App registration to obtain OAuth 2.0 access tokens, which grant scoped permissions for interacting with Graph API endpoints. This process prevents unauthorized access by validating identities and enforcing least-privilege principles.",
+              "The AvePoint Graph API is a robust suite of tools designed to streamline integration and enhance functionality for managing your digital collaboration environment. It allows developers to interact programmatically with AvePoint's solutions, facilitating automation, data integration, and enhanced operational capabilities.",
+              "Unified endpoint: The API can be accessed via a unified endpoint format `https://graph-{dc}.avepointonlineservices.com` .",
+              "The API provides advanced features to optimize integration and security:",
+              "Authentication methods: Supports client secret and certificate authentication for secure and efficient access control. This flexibility allows developers to choose the most suitable authentication method for their needs.",
+              "The AvePoint Graph API employs advanced authentication methods to ensure secure and efficient access to a wide range of functionalities.",
+              "Advanced Authentication Methods: Secure access using client secret and certificate authentication.",
+              "AvePoint Graph API provides a unified endpoint to accessing AvePoint services data, designed to cater to IT professionals seeking robust data management, data insights, and backup monitoring solutions."
+            ],
+            "title": "Overview"
+          },
+          {
+            "url": "https://cdn.avepoint.com/pdfs/en/AvePoint_Citizen_Services_Product_brochure.pdf",
+            "excerpts": [
+              "By centralizing automated citizen request and case manage- ment, AvePoint Citizen Services modernizes government administration and allows agencies to optimize"
+            ],
+            "title": "Product Brochure_AvePoint Citizen Services"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "call_center_operations.sunday_status",
+        "reasoning": "To determine if the call center is closed on Sundays, the most informative sources explicitly state Sunday status. One excerpt notes that the Call Center is OPEN during listed hours but is CLOSED on Sundays, City holidays, and a holiday weekend Saturdays, which directly supports a Sunday closure interpretation for the standard operating schedule. Another excerpt confirms that the Call Center is closed on Sundays (and city holidays), aligning with the field value of Sunday closure. The remaining excerpts reinforce that the 311 system supports 24/7 online or mobile submission and that the call center has defined hours, providing necessary operational context but not contradicting the Sunday closure implication. Taken together, these excerpts consistently indicate Sunday closure as part of the call center operations, supporting the field value. The explicit Sunday-closure statements are the strongest evidence, while the other excerpts provide supporting context about availability and access methods.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "l Center Hours\n\n\n\n\n\n\n\nCall Center is\u00a0 OPEN\u00a0 during the hours listed above regardless of weather. Call Center is\u00a0 CLOSED\u00a0 on Sundays, City holidays and the following holiday weekend Saturdays\n    * March 8\n    * April 19\n    * July 5\n    * November",
+              "The Call Center does not close for inclement weather, but is closed on Sundays and City holidays.",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week."
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "api_and_integration_options.api_name",
+        "reasoning": "The finegrained field value identifies the API name as AvePoint Graph API and specifies that it is a general platform API with no public endpoint for Richmond 311 submissions. Excerpts describing the AvePoint Graph API as a unified endpoint for AvePoint services, its authentication (OAuth 2.0, client secret/certificate), and its role as the API surface for data management, integration, and configuration directly support the notion of AvePoint Graph API being the general platform API. These excerpts also indicate there is a unified endpoint pattern (graph-{dc}.avepointonlineservices.com) and standard authentication, which aligns with characterizing it as AvePoint\u2019s general platform API. Excerpts that discuss the API\u2019s authentication methods, unified endpoint, and broad functionality strengthen the claim that the AvePoint Graph API is the primary API surface for AvePoint services, which is exactly what the finegrained field value asserts in broad terms. However, there is no explicit statement in the excerpts that Richmond 311 specifically has no public endpoint; while the provided API documentation and endpoint pattern imply a controlled/private integration path, the absence of a direct, explicit statement about a public endpoint for Richmond 311 means that portion lacks strong direct evidence within the excerpts. Therefore, the strongest support comes from the explicit mentions of AvePoint Graph API, its unified endpoint, and authentication, while the specific caveat about Richmond 311 having no public endpoint is not directly evidenced in the excerpts.\n",
+        "citations": [
+          {
+            "url": "https://learn.avepoint.com/docs/Overview.html",
+            "excerpts": [
+              "The AvePoint Graph API is a robust suite of tools designed to streamline integration and enhance functionality for managing your digital collaboration environment. It allows developers to interact programmatically with AvePoint's solutions, facilitating automation, data integration, and enhanced operational capabilities.",
+              "Unified endpoint: The API can be accessed via a unified endpoint format `https://graph-{dc}.avepointonlineservices.com` .",
+              "Comprehensive functionality: Enables seamless interaction with AvePoint services, supporting tasks like data management, reporting, and configuration.",
+              "AvePoint Graph API provides a unified endpoint to accessing AvePoint services data, designed to cater to IT professionals seeking robust data management, data insights, and backup monitoring solutions.",
+              "The AvePoint Graph API employs advanced authentication methods to ensure secure and efficient access to a wide range of functionalities.",
+              "Authentication Method (OAuth 2.0)AvePoint Graph API exclusively uses the OAuth 2.0 protocol for authentication and authorization. This industry-standard framework ensures secure delegated access to resources. Applications must authenticate via the app registered through AOS App registration to obtain OAuth 2.0 access tokens, which grant scoped permissions for interacting with Graph API endpoints. This process prevents unauthorized access by validating identities and enforcing least-privilege principles.",
+              "The API provides advanced features to optimize integration and security:",
+              "Authentication methods: Supports client secret and certificate authentication for secure and efficient access control. This flexibility allows developers to choose the most suitable authentication method for their needs."
+            ],
+            "title": "Overview"
+          },
+          {
+            "url": "https://cdn.avepoint.com/pdfs/en/AvePoint_Citizen_Services_Product_brochure.pdf",
+            "excerpts": [
+              "By centralizing automated citizen request and case manage- ment, AvePoint Citizen Services modernizes government administration and allows agencies to optimize"
+            ],
+            "title": "Product Brochure_AvePoint Citizen Services"
+          },
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Platform Dynamics 365",
+              "The platform easily integrates into Richmond\u2019s Cityworks implementation (without complicating the citizen interface) through MicrosoftBizTalk which sends inbound requests to the solution."
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "service_directory_and_knowledge_base.directory_url",
+        "reasoning": "The most directly relevant excerpt is the one that shows the common services page at the exact URL, which matches the first component of the field value. Several excerpts reference the RVA 311 helpful links page, including explicit mentions of the page on the RVA.gov site; these directly correspond to the second component of the field value. Other excerpts mentioning RVA 311 or RVA311-related content corroborate the existence and use of a unified RVA.gov service directory and 311 knowledge resources, even if they do not reproduce the exact URL text. Taken together, these excerpts establish that the two URLs in the field value are the principal RVA.gov landing pages for Richmond\u2019s service directory and 311 information, and they demonstrate how users access service requests, helpful links, and related 311 resources. The direct URL for common services is evidenced by the page citing https://rva.gov/common/services, and the RVA 311 helpful links page is evidenced by sources including https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links. Although some excerpts reiterate related but different RVA311 links (e.g., RVA311.co or RVA311-related navigation), the strongest alignment with the specific directory URLs comes from the direct common services page and the RVA 311 helpful links pages.",
+        "citations": [
+          {
+            "url": "https://rva.gov/common/services",
+            "excerpts": [
+              "Citizen Service & Response/311"
+            ],
+            "title": "Services | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links",
+            "excerpts": [
+              "Link to online portal where users can look up status of code enforcement cases. Department of Planning and Development Review. Pavement Conditions Index. Link",
+              "Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000 . Or Submit Anytime. on RVA311. Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000. Or Submit Anytime. on RVA311.",
+              "During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000 . Or Submit Anytime. on RVA311.",
+              "City Attorney \u00b7 Budget \u00b7 Circuit Court Clerk \u00b7 Citizen Service & Response/311 \u00b7 City Clerk \u00b7 Commonwealth Attorney \u00b7 Community Wealth Building \u00b7 Economic Need to submit a service request? Reach us by phone.",
+              "Need to submit a service request?",
+              "Reach us by phone",
+              "During the Call Center hours listed below",
+              "Or Submit Anytime"
+            ],
+            "title": "RVA 311 Helpful Links | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "service_request_taxonomy.example_categories",
+        "reasoning": "The finegrained field value corresponds to the top-level service request categories used by Richmond\u2019s RVA311 system. The most relevant excerpt directly lists several departments, including Public Works, Public Utilities, Social services, and Finance and Revenue, which align with the requested categories (Public Works, Public Utilities, Social Services, Finance). The proximity of these department names to the RVA311 taxonomy strongly supports the existence of those top-level categories within the 311 taxonomy. An additional excerpt confirms Social Services as a category area, reinforcing that Social Services is indeed part of the taxonomy. Another excerpt enumerates Public Works and Public Utilities among the listed categories, further supporting their inclusion in the taxonomy. An excerpt mentioning Planning and Development along with related subcategories demonstrates that multiple departments are represented in the taxonomy, though it does not contradict the presence of the requested four categories. Collectively, these excerpts support that the taxonomy includes at least the four target categories (Public Works, Public Utilities, Social Services, Finance) and that the RVA311 taxonomy is composed of department-aligned service areas. The information does not provide a formal taxonomy count or update cadence, but it confirms the presence of the listed categories within the RVA311 taxonomy.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "RVA311 partners with over 30 different departments, agencies and teams within the City.\nPublic Works\nPublic Utilities\nsocial services\nFinance and Revenue\nPlanning and Development\nOther Partners\n",
+              "social services\nBenefit Application and Eligibility\nAdult Services\nChild Protective Services\nHomeless Services\n",
+              "Public Works\nSolid Waste\nBulk and Brush\nGrounds Maintenance\nRight of Way Management\nTransportation and Safety\nParking Enforcement\nUrban Forestry\nStreetlight Engineering\nStreetlight Maintenance\n",
+              "Planning and Development\nZoning and Permitting\ncode enforcement\n"
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "service_directory_and_knowledge_base.directory_exists",
+        "reasoning": "The finegrained field value asks whether a service directory or knowledge base exists. The most direct evidence comes from a page that describes RVA311 as a submit-anytime online channel, explicitly pointing to online submission via RVA311.com or a mobile app, which implies a publicly accessible service structure or catalog. This strongly supports the existence of an organized online entry point or directory for services. Additional corroboration comes from pages that reference a public portal where users can look up or submit service requests, indicating a structured navigation for services. Another excerpt points to an online portal where status can be looked up, which reinforces the presence of an organized, browsable system. Related links and \u201cHelpful Links\u201d pages also imply an interconnected suite of services and navigation, further supporting existence of a service directory or knowledge base. Taken together, these pieces of evidence align with the boolean value True for the existence of a service directory/knowledge base. Specifically: the statement that you can submit online at RVA311.com or via a mobile app shows an organized, cataloged entry point; the mention of an online portal for looking up status of cases confirms a browsable interface; and the RVA311 helpful links page corroborates that there are linked resources forming a knowledge base or directory structure.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week."
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links",
+            "excerpts": [
+              "Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000. Or Submit Anytime. on RVA311. To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1.",
+              "Link to online portal where users can look up status of code enforcement cases. Department of Planning and Development Review. Pavement Conditions Index. Link",
+              "on [RVA311.co",
+              "City Attorney \u00b7 Budget \u00b7 Circuit Court Clerk \u00b7 Citizen Service & Response/311 \u00b7 City Clerk \u00b7 Commonwealth Attorney \u00b7 Community Wealth Building \u00b7 Economic Need to submit a service request? Reach us by phone."
+            ],
+            "title": "RVA 311 Helpful Links | Richmond"
+          },
+          {
+            "url": "https://rva.gov/common/services",
+            "excerpts": [
+              "Citizen Service & Response/311"
+            ],
+            "title": "Services | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "api_and_integration_options.integration_capabilities",
+        "reasoning": "The finegrained field value specifies an internal integration with the City of Richmond's Cityworks implementation, facilitated by Microsoft BizTalk to handle inbound requests. The strongest corroboration is a statement describing RVA 311 seamlessly integrating into Cityworks via Microsoft BizTalk to route inbound requests to the system. This directly matches the field value in terms of the integration pathway and middleware. Related excerpts that discuss AvePoint Citizen Services, Dynamics 365, and general API/graph capabilities provide useful background about the ecosystem (e.g., the platform underpinning RVA 311 and potential integration surfaces), but they do not confirm the exact Cityworks-Centric, BizTalk-facilitated inbound request flow. Therefore, the most relevant content centers on the explicit BizTalk-enabled Cityworks integration, while other excerpts offer contextual support about the platform and possible integration avenues without stating the exact internal integration details.",
+        "citations": [
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "The platform easily integrates into Richmond\u2019s Cityworks implementation (without complicating the citizen interface) through MicrosoftBizTalk which sends inbound requests to the solution.",
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Platform Dynamics 365"
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          },
+          {
+            "url": "https://learn.avepoint.com/docs/Overview.html",
+            "excerpts": [
+              "The AvePoint Graph API is a robust suite of tools designed to streamline integration and enhance functionality for managing your digital collaboration environment. It allows developers to interact programmatically with AvePoint's solutions, facilitating automation, data integration, and enhanced operational capabilities.",
+              "The API provides advanced features to optimize integration and security:",
+              "Authentication methods: Supports client secret and certificate authentication for secure and efficient access control. This flexibility allows developers to choose the most suitable authentication method for their needs.",
+              "Unified endpoint: The API can be accessed via a unified endpoint format `https://graph-{dc}.avepointonlineservices.com` .",
+              "Comprehensive functionality: Enables seamless interaction with AvePoint services, supporting tasks like data management, reporting, and configuration.",
+              "AvePoint Graph API provides a unified endpoint to accessing AvePoint services data, designed to cater to IT professionals seeking robust data management, data insights, and backup monitoring solutions.",
+              "The AvePoint Graph API employs advanced authentication methods to ensure secure and efficient access to a wide range of functionalities.",
+              "Advanced Authentication Methods: Secure access using client secret and certificate authentication.",
+              "Authentication Method (OAuth 2.0)AvePoint Graph API exclusively uses the OAuth 2.0 protocol for authentication and authorization. This industry-standard framework ensures secure delegated access to resources. Applications must authenticate via the app registered through AOS App registration to obtain OAuth 2.0 access tokens, which grant scoped permissions for interacting with Graph API endpoints. This process prevents unauthorized access by validating identities and enforcing least-privilege principles."
+            ],
+            "title": "Overview"
+          },
+          {
+            "url": "https://cdn.avepoint.com/pdfs/en/AvePoint_Citizen_Services_Product_brochure.pdf",
+            "excerpts": [
+              "By centralizing automated citizen request and case manage- ment, AvePoint Citizen Services modernizes government administration and allows agencies to optimize"
+            ],
+            "title": "Product Brochure_AvePoint Citizen Services"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "api_and_integration_options.documentation_url",
+        "reasoning": "The field value points to the AvePoint Overview documentation page, which is about the AvePoint Graph API, authentication, and integration capabilities. Excerpts that describe the AvePoint Graph API, authentication methods, a unified API endpoint, and general overview of AvePoint services all map to the content you would expect on the Overview documentation page. Specifically, passages that discuss the API being a robust suite for programmatic interaction, authentication methods (such as client secret and certificate-based OAuth 2.0), the unified endpoint format for Graph API access, and broad capabilities (data management, reporting, configuration) directly support the notion of a documentation page that covers API/integration options. Additional excerpts that mention AvePoint Citizen Services or the context of RVA 311 illustrate related AvePoint offerings but do not contradict the existence or content of the Overview documentation page. The combination of API-focused and general overview content in these excerpts aligns with the target URL, reinforcing that this documentation page exists and provides the described integration details.",
+        "citations": [
+          {
+            "url": "https://learn.avepoint.com/docs/Overview.html",
+            "excerpts": [
+              "The AvePoint Graph API is a robust suite of tools designed to streamline integration and enhance functionality for managing your digital collaboration environment. It allows developers to interact programmatically with AvePoint's solutions, facilitating automation, data integration, and enhanced operational capabilities.",
+              "The API provides advanced features to optimize integration and security:",
+              "Authentication methods: Supports client secret and certificate authentication for secure and efficient access control. This flexibility allows developers to choose the most suitable authentication method for their needs.",
+              "Unified endpoint: The API can be accessed via a unified endpoint format `https://graph-{dc}.avepointonlineservices.com` .",
+              "Comprehensive functionality: Enables seamless interaction with AvePoint services, supporting tasks like data management, reporting, and configuration.",
+              "AvePoint Graph API provides a unified endpoint to accessing AvePoint services data, designed to cater to IT professionals seeking robust data management, data insights, and backup monitoring solutions.",
+              "The AvePoint Graph API employs advanced authentication methods to ensure secure and efficient access to a wide range of functionalities.",
+              "Advanced Authentication Methods: Secure access using client secret and certificate authentication.",
+              "Authentication Method (OAuth 2.0)AvePoint Graph API exclusively uses the OAuth 2.0 protocol for authentication and authorization. This industry-standard framework ensures secure delegated access to resources. Applications must authenticate via the app registered through AOS App registration to obtain OAuth 2.0 access tokens, which grant scoped permissions for interacting with Graph API endpoints. This process prevents unauthorized access by validating identities and enforcing least-privilege principles."
+            ],
+            "title": "Overview"
+          },
+          {
+            "url": "https://cdn.avepoint.com/pdfs/en/AvePoint_Citizen_Services_Product_brochure.pdf",
+            "excerpts": [
+              "By centralizing automated citizen request and case manage- ment, AvePoint Citizen Services modernizes government administration and allows agencies to optimize"
+            ],
+            "title": "Product Brochure_AvePoint Citizen Services"
+          },
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Platform Dynamics 365",
+              "The platform easily integrates into Richmond\u2019s Cityworks implementation (without complicating the citizen interface) through MicrosoftBizTalk which sends inbound requests to the solution."
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "service_directory_and_knowledge_base.description",
+        "reasoning": "The description asserts that the RVA.gov site provides a Services directory and a Helpful Links page under the Citizen Service & Response (CSR) umbrella, and that these resources act as a partial service directory that routes residents to department pages and tools, but do not constitute a formal, comprehensive knowledge base mapping every 311 service category to its handling department. Several excerpts corroborate this structure: a page titled RVA 311 Helpful Links explicitly discusses how residents can submit service requests by phone or online and points to RVA311 as a portal, indicating a routing function rather than a complete knowledge map. Another excerpt highlights a Services section on the Richmond site, which is the landing point for citizen services and 311, reinforcing the idea of a directory-style resource. Additional excerpts list the CSR-linked channels and department references, illustrating how the site directs users to specific offices rather than maintaining a centralized, fully structured taxonomy. Collectively, these excerpts support the claim that the website offers a partial directory with links and portals (including RVA311), while not presenting a fully centralized knowledge base that maps every 311 category to a responsible department. The references to direct portals (online request submission, status lookups) and phone-based contact further illustrate the practical routing role of the directory and helpful links, rather than a comprehensive, formal knowledge catalog.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links",
+            "excerpts": [
+              "Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000. Or Submit Anytime. on RVA311. To contact City of Richmond Customer Service, please call 804-646-7000 or 3-1-1.",
+              "City Attorney \u00b7 Budget \u00b7 Circuit Court Clerk \u00b7 Citizen Service & Response/311 \u00b7 City Clerk \u00b7 Commonwealth Attorney \u00b7 Community Wealth Building \u00b7 Economic Need to submit a service request? Reach us by phone.",
+              "Link to online portal where users can look up status of code enforcement cases. Department of Planning and Development Review. Pavement Conditions Index. Link",
+              "on [RVA311.co",
+              "During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000 . Or Submit Anytime. on RVA311."
+            ],
+            "title": "RVA 311 Helpful Links | Richmond"
+          },
+          {
+            "url": "https://rva.gov/common/services",
+            "excerpts": [
+              "Citizen Service & Response/311",
+              "[Contact RVA311](https://www.rva311.com/)"
+            ],
+            "title": "Services | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week."
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "api_and_integration_options.api_availability",
+        "reasoning": "The core claim to evaluate is whether there is an API available for the Richmond 311 integration. The most directly relevant information shows that AvePoint provides an AvePoint Graph API with a unified endpoint to access AvePoint services, designed for IT professionals to enable data management, automation, and integration: this confirms API availability for programmatic interactions. Additional excerpts describe the API endpoint format and capabilities, reinforcing that a programmatic integration layer exists. The authentication details (OAuth 2.0, client secret, certificates) further support that secure API access is standard for these integrations. A product brochure mentioning centralized automated citizen requests also aligns with an API-enabled, integrated service handling workflow, lending further support to API availability in the ecosystem. Collectively, these excerpts contradict the asserted false value for API availability and demonstrate that API access and integration options are present for the Richmond 311 context, at least via AvePoint Citizen Services / Graph API. The most directly relevant points are the explicit references to the AvePoint Graph API and its unified endpoint, followed by authentication methods and documented integration features; supporting points include the API-focused documentation and product materials describing centralized, automated citizen services.",
+        "citations": [
+          {
+            "url": "https://learn.avepoint.com/docs/Overview.html",
+            "excerpts": [
+              "The AvePoint Graph API is a robust suite of tools designed to streamline integration and enhance functionality for managing your digital collaboration environment. It allows developers to interact programmatically with AvePoint's solutions, facilitating automation, data integration, and enhanced operational capabilities.",
+              "Unified endpoint: The API can be accessed via a unified endpoint format `https://graph-{dc}.avepointonlineservices.com` .",
+              "AvePoint Graph API provides a unified endpoint to accessing AvePoint services data, designed to cater to IT professionals seeking robust data management, data insights, and backup monitoring solutions.",
+              "The AvePoint Graph API employs advanced authentication methods to ensure secure and efficient access to a wide range of functionalities.",
+              "Authentication Method (OAuth 2.0)AvePoint Graph API exclusively uses the OAuth 2.0 protocol for authentication and authorization. This industry-standard framework ensures secure delegated access to resources. Applications must authenticate via the app registered through AOS App registration to obtain OAuth 2.0 access tokens, which grant scoped permissions for interacting with Graph API endpoints. This process prevents unauthorized access by validating identities and enforcing least-privilege principles."
+            ],
+            "title": "Overview"
+          },
+          {
+            "url": "https://cdn.avepoint.com/pdfs/en/AvePoint_Citizen_Services_Product_brochure.pdf",
+            "excerpts": [
+              "By centralizing automated citizen request and case manage- ment, AvePoint Citizen Services modernizes government administration and allows agencies to optimize"
+            ],
+            "title": "Product Brochure_AvePoint Citizen Services"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "service_request_taxonomy.example_service_types",
+        "reasoning": "- The most directly relevant excerpt enumerates Public Works topics such as Solid Waste, Bulk and Brush, Grounds Maintenance, Right of Way Management, Transportation and Safety, Parking Enforcement, Urban Forestry, Streetlight Engineering, Streetlight Maintenance. This aligns with the 'Public Works Services' portion of the taxonomy, showing that Public Works categories are part of RVA 311\u2019s service taxonomy. \n- Another excerpt explicitly mentions Code Enforcement in the Planning and Development area (Zoning and Permitting, code enforcement), which corresponds to the Code Enforcement Cases portion of the taxonomy, indicating that code enforcement activities are a labeled service category within the RVA 311 ecosystem. \n- A separate excerpt references Permits and Permitting in the broader department context (Planning and Development is listed with Zoning and Permitting), which directly ties to the notion of Permits (Energov) as a service category and suggests Energov as a potential permitting system pathway within the taxonomy framework. \n- Several excerpts describe how to submit requests (Submit a new request online or via mobile app; self-serve portal available 24/7; call center with defined hours), which supports understanding of how Permits, Code Enforcement, and Public Works-related requests are categorized and submitted through RVA311, thereby providing evidence about the taxonomy\u2019s operationalization and submission methods. \n- Additional excerpts list the departments and cross-agency partnerships involved with RVA311, illustrating the governance context for the service categories and showing how the taxonomy sits within the City\u2019s organizational structure. This contextual information reinforces that the categories (Permits, Code Enforcement, Public Works) are indeed part of RVA311\u2019s taxonomy as used in practice, even if some explicit item names (like Energov) are not uniformly stated across excerpts.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Public Works\nSolid Waste\nBulk and Brush\nGrounds Maintenance\nRight of Way Management\nTransportation and Safety\nParking Enforcement\nUrban Forestry\nStreetlight Engineering\nStreetlight Maintenance\n",
+              "Planning and Development\nZoning and Permitting\ncode enforcement\n",
+              "RVA311 partners with over 30 different departments, agencies and teams within the City.\nPublic Works\nPublic Utilities\nsocial services\nFinance and Revenue\nPlanning and Development\nOther Partners\n",
+              "We partner with over 20 different City agencies within the City",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "Our highly trained call center agents, and our intelligent self-service website and mobile apps handle requests for potholes, sidewalks, stormwater, tax billing 311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with\u00a0...",
+              "Residents or visitors can call Monday - Saturday\u00a0 during business hours posted to the left",
+              "l Center Hours\n\n\n\n\n\n\n\nCall Center is\u00a0 OPEN\u00a0 during the hours listed above regardless of weather. Call Center is\u00a0 CLOSED\u00a0 on Sundays, City holidays and the following holiday weekend Saturdays\n    * March 8\n    * April 19\n    * July 5\n    * November",
+              "Other Partners\nNon-emergency Police\nAnimal Care and Control\nOffice of Elections\n",
+              "Finance and Revenue\nPersonal Property Taxes\nBusiness Property Taxes\nReal Estate Taxes\nBusiness Licensing\nCollections\n",
+              "social services\nBenefit Application and Eligibility\nAdult Services\nChild Protective Services\nHomeless Services\n"
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "call_center_operations.after_hours_handling",
+        "reasoning": "The finegrained field value asserts that submissions can be made 24/7 via the self-serve portal (RVA311.com) and mobile apps, and that these after-hours submissions are queued and processed during normal business operations. The strongest support comes from excerpts that explicitly state 24/7 submission capabilities through the RVA311 online portal and mobile app, indicating that users can submit requests at any time. Additional excerpts reiterate the 24/7 availability of the self-serve portal and app. While there are excerpts describing call center hours and occasional closures, they do not contradict the existence of 24/7 self-serve submission, nor do they provide explicit details about how after-hours submissions are queued or routed for processing. The direct claim about queueing and processing after-hours during normal business operations is not evidenced in the provided excerpts, so it cannot be asserted with high confidence. Based on the available excerpts, the core part that is well-supported is the 24/7 self-serve submission capability; the queueing aspect remains unverified by the excerpts provided.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "l Center Hours\n\n\n\n\n\n\n\nCall Center is\u00a0 OPEN\u00a0 during the hours listed above regardless of weather. Call Center is\u00a0 CLOSED\u00a0 on Sundays, City holidays and the following holiday weekend Saturdays\n    * March 8\n    * April 19\n    * July 5\n    * November",
+              "The Call Center does not close for inclement weather, but is closed on Sundays and City holidays."
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "call_center_operations.weekday_hours",
+        "reasoning": "The clearest matches describe how the RVA 311 system supports around-the-clock submission (self-serve portal and mobile app available 24 hours a day, 7 days a week) and that the 3-1-1 Call Center operates during posted hours. This establishes a general framework for when support is available, but does not confirm the requested specific weekday window. Additional excerpts confirm that online or self-service submission is possible at any time and that call center hours are posted (implying defined hours), with further notes that the call center is closed on Sundays and city holidays. There is no excerpt that explicitly states the exact Monday\u2013Friday operating window of 8:00 a.m. to 7:00 p.m., so while the excerpts strongly support that some components (self-serve, posted call center hours) exist and that there are closures on Sundays/holidays, they do not fully confirm the requested time range. Therefore, the most relevant excerpts are those that discuss 24/7 submission availability and the existence of posted call center hours, followed by those detailing Sunday/holiday closures, with a lack of explicit confirmation for the precise Monday\u2013Friday hours.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "The Call Center does not close for inclement weather, but is closed on Sundays and City holidays.",
+              "l Center Hours\n\n\n\n\n\n\n\nCall Center is\u00a0 OPEN\u00a0 during the hours listed above regardless of weather. Call Center is\u00a0 CLOSED\u00a0 on Sundays, City holidays and the following holiday weekend Saturdays\n    * March 8\n    * April 19\n    * July 5\n    * November"
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "call_center_operations.saturday_hours",
+        "reasoning": "The target field seeks an exact Saturday operating window for the call center. The closest match among the excerpts notes that: the call center is OPEN during the hours listed above and that the call center is CLOSED on Sundays and certain holiday weekends including Saturdays, indicating special Saturday conditions but not providing a specific time range. This excerpt also mentions that hours are posted separately, which implies the precise Saturday hours would be found in the posted schedule rather than stated in the excerpt itself. Another excerpt confirms that Sundays and city holidays affect call center availability, aligning with the general pattern that weekend/holiday hours differ from weekdays. Other excerpts emphasize that self-service options (online, mobile app) are available 24/7, and that requests can be submitted online at RVA311.com or via the mobile app, which contextualizes overall availability but does not provide Saturday-specific times. Taken together, the evidence suggests there is some information about Saturday operations (special weekend rules) but no explicit confirmation of a Saturday 9:00 a.m. \u2013 1:00 p.m. window as given in the finegrained field value. Therefore, the most relevant evidence points to a need to consult the posted schedule for exact times, with Sundays and holidays clearly affecting availability, and 24/7 self-service options as a separate facet of access.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "l Center Hours\n\n\n\n\n\n\n\nCall Center is\u00a0 OPEN\u00a0 during the hours listed above regardless of weather. Call Center is\u00a0 CLOSED\u00a0 on Sundays, City holidays and the following holiday weekend Saturdays\n    * March 8\n    * April 19\n    * July 5\n    * November",
+              "The Call Center does not close for inclement weather, but is closed on Sundays and City holidays.",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week. And our helpful customer service representatives are available in our 3-1-1 Call Center during our normal Call Center hours posted at left.",
+              "Requests may be submitted by telephone, online or by mobile. Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week."
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "request_misroute_rate_information.findings",
+        "reasoning": "The most relevant excerpt suggests an auditing authority exists for the City and conducts audits, which is the kind of channel that would publish or discuss performance-related findings. If audits specifically about the RVA 311 misrouting were available, they would likely be found or noted in audit reports from the Office of the City Auditor, so the existence of an active audit function and indexed reporting implies potential but not guaranteed coverage of RVA 311 misrouting metrics. The open data portal excerpt indicates the city publishes data publicly, which would be a channel where misrouting metrics might appear if they existed publicly; however, it only states that the portal provides data in an open format and does not confirm any RVA311 misrouting KPIs or datasets. The RVA311 activity excerpt notes that RVA311 handled a large volume of requests, which provides context about scale but does not address misrouting metrics; this shows data exist about volume but not about misrouting. Taken together, these excerpts support that there is a public data and auditing ecosystem, but none provide explicit, published metrics on misroutes or reclassification rates for RVA311, aligning with the field value that such metrics are not publicly found in the cited sources. Therefore, the evidence leans toward no published misroute metrics, though it stops short of proving a negative across all internal systems.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/office-city-auditor/home",
+            "excerpts": [
+              "The Office of the City Auditor plans, conducts, and reports on audits that will result in effective audit coverage of the City of Richmond, focusing on"
+            ],
+            "title": "Office of the City Auditor"
+          },
+          {
+            "url": "https://www.rva.gov/information-technology/open-data-portal",
+            "excerpts": [
+              "The City of Richmond's Open Data Portal provides data to the public in an open format with no fee, legal encumbrance, or registration requirement."
+            ],
+            "title": "Open Data Portal | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "We partner with over 20 different City agencies within the City and in 2024, RVA311 provided assistance or supported our City partners in responding to over 83,000 requests."
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "crm_platform_details.vendor",
+        "reasoning": "The RVA 311 system is powered by AvePoint Citizen Services software. This platform is built on Microsoft Azure and utilizes Dynamics 365. Richmond was the first city in the United States to implement an AvePoint platform for its 311 services.",
+        "citations": [
+          {
+            "url": "https://www.avepoint.com/case-studies/rva311",
+            "excerpts": [
+              "AvePoint Citizen Service deploys Dynamics 365, advanced machine learning and IoT Microsoft technologies to gain context on common RVA 311 service requests such as abandoned vehicles, missing manhole covers or unruly tree branches.",
+              "Section Title: AvePoint Citizen Services Powers Richmond's RVA 311 Citizen Request System",
+              "Platform Dynamics 365"
+            ],
+            "title": "RVA 311 - AvePoint"
+          },
+          {
+            "url": "https://www.govtech.com/dc/articles/311-Launches-in-Richmond-Va-Along-with-a-New-City-Department-to-Manage-It.html",
+            "excerpts": [
+              "Richmond, Va. has a new 311 platform along with a new city department to help manage the citizen requests and data that the platform produces. RVA 311 is built on top of AvePoint's Citizen Services software, which is itself built on top of Microsoft Azure, that company's cloud-based computing service.",
+              "RVA 311 is built on top of [AvePoint\u2019s Citizen Services](https://www.avepoint.com/citizenservices/) software, which is itself built on top of Microsoft Azure, that company\u2019s cloud-based computing service.",
+              "Richmond is the first city in the United States to go live with an AvePoint platform, said Paul Olenick, AvePoint\u2019s director of product strategy."
+            ],
+            "title": "311 Launches in Richmond, Va., Along with a New City ..."
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "type": "json",
+    "beta_fields": null,
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "executive_summary": {
+          "type": "string",
+          "description": "A high-level summary of the key findings regarding the City of Richmond's 311 system as of 2025-2026."
+        },
+        "crm_platform_details": {
+          "type": "object",
+          "properties": {
+            "platform_name": {
+              "type": "string",
+              "description": "The name of the CRM or service request platform."
+            },
+            "vendor": {
+              "type": "string",
+              "description": "The company that provides the platform."
+            },
+            "underlying_technology": {
+              "type": "string",
+              "description": "The core technology stack the platform is built on (e.g., Dynamics 365, Microsoft Azure)."
+            },
+            "adoption_date": {
+              "type": "string",
+              "description": "The month and year the platform was adopted or went live."
+            }
+          },
+          "required": [
+            "platform_name",
+            "vendor",
+            "underlying_technology",
+            "adoption_date"
+          ],
+          "additionalProperties": false
+        },
+        "api_and_integration_options": {
+          "type": "object",
+          "properties": {
+            "api_availability": {
+              "type": "boolean",
+              "description": "Indicates if a public or internal API is available."
+            },
+            "api_name": {
+              "type": "string",
+              "description": "The name of the API, if available (e.g., AvePoint Graph API)."
+            },
+            "authentication_methods": {
+              "type": "string",
+              "description": "Supported authentication methods for the API (e.g., OAuth 2.0)."
+            },
+            "integration_capabilities": {
+              "type": "string",
+              "description": "Details on known integrations with other systems, such as Cityworks."
+            },
+            "documentation_url": {
+              "type": "string",
+              "description": "URL to the public API documentation, if found."
+            }
+          },
+          "required": [
+            "api_availability",
+            "api_name",
+            "authentication_methods",
+            "integration_capabilities",
+            "documentation_url"
+          ],
+          "additionalProperties": false
+        },
+        "service_request_taxonomy": {
+          "type": "object",
+          "properties": {
+            "partner_department_count": {
+              "type": "number",
+              "description": "The number of city departments or agencies integrated with the 311 system."
+            },
+            "example_categories": {
+              "type": "string",
+              "description": "A list of high-level service categories (e.g., Public Works, Social Services)."
+            },
+            "example_service_types": {
+              "type": "string",
+              "description": "A list of specific service request types (e.g., potholes, streetlights, tax billing)."
+            },
+            "taxonomy_update_frequency": {
+              "type": "string",
+              "description": "How often the service request taxonomy is updated, if known."
+            }
+          },
+          "required": [
+            "partner_department_count",
+            "example_categories",
+            "example_service_types",
+            "taxonomy_update_frequency"
+          ],
+          "additionalProperties": false
+        },
+        "open_data_portal_status": {
+          "type": "object",
+          "properties": {
+            "portal_url": {
+              "type": "string",
+              "description": "The URL of the city's open data portal."
+            },
+            "dataset_found": {
+              "type": "boolean",
+              "description": "Indicates whether a 311 service request dataset was found."
+            },
+            "dataset_id": {
+              "type": "string",
+              "description": "The unique identifier for the 311 dataset on the portal, if available."
+            },
+            "data_fields": {
+              "type": "string",
+              "description": "A list of fields or columns included in the dataset."
+            },
+            "data_recency": {
+              "type": "string",
+              "description": "The timestamp or date of the most recent data found in the dataset."
+            },
+            "update_cadence": {
+              "type": "string",
+              "description": "The frequency at which the dataset is updated, if known."
+            }
+          },
+          "required": [
+            "portal_url",
+            "dataset_found",
+            "dataset_id",
+            "data_fields",
+            "data_recency",
+            "update_cadence"
+          ],
+          "additionalProperties": false
+        },
+        "call_center_operations": {
+          "type": "object",
+          "properties": {
+            "weekday_hours": {
+              "type": "string",
+              "description": "The operating hours for the call center from Monday to Friday."
+            },
+            "saturday_hours": {
+              "type": "string",
+              "description": "The operating hours for the call center on Saturdays."
+            },
+            "sunday_status": {
+              "type": "string",
+              "description": "The operational status of the call center on Sundays (e.g., Closed)."
+            },
+            "after_hours_handling": {
+              "type": "string",
+              "description": "How requests are handled outside of business hours (e.g., via web portal, mobile app)."
+            }
+          },
+          "required": [
+            "weekday_hours",
+            "saturday_hours",
+            "sunday_status",
+            "after_hours_handling"
+          ],
+          "additionalProperties": false
+        },
+        "chatbot_and_ai_assistant_status": {
+          "type": "object",
+          "properties": {
+            "chatbot_exists": {
+              "type": "boolean",
+              "description": "Indicates whether an active chatbot or AI assistant was found on rva.gov."
+            },
+            "findings": {
+              "type": "string",
+              "description": "A summary of the findings regarding any current or past automated tools."
+            }
+          },
+          "required": [
+            "chatbot_exists",
+            "findings"
+          ],
+          "additionalProperties": false
+        },
+        "service_directory_and_knowledge_base": {
+          "type": "object",
+          "properties": {
+            "directory_exists": {
+              "type": "boolean",
+              "description": "Indicates if a structured service directory or knowledge base was found."
+            },
+            "directory_url": {
+              "type": "string",
+              "description": "The URL of the service directory or relevant page, if found."
+            },
+            "description": {
+              "type": "string",
+              "description": "A description of the format and content of the directory, including whether it maps departments to services."
+            }
+          },
+          "required": [
+            "directory_exists",
+            "directory_url",
+            "description"
+          ],
+          "additionalProperties": false
+        },
+        "request_misroute_rate_information": {
+          "type": "object",
+          "properties": {
+            "metrics_found": {
+              "type": "boolean",
+              "description": "Indicates if any public metrics or audit reports on request misrouting were found."
+            },
+            "findings": {
+              "type": "string",
+              "description": "A summary of the search for misroute rate information and whether any internal tracking is known to exist."
+            }
+          },
+          "required": [
+            "metrics_found",
+            "findings"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "executive_summary",
+        "crm_platform_details",
+        "api_and_integration_options",
+        "service_request_taxonomy",
+        "open_data_portal_status",
+        "call_center_operations",
+        "chatbot_and_ai_assistant_status",
+        "service_directory_and_knowledge_base",
+        "request_misroute_rate_information"
+      ],
+      "additionalProperties": false
+    },
+    "content_file": "sn_q1_system_data.md"
+  }
+}

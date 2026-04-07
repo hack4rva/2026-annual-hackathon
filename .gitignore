@@ -5,3 +5,6 @@ __pycache__/
 .venv/
 node_modules/
 .cursor/
+# Ignore demo videos
+ideas/**/*.mp4
+ideas/**/*.mov

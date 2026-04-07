@@ -8,5 +8,3 @@ node_modules/
 # Ignore demo videos
 ideas/**/*.mp4
 ideas/**/*.mov
-# Ignore working docs folders
-ideas/**/_docs/

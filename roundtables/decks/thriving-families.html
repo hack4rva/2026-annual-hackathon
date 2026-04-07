@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thriving Families — Roundtable Evaluation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+<style>
+  :root {
+    --header: #1a365d;
+    --ship: #22543d;
+    --ship-bg: #f0fff4;
+    --conditions: #744210;
+    --conditions-bg: #fffff0;
+    --kill: #9b2c2c;
+    --kill-bg: #fff5f5;
+    --hold: #553c9a;
+    --hold-bg: #faf5ff;
+    --accent: #2b6cb0;
+    --muted: #718096;
+  }
+
+  .reveal {
+    font-family: 'Fira Code', monospace;
+  }
+
+  .reveal h1 {
+    color: var(--header);
+    font-size: 2.0em;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    letter-spacing: -0.03em;
+  }
+
+  .reveal h2 {
+    color: var(--header);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4em;
+  }
+
+  .reveal h3 {
+    color: var(--header);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .reveal p {
+    font-size: 0.72em;
+    line-height: 1.55;
+    color: #2d3748;
+    max-width: 88%;
+    margin: 0 auto 0.5em auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .reveal li {
+    font-size: 0.68em;
+    line-height: 1.45;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+  }
+
+  .persona-quote {
+    background: #f7fafc;
+    border-left: 5px solid var(--accent);
+    padding: 16px 24px;
+    margin: 20px auto;
+    max-width: 85%;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.7em;
+    line-height: 1.6;
+    font-style: italic;
+    color: #2d3748;
+  }
+
+  .persona-quote .name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--header);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.55em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .badge-ship { background: var(--ship-bg); color: var(--ship); border: 2px solid var(--ship); }
+  .badge-conditions { background: var(--conditions-bg); color: var(--conditions); border: 2px solid var(--conditions); }
+  .badge-kill { background: var(--kill-bg); color: var(--kill); border: 2px solid var(--kill); }
+  .badge-hold { background: var(--hold-bg); color: var(--hold); border: 2px solid var(--hold); }
+
+  .reveal table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.42em;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  .reveal th {
+    background: var(--header);
+    color: #fff;
+    padding: 4px 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .reveal td {
+    padding: 3px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.3;
+  }
+  .reveal tr:nth-child(even) td { background: #f7fafc; }
+
+  .subtitle {
+    font-size: 0.7em;
+    color: var(--muted);
+    margin-top: -0.3em;
+  }
+
+  .tier {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 0.55em;
+    font-weight: 700;
+  }
+  .tier-s { background: #c6f6d5; color: #22543d; }
+  .tier-a { background: #bee3f8; color: #2a4365; }
+  .tier-b { background: #fefcbf; color: #975a16; }
+  .tier-c { background: #fed7d7; color: #9b2c2c; }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--header);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    padding: 5px 20px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .reveal .slides section {
+    padding-bottom: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 100%;
+  }
+
+  .reveal .slides section > * {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reveal .slides section h1,
+  .reveal .slides section h2 {
+    max-width: 95%;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ===================== ACT 1: SETTING THE STAGE ===================== -->
+
+<section>
+  <h1>Thriving Families</h1>
+  <p class="subtitle">Connecting Richmond's youth and families to opportunity and coordinated support.</p>
+  <p class="subtitle">RVA Hacks 2026 — Post-Event Evaluation</p>
+</section>
+
+<section>
+  <h2>The Problem</h2>
+  <p>Richmond's youth face a fragmented landscape of summer jobs, internships, and first-job guidance spread across dozens of programs with no single front door.</p>
+  <p>Meanwhile, the agencies and nonprofits serving maternal health spend hours compiling the same statistics from the same sources — and still arrive at different numbers in the same meeting.</p>
+</section>
+
+<section>
+  <h2>Two Challenges</h2>
+  <p><strong>Youth Employment Pathways:</strong> Give Richmond youth one clear place to explore summer jobs, internships, and first-job guidance — so opportunity is not gated by who you know.</p>
+  <p><strong>Maternal Health Data Coordination:</strong> Reduce duplicated data analysis across agencies so Richmond's maternal health ecosystem can operate from shared, consistent metrics.</p>
+</section>
+
+<!-- ===================== ACT 2: HOW WE EVALUATED ===================== -->
+
+<section>
+  <h2>The Roundtable Model</h2>
+  <p>We did not just score these ideas. We put each one through a simulated roundtable with seven distinct perspectives — from the Mayor worrying about political risk to the Citizen asking who gets left out.</p>
+  <p>Ten ideas were evaluated: seven targeting youth employment, three targeting maternal health data.</p>
+</section>
+
+<section>
+  <h2>The Seven Voices</h2>
+  <p>The <strong>Mayor</strong> asks whether it can ship in 90 days without embarrassing the City. The <strong>Innovator</strong> pushes for what is genuinely new. The <strong>Frontliner</strong> tests whether real staff would use it. The <strong>Citizen</strong> asks who benefits and who gets left out.</p>
+  <p>The <strong>Architect</strong> checks whether Richmond's tech stack can support it. The <strong>Funder</strong> asks who pays after the hackathon. The <strong>Activist</strong> maps the broader ecosystem and prior art.</p>
+</section>
+
+<section>
+  <h2>The Process</h2>
+  <p>Each idea went through four phases: independent assessment by all seven personas, convergence debate where disagreements surfaced, direct challenge rounds between opposing views, and a final pass-or-fail validation.</p>
+  <p>Every score reflects that full gauntlet — not a first impression.</p>
+</section>
+
+<section>
+  <h2>What Kills an Idea</h2>
+  <p>We applied five fatal flaw tests to every idea. If the data does not exist, if a vendor wall blocks the MVP, if no one would own it in production, if it could harm residents, or if it would embarrass the City — the idea does not ship.</p>
+  <p>Several promising ideas in this pillar tripped these wires.</p>
+</section>
+
+<!-- ===================== ACT 3: WHAT WE FOUND ===================== -->
+
+<section>
+  <h2>At a Glance</h2>
+  <table>
+    <thead>
+      <tr><th>Idea</th><th>Problem</th><th>Verdict</th><th>Mayor's Choice</th><th>Pillar Award</th><th>Moonshot</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>RVA People Data <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td>PS2</td><td><span class="badge badge-ship">Ship</span></td><td>99</td><td>99</td><td>88</td></tr>
+      <tr><td>First Job SMS Kit <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td>PS1</td><td><span class="badge badge-conditions">Conditions</span></td><td>96</td><td>96</td><td>86</td></tr>
+      <tr><td>Grant Pack Builder <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td>PS2</td><td><span class="badge badge-conditions">Conditions</span></td><td>95</td><td>91</td><td>79</td></tr>
+      <tr><td>Unboxed RVA &#9733;</td><td>PS1</td><td><span class="badge badge-conditions">Conditions</span></td><td>94</td><td>96</td><td>86</td></tr>
+      <tr><td>Richmond Youth Hub <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td>PS1</td><td><span class="badge badge-conditions">Conditions</span></td><td>92</td><td>90</td><td>78</td></tr>
+      <tr><td>GRTC Shift-Fit Scout</td><td>PS1</td><td><span class="badge badge-conditions">Conditions</span></td><td>89</td><td>87</td><td>78</td></tr>
+      <tr><td>Maternal Metric Lock-In</td><td>PS2</td><td><span class="badge badge-conditions">Conditions</span></td><td>88</td><td>84</td><td>73</td></tr>
+      <tr><td>Stepwise <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td>PS1</td><td><span class="badge badge-hold">Refine</span></td><td>76</td><td>76</td><td>69</td></tr>
+      <tr><td>RVA Works <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td>PS1</td><td><span class="badge badge-hold">Refine</span></td><td>72</td><td>75</td><td>66</td></tr>
+      <tr><td>Multi-Pillar AI <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td>PS1</td><td><span class="badge badge-kill">Kill</span></td><td>66</td><td>72</td><td>69</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.38em;color:#718096;margin-top:8px;"><span style="color:#d69e2e;">★</span> = hackathon demo built by a human team &nbsp;&nbsp;|&nbsp;&nbsp; no star = AI-generated post-event idea</p>
+  <p style="font-size:0.55em; color:var(--muted);">&#9733; = Pillar Award Winner &nbsp;|&nbsp; MC = Mayor's Choice &nbsp;|&nbsp; PA = Pillar Award &nbsp;|&nbsp; MS = Moonshot &nbsp;|&nbsp; PS1 = Youth Employment &nbsp;|&nbsp; PS2 = Maternal Health</p>
+</section>
+
+<section>
+  <h2>The Headlines</h2>
+  <p>Of ten ideas evaluated, one is ready to ship, six can advance with conditions met, two need fundamental rethinking, and one should be set aside entirely.</p>
+  <p>The strongest ideas focus on what the City uniquely controls — Richmond-specific data, Virginia-specific rules, and GRTC's own transit feeds. The weakest tried to build two-sided marketplaces or all-in-one platforms without the institutional partnerships to fill them.</p>
+</section>
+
+<section>
+  <h2>The Pattern That Emerged</h2>
+  <p>Youth employment ideas kept hitting the same wall: you cannot build "one clear place" for jobs without a durable, maintained source of listings — and that source does not exist as an API or feed today.</p>
+  <p>The ideas that survived this reality pivoted to what they could control: SMS nudges, transit checks, compliance guides, and project-based work with named partners.</p>
+</section>
+
+<!-- ===================== ACT 4: IDEA DEEP DIVES ===================== -->
+
+<!-- ————— 1. RVA People Data ————— -->
+
+<section>
+  <h2>RVA People Data <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-ship">Ship</span></h2>
+  <p>A live, working data portal with 173 indicators drawn from seven official sources, automated annual refresh, and export-ready packs for grant writers and coalition analysts. This is the most complete product in the pillar — it already runs.</p>
+  <div class="persona-quote">
+    <span class="name">Maternal Health Coalition Analyst</span>
+    "She previously burned half a day pulling the same VDH, Census, and CDC figures as five other organizations, each with a different denominator."
+  </div>
+  <p><span class="tier tier-s">Tier S</span> &nbsp; Ranked #11 of 73 ideas for implementation readiness.</p>
+</section>
+
+<section>
+  <h2>RVA People Data <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends shipping this and immediately convening a stewardship council. The technical stack is proven, but if RHHD and major CBOs do not endorse it as the shared citation layer, the ecosystem keeps producing conflicting metrics — the very problem this solves.</p>
+  <p>It passed all five fatal flaw tests. The risk is not technology; it is whether organizations will agree to cite one source.</p>
+  <p>If Richmond's maternal health partners adopt this as their canonical data layer, it becomes the foundation every other idea in this space builds on.</p>
+</section>
+
+<!-- ————— 2. First Job SMS Kit ————— -->
+
+<section>
+  <h2>First Job SMS Kit <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Conditions</span></h2>
+  <p>While RVA People Data solves the data side, the youth employment challenge needs a different tool — one that meets teens where they already are. This SMS-first kit sends age-branched reminders, document checklists, and parent nudges through text messages tied to a real employment program.</p>
+  <div class="persona-quote">
+    <span class="name">16-Year-Old Richmond Resident</span>
+    "You are motivated but easy to derail when an employer says 'bring these five things Thursday' and you only hear about it once."
+  </div>
+  <p>External evidence is strong: Boston saw a 56% lift in job acceptance rates with SMS-based engagement.</p>
+</section>
+
+<section>
+  <h2>First Job SMS Kit <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends piloting this inside a named program like Youth Works RVA — not as citywide unsolicited outreach. The technology is commodity; the real gates are 10DLC registration timelines, legal review of age-specific labor content, and staffing for human escalation.</p>
+  <p>Virginia's work permit rules differ for 14-to-15-year-olds versus 16-to-17-year-olds, and compressed SMS "snippets" risk getting thresholds wrong. Age-branched flows with links to official DOLI sources resolve this.</p>
+  <p>If embedded in a trusted program with a parent track, this could meaningfully reduce first-week attrition for Richmond's youngest workers.</p>
+</section>
+
+<!-- ————— 3. Grant Pack Builder ————— -->
+
+<section>
+  <h2>Grant Pack Builder <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Conditions</span></h2>
+  <p>SMS helps teens get to their first job. Grant Pack Builder helps the organizations that fund those programs. It generates citation-ready neighborhood data packs from public ACS, VDH, and VDOE sources — one ZIP code in, one branded PDF out.</p>
+  <div class="persona-quote">
+    <span class="name">CBO Grant Writer</span>
+    "Top fear: one wrong number in a submitted pack. She needs an obvious source line, refresh date, and suppression legend on every slide."
+  </div>
+  <p><span class="tier tier-s">Tier S</span> &nbsp; Ranked #12 of 73 for implementation readiness.</p>
+</section>
+
+<section>
+  <h2>Grant Pack Builder <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends shipping with a validation gate: two to three Richmond maternal health CBOs must sign off on a frozen indicator catalog before this is marketed as "grant-ready." The technology is straightforward, but many Richmond census tracts will hit small-number suppression rules for sensitive outcomes — the tool must roll up to neighborhood or city level when tract data is unstable.</p>
+  <p>There is no fatal flaw. The credible failure mode is trust erosion from empty small-area tables or an unmaintained data pipeline after schema changes.</p>
+  <p>If a named steward monitors VDH and VDOE inputs for drift, this becomes a permanent capacity-builder for under-resourced CBOs.</p>
+</section>
+
+<!-- ————— 4. Unboxed RVA ————— -->
+
+<section>
+  <h2>Unboxed RVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Conditions</span></h2>
+  <p class="subtitle">&#9733; Thriving Families Pillar Award Winner</p>
+  <p>Grant Pack Builder equips organizations. Unboxed RVA asks a bolder question: what if youth employment looked more like freelancing? This project-based marketplace connects teens to discrete, paid tasks posted by local small businesses, with an AI assistant that translates between employer briefs and youth-friendly language.</p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "Gen Z-shaped projects with deliverables beat 'alphabetize in a closet' internships for motivation and portfolio value."
+  </div>
+</section>
+
+<section>
+  <h2>Unboxed RVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends piloting with guardrails: a named workforce partner must own employer vetting and compliance, the AI assistant needs DIT review under AR 2.13, and real SMB project supply must exist before marketing to youth. The execution was exceptional — a working product with youth co-designers in 48 hours.</p>
+  <p>The fatal flaw is marketplace liquidity coupled with minor employment law. Technology alone does not create a lawful, liquid youth project market; employer supply, youth protections, and governance must move in lockstep.</p>
+  <p>If a workforce intermediary anchors the supply side, this reframes youth employment in Richmond for a generation.</p>
+</section>
+
+<!-- ————— 5. Richmond Youth Hub ————— -->
+
+<section>
+  <h2>Richmond Youth Hub <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Conditions</span></h2>
+  <p>Where Unboxed RVA reimagines the format, Richmond Youth Hub tackles the oldest version of the same problem: a unified discovery portal where youth can search all of Richmond's summer job and internship programs in one place, with eligibility filters and transit-aware results.</p>
+  <div class="persona-quote">
+    <span class="name">School Counselor</span>
+    "He is the actual 'router' today. A hub that duplicates his PDF packet without syncing to RPS or partner calendars adds work, not relief."
+  </div>
+  <p><span class="tier tier-b">Tier B</span> &nbsp; Promising, but meaningful investment needed.</p>
+</section>
+
+<section>
+  <h2>Richmond Youth Hub <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends piloting the discovery layer while securing a governance table — do not ship the fantasy stack on demo day. The research-backed weekend move is manual curation plus teen user tests, paired with identifying a governance sponsor aligned to the 12-month playbook from national peers like NYC DYCD and Boston's Summer Jobs Guarantee.</p>
+  <p>The fatal flaw is that there is no durable, automated source of truth for listings. A navigator without partner MOUs and a maintained schema becomes stale fast.</p>
+  <p>If a workforce board champion and baselined funding emerge, this becomes SYEP-class infrastructure. Without them, it is a website.</p>
+</section>
+
+<!-- ————— 6. GRTC Shift-Fit Scout ————— -->
+
+<section>
+  <h2>GRTC Shift-Fit Scout <span class="badge badge-conditions">Conditions</span></h2>
+  <p>Even the best job listing fails if a teen cannot get home after a closing shift. GRTC Shift-Fit Scout uses public transit data to answer one question before a young person accepts a job: can they catch the last bus home?</p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "This is not another trip planner. It is pre-commitment constraint disclosure — eliminating trial-and-error where the error costs a first job in week one."
+  </div>
+  <p><span class="tier tier-a">Tier A</span> &nbsp; Ranked #19 of 73 for implementation readiness.</p>
+</section>
+
+<section>
+  <h2>GRTC Shift-Fit Scout — Verdict</h2>
+  <p>The panel recommends shipping this with one condition: it must be embedded in a named youth workforce intake workflow, not launched as a standalone app and hoped to be discovered. The technology has no structural walls — GRTC's GTFS feed is explicitly public and open.</p>
+  <p>It passed all five fatal flaw tests. The risk is not data access; it is distribution timing and digital equity — the tool must reach teens before they accept a shift, and staff-assisted checks must exist for those without smartphones.</p>
+  <p>If this reframes the narrative from "unreliable teen" to "structural last-bus gap," it changes how Richmond talks about youth job retention.</p>
+</section>
+
+<!-- ————— 7. Maternal Metric Lock-In ————— -->
+
+<section>
+  <h2>Maternal Metric Lock-In <span class="badge badge-conditions">Conditions</span></h2>
+  <p>Shifting from youth employment to maternal health, this idea tackles the problem upstream of dashboards: before you can share data, you have to agree on what the numbers mean. Maternal Metric Lock-In creates a versioned registry of metric definitions that coalition partners commit to using.</p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "The bottleneck is denominator drift and undocumented methods, not more charts."
+  </div>
+  <p><span class="tier tier-s">Tier S</span> &nbsp; Ranked #13 of 73 for implementation readiness.</p>
+</section>
+
+<section>
+  <h2>Maternal Metric Lock-In — Verdict</h2>
+  <p>The panel recommends shipping with conditions: a named Measurement Governance steward at RHHD, a pilot lock on three to five metrics with signed partner alignment, and a versioning policy for when national specs like AIM or ACS vintages change. The technical build uses only public data — no City integration required.</p>
+  <p>There is no fatal flaw if governance conditions are met. Without them, a stewardship vacuum means no one updates the definitions when they drift, and the registry becomes another ignored document.</p>
+  <p>If RHHD-led coalition partners adopt one shared standard and someone owns the version log, this becomes the quiet infrastructure that makes every other maternal health tool trustworthy.</p>
+</section>
+
+<!-- ————— 8. Stepwise ————— -->
+
+<section>
+  <h2>Stepwise <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Refine</span></h2>
+  <p>Back on the youth employment side, Stepwise attempts a three-sided marketplace with parent approval flows, employer verification, and a Virginia-specific readiness checklist. The demo walked through applying, parental approval, employer review, and hiring — an impressive end-to-end journey in 48 hours.</p>
+  <div class="persona-quote">
+    <span class="name">Roundtable Consensus</span>
+    "A three-sided youth job product collapses if Richmond-specific, age-appropriate roles are not sourced and refreshed through partners."
+  </div>
+</section>
+
+<section>
+  <h2>Stepwise <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends splitting the product: keep the readiness guide and parent co-pilot sequence as a shippable, low-dependency core, and pair it with partner-curated listings rather than building an open marketplace that requires employer liquidity on day one.</p>
+  <p>The fatal flaw is unowned job supply and distribution. Without school or SYEP partners feeding real, age-appropriate listings, the marketplace is a polished workflow on an empty shelf. Stale or unreviewed legal content is the secondary kill risk.</p>
+  <p>If scoped as a guided pathway with trusted listings from a named partner, the readiness layer has real standalone value.</p>
+</section>
+
+<!-- ————— 9. RVA Works ————— -->
+
+<section>
+  <h2>RVA Works <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Refine</span></h2>
+  <p>Stepwise guides teens through the process. RVA Works tries to be the platform where they find the job — a two-sided portal with a First Job Kit, AI-powered Virginia youth labor law checks, and GRTC-aware listings. The demo showed strong individual features, especially the compliance engine.</p>
+  <div class="persona-quote">
+    <span class="name">Civic Innovator</span>
+    "National evidence says outcomes come from barrier removal and closed-loop referrals — Detroit, Philly, NYC scale. That is not what the demo shipped."
+  </div>
+</section>
+
+<section>
+  <h2>RVA Works <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends leading with the standalone pieces — the First Job Kit, the employer youth-law checker piloted with ChamberRVA, and the GRTC-grounded listing cards — rather than the full portal vision. Without OCWB or YES feeding listings, the two-sided market is empty and fails the MAP wording of "one clear place."</p>
+  <p>The fatal flaw is cold start plus false front door. The research vision of wraparound CCI-scale services is directionally right, but requires years of MOUs and commissioner-level agreements — a different product than the weekend demo.</p>
+  <p>If the standalone tools find a home inside an existing program, they add real value without pretending to be the front door.</p>
+</section>
+
+<!-- ————— 10. Multi-Pillar AI ————— -->
+
+<section>
+  <h2>Multi-Pillar AI Platform <span class="badge badge-kill">Kill</span></h2>
+  <p>Finally, one idea tried to solve everything at once. Multi-Pillar AI proposed a Google Cloud-powered platform spanning all seven MAP pillars with multi-agent routing, video interview coaching, AI resume building, and a Ticketmaster-integrated events layer. The ambition was extraordinary.</p>
+  <div class="persona-quote">
+    <span class="name">Roundtable Consensus</span>
+    "Misrouting or hallucinated services is an active harm vector. Breadth prevents fixing any single pillar to award-grade depth."
+  </div>
+  <p><span class="tier tier-c">Tier C</span> &nbsp; Aspirational — structural barriers to implementation.</p>
+</section>
+
+<section>
+  <h2>Multi-Pillar AI <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends not treating this as a shippable city platform. There is no verified Richmond-wide service graph, 311 has no public API, and resident-facing AI for minors triggers a long compliance path under AR 2.13 — not a weekend toggle. The prototype impresses as a capability demo but cannot be trusted as civic infrastructure.</p>
+  <p>The fatal flaw is maximum scope combined with high-stakes domains. Video coaching for minors, work eligibility routing, and health-adjacent advice each demand curated directories and compliance layers that do not exist.</p>
+  <p>If narrowed to one problem statement with vetted data and guardrails, the underlying technology could power a focused tool worth piloting.</p>
+</section>
+
+<!-- ===================== ACT 5: WHAT IT MEANS ===================== -->
+
+<section>
+  <h2>What Should Ship</h2>
+  <p><strong>RVA People Data</strong> is a live product that directly solves the maternal health data coordination problem — ship it and convene stewardship.</p>
+  <p><strong>First Job SMS Kit</strong> has the strongest external evidence base for youth employment and fits commodity tech — embed it in Youth Works RVA.</p>
+  <p><strong>Grant Pack Builder</strong> and <strong>Maternal Metric Lock-In</strong> are Tier S infrastructure plays that make every other maternal health idea more trustworthy.</p>
+  <p><strong>GRTC Shift-Fit Scout</strong> and <strong>Unboxed RVA</strong> earn their conditions through focused scope and open data.</p>
+</section>
+
+<section>
+  <h2>What Should Not Ship — and Why</h2>
+  <p><strong>Multi-Pillar AI</strong> should be set aside: no verified service graph, no public 311 API, and resident-facing AI for minors demands compliance infrastructure that does not exist today.</p>
+  <p><strong>Stepwise</strong> and <strong>RVA Works</strong> need fundamental rethinking — both build marketplaces that require employer liquidity and partner data feeds that no one has committed to providing. Their best features should be extracted and embedded in existing programs.</p>
+</section>
+
+<section>
+  <h2>What This Pillar Tells Us</h2>
+  <p>The youth employment ideas that survived are not job boards. They are nudges, compliance tools, transit checks, and project marketplaces — interventions that work alongside existing programs rather than trying to replace them.</p>
+  <p>On the maternal health side, the winners are infrastructure: shared definitions, automated data packs, and a canonical portal. None are flashy, but all address the root cause — organizations cannot coordinate if they cannot agree on the numbers.</p>
+  <p>The clearest lesson from this pillar: the City's strongest move is not building platforms, but providing the data layers and engagement tools that make the ecosystem's existing programs work better.</p>
+</section>
+
+</div><!-- .slides -->
+</div><!-- .reveal -->
+
+<div class="footer">RVA Hacks 2026 — Roundtable Evaluation &nbsp;|&nbsp; Thriving Families</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  width: 1280,
+  height: 720,
+  margin: 0.1,
+  minScale: 0.2,
+  maxScale: 1.0,
+  transition: 'fade',
+  transitionSpeed: 'default',
+  center: true,
+  controlsTutorial: false,
+  disableLayout: false,
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thriving &amp; Inclusive Communities — Roundtable Evaluation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+<style>
+  :root {
+    --header: #1a365d;
+    --ship: #22543d;
+    --ship-bg: #f0fff4;
+    --conditions: #744210;
+    --conditions-bg: #fffff0;
+    --kill: #9b2c2c;
+    --kill-bg: #fff5f5;
+    --hold: #553c9a;
+    --hold-bg: #faf5ff;
+    --accent: #2b6cb0;
+    --muted: #718096;
+  }
+
+  .reveal {
+    font-family: 'Fira Code', monospace;
+  }
+
+  .reveal h1 {
+    color: var(--header);
+    font-size: 2.0em;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    letter-spacing: -0.03em;
+  }
+
+  .reveal h2 {
+    color: var(--header);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4em;
+  }
+
+  .reveal h3 {
+    color: var(--header);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .reveal p {
+    font-size: 0.72em;
+    line-height: 1.55;
+    color: #2d3748;
+    max-width: 88%;
+    margin: 0 auto 0.5em auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .reveal li {
+    font-size: 0.68em;
+    line-height: 1.45;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+  }
+
+  .persona-quote {
+    background: #f7fafc;
+    border-left: 5px solid var(--accent);
+    padding: 16px 24px;
+    margin: 20px auto;
+    max-width: 85%;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.7em;
+    line-height: 1.6;
+    font-style: italic;
+    color: #2d3748;
+  }
+
+  .persona-quote .name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--header);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.55em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .badge-ship { background: var(--ship-bg); color: var(--ship); border: 2px solid var(--ship); }
+  .badge-conditions { background: var(--conditions-bg); color: var(--conditions); border: 2px solid var(--conditions); }
+  .badge-kill { background: var(--kill-bg); color: var(--kill); border: 2px solid var(--kill); }
+  .badge-hold { background: var(--hold-bg); color: var(--hold); border: 2px solid var(--hold); }
+
+  .reveal table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.42em;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  .reveal th {
+    background: var(--header);
+    color: #fff;
+    padding: 4px 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .reveal td {
+    padding: 3px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.3;
+  }
+  .reveal tr:nth-child(even) td { background: #f7fafc; }
+
+  .subtitle {
+    font-size: 0.7em;
+    color: var(--muted);
+    margin-top: -0.3em;
+  }
+
+  .tier {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 0.55em;
+    font-weight: 700;
+  }
+  .tier-s { background: #c6f6d5; color: #22543d; }
+  .tier-a { background: #bee3f8; color: #2a4365; }
+  .tier-b { background: #fefcbf; color: #975a16; }
+  .tier-c { background: #fed7d7; color: #9b2c2c; }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--header);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    padding: 5px 20px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .reveal .slides section {
+    padding-bottom: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 100%;
+  }
+
+  .reveal .slides section > * {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reveal .slides section h1,
+  .reveal .slides section h2 {
+    max-width: 95%;
+  }
+
+  .reveal td .badge {
+    font-size: 0.8em;
+    padding: 3px 12px;
+  }
+
+  .reveal th.num, .reveal td.num {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ═══════════════════════════════════════════════════════
+     ACT 1 — SETTING THE STAGE
+     ═══════════════════════════════════════════════════════ -->
+
+<section>
+  <h1>Thriving &amp; Inclusive Communities</h1>
+  <p class="subtitle">Building trust and reducing friction for immigrant, refugee, and reentry communities</p>
+  <p class="subtitle">RVA Hacks 2026 — Post-Event Roundtable Evaluation</p>
+</section>
+
+<section>
+  <h2>The Trust Paradox</h2>
+  <p>Richmond's immigrant, refugee, and reentry communities face a cruel paradox — the people who need services most are the ones least able to navigate the system.</p>
+  <p>They're asked to create accounts, share identifying information, and repeat their story to every agency they visit. Trust is the scarcest resource.</p>
+</section>
+
+<section>
+  <h2>Two Problem Statements</h2>
+  <p><strong>Immigrant Service Discovery</strong> — Help residents find and connect to trusted community services without creating accounts or sharing identifying information.</p>
+  <p><strong>Cross-Agency Service Navigation</strong> — Help residents navigate housing, workforce, and reentry services without repeating their story across every agency.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     ACT 2 — HOW WE EVALUATED
+     ═══════════════════════════════════════════════════════ -->
+
+<section>
+  <h2>How We Evaluated</h2>
+  <p>We didn't just score these ideas. We put each one through a simulated roundtable with seven distinct perspectives — from the Mayor worrying about political risk to the Citizen asking who gets left out.</p>
+</section>
+
+<section>
+  <h2>The Seven Voices</h2>
+  <p>Seven personas tested every idea: the Mayor on political feasibility, the Innovator on creative reframing, the Frontliner on day-to-day operational reality, the Citizen on who benefits and who's excluded, the Architect on technical viability, the Funder on sustainability, and the Activist on ecosystem fit.</p>
+</section>
+
+<section>
+  <h2>Four Phases of Review</h2>
+  <p>Each idea went through independent assessment from all seven perspectives, convergence debate to find common ground, direct challenges between personas with conflicting views, and a final pass-or-fail validation.</p>
+</section>
+
+<section>
+  <h2>What Kills an Idea</h2>
+  <p>We applied five fatal flaw tests. If the required data doesn't exist, if a vendor wall blocks the MVP, if no one would own it post-hackathon, if it could harm the residents it claims to serve, or if it would embarrass the city — the idea doesn't ship.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     ACT 3 — WHAT WE FOUND
+     ═══════════════════════════════════════════════════════ -->
+
+<section>
+  <h2>At a Glance</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Idea</th>
+        <th>Verdict</th>
+        <th class="num">Mayor's Choice</th>
+        <th class="num">Pillar Award</th>
+        <th class="num">Moonshot</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cross-Agency Handoff Memo</td>
+        <td><span class="badge badge-ship">GO</span></td>
+        <td class="num">96</td>
+        <td class="num">94</td>
+        <td class="num">84</td>
+      </tr>
+      <tr>
+        <td>WhatsApp Service Finder <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-conditions">Pilot</span></td>
+        <td class="num">91</td>
+        <td class="num">93</td>
+        <td class="num">84</td>
+      </tr>
+      <tr>
+        <td>Reentry 72-Hour Navigator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-conditions">Pilot</span></td>
+        <td class="num">90</td>
+        <td class="num">90</td>
+        <td class="num">79</td>
+      </tr>
+      <tr>
+        <td>Core Eligibility Pack Builder <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-conditions">Pilot</span></td>
+        <td class="num">89</td>
+        <td class="num">87</td>
+        <td class="num">78</td>
+      </tr>
+      <tr>
+        <td>Neighborhood Anchor Map</td>
+        <td><span class="badge badge-conditions">Pilot</span></td>
+        <td class="num">88</td>
+        <td class="num">90</td>
+        <td class="num">83</td>
+      </tr>
+      <tr>
+        <td>RVA Helps <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-hold">Refine</span></td>
+        <td class="num">84</td>
+        <td class="num">86</td>
+        <td class="num">79</td>
+      </tr>
+      <tr>
+        <td>804Me <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-hold">Refine</span></td>
+        <td class="num">72</td>
+        <td class="num">74</td>
+        <td class="num">69</td>
+      </tr>
+      <tr>
+        <td>Circle Trust <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-hold">Refine</span></td>
+        <td class="num">61</td>
+        <td class="num">63</td>
+        <td class="num">60</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.38em;color:#718096;margin-top:8px;"><span style="color:#d69e2e;">★</span> = hackathon demo built by a human team &nbsp;&nbsp;|&nbsp;&nbsp; no star = AI-generated post-event idea</p>
+</section>
+
+<section>
+  <h2>What Emerged</h2>
+  <p>Of eight ideas evaluated, one is ready to ship, four need targeted pilots with named partners, and three require significant refinement before they can serve residents.</p>
+  <p>Trust dominated every conversation. The strongest ideas put power in residents' hands rather than asking them to trust another system.</p>
+</section>
+
+<section>
+  <h2>The Wall That Became a Feature</h2>
+  <p>Help1RVA and findhelp have no free public API — blocking any idea that depends on a centralized service directory.</p>
+  <p>But the highest-scoring ideas turned that wall into a design principle: paper artifacts, WhatsApp channels, and curated local lists that work around closed systems rather than through them.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     ACT 4 — IDEA DEEP DIVES (sorted by MC desc)
+     ═══════════════════════════════════════════════════════ -->
+
+<!-- ——— 1. CROSS-AGENCY HANDOFF MEMO (MC 96) ——— -->
+
+<section>
+  <h2>Cross-Agency Handoff Memo <span class="badge badge-ship">GO</span></h2>
+  <p>Instead of connecting databases, this idea gives clients a printed summary they carry from one agency to the next — their story, once, on their terms. It costs nothing to host, hits no API walls, and ranked #6 of 73 ideas for implementation readiness.</p>
+  <div class="persona-quote">
+    <span class="name">The Innovator</span>
+    "The problem is not missing software but missing portable legibility at handoffs."
+  </div>
+  <p><span class="tier tier-s">Tier S</span> — 22/25 survivability</p>
+</section>
+
+<section>
+  <h2>Handoff Memo — The Verdict</h2>
+  <p>The panel says GO — pilot with paired send-and-receive agencies, measuring whether intake staff reference the memo in the first five minutes.</p>
+  <p>It passed all five fatal flaw tests. The risk is low, the experiment is nearly free, and no City IT integration is required for the core product.</p>
+  <p>If one intake point accepts the memo, this becomes a model other cities will study.</p>
+</section>
+
+<!-- ——— 2. WHATSAPP SERVICE FINDER (MC 91) ——— -->
+
+<section>
+  <h2>WhatsApp Service Finder <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Pilot</span></h2>
+  <p>While the Handoff Memo solves the arrival moment, discovery begins earlier — on the channel newcomers already use. This idea puts a verified service-finder on WhatsApp with multilingual menus, no logins, and anti-scam education.</p>
+  <div class="persona-quote">
+    <span class="name">The Newcomer</span>
+    "If the number comes from a mosque or clinic flyer, I will try it. If it is a random forward, I will assume scam."
+  </div>
+  <p><span class="tier tier-a">Tier A/B</span> — commodity stack; partnership-dependent</p>
+</section>
+
+<section>
+  <h2>WhatsApp Finder — The Verdict</h2>
+  <p>The panel recommends a targeted pilot with a named CBO coalition, not a city-wide launch. The fatal flaw is not the technology — it is unowned trust and an unsustainable human escalation loop.</p>
+  <p>If community organizations co-sign the number and fund response capacity, this becomes the most accessible front door in the pillar.</p>
+</section>
+
+<!-- ——— 3. REENTRY 72-HOUR NAVIGATOR (MC 90) ——— -->
+
+<section>
+  <h2>Reentry 72-Hour Navigator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Pilot</span></h2>
+  <p>The first 72 hours after release from incarceration are the highest-risk window for homelessness, overdose, and re-arrest. This idea provides a sequenced checklist — ID, shelter, transit, first appointment — designed to survive a parking lot and a bus ride.</p>
+  <div class="persona-quote">
+    <span class="name">The Citizen</span>
+    "Success looks like leaving the gate with one credible next step completed or scheduled, not a 12-item fantasy list."
+  </div>
+  <p><span class="tier tier-b">Tier B</span> — tech is easy; partnerships are hard</p>
+</section>
+
+<section>
+  <h2>Reentry Navigator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel recommends piloting under nonprofit leadership with an anchor organization committed to distribution at release. The fatal flaw is operational false certainty — a polished plan that assumes shelter beds and transit passes exist when they may not.</p>
+  <p>This idea scored highest for Moonshot potential across all seven pillars. If paired with real capacity commitments, it could set a national standard for reentry navigation.</p>
+</section>
+
+<!-- ——— 4. CORE ELIGIBILITY PACK BUILDER (MC 89) ——— -->
+
+<section>
+  <h2>Core Eligibility Pack Builder <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Pilot</span></h2>
+  <p>Residents applying for SNAP, Medicaid, and housing repeat the same information at every desk. This tool builds a single eligibility packet entirely in the browser — no data leaves the device — and prints it for every appointment.</p>
+  <div class="persona-quote">
+    <span class="name">The CBO Caseworker</span>
+    "Assisted flows reach 95.6% submission in seven days versus 60.6% unassisted. The caseworker is the realistic completion engine."
+  </div>
+  <p><span class="tier tier-a">Tier A</span> — static hosting; zero API dependency</p>
+</section>
+
+<section>
+  <h2>Eligibility Pack — The Verdict</h2>
+  <p>The panel recommends piloting with agencies first. The gating question is not whether the PDF can be generated, but whether intake workers will accept it as legitimate input.</p>
+  <p>If agencies treat the packet as a head start rather than noise, this becomes a low-cost, high-dignity tool for multi-program applicants — and it needs zero City IT integration to work.</p>
+</section>
+
+<!-- ——— 5. NEIGHBORHOOD ANCHOR MAP (MC 88) ——— -->
+
+<section>
+  <h2>Neighborhood Anchor Map <span class="badge badge-conditions">Pilot</span></h2>
+  <p>Instead of building another directory, this idea maps the places immigrants already trust — libraries, mosques, clinics — and layers GRTC transit routes to show what's reachable by bus. It converts trust into geography using entirely public data.</p>
+  <div class="persona-quote">
+    <span class="name">The Innovator</span>
+    "The non-obvious pitch is not prettier pins — it is converting trust into reachable geography."
+  </div>
+  <p><span class="tier tier-s">Tier S</span> — 21/25, ranked #14 of 73</p>
+</section>
+
+<section>
+  <h2>Anchor Map — The Verdict</h2>
+  <p>The panel says pilot, but privacy and partners must come first. The fatal flaw is that mapped immigrant-serving locations without community governance could become a targeting surface — repeating the failure that shut down FindHello nationally in 2026.</p>
+  <p>Ship 20 anchors with library and CBO co-design and a published privacy tier. Do not ship a comprehensive sensitive-service layer in v1.</p>
+</section>
+
+<!-- ——— 6. RVA HELPS (MC 84) ——— -->
+
+<section>
+  <h2>RVA Helps <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Refine</span></h2>
+  <p>The most ambitious vision in the pillar: a true resource data utility with Open Referral standards, freshness badges, and a metric that measures whether people actually got help — not just whether they clicked a link.</p>
+  <div class="persona-quote">
+    <span class="name">The Funder</span>
+    "Connection rates fell from 65% to 38% when funding waned in a cited study. Maintenance funding is the product."
+  </div>
+  <p><span class="tier tier-b">Tier B</span> — 13/25 survivability</p>
+</section>
+
+<section>
+  <h2>RVA Helps <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel recommends refining, not shipping. Two fatal flaws remain: no named institutional steward and no funding line for ongoing verification.</p>
+  <p>Richmond needs a resource data utility, not another stale directory. But without a signed owner and a data maintenance contract, this becomes exactly the thing it criticizes.</p>
+</section>
+
+<!-- ——— 7. 804ME (MC 72) ——— -->
+
+<section>
+  <h2>804Me <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Refine</span></h2>
+  <p>A privacy-first resource hub with no accounts, multilingual access, and physical QR codes at transit stops and clinics. The design intent — navigator profiles, sanctuary-grade privacy, non-digital on-ramps — is among the best-aligned to the immigrant discovery problem.</p>
+  <div class="persona-quote">
+    <span class="name">The Frontliner</span>
+    "I will only share this with clients if Sacred Heart, IRC, or ReEstablish Richmond visibly co-sign it."
+  </div>
+</section>
+
+<section>
+  <h2>804Me <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel recommends against shipping as documented. The fatal flaw is an unverified directory with no accountable steward — precisely the wrong failure mode for a population whose primary barrier is trust, not search UX.</p>
+  <p>With published provenance, a named maintaining organization, and CBO co-branding, the same design becomes a high-leverage complement to 211 and Help1RVA.</p>
+</section>
+
+<!-- ——— 8. CIRCLE TRUST (MC 61) ——— -->
+
+<section>
+  <h2>Circle Trust <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Refine</span></h2>
+  <p>Circle Trust asks a different question: what if the platform isn't for residents, but for the 300+ organizers who coordinate behind the scenes? Built by Pollinators for Change, it offers invitation-only coordination circles with trust and accountability by design.</p>
+  <div class="persona-quote">
+    <span class="name">The Judge</span>
+    "Score it against the problem statement and you see a mismatch. Score it as community coordination infrastructure and you see traction."
+  </div>
+  <p><span class="tier tier-b">Tier B</span> — 11/25 survivability</p>
+</section>
+
+<section>
+  <h2>Circle Trust <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel recommends nurturing this idea but relabeling its scope. As submitted under Cross-Agency Navigation, no resident-facing flow or agency handoff was demonstrated — the stated problem goes unaddressed.</p>
+  <p>As community governance infrastructure, the trust model and network scale have real value. The path forward requires connecting pollinators to the residents they serve.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     ACT 5 — WHAT IT MEANS
+     ═══════════════════════════════════════════════════════ -->
+
+<section>
+  <h2>What Should Move Forward</h2>
+  <p><strong>Cross-Agency Handoff Memo</strong> — a paper passport that costs nothing and sidesteps every API wall in Richmond's stack.</p>
+  <p><strong>WhatsApp Service Finder</strong> — meets newcomers on the channel they already use, with anti-scam education built in.</p>
+  <p><strong>Reentry 72-Hour Navigator</strong> — addresses the highest-risk window with sequenced, printable logistics designed for the parking lot.</p>
+</section>
+
+<section>
+  <h2>What Needs Work — And Why</h2>
+  <p>Neighborhood Anchor Map, Core Eligibility Pack Builder, and RVA Helps each have strong foundations but need agency partnerships, privacy governance, or institutional ownership before they can responsibly serve residents.</p>
+  <p>804Me and Circle Trust need to resolve fundamental questions — data provenance and problem-statement fit, respectively — before the strong design work underneath can deliver on its promise.</p>
+</section>
+
+<section>
+  <h2>What This Pillar Tells Us</h2>
+  <p>Trust is not a feature — it is the entire product. Every winning idea in this pillar puts control in residents' hands rather than asking them to trust another system.</p>
+  <p>The closed Help1RVA API forced creativity: the best ideas work around infrastructure walls with paper, WhatsApp, and curated local knowledge. The technology that ships is the technology that doesn't depend on anyone's permission.</p>
+</section>
+
+</div><!-- .slides -->
+</div><!-- .reveal -->
+
+<div class="footer">RVA Hacks 2026 — Roundtable Evaluation &bull; Thriving &amp; Inclusive Communities</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  width: 1280,
+  height: 720,
+  margin: 0.1,
+  minScale: 0.2,
+  maxScale: 1.0,
+  transition: 'fade',
+  transitionSpeed: 'default',
+  center: true,
+  controlsTutorial: false,
+  disableLayout: false,
+});
+</script>
+</body>
+</html>

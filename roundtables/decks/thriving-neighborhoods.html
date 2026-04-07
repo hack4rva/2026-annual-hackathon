@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thriving Neighborhoods — Roundtable Evaluation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+<style>
+  :root {
+    --header: #1a365d;
+    --ship: #22543d;
+    --ship-bg: #f0fff4;
+    --conditions: #744210;
+    --conditions-bg: #fffff0;
+    --kill: #9b2c2c;
+    --kill-bg: #fff5f5;
+    --hold: #553c9a;
+    --hold-bg: #faf5ff;
+    --accent: #2b6cb0;
+    --muted: #718096;
+  }
+
+  .reveal {
+    font-family: 'Fira Code', monospace;
+  }
+
+  .reveal h1 {
+    color: var(--header);
+    font-size: 2.0em;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    letter-spacing: -0.03em;
+  }
+
+  .reveal h2 {
+    color: var(--header);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4em;
+  }
+
+  .reveal h3 {
+    color: var(--header);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .reveal p {
+    font-size: 0.72em;
+    line-height: 1.55;
+    color: #2d3748;
+    max-width: 88%;
+    margin: 0 auto 0.5em auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .reveal li {
+    font-size: 0.68em;
+    line-height: 1.45;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+  }
+
+  .persona-quote {
+    background: #f7fafc;
+    border-left: 5px solid var(--accent);
+    padding: 16px 24px;
+    margin: 20px auto;
+    max-width: 85%;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.7em;
+    line-height: 1.6;
+    font-style: italic;
+    color: #2d3748;
+  }
+
+  .persona-quote .name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--header);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.55em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .badge-ship { background: var(--ship-bg); color: var(--ship); border: 2px solid var(--ship); }
+  .badge-conditions { background: var(--conditions-bg); color: var(--conditions); border: 2px solid var(--conditions); }
+  .badge-kill { background: var(--kill-bg); color: var(--kill); border: 2px solid var(--kill); }
+  .badge-hold { background: var(--hold-bg); color: var(--hold); border: 2px solid var(--hold); }
+
+  .reveal table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.42em;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  .reveal th {
+    background: var(--header);
+    color: #fff;
+    padding: 4px 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .reveal td {
+    padding: 3px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.3;
+  }
+  .reveal tr:nth-child(even) td { background: #f7fafc; }
+
+  .subtitle {
+    font-size: 0.7em;
+    color: var(--muted);
+    margin-top: -0.3em;
+  }
+
+  .tier {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 0.55em;
+    font-weight: 700;
+  }
+  .tier-s { background: #c6f6d5; color: #22543d; }
+  .tier-a { background: #bee3f8; color: #2a4365; }
+  .tier-b { background: #fefcbf; color: #975a16; }
+  .tier-c { background: #fed7d7; color: #9b2c2c; }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--header);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    padding: 5px 20px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .reveal .slides section {
+    padding-bottom: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 100%;
+  }
+
+  .reveal .slides section > * {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reveal .slides section h1,
+  .reveal .slides section h2 {
+    max-width: 95%;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ============================================================ -->
+<!-- ACT 1: SETTING THE STAGE                                      -->
+<!-- ============================================================ -->
+
+<!-- Slide 1: Title -->
+<section>
+  <h1>Thriving Neighborhoods</h1>
+  <p>Giving residents earlier, clearer visibility into what's happening in their neighborhood.</p>
+  <p class="subtitle">RVA Hacks 2026 — Post-Event Evaluation</p>
+</section>
+
+<!-- Slide 2: The Problem -->
+<section>
+  <h2>The Problem</h2>
+  <p>When a new building goes up down the street, most Richmond residents find out when the bulldozers arrive.</p>
+  <p>Development proposals, zoning changes, and affordable housing compliance data are technically public — but buried in systems designed for professionals, not neighbors. Renters are especially invisible in this process.</p>
+</section>
+
+<!-- Slide 3: The Two Challenges -->
+<section>
+  <h2>Two Challenges</h2>
+  <p><strong>Neighborhood Development Discovery</strong> — Help residents find and understand development proposals near them so they can engage earlier in the planning process.</p>
+  <p><strong>Affordable Housing Compliance Monitoring</strong> — Help City staff track whether publicly funded affordable housing stays affordable over time.</p>
+  <p>Seven of the ten ideas tackled the first challenge; three addressed the second.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ACT 2: HOW WE EVALUATED                                       -->
+<!-- ============================================================ -->
+
+<!-- Slide 4: Roundtable Model -->
+<section>
+  <h2>How We Evaluated</h2>
+  <p>We didn't just score these ideas. We put each one through a simulated roundtable with seven distinct perspectives — from the Mayor worrying about political risk to the Citizen asking who gets left out.</p>
+  <p>Every idea was stress-tested by the people who would have to live with it.</p>
+</section>
+
+<!-- Slide 5: Seven Voices -->
+<section>
+  <h2>Seven Voices at the Table</h2>
+  <p>The <strong>Mayor</strong> weighs political risk. The <strong>Innovator</strong> finds what's non-obvious. The <strong>Frontliner</strong> tests operational reality. The <strong>Citizen</strong> asks who benefits and who's left out.</p>
+  <p>The <strong>Architect</strong> checks the technical foundations. The <strong>Funder</strong> checks sustainability. The <strong>Activist</strong> checks systemic impact.</p>
+</section>
+
+<!-- Slide 6: The Process -->
+<section>
+  <h2>The Process</h2>
+  <p>Each idea went through four phases: independent assessment by each persona, convergence debate to find agreement, direct challenges between personas, and a final pass/fail validation against fatal flaws.</p>
+  <p>Then every idea was scored against the hackathon's six judging categories and three award tracks.</p>
+</section>
+
+<!-- Slide 7: What Kills an Idea -->
+<section>
+  <h2>What Kills an Idea</h2>
+  <p>We applied five fatal flaw tests. If the data doesn't exist, if a vendor wall blocks the MVP, if no one would own it, if it could harm residents, or if it would embarrass the City — the idea doesn't ship.</p>
+  <p>In this pillar, the most common killer was data access — not bad thinking.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ACT 3: WHAT WE FOUND                                          -->
+<!-- ============================================================ -->
+
+<!-- Slide 8: Scorecard -->
+<section>
+  <h2>At a Glance</h2>
+  <table>
+    <thead>
+      <tr><th>Idea</th><th>Verdict</th><th>Mayor's Choice</th><th>Pillar Award</th><th>Moonshot</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Renter-Aware Notifications <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-conditions">Conditions</span></td>
+        <td><strong>98</strong></td><td>93</td><td>84</td>
+      </tr>
+      <tr>
+        <td>Participation Analytics Dashboard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-conditions">Conditions</span></td>
+        <td><strong>93</strong></td><td>95</td><td>88</td>
+      </tr>
+      <tr>
+        <td>Subsidy &amp; Covenant Snapshot</td>
+        <td><span class="badge badge-ship">Ship</span></td>
+        <td><strong>90</strong></td><td>90</td><td>81</td>
+      </tr>
+      <tr>
+        <td>HUD Rent Cap Validator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-conditions">Conditions</span></td>
+        <td><strong>89</strong></td><td>87</td><td>78</td>
+      </tr>
+      <tr>
+        <td>Site-Sign Text-Back</td>
+        <td><span class="badge badge-conditions">Conditions</span></td>
+        <td><strong>87</strong></td><td>87</td><td>78</td>
+      </tr>
+      <tr>
+        <td>RVA Development Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-hold">Refine</span></td>
+        <td><strong>80</strong></td><td>78</td><td>68</td>
+      </tr>
+      <tr>
+        <td>Affordable Housing Dashboard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-hold">Pivot</span></td>
+        <td><strong>78</strong></td><td>80</td><td>71</td>
+      </tr>
+      <tr>
+        <td>SIMBY <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-hold">Pilot</span></td>
+        <td><strong>76</strong></td><td>78</td><td>70</td>
+      </tr>
+      <tr>
+        <td>RVA Plotlines <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-hold">Refine</span></td>
+        <td><strong>75</strong></td><td>77</td><td>70</td>
+      </tr>
+      <tr>
+        <td>RVA Transformers <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td>
+        <td><span class="badge badge-kill">Re-home</span></td>
+        <td><strong>68</strong></td><td>68</td><td>61</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.38em;color:#718096;margin-top:8px;"><span style="color:#d69e2e;">★</span> = hackathon demo built by a human team &nbsp;&nbsp;|&nbsp;&nbsp; no star = AI-generated post-event idea</p>
+  <p class="subtitle">MC = Mayor's Choice · PA = Pillar Award · MS = Moonshot · Sorted by MC descending</p>
+</section>
+
+<!-- Slide 9: Headlines -->
+<section>
+  <h2>The Headlines</h2>
+  <p>Of ten ideas evaluated, five are ready to advance with conditions, three need refinement, and two should be pivoted or re-homed.</p>
+  <p>The pillar's top scorer — Renter-Aware Notifications, ranked fifth of all 73 ideas for implementation readiness — succeeds not as a technology play but as a policy playbook backed by data.</p>
+</section>
+
+<!-- Slide 10: The EnerGov Wall -->
+<section>
+  <h2>The EnerGov Wall</h2>
+  <p>Tyler Technologies' EnerGov system holds Richmond's permit data — but has no public API, and a replacement RFP is pending.</p>
+  <p>Five development-tracking ideas hit this wall, forcing scope reductions to Legistar and GeoHub data only. The ideas that avoid it entirely — using federal housing data and public APIs — consistently score highest.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ACT 4: IDEA DEEP DIVES (sorted by MC descending)              -->
+<!-- ============================================================ -->
+
+<!-- ── 1. Renter-Aware Notifications (MC 98) ── -->
+<section>
+  <h2>Renter-Aware Notifications <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship with conditions</span></h2>
+  <p>In a majority-renter city, development notices go to property owners — not the people who actually live there. This idea reimagines notification by mailing every occupied address near a zoning case, using postal delivery points instead of deed records.</p>
+  <div class="persona-quote">
+    <span class="name">Mayor</span>
+    "This is a policy product wearing software clothes. Passing ordinance language and fee schedule updates is the real milestone — tech proves feasibility."
+  </div>
+  <p class="subtitle">Tier A · Ranked #5 of 73 ideas for implementation readiness</p>
+</section>
+
+<section>
+  <h3>Renter-Aware Notifications <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h3>
+  <p>The panel recommends advancing this as a policy-and-data initiative, not a self-contained app. Ship the coverage gap analysis, bilingual postcard spec, and peer-city ordinance language from San Francisco and Tacoma first.</p>
+  <p>The critical path runs through City Council and Planning, not through code. It passed all fatal flaw tests, though the EnerGov wall blocks automated case triggers until the permitting system is modernized.</p>
+  <p>If a Council champion emerges, this could become the first renter-inclusive notice ordinance in Virginia.</p>
+</section>
+
+<!-- ── 2. Participation Analytics Dashboard (MC 93) ── -->
+<section>
+  <h2>Participation Analytics Dashboard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship with conditions</span></h2>
+  <p>Even when notice reaches the right people, who actually shows up — and who's still missing? This idea compares meeting attendance demographics against Census data for the affected neighborhood, revealing representation gaps before decisions are made.</p>
+  <div class="persona-quote">
+    <span class="name">Citizen</span>
+    "If participation analytics becomes a precondition to being heard, you have built exclusion with a dashboard on top."
+  </div>
+  <p class="subtitle">Tier A · Ranked #17 of 73 ideas for implementation readiness</p>
+</section>
+
+<section>
+  <h3>Participation Analytics — Verdict</h3>
+  <p>The panel recommends piloting this on a single rezoning corridor with a named engagement champion who has authority to act when gaps are found — delaying votes, adding translated outreach, or partnering with community organizations.</p>
+  <p>Without that commitment, this becomes performance measurement with no performance management. The fatal flaw is decorative analytics without adoption and authority to act.</p>
+  <p>If leadership commits to gap-triggered action, this could set the standard for equitable civic engagement nationwide.</p>
+</section>
+
+<!-- ── 3. Subsidy & Covenant Snapshot (MC 90) ── -->
+<section>
+  <h2>Subsidy &amp; Covenant Snapshot <span class="badge badge-ship">Go</span></h2>
+  <p>While development discovery asks what's coming, affordable housing compliance asks what's at risk of being lost. This tool creates an expiration radar by joining federal housing datasets to Richmond's parcel map, showing which properties face affordability deadlines.</p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "This is not a map of subsidies — it is an expiration radar with honest uncertainty."
+  </div>
+  <p class="subtitle">Tier A · Ranked #18 of 73 ideas for implementation readiness</p>
+</section>
+
+<section>
+  <h3>Subsidy &amp; Covenant Snapshot — Verdict</h3>
+  <p>The panel recommends shipping Pattern A — the federal-data parcel snapshot — immediately. No vendor wall blocks this path. HUD NHPD, MAH datasets, and GeoHub parcels are all publicly available.</p>
+  <p>Every expiration date must be labeled with its program source and a "confirm with HCD or recorder" disclaimer. The fatal flaw — presenting estimated dates as definitive — is blocked by design, not by technology.</p>
+  <p>If Housing &amp; Community Development joins as a data partner, this becomes the City's preservation early-warning system.</p>
+</section>
+
+<!-- ── 4. HUD Rent Cap Validator (MC 89) ── -->
+<section>
+  <h2>HUD Rent Cap Validator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship with conditions</span></h2>
+  <p>If Subsidy &amp; Covenant tracks when affordability might end, this asks a more immediate question — is my rent right today? Roughly 4,000 Richmond voucher households get a ZIP code lookup against published HUD payment standards, requiring no personal information.</p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "The breakthrough is not another compliance dashboard — it is relocating verification leverage to the tenant."
+  </div>
+  <p class="subtitle">New idea (post-event) · No vendor wall for MVP path</p>
+</section>
+
+<section>
+  <h3>HUD Rent Cap Validator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h3>
+  <p>The panel recommends shipping only after RRHA confirms how Richmond maps Fair Market Rent to its actual payment standard. Without that validation, the tool could show the wrong number — helping landlords anchor rents to an incorrect ceiling.</p>
+  <p>The fatal flaw is content governance, not technology. The tool is deployable for near-zero cost on commodity hosting with free HUD APIs, but wrong numbers are worse than no numbers.</p>
+  <p>If RRHA co-brands this, it becomes a tenant rights resource replicable across public housing authorities nationwide.</p>
+</section>
+
+<!-- ── 5. Site-Sign Text-Back (MC 87) ── -->
+<section>
+  <h2>Site-Sign Text-Back <span class="badge badge-conditions">Ship with conditions</span></h2>
+  <p>The Rent Cap Validator meets tenants online — this meets residents where they already are, standing in front of a zoning sign. Text the case number, get a plain-language SMS reply with the project summary, hearing date, and how to comment. No app, no account, no website.</p>
+  <div class="persona-quote">
+    <span class="name">Citizen</span>
+    "I saw a sign, I got an answer."
+  </div>
+  <p class="subtitle">Tier S · Ranked #10 of 73 ideas for implementation readiness</p>
+</section>
+
+<section>
+  <h3>Site-Sign Text-Back — Verdict</h3>
+  <p>The panel recommends a 90-day dual-channel pilot — QR code as primary, SMS as accessibility fallback — on 10 to 20 active zoning signs. The technology is trivial: public Legistar data plus a commodity SMS webhook.</p>
+  <p>The only blocker is organizational: Planning must update sign templates and Legal must review TCPA-compliant messaging. It passed all five fatal flaw tests, with a latent risk that signs never get updated.</p>
+  <p>If the pilot shows measurable inquiry deflection, this scales to every site sign in Richmond.</p>
+</section>
+
+<!-- ── 6. RVA Development Tracker (MC 80) ── -->
+<section>
+  <h2>RVA Development Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Refine</span></h2>
+  <p>Text-Back answers one question at a time — this tries to answer all of them at once. What's being built near me, and when can I weigh in? The demo stitches GeoHub's Development Tracker and Legistar's legislative data with AI plain-language summaries, no account required.</p>
+  <div class="persona-quote">
+    <span class="name">Frontliner</span>
+    "This tool does not replace noticed hearings — it routes residents to the right artifact."
+  </div>
+  <p class="subtitle">Tier A · Hackathon demo by Edwin Huertas</p>
+</section>
+
+<section>
+  <h3>RVA Development Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h3>
+  <p>The panel recommends refining before pilot. The GeoHub Development Tracker layer hasn't been updated since June 2022 — if the interface hides that staleness, transparency becomes misinformation.</p>
+  <p>AI summaries need source links, disclaimers, and DIT governance under AR 2.13. The EnerGov wall limits permit depth, but Legistar and GeoHub alone support a credible civic beta if expectations are honestly scoped.</p>
+  <p>With provenance UX, AI guardrails, and a named institutional steward, this is one of the most shippable neighborhood-discovery prototypes in the set.</p>
+</section>
+
+<!-- ── 7. Affordable Housing Dashboard (MC 78) ── -->
+<section>
+  <h2>Affordable Housing Dashboard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Pivot</span></h2>
+  <p>While the Development Tracker faces the EnerGov wall on permits, this idea hits it even harder on compliance. A staff-facing dashboard tracking affordable housing deadlines, risk-scoring properties, and alerting analysts — addressing a real gap flagged by the City Auditor.</p>
+  <div class="persona-quote">
+    <span class="name">Roundtable Consensus</span>
+    "The demo UX is ahead of the data contract."
+  </div>
+  <p class="subtitle">Tier B · Ranked #49 of 73 ideas for implementation readiness</p>
+</section>
+
+<section>
+  <h3>Affordable Housing Dashboard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h3>
+  <p>The panel recommends pivoting or partnering. The staff compliance system as demonstrated cannot ship — EnerGov has no API, and the three affordable housing programs store records differently, often in email and PDF.</p>
+  <p>A public-facing dashboard using federal CHAS and NHPD data is viable today as a separate product. The staff product requires an HCD data agreement and should be timed with permitting system modernization.</p>
+  <p>If HCD names a champion and the next permitting system exposes compliance APIs, the original vision becomes possible.</p>
+</section>
+
+<!-- ── 8. SIMBY (MC 76) ── -->
+<section>
+  <h2>SIMBY <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Pilot</span></h2>
+  <p>Where the Affordable Housing Dashboard struggles with data access, SIMBY bets on a different strength — language access. A multilingual planning discovery app letting residents browse proposals in their language, pin locations of interest, and receive ZIP-code notifications.</p>
+  <div class="persona-quote">
+    <span class="name">Resident (Limited English)</span>
+    "If you can't read it, you can't shape it."
+  </div>
+  <p class="subtitle">Tier B · Ranked #33 of 73 ideas · Hackathon demo by Team Singlestone</p>
+</section>
+
+<section>
+  <h3>SIMBY <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h3>
+  <p>The panel recommends piloting the discovery features while deferring the impact simulation described in the research package. The fatal flaw is a missing data pipeline — without automated Legistar and GeoHub feeds, content goes stale and trust collapses.</p>
+  <p>The multilingual framing is the strongest language-access story in the pillar and is independently fundable, but it should follow proof of reliable data ingest, not precede it.</p>
+  <p>If the pipeline is proven and a civic organization or PDR adopts stewardship, SIMBY's equity design becomes a model for other pillars.</p>
+</section>
+
+<!-- ── 9. RVA Plotlines (MC 75) ── -->
+<section>
+  <h2>RVA Plotlines <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Refine</span></h2>
+  <p>SIMBY looks forward — what's planned for my neighborhood? RVA Plotlines looks back, telling the legislative history of every address. It maps 23,000 Legistar matters and offers AI-powered chat to help residents explore what's happened and what's next at any location.</p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "Stop selling 23,000 dots — sell place biography."
+  </div>
+  <p class="subtitle">Tier A · Ranked #33 of 73 ideas · Hackathon demo by Morgan Stewart</p>
+</section>
+
+<section>
+  <h3>RVA Plotlines <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h3>
+  <p>The panel recommends refining before launch. The live demo exists but the detail click-through is broken, the product is English-only and web-only, and there is no institutional steward or budget for LLM hosting.</p>
+  <p>Without Legistar Events integration, the tool shows what happened but not when to act — the critical gap for residents facing active development. Two fatal flaw tests failed: funding sustainability and equity accessibility.</p>
+  <p>Fix the hearing-date gap, find an organizational home, and add Spanish — then this becomes a reusable Legistar transparency layer for the entire pillar.</p>
+</section>
+
+<!-- ── 10. RVA Transformers (MC 68) ── -->
+<section>
+  <h2>RVA Transformers <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-kill">Re-home</span></h2>
+  <p>Finally, one idea landed in this pillar that doesn't quite belong here. The demo built a 311 service bridge and a small-business navigator — valuable civic tools, but aimed at City Hall service access and economic development, not neighborhood development discovery.</p>
+  <div class="persona-quote">
+    <span class="name">Mayor</span>
+    "These are legitimate MAP problems — just not this pillar's problems."
+  </div>
+  <p class="subtitle">Tier B · Ranked #50 of 73 ideas</p>
+</section>
+
+<section>
+  <h3>RVA Transformers <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h3>
+  <p>The panel recommends splitting and re-homing. The 311 Bridge should be evaluated under A Thriving City Hall, and the Biz Navigator under A Thriving Economy, where their inclusive design choices carry real weight.</p>
+  <p>The research folder contains a separate, PS1-aligned concept — cumulative neighborhood burden mapping — but that idea was never built. For Thriving Neighborhoods, this entry does not address either problem statement as submitted.</p>
+  <p>The inclusive design on the 311 Bridge is a genuine equity asset — it just needs the right pillar to call home.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ACT 5: WHAT IT MEANS                                          -->
+<!-- ============================================================ -->
+
+<!-- Slide: What Should Ship -->
+<section>
+  <h2>What Should Ship</h2>
+  <p>Five ideas are ready to advance with named champions and clear conditions.</p>
+  <p><strong>Renter-Aware Notifications</strong> rewrites who gets the letter. <strong>Subsidy &amp; Covenant Snapshot</strong> tracks when affordability expires. <strong>Site-Sign Text-Back</strong> turns zoning signs into two-way channels. <strong>Participation Analytics</strong> measures who's missing from the room. <strong>HUD Rent Cap Validator</strong> puts rent benchmarks in tenants' hands.</p>
+</section>
+
+<!-- Slide: What Shouldn't -->
+<section>
+  <h2>What Shouldn't — and Why</h2>
+  <p>The <strong>Affordable Housing Dashboard</strong> should pivot: its demo UX is ahead of its data contract, and the EnerGov wall blocks the staff compliance product as demonstrated. A public federal-data version is viable as a separate track.</p>
+  <p><strong>RVA Transformers</strong> should be re-evaluated under City Hall and Economy, where its 311 Bridge and Biz Navigator address the right problem statements.</p>
+</section>
+
+<!-- Slide: What This Pillar Tells Us -->
+<section>
+  <h2>What This Pillar Tells Us</h2>
+  <p>The ideas that score highest avoid vendor walls entirely — they use public federal data, Legistar, and GeoHub instead of fighting locked systems.</p>
+  <p>Technology is rarely the bottleneck here. Organizational adoption, policy change, and data governance determine whether a prototype survives past demo day.</p>
+  <p>This pillar's strongest contribution may be proving that Richmond needs policy products wearing software clothes — not software pretending to be policy.</p>
+</section>
+
+</div><!-- .slides -->
+</div><!-- .reveal -->
+
+<div class="footer">RVA Hacks 2026 — Roundtable Evaluation · Thriving Neighborhoods</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  width: 1280,
+  height: 720,
+  margin: 0.1,
+  minScale: 0.2,
+  maxScale: 1.0,
+  transition: 'fade',
+  transitionSpeed: 'default',
+  center: true,
+  controlsTutorial: false,
+  disableLayout: false,
+});
+</script>
+</body>
+</html>

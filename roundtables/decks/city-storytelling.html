@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A City That Tells Its Stories — Roundtable Evaluation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+<style>
+  :root {
+    --header: #1a365d;
+    --ship: #22543d;
+    --ship-bg: #f0fff4;
+    --conditions: #744210;
+    --conditions-bg: #fffff0;
+    --kill: #9b2c2c;
+    --kill-bg: #fff5f5;
+    --hold: #553c9a;
+    --hold-bg: #faf5ff;
+    --accent: #2b6cb0;
+    --muted: #718096;
+  }
+
+  .reveal {
+    font-family: 'Fira Code', monospace;
+  }
+
+  .reveal h1 {
+    color: var(--header);
+    font-size: 2.0em;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    letter-spacing: -0.03em;
+  }
+
+  .reveal h2 {
+    color: var(--header);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4em;
+  }
+
+  .reveal h3 {
+    color: var(--header);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .reveal p {
+    font-size: 0.72em;
+    line-height: 1.55;
+    color: #2d3748;
+    max-width: 88%;
+    margin: 0 auto 0.5em auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .reveal li {
+    font-size: 0.68em;
+    line-height: 1.45;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+  }
+
+  .persona-quote {
+    background: #f7fafc;
+    border-left: 5px solid var(--accent);
+    padding: 16px 24px;
+    margin: 20px auto;
+    max-width: 85%;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.7em;
+    line-height: 1.6;
+    font-style: italic;
+    color: #2d3748;
+  }
+
+  .persona-quote .name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--header);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.55em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .badge-ship { background: var(--ship-bg); color: var(--ship); border: 2px solid var(--ship); }
+  .badge-conditions { background: var(--conditions-bg); color: var(--conditions); border: 2px solid var(--conditions); }
+  .badge-kill { background: var(--kill-bg); color: var(--kill); border: 2px solid var(--kill); }
+  .badge-hold { background: var(--hold-bg); color: var(--hold); border: 2px solid var(--hold); }
+
+  .reveal table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.42em;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  .reveal th {
+    background: var(--header);
+    color: #fff;
+    padding: 4px 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .reveal td {
+    padding: 3px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.3;
+  }
+  .reveal tr:nth-child(even) td { background: #f7fafc; }
+
+  .subtitle {
+    font-size: 0.7em;
+    color: var(--muted);
+    margin-top: -0.3em;
+  }
+
+  .tier {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 0.55em;
+    font-weight: 700;
+  }
+  .tier-s { background: #c6f6d5; color: #22543d; }
+  .tier-a { background: #bee3f8; color: #2a4365; }
+  .tier-b { background: #fefcbf; color: #975a16; }
+  .tier-c { background: #fed7d7; color: #9b2c2c; }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--header);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    padding: 5px 20px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .reveal .slides section {
+    padding-bottom: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 100%;
+  }
+
+  .reveal .slides section > * {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reveal .slides section h1,
+  .reveal .slides section h2 {
+    max-width: 95%;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ═══════════════════════════════════════════════
+     ACT 1: SETTING THE STAGE
+     ═══════════════════════════════════════════════ -->
+
+<section>
+  <h1>A City That Tells Its Stories</h1>
+  <p class="subtitle">Roundtable Evaluation &mdash; RVA Hacks 2026</p>
+  <p>Ten ideas evaluated across arts discovery and resident storytelling.</p>
+</section>
+
+<section>
+  <h2>The Problem</h2>
+  <p>Richmond has a rich cultural life &mdash; live music, gallery walks, community festivals, oral history projects &mdash; but no single place to discover what's happening or whose stories are being told.</p>
+  <p>Residents piece it together from Instagram posts, word of mouth, and scattered event calendars.</p>
+</section>
+
+<section>
+  <h2>Two Challenges, One Pillar</h2>
+  <p><strong>Arts &amp; Cultural Event Discovery:</strong> Aggregate Richmond's arts and cultural events into one discoverable place.</p>
+  <p><strong>Resident Stories as Civic Insight:</strong> Give residents a trusted way to share lived experiences so community narratives can inform City decisions.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     ACT 2: HOW WE EVALUATED
+     ═══════════════════════════════════════════════ -->
+
+<section>
+  <h2>How We Evaluated</h2>
+  <p>We didn't just score these ideas. We put each one through a simulated roundtable with seven distinct perspectives &mdash; from the Mayor worrying about political risk to the Citizen asking who gets left out.</p>
+</section>
+
+<section>
+  <h2>The Seven Voices</h2>
+  <p>The <strong>Innovator</strong> finds the non-obvious product wedge. The <strong>Activist</strong> asks who benefits and who is harmed. The <strong>Citizen</strong> tests whether real people would use it. The <strong>Mayor</strong> weighs political risk and implementation readiness.</p>
+  <p>The <strong>Architect</strong> checks technical feasibility against Richmond's real stack. The <strong>Frontliner</strong> asks if the people doing the work would trust it. The <strong>Funder</strong> asks who pays after year one.</p>
+</section>
+
+<section>
+  <h2>The Process</h2>
+  <p>Each idea went through four phases: independent persona assessment, tension identification and resolution, direct challenge debates, and a final pass-or-fail validation against five fatal flaw tests.</p>
+</section>
+
+<section>
+  <h2>What Kills an Idea</h2>
+  <p>Does the required data exist? Does a vendor wall block the path? Would anyone own it after demo day? Could it harm residents? Would it embarrass the city?</p>
+  <p>If the answer is wrong on any one of these, the idea doesn't ship.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     ACT 3: WHAT WE FOUND
+     ═══════════════════════════════════════════════ -->
+
+<section>
+  <h2>At a Glance</h2>
+  <table>
+    <thead>
+      <tr><th>Idea</th><th>Verdict</th><th>Mayor's Choice</th><th>Pillar Award</th><th>Moonshot</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Weekend Culture SMS</td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>91</strong></td><td>87</td><td>75</td></tr>
+      <tr><td>Displacement Memory Archive <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>87</strong></td><td>89</td><td>81</td></tr>
+      <tr><td>Fulton Oral History <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>85</strong></td><td>83</td><td>73</td></tr>
+      <tr><td>Community Story Popup Kit <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>83</strong></td><td>81</td><td>71</td></tr>
+      <tr><td>Public Comment Atlas</td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>81</strong></td><td>81</td><td>74</td></tr>
+      <tr><td>Vecina <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>80</strong></td><td>78</td><td>68</td></tr>
+      <tr><td>Richmond Stories Online <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>80</strong></td><td>78</td><td>69</td></tr>
+      <tr><td>Planning Commission Story Feed <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>78</strong></td><td>78</td><td>71</td></tr>
+      <tr><td>What's On RVA</td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>78</strong></td><td>78</td><td>69</td></tr>
+      <tr><td>ExploreRVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Ship w/ Conditions</span></td><td><strong>78</strong></td><td>76</td><td>69</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.38em;color:#718096;margin-top:8px;"><span style="color:#d69e2e;">★</span> = hackathon demo built by a human team &nbsp;&nbsp;|&nbsp;&nbsp; no star = AI-generated post-event idea</p>
+</section>
+
+<section>
+  <h2>The Headlines</h2>
+  <p>All ten ideas earned a "Ship with Conditions" verdict &mdash; but the conditions range from a single partnership conversation to multi-institutional governance charters.</p>
+  <p>Three themes dominate: every idea depends on partnerships the City doesn't control, consent and governance are universal preconditions, and not one of the five structural IT walls blocks anything in this pillar.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     ACT 4: IDEA DEEP DIVES (MC descending)
+     ═══════════════════════════════════════════════ -->
+
+<!-- ——— 1. WEEKEND CULTURE SMS (MC: 91) ——— -->
+
+<section>
+  <h2>Weekend Culture SMS <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>Every Friday, your phone buzzes with a curated text: five arts events this weekend, no app required. This is the simplest idea in the pillar &mdash; and the highest-scoring, because simplicity is what makes it shippable.</p>
+  <div class="persona-quote">
+    <span class="name">Hackathon Judge</span>
+    "This is one of the easiest ideas to prove live on demo day: judges' phones buzz with a real weekend sample."
+  </div>
+  <p>Ranked #22 of 73 ideas overall for implementation readiness (Tier A).</p>
+</section>
+
+<section>
+  <h2>Weekend Culture SMS &mdash; Verdict</h2>
+  <p>Ship as a pilot with two conditions: a formal CultureWorks data-use agreement and a published curation charter that ensures neighborhood rotation and spotlight slots for smaller organizers.</p>
+  <p>It passed all five fatal flaw tests &mdash; no City IT walls, manageable TCPA compliance, and clear demand for push-over-pull arts discovery.</p>
+  <p>With a nonprofit operator and disciplined editorial governance, this becomes Richmond's simplest path to arts visibility.</p>
+</section>
+
+<!-- ——— 2. DISPLACEMENT MEMORY ARCHIVE (MC: 87) ——— -->
+
+<section>
+  <h2>Displacement Memory Archive <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>While SMS solves weekend discovery, this idea asks a deeper question: whose stories are missing from the city's memory? It proposes a federated portal linking displacement narratives already held at VCU, the Library of Virginia, and JXN Project &mdash; not a new collection, but a discovery layer timed to Reconnect Jackson Ward.</p>
+  <div class="persona-quote">
+    <span class="name">The Mayor</span>
+    "The narrative is 'memory informing reconnection' &mdash; not only retrospective guilt."
+  </div>
+</section>
+
+<section>
+  <h2>Displacement Memory Archive <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> &mdash; Verdict</h2>
+  <p>Ship with conditions: letters of intent from at least three institutional partners, a rights audit of every clip in the MVP, and a descendant advisory body chartered before any public launch.</p>
+  <p>Ownership and harm potential are real risks, but they are governance problems &mdash; not technical walls.</p>
+  <p>If those conditions are met, this could become the nation's most compelling model for tying displacement memory to live infrastructure policy.</p>
+</section>
+
+<!-- ——— 3. FULTON ORAL HISTORY (MC: 85) ——— -->
+
+<section>
+  <h2>Fulton Oral History <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>Where the Displacement Memory Archive spans the whole city, this idea zooms into one neighborhood. An interactive map surfaces VCU's 17-interview Historic Fulton collection on the landscape &mdash; pinning voices of displacement to the streets where homes once stood.</p>
+  <div class="persona-quote">
+    <span class="name">The Activist</span>
+    "Displacement memory is political: publishing quotes and locations without descendant governance repeats the harm pattern."
+  </div>
+</section>
+
+<section>
+  <h2>Fulton Oral History <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> &mdash; Verdict</h2>
+  <p>Ship this prototype as a credible discovery surface, but only after securing explicit VCU and Valentine rights for clips, establishing a descendant advisory review step, and documenting a consent posture for any new submissions.</p>
+  <p>The corpus exists and the stack is proven &mdash; the risk is not technology but whether governance keeps pace with ambition.</p>
+  <p>If descendant authority is centered from day one, this becomes a model for how cities activate dormant archives without extracting from them.</p>
+</section>
+
+<!-- ——— 4. COMMUNITY STORY POPUP KIT (MC: 83) ——— -->
+
+<section>
+  <h2>Community Story Popup Kit <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>From preserving existing archives, this idea turns to capturing new ones. A borrowable recording kit &mdash; Pelican case, printed consent forms, multilingual prompts &mdash; goes wherever community events already happen, modeled on Boston Public Library's lendable oral history backpacks.</p>
+  <div class="persona-quote">
+    <span class="name">The Frontliner</span>
+    "Organizers already run events &mdash; they need borrowable gear and a clear return path, not another unfunded platform."
+  </div>
+</section>
+
+<section>
+  <h2>Community Story Popup Kit <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> &mdash; Verdict</h2>
+  <p>Ship with conditions: a documented partnership path with Richmond Public Library, a consent and moderation process tested on real participants, and pilot recordings in both a noisy festival and a quiet indoor venue.</p>
+  <p>All five fatal flaw tests pass &mdash; no blocked City APIs, no impossible data dependencies &mdash; but volunteer moderator burnout is the 12-month cliff.</p>
+  <p>If the library signs on and stories route to a real archive, this is civic storytelling infrastructure that costs less than a single kiosk rental.</p>
+</section>
+
+<!-- ——— 5. PUBLIC COMMENT ATLAS (MC: 81) ——— -->
+
+<section>
+  <h2>Public Comment Atlas <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>Public comment is another form of civic storytelling that rarely gets mapped. This idea geocodes Legistar planning comments onto Richmond's neighborhoods &mdash; showing not just where people spoke up, but where no one did.</p>
+  <div class="persona-quote">
+    <span class="name">The Innovator</span>
+    "The provocative bit is the atlas of silence &mdash; hotspots and deserts &mdash; not just another sentiment dashboard."
+  </div>
+</section>
+
+<section>
+  <h2>Public Comment Atlas &mdash; Verdict</h2>
+  <p>Ship with conditions: pilot validation of Richmond's Legistar eComment fields, a privacy and aggregation policy before any launch of commenter-origin data, and a named sustaining partner for refresh and accuracy audits.</p>
+  <p>Legistar OData and GeoHub are both public &mdash; no structural walls block this &mdash; but maps can mislead if participation deserts are read as apathy rather than systemic exclusion.</p>
+  <p>If normalization and equity framing are built into the product, this becomes a transparency tool that serves organizers and council members alike.</p>
+</section>
+
+<!-- ——— 6. VECINA (MC: 80) ——— -->
+
+<section>
+  <h2>Vecina <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>From civic participation, we return to arts discovery. Vecina filters CultureWorks' regional calendar through a neighborhood-first, map-forward lens &mdash; so a resident in Jackson Ward can ask "what's happening near me this weekend" without scrolling past 400 citywide listings.</p>
+  <div class="persona-quote">
+    <span class="name">Arts-Curious Resident</span>
+    "I do not want another app that lists 400 citywide events. Filtering by Jackson Ward and 'this weekend' matches how I actually decide to go out."
+  </div>
+</section>
+
+<section>
+  <h2>Vecina <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> &mdash; Verdict</h2>
+  <p>Ship with conditions: formal CultureWorks authorization to use Localist feeds, an accessibility review for the map-heavy interface, and a roadmap for embeddable neighborhood widgets rather than just another standalone calendar site.</p>
+  <p>The fatal flaw test has zero unconditional failures, but without CultureWorks' written permission the entire product is a layer on data it cannot legally refresh.</p>
+  <p>If syndication becomes the strategy &mdash; civic associations embedding "this weekend in our neighborhood" &mdash; Vecina outlives its own homepage.</p>
+</section>
+
+<!-- ——— 7. RICHMOND STORIES ONLINE (MC: 80) ——— -->
+
+<section>
+  <h2>Richmond Stories Online <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>Where Vecina narrows the lens to neighborhoods, this idea proposes a citywide living archive where residents submit oral histories, photos, and place-based memories on a geospatial map. The ambition is large: a "front door" to Richmond's collective voice.</p>
+  <div class="persona-quote">
+    <span class="name">Valentine Museum Educator</span>
+    "We already operate Richmond Stories as an educational program. A separate site risks brand confusion unless we co-own the narrative."
+  </div>
+</section>
+
+<section>
+  <h2>Richmond Stories Online <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> &mdash; Verdict</h2>
+  <p>Ship with conditions: resolve the naming conflict with The Valentine's existing "Richmond Stories" program, establish a preservation MOU with a museum or university partner, and budget reuse programming so the archive doesn't become another retired oral history silo.</p>
+  <p>The tech is commodity &mdash; Omeka S, Survey123, or StoryMaps can all serve &mdash; but the real risk is the cold-start problem and the gap between collecting stories and actually using them.</p>
+  <p>If the Valentine partnership materializes and reuse events are funded, this becomes the resident on-ramp into accessioned civic memory.</p>
+</section>
+
+<!-- ——— 8. PLANNING COMMISSION STORY FEED (MC: 78) ——— -->
+
+<section>
+  <h2>Planning Commission Story Feed <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>From broad story collection, this idea turns to a very specific civic narrative: what happened at last night's Planning Commission meeting? AI-drafted, human-verified plain-language summaries are geocoded to affected neighborhoods and delivered by subscription.</p>
+  <div class="persona-quote">
+    <span class="name">The Citizen</span>
+    "I do not have two hours on a Tuesday to decode a 47-page packet. I want 'what changed near me' in plain English with a map pin."
+  </div>
+</section>
+
+<section>
+  <h2>Planning Commission Story Feed <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> &mdash; Verdict</h2>
+  <p>Ship with conditions: a named City owner for QA and corrections, DIT review under Administrative Regulation 2.13 for any AI in production, and no publication without human verification of motions, votes, and legal excerpts.</p>
+  <p>Legistar OData and GeoHub are public and proven &mdash; but one wrong vote summary on a hot rezoning case would destroy trust permanently.</p>
+  <p>If the hybrid AI-plus-human model holds and a clerk's office champions it, this becomes the template for how Richmond translates bureaucratic process into neighborhood-readable narrative.</p>
+</section>
+
+<!-- ——— 9. WHAT'S ON RVA (MC: 78) ——— -->
+
+<section>
+  <h2>What's On RVA <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>Returning to arts discovery, this idea adds an AI-powered conversational layer: browse a unified calendar, filter by neighborhood, or ask a chatbot "what should I do this weekend?" The ambition is a resident-first cultural concierge.</p>
+  <div class="persona-quote">
+    <span class="name">The Maintainer</span>
+    "Aggregators die from stale data, ghost events, and unfunded curation."
+  </div>
+</section>
+
+<section>
+  <h2>What's On RVA &mdash; Verdict</h2>
+  <p>Proceed as a partner-aligned pilot with strict AI and data boundaries: RAG only against verified event listings, AR 2.13 disclosure if city-branded, and a named post-demo curator responsible for feed health.</p>
+  <p>The chat interface is compelling for demos but dangerous in production &mdash; one hallucinated event destroys trust faster than no tool at all.</p>
+  <p>If guardrails hold and CultureWorks provides the verified feed, the conversational interface could differentiate this from every other Richmond calendar.</p>
+</section>
+
+<!-- ——— 10. EXPLORERVA (MC: 78) ——— -->
+
+<section>
+  <h2>ExploreRVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Ship w/ Conditions</span></h2>
+  <p>Our final idea takes a different approach: not another calendar but curated cultural trails. StoryMaps, QR waypoints, and spoken-word poetry guide residents through Richmond's neighborhoods &mdash; blending event discovery with the oral history of who and what came before.</p>
+  <div class="persona-quote">
+    <span class="name">The Citizen</span>
+    "Search feels like 'echoes,' not a living city."
+  </div>
+</section>
+
+<section>
+  <h2>ExploreRVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> &mdash; Verdict</h2>
+  <p>Ship with conditions: an anchor institution or merchant association for content and QR maintenance, an explicit relationship to CultureWorks for event dates, and a consent and attribution policy before any oral history content goes live.</p>
+  <p>The spoken-word pitch is distinctive and the trail model avoids competing with calendars head-on, but without a content steward the QR signs decay and the StoryMaps go stale.</p>
+  <p>If piloted on one corridor with documented analytics and partner sign-off, ExploreRVA becomes proof that cultural discovery works better as a walk than a search.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     ACT 5: WHAT IT MEANS
+     ═══════════════════════════════════════════════ -->
+
+<section>
+  <h2>What Should Ship First</h2>
+  <p><strong>Weekend Culture SMS</strong> &mdash; the fastest path to arts visibility, requiring only one partnership conversation and a curation charter.</p>
+  <p><strong>Displacement Memory Archive</strong> &mdash; the pillar's strongest vision, strategically timed to Reconnect Jackson Ward.</p>
+  <p><strong>Fulton Oral History</strong> &mdash; a real archive, a real neighborhood, and the most emotionally grounded prototype in the set.</p>
+</section>
+
+<section>
+  <h2>What Needs More Work</h2>
+  <p><strong>Richmond Stories Online</strong> must resolve a brand conflict with The Valentine before launch, or risk confusing the very community it hopes to serve.</p>
+  <p><strong>What's On RVA</strong> faces a crowded field of existing calendars and must prove its AI layer adds trust rather than risk.</p>
+  <p><strong>ExploreRVA</strong> has a beautiful pitch but needs a content strategy and stewardship plan more than it needs technology.</p>
+</section>
+
+<section>
+  <h2>What This Pillar Tells Us</h2>
+  <p>Not one of Richmond's five structural IT walls &mdash; 311, EnerGov, OnBase, B2GNow, DPW Fleet GPS &mdash; blocks any idea here. The barriers are human: partnerships, consent protocols, descendant governance, and who pays the curator after year one.</p>
+  <p>The simplest ideas scored highest because they can ship without solving problems the City hasn't solved yet. And CultureWorks is the critical shared infrastructure &mdash; four of ten ideas depend on the same data feed.</p>
+  <p>This pillar's hardest truth: Richmond doesn't lack stories. It lacks the institutional trust and sustained commitment to treat those stories as civic infrastructure.</p>
+</section>
+
+</div><!-- .slides -->
+</div><!-- .reveal -->
+
+<div class="footer">RVA Hacks 2026 &mdash; Roundtable Evaluation &bull; A City That Tells Its Stories</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  width: 1280,
+  height: 720,
+  margin: 0.1,
+  minScale: 0.2,
+  maxScale: 1.0,
+  transition: 'fade',
+  transitionSpeed: 'default',
+  center: true,
+  controlsTutorial: false,
+  disableLayout: false,
+});
+</script>
+</body>
+</html>

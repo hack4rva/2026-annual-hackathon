@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Thriving &amp; Sustainable Built Environment — Roundtable Evaluation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+<style>
+  :root {
+    --header: #1a365d;
+    --ship: #22543d;
+    --ship-bg: #f0fff4;
+    --conditions: #744210;
+    --conditions-bg: #fffff0;
+    --kill: #9b2c2c;
+    --kill-bg: #fff5f5;
+    --hold: #553c9a;
+    --hold-bg: #faf5ff;
+    --accent: #2b6cb0;
+    --muted: #718096;
+  }
+
+  .reveal {
+    font-family: 'Fira Code', monospace;
+  }
+
+  .reveal h1 {
+    color: var(--header);
+    font-size: 2.0em;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    letter-spacing: -0.03em;
+  }
+
+  .reveal h2 {
+    color: var(--header);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4em;
+  }
+
+  .reveal h3 {
+    color: var(--header);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .reveal p {
+    font-size: 0.72em;
+    line-height: 1.55;
+    color: #2d3748;
+    max-width: 88%;
+    margin: 0 auto 0.5em auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .reveal li {
+    font-size: 0.68em;
+    line-height: 1.45;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+  }
+
+  .persona-quote {
+    background: #f7fafc;
+    border-left: 5px solid var(--accent);
+    padding: 16px 24px;
+    margin: 20px auto;
+    max-width: 85%;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.7em;
+    line-height: 1.6;
+    font-style: italic;
+    color: #2d3748;
+  }
+
+  .persona-quote .name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--header);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.55em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .badge-ship { background: var(--ship-bg); color: var(--ship); border: 2px solid var(--ship); }
+  .badge-conditions { background: var(--conditions-bg); color: var(--conditions); border: 2px solid var(--conditions); }
+  .badge-kill { background: var(--kill-bg); color: var(--kill); border: 2px solid var(--kill); }
+  .badge-hold { background: var(--hold-bg); color: var(--hold); border: 2px solid var(--hold); }
+
+  .reveal table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.42em;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  .reveal th {
+    background: var(--header);
+    color: #fff;
+    padding: 4px 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .reveal td {
+    padding: 3px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.3;
+  }
+  .reveal tr:nth-child(even) td { background: #f7fafc; }
+
+  .subtitle {
+    font-size: 0.7em;
+    color: var(--muted);
+    margin-top: -0.3em;
+  }
+
+  .tier {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 0.55em;
+    font-weight: 700;
+  }
+  .tier-s { background: #c6f6d5; color: #22543d; }
+  .tier-a { background: #bee3f8; color: #2a4365; }
+  .tier-b { background: #fefcbf; color: #975a16; }
+  .tier-c { background: #fed7d7; color: #9b2c2c; }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--header);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    padding: 5px 20px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .reveal .slides section {
+    padding-bottom: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 100%;
+  }
+
+  .reveal .slides section > * {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reveal .slides section h1,
+  .reveal .slides section h2 {
+    max-width: 95%;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ACT 1: SETTING THE STAGE                              -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<section>
+  <h1>A Thriving &amp; Sustainable<br>Built Environment</h1>
+  <p class="subtitle">RVA Hacks 2026 — Post-Event Roundtable Evaluation</p>
+</section>
+
+<section>
+  <h2>The Problem</h2>
+  <p>Richmond residents encounter road work, detours, and service disruptions daily — but rarely know what's happening, why, or when it will end.</p>
+  <p>DPW supervisors track fleet operations with paper and radio, while infrastructure projects live in GIS layers that residents never see.</p>
+</section>
+
+<section>
+  <h2>Two Challenges, One Pillar</h2>
+  <p><strong>Infrastructure Project Visibility:</strong> Make it easier for residents to find and understand what's being built, fixed, or blocked on their streets.</p>
+  <p><strong>Fleet Operations &amp; Street Service Tracking:</strong> Help DPW supervisors and residents track the progress of services like snow removal and street cleaning.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ACT 2: HOW WE EVALUATED                               -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<section>
+  <h2>The Roundtable Model</h2>
+  <p>We didn't just score these ideas.</p>
+  <p>We put each one through a simulated roundtable with seven distinct perspectives — from the DPW supervisor worried about stale data to the wheelchair user asking who gets stranded when a sidewalk closes.</p>
+</section>
+
+<section>
+  <h2>The Seven Voices</h2>
+  <p>A Concerned Resident who encounters construction daily. A DPW Supervisor who runs shifts by radio. A DIT Architect who knows which APIs actually work. An Equity Advocate who asks who gets left out.</p>
+  <p>A Transit Rider dependent on paratransit. A Legal Advisor measuring liability. And a Judge asking: could the City ship this in 90 days?</p>
+</section>
+
+<section>
+  <h2>The Process</h2>
+  <p>Each idea went through four phases: independent assessment, convergence debate, direct challenges between personas, and a final pass-or-fail validation.</p>
+  <p>No idea advanced without surviving all seven perspectives.</p>
+</section>
+
+<section>
+  <h2>What Kills an Idea</h2>
+  <p>We applied five fatal flaw tests to every idea.</p>
+  <p>If the data doesn't exist, if a vendor wall blocks the MVP, if no department would own it, if it could harm residents, or if it would embarrass the City — the idea doesn't ship.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ACT 3: WHAT WE FOUND                                  -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<section>
+  <h2>At a Glance</h2>
+  <table>
+    <thead>
+      <tr><th>Idea</th><th>Verdict</th><th>Mayor's Choice</th><th>Pillar Award</th><th>Moonshot</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>GRTC Construction Conflict Detector</td><td><span class="badge badge-conditions">Advance</span></td><td>92</td><td>94</td><td>87</td></tr>
+      <tr><td>Snow Tier Compass</td><td><span class="badge badge-ship">Ship</span></td><td>88</td><td>84</td><td>73</td></tr>
+      <tr><td>What's On My Street?</td><td><span class="badge badge-conditions">Conditions</span></td><td>88</td><td>90</td><td>81</td></tr>
+      <tr><td>StreetLights <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Conditions</span></td><td>85</td><td>81</td><td>70</td></tr>
+      <tr><td>ADA Detour Publisher</td><td><span class="badge badge-conditions">Advance</span></td><td>84</td><td>88</td><td>83</td></tr>
+      <tr><td>Storefront Work-Window Brief</td><td><span class="badge badge-conditions">Conditions</span></td><td>82</td><td>82</td><td>72</td></tr>
+      <tr><td>RideShift RVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">Advance</span></td><td>78</td><td>78</td><td>69</td></tr>
+      <tr><td>Stay Informed (All Your Bass)</td><td><span class="badge badge-conditions">Conditions</span></td><td>72</td><td>72</td><td>64</td></tr>
+      <tr><td>Road Maintenance Fleet Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">Pivot</span></td><td>67</td><td>69</td><td>62</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.38em;color:#718096;margin-top:8px;"><span style="color:#d69e2e;">★</span> = hackathon demo built by a human team &nbsp;&nbsp;|&nbsp;&nbsp; no star = AI-generated post-event idea</p>
+</section>
+
+<section>
+  <h2>The Headlines</h2>
+  <p>Of nine ideas evaluated, one is ready to ship, seven advance with conditions, and one needs a significant pivot.</p>
+  <p>The defining pattern: ideas that avoid the DPW Fleet GPS wall and work with data Richmond already publishes score highest on feasibility.</p>
+</section>
+
+<section>
+  <h2>Three Walls Shaped Every Verdict</h2>
+  <p>DPW Fleet GPS is not exposed — blocking real-time vehicle tracking. EnerGov has no public API — blocking permit-level detail. AvePoint 311 has no public API — blocking service request integration.</p>
+  <p>The highest-scoring ideas found ways to deliver civic value without crossing any of them.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ACT 4: IDEA DEEP DIVES (sorted by MC descending)      -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<!-- ── 1. GRTC Construction Conflict Detector ─────────── -->
+
+<section>
+  <h2>GRTC Construction Conflict Detector <span class="badge badge-conditions">Advance</span></h2>
+  <p>When construction blocks a bus stop or CARE paratransit pickup point, riders may be marked no-shows for trips they couldn't physically reach — and face suspension from the service they depend on.</p>
+  <p>This tool runs a nightly spatial join between construction zones and transit stops to flag conflicts before they strand anyone. <span class="tier tier-a">Tier A — #41 of 73</span></p>
+  <div class="persona-quote">
+    <span class="name">CARE Rider</span>
+    "If construction blocks the curb and I cannot reach it, I may be marked a no-show even though I showed up."
+  </div>
+</section>
+
+<section>
+  <h2>GRTC Conflict Detector — Verdict</h2>
+  <p>The panel recommends advancing this as a dual-anchor pilot: City supplies construction geometry, GRTC consumes alerts and owns transit policy.</p>
+  <p>Pattern A — a nightly batch join using public GTFS and open geodata — needs no City IT budget and can ship in 90 days.</p>
+  <p>Full CARE rider alerts and automated no-show waivers require a GRTC data-sharing agreement, which is a 6-to-18 month effort separate from the core value.</p>
+</section>
+
+<!-- ── 2. Snow Tier Compass ───────────────────────────── -->
+
+<section>
+  <h2>Snow Tier Compass <span class="badge badge-ship">Ship</span></h2>
+  <p>Richmond publishes snow plow priority tiers on its website, but no resident can type their address and learn which tier their block is on.</p>
+  <p>Snow Tier Compass closes that gap with a GeoHub geocoder and digitized DPW priority polygons — no fleet GPS required. <span class="tier tier-s">Tier S — #16 of 73</span></p>
+  <div class="persona-quote">
+    <span class="name">Concerned Resident</span>
+    "I still cannot type my address and know my block's tier without squinting at a PDF-style map."
+  </div>
+</section>
+
+<section>
+  <h2>Snow Tier Compass — Verdict</h2>
+  <p>The panel recommends shipping with three conditions: DPW validates the digitized tier geometry, the UX never implies live plow positions, and VDOT-maintained roads are explicitly distinguished from city streets.</p>
+  <p>It passed all five fatal flaw tests — deliberately avoiding the Fleet GPS wall by design.</p>
+  <p>If paired with seasonal operational status updates, this could become Richmond's first public snow information service that actually reduces 311 call volume.</p>
+</section>
+
+<!-- ── 3. What's On My Street? ────────────────────────── -->
+
+<section>
+  <h2>What's On My Street? <span class="badge badge-conditions">Conditions</span></h2>
+  <p>While Snow Tier Compass solves one seasonal question, this idea asks: what if residents could answer that question for every type of infrastructure project, year-round?</p>
+  <p>It aggregates CIP projects, VDOT work, and paving data into a text-first, WCAG-aligned address lookup — accessible by design, not as an afterthought. <span class="tier tier-a">Tier A — #26 of 73</span></p>
+  <div class="persona-quote">
+    <span class="name">Accessibility Advocate</span>
+    "Leading with a sortable, screen-reader-friendly list turns the prototype into a plausible Title II posture, while map-only civic clones remain structurally weak."
+  </div>
+</section>
+
+<section>
+  <h2>What's On My Street? — Verdict</h2>
+  <p>The panel recommends shipping a pilot after validating that the GeoHub CIP FeatureLayer is actually queryable without authentication — the tech stack says it may not be.</p>
+  <p>Stale Socrata datasets must be either quarantined or prominently labeled, and the tool must never imply complete coverage of all street work.</p>
+  <p>If the access question is resolved, this is one of the most legible demos in the pillar: type an address, see a list, know who to call.</p>
+</section>
+
+<!-- ── 4. StreetLights ────────────────────────────────── -->
+
+<section>
+  <h2>StreetLights <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Conditions</span></h2>
+  <p>Where What's On My Street aggregates many sources, StreetLights takes a simpler path — a high school team from J.R. Tuggle built a clean, plain-English front door to data Richmond already publishes.</p>
+  <p>The city's existing CIP dashboard gets roughly 0.38 views per thousand residents per month — this tool's address-first design aims to change that.</p>
+  <div class="persona-quote">
+    <span class="name">Concerned Resident</span>
+    "I already have the city dashboard link somewhere but never use it because it feels like work."
+  </div>
+</section>
+
+<section>
+  <h2>StreetLights <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends proceeding with scope discipline: ship the address-first CIP lookup, but defer SMS alerts, community upvotes, and anything that implies 311 integration.</p>
+  <p>The name "StreetLights" implies streetlight assets, but the product is really about capital projects — a subtitle like "infrastructure near you" would sharpen the pitch.</p>
+  <p>Built by high schoolers on proven public GIS patterns, this is a strong example of what civic tech education can produce.</p>
+</section>
+
+<!-- ── 5. ADA Detour Publisher ─────────────────────────── -->
+
+<section>
+  <h2>ADA Detour Publisher <span class="badge badge-conditions">Advance</span></h2>
+  <p>StreetLights makes capital projects visible to everyone — but this idea asks: what about the people for whom a sidewalk closure is not an inconvenience, but a crisis?</p>
+  <p>It converts permit data into screen-reader-friendly detour pages with grade estimates and turn-by-turn text. No U.S. city currently publishes routable, ADA-attributed pedestrian detour geometries.</p>
+  <div class="persona-quote">
+    <span class="name">Wheelchair User</span>
+    "Living with a mobility disability means construction is not an inconvenience — it is route failure."
+  </div>
+</section>
+
+<section>
+  <h2>ADA Detour Publisher — Verdict</h2>
+  <p>The panel recommends advancing this as a high-equity pilot with manually verified data for three to five real corridors, not automated permit scraping.</p>
+  <p>EnerGov has no public API, so the MVP must rely on field-walked verification and DPW partnership — automation is downstream of a future permit system replacement.</p>
+  <p>If inaccurate detour data routes someone into active construction, the harm is not reputational — it is physical, which makes verification guardrails non-optional.</p>
+</section>
+
+<!-- ── 6. Storefront Work-Window Brief ─────────────────── -->
+
+<section>
+  <h2>Storefront Work-Window Brief <span class="badge badge-conditions">Conditions</span></h2>
+  <p>The ADA Detour Publisher centers pedestrians with disabilities — this idea asks the same visibility question from a different angle: what about the small business owner watching foot traffic vanish?</p>
+  <p>It generates a printable one-page brief for merchants: project dates, which side of the street is open, and who to call at DPW. <span class="tier tier-a">Tier A — #27 of 73</span></p>
+  <div class="persona-quote">
+    <span class="name">Storefront Owner</span>
+    "I do not live in ArcGIS; I live next to orange barrels."
+  </div>
+</section>
+
+<section>
+  <h2>Storefront Brief — Verdict</h2>
+  <p>The panel recommends proceeding only after validating a public CIP data path — the tech stack says the dashboard may require authentication.</p>
+  <p>The real distribution channel is not a URL but trusted corridor organizations like the Carytown Merchants Association, who can print and hand-deliver briefs.</p>
+  <p>Peer cities show that digital tools work when paired with human outreach — a PDF generator alone is a complement, not a substitute for a liaison program.</p>
+</section>
+
+<!-- ── 7. RideShift RVA ───────────────────────────────── -->
+
+<section>
+  <h2>RideShift RVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">Advance</span></h2>
+  <p>While the previous ideas focus on what the city builds, RideShift asks whether better information could change how residents move through Richmond.</p>
+  <p>It pairs multimodal commute nudges with local MBE business rewards and deep-links to Richmond Connects for civic engagement — available in Spanish, with no-password magic-link login.</p>
+  <div class="persona-quote">
+    <span class="name">Transit-Dependent Rider</span>
+    "Self-reported 'did you meet your goal?' does not fix my real pain: knowing before I leave if Broad Street will eat 20 minutes."
+  </div>
+</section>
+
+<section>
+  <h2>RideShift RVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends shipping the behavior-and-engagement loop, but warns that the IDEA and the Innovation Analysis currently read like two different products.</p>
+  <p>The rewards concept is shippable on commodity hosting, but sustained partner trust requires a verification roadmap so honor-system check-ins do not erode credibility at scale.</p>
+  <p>Barrier reports need a named intake pathway — a nonprofit partner or GRTC customer service — or they become data that no one acts on.</p>
+</section>
+
+<!-- ── 8. Stay Informed (All Your Bass) ───────────────── -->
+
+<section>
+  <h2>Stay Informed <span class="badge badge-conditions">Conditions</span></h2>
+  <p>RideShift nudges commuters toward alternatives — this idea tackles the other challenge in the pillar: helping residents know when DPW services like sweeping and plowing will reach their street.</p>
+  <p>It deliberately sidesteps the Fleet GPS wall by using supervisor-authored status updates and existing Socrata street sweeping zones rather than live vehicle telemetry.</p>
+  <div class="persona-quote">
+    <span class="name">Mayor's Choice Judge</span>
+    "The idea sidesteps the DPW Fleet GPS structural wall for residents by design — aligned with national 'schedule plus status plus optional delayed AVL' playbooks."
+  </div>
+</section>
+
+<section>
+  <h2>Stay Informed — Verdict</h2>
+  <p>The panel finds this conditionally strong — credible as a roadmap once synthetic demo telemetry is replaced by supervisor-backed or Cityworks-sourced status data.</p>
+  <p>Email-only alerts skew toward people with stable inboxes; SMS, voice, and in-language channels are needed before this can claim equitable reach.</p>
+  <p>If a named DPW champion steps forward and the public layer uses real Socrata zones with honest timestamps, this is a viable pilot within months.</p>
+</section>
+
+<!-- ── 9. Road Maintenance Fleet Tracker ──────────────── -->
+
+<section>
+  <h2>Road Maintenance Fleet Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">Pivot Needed</span></h2>
+  <p>Stay Informed wisely sidesteps the GPS question — this idea did not, and that design choice defined its verdict.</p>
+  <p>The prototype demonstrated rich vehicle-level dashboards, but ran entirely on synthetic telemetry because Richmond's DPW fleet GPS data is not publicly available.</p>
+  <div class="persona-quote">
+    <span class="name">DPW Supervisor</span>
+    "If this tool expects second-by-second GPS from every plow, it is fantasy until telematics contracts and IT pipes exist."
+  </div>
+</section>
+
+<section>
+  <h2>Fleet Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>The panel recommends a significant pivot: rename this a "DPW Service Status Dashboard" and adopt the supervisor-toggle model that avoids the Fleet GPS wall entirely.</p>
+  <p>Under the GPS-first interpretation, this idea hits a fatal flaw — the data simply does not exist in any accessible form.</p>
+  <p>Under the service-delivery interpretation it becomes viable, but overlaps substantially with Snow Tier Compass and Stay Informed, which scored higher and arrived at that insight first.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ACT 5: SUMMARY                                        -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<section>
+  <h2>What Should Ship</h2>
+  <p><strong>Snow Tier Compass</strong> is ready now — address-level snow priority lookup using proven GeoHub patterns, no GPS required.</p>
+  <p><strong>What's On My Street</strong> and <strong>StreetLights</strong> should follow once public CIP API access is validated — both solve the "what's happening on my block?" question.</p>
+  <p><strong>GRTC Construction Conflict Detector</strong> deserves a 90-day pilot — the nightly batch join can flag transit stop conflicts using entirely public data.</p>
+</section>
+
+<section>
+  <h2>What Needs Work</h2>
+  <p><strong>Road Maintenance Fleet Tracker</strong> must pivot away from GPS dependence or be absorbed by ideas that already made that design choice.</p>
+  <p><strong>ADA Detour Publisher</strong>, <strong>Storefront Brief</strong>, and <strong>RideShift RVA</strong> all need agency partnerships and validated data paths before they can leave prototype stage.</p>
+  <p><strong>Stay Informed</strong> needs real operational data and multi-channel alerts to replace its synthetic demo.</p>
+</section>
+
+<section>
+  <h2>What This Pillar Tells Us</h2>
+  <p>The strongest ideas succeed by working around Richmond's infrastructure walls, not by pretending they don't exist.</p>
+  <p>Accessibility is not an edge case — the ADA Detour Publisher and GRTC Conflict Detector revealed that construction harms disabled residents in ways most civic tech completely ignores.</p>
+  <p>Richmond publishes more infrastructure data than residents realize — the gap is not data, but a usable front door that meets people where they are.</p>
+</section>
+
+</div><!-- .slides -->
+</div><!-- .reveal -->
+
+<div class="footer">RVA Hacks 2026 — Roundtable Evaluation &middot; A Thriving &amp; Sustainable Built Environment</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  width: 1280,
+  height: 720,
+  margin: 0.1,
+  minScale: 0.2,
+  maxScale: 1.0,
+  transition: 'fade',
+  transitionSpeed: 'default',
+  center: true,
+  controlsTutorial: false,
+  disableLayout: false,
+});
+</script>
+</body>
+</html>

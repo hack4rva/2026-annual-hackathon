@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Thriving City Hall — Roundtable Evaluation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+<style>
+  :root {
+    --header: #1a365d;
+    --ship: #22543d;
+    --ship-bg: #f0fff4;
+    --conditions: #744210;
+    --conditions-bg: #fffff0;
+    --kill: #9b2c2c;
+    --kill-bg: #fff5f5;
+    --hold: #553c9a;
+    --hold-bg: #faf5ff;
+    --accent: #2b6cb0;
+    --muted: #718096;
+  }
+
+  .reveal {
+    font-family: 'Fira Code', monospace;
+  }
+
+  .reveal h1 {
+    color: var(--header);
+    font-size: 2.0em;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    letter-spacing: -0.03em;
+  }
+
+  .reveal h2 {
+    color: var(--header);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4em;
+  }
+
+  .reveal h3 {
+    color: var(--header);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .reveal p {
+    font-size: 0.72em;
+    line-height: 1.55;
+    color: #2d3748;
+    max-width: 88%;
+    margin: 0 auto 0.5em auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .reveal li {
+    font-size: 0.68em;
+    line-height: 1.45;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+  }
+
+  .persona-quote {
+    background: #f7fafc;
+    border-left: 5px solid var(--accent);
+    padding: 16px 24px;
+    margin: 20px auto;
+    max-width: 85%;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.7em;
+    line-height: 1.6;
+    font-style: italic;
+    color: #2d3748;
+  }
+
+  .persona-quote .name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--header);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.55em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .badge-ship { background: var(--ship-bg); color: var(--ship); border: 2px solid var(--ship); }
+  .badge-conditions { background: var(--conditions-bg); color: var(--conditions); border: 2px solid var(--conditions); }
+  .badge-kill { background: var(--kill-bg); color: var(--kill); border: 2px solid var(--kill); }
+  .badge-hold { background: var(--hold-bg); color: var(--hold); border: 2px solid var(--hold); }
+
+  .reveal table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.42em;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  .reveal th {
+    background: var(--header);
+    color: #fff;
+    padding: 4px 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .reveal td {
+    padding: 3px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.3;
+  }
+  .reveal tr:nth-child(even) td { background: #f7fafc; }
+
+  .subtitle {
+    font-size: 0.7em;
+    color: var(--muted);
+    margin-top: -0.3em;
+  }
+
+  .tier {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 0.55em;
+    font-weight: 700;
+  }
+  .tier-s { background: #c6f6d5; color: #22543d; }
+  .tier-a { background: #bee3f8; color: #2a4365; }
+  .tier-b { background: #fefcbf; color: #975a16; }
+  .tier-c { background: #fed7d7; color: #9b2c2c; }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--header);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    padding: 5px 20px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .reveal .slides section {
+    padding-bottom: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 100%;
+  }
+
+  .reveal .slides section > * {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reveal .slides section h1,
+  .reveal .slides section h2 {
+    max-width: 95%;
+  }
+
+  .reveal .slide-background-content {
+    overflow: hidden;
+  }
+
+  .reveal td .badge {
+    font-size: 0.75em;
+    padding: 2px 8px;
+  }
+
+  .reveal .slides section.compact-table h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ============================================================ -->
+<!-- ACT 1: SETTING THE STAGE                                      -->
+<!-- ============================================================ -->
+
+<section>
+  <h1>A Thriving City Hall</h1>
+  <p class="subtitle">Making City services findable and procurement manageable.</p>
+  <p>RVA Hacks 2026 — Post-Event Roundtable Evaluation</p>
+</section>
+
+<section>
+  <h2>The Problem</h2>
+  <p>When Richmond residents need help from the City — paying a bill, reporting a pothole, finding the right office — they face a maze of departments, phone trees, and outdated websites.</p>
+  <p>On the procurement side, City staff hunt through PDFs to track contracts worth hundreds of millions of dollars.</p>
+</section>
+
+<section>
+  <h2>Two Challenges</h2>
+  <p><strong>Resident Service Navigation:</strong> Help residents find the right City service or department quickly, so requests get routed correctly the first time.</p>
+  <p><strong>Procurement Risk &amp; Opportunity Review:</strong> Help City staff identify valid, compliant contracts across City, state, and federal sources without manual PDF hunting.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ACT 2: HOW WE EVALUATED                                       -->
+<!-- ============================================================ -->
+
+<section>
+  <h2>The Roundtable Model</h2>
+  <p>We didn't just score these ideas.</p>
+  <p>We put each one through a simulated roundtable with seven distinct perspectives — from the Mayor worrying about political risk to the Citizen asking who gets left out.</p>
+</section>
+
+<section>
+  <h2>The Seven Voices</h2>
+  <p>The <strong>Mayor</strong> asks what's politically viable. The <strong>Innovator</strong> pushes for bolder framing. The <strong>Architect</strong> checks the tech stack. The <strong>Frontliner</strong> says whether staff will actually use it.</p>
+  <p>The <strong>Citizen</strong> asks who benefits and who's excluded. The <strong>Activist</strong> scans for prior art. The <strong>Funder</strong> asks who pays after the hackathon ends.</p>
+</section>
+
+<section>
+  <h2>The Process</h2>
+  <p>Each idea went through four phases: independent assessment from each persona, convergence debate, direct challenges between perspectives, and a final pass-or-fail validation.</p>
+  <p>Every claim was tested against real evidence — published research, peer city precedents, and Richmond's actual technology stack.</p>
+</section>
+
+<section>
+  <h2>What Kills an Idea</h2>
+  <p>We applied five fatal flaw tests to every idea.</p>
+  <p>If the data doesn't exist, if a vendor wall blocks the MVP, if no department would own it, if it could harm residents, or if it would embarrass the City — the idea doesn't ship.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ACT 3: WHAT WE FOUND                                          -->
+<!-- ============================================================ -->
+
+<section class="compact-table">
+  <h2>At a Glance — 15 Ideas Ranked</h2>
+  <table>
+    <thead>
+      <tr><th>Idea</th><th>Verdict</th><th>Mayor's Choice</th><th>Pillar Award</th><th>Moonshot</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Service Wizard</td><td><span class="badge badge-conditions">CONDITIONS</span></td><td><strong>95</strong></td><td>93</td><td>81</td></tr>
+      <tr><td>Contract Expiry Dashboard</td><td><span class="badge badge-conditions">CONDITIONS</span></td><td><strong>92</strong></td><td>86</td><td>71</td></tr>
+      <tr><td>Expiry Alerts</td><td><span class="badge badge-conditions">CONDITIONS</span></td><td><strong>89</strong></td><td>83</td><td>69</td></tr>
+      <tr><td>Drift Scanner</td><td><span class="badge badge-conditions">CONDITIONS</span></td><td><strong>85</strong></td><td>83</td><td>72</td></tr>
+      <tr><td>Hey804 <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">REFINE</span></td><td>83</td><td>81</td><td>71</td></tr>
+      <tr><td>Budget Dashboard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">CONDITIONS</span></td><td>80</td><td>78</td><td>68</td></tr>
+      <tr><td>Council Routing Memo</td><td><span class="badge badge-conditions">PILOT</span></td><td>80</td><td>78</td><td>68</td></tr>
+      <tr><td>RVA Contract Lens <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-kill">RE-SCOPE</span></td><td>77</td><td>75</td><td>66</td></tr>
+      <tr><td>Text-311 <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">REFINE</span></td><td>76</td><td>78</td><td>70</td></tr>
+      <tr><td>CivicPulse AI <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">CONDITIONS</span></td><td>75</td><td>75</td><td>66</td></tr>
+      <tr><td>RVA Help <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">REFINE</span></td><td>75</td><td>75</td><td>66</td></tr>
+      <tr><td>Mira <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">PILOT</span></td><td>75</td><td>75</td><td>66</td></tr>
+      <tr><td>MAP Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">REFINE</span></td><td>75</td><td>75</td><td>66</td></tr>
+      <tr><td>City Activity Transparency</td><td><span class="badge badge-conditions">CONDITIONS</span></td><td>72</td><td>72</td><td>64</td></tr>
+      <tr><td>Vendor Contract Mgmt <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-kill">RE-SCOPE</span></td><td>68</td><td>68</td><td>61</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.38em;color:#718096;margin-top:8px;"><span style="color:#d69e2e;">★</span> = hackathon demo built by a human team &nbsp;&nbsp;|&nbsp;&nbsp; no star = AI-generated post-event idea</p>
+</section>
+
+<section>
+  <h2>The Headlines</h2>
+  <p>This pillar produced 15 ideas — the most of any pillar — including four Tier S ideas ready to ship immediately.</p>
+  <p>The Socrata Contracts Pipeline, a cluster of procurement tools tapping the same public dataset, dominated the top rankings with three of the top eight ideas across all 73 evaluated.</p>
+</section>
+
+<section>
+  <h2>The Socrata Contracts Pipeline</h2>
+  <p>Five procurement ideas share a single foundation: Richmond's public contracts dataset on Socrata, with zero missing expiry dates and monthly refresh.</p>
+  <p>The top three — Expiry Dashboard, Alerts, and Drift Scanner — rank #1, #3, and #8 of all 73 ideas for implementation readiness.</p>
+  <p>Together they form a pipeline: see what expires, get notified, and catch payment anomalies.</p>
+</section>
+
+<section>
+  <h2>The 311 / AvePoint Wall</h2>
+  <p>Richmond's 311 system runs on AvePoint with no public API for reading or writing service requests.</p>
+  <p>Every resident-facing service navigation idea was forced to work around this wall, limiting them to link directories and referral tools rather than true intake integration.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ACT 4: IDEA DEEP DIVES                                        -->
+<!-- ============================================================ -->
+
+<!-- ———————————— THE PROCUREMENT CLUSTER ———————————— -->
+
+<section>
+  <h2>The Procurement Cluster</h2>
+  <p class="subtitle">Seven ideas, one dataset, and a clear winner.</p>
+  <p>Seven ideas tackled how City staff track, review, and manage contracts worth hundreds of millions of dollars.</p>
+  <p>The strongest were radically simple — reading public data that already exists.</p>
+</section>
+
+<!-- 1. Contract Expiry Dashboard (MC 92) -->
+
+<section>
+  <h2>Contract Expiry Dashboard <span class="badge badge-conditions">CONDITIONS</span></h2>
+  <p>A filterable timeline of every City contract approaching expiry, built on public Socrata data for zero dollars on GitHub Pages with no City IT involvement.</p>
+  <p>Ranked #1 of 73 ideas for implementation readiness. <span class="tier tier-s">TIER S</span></p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "A countdown without a default next action is just informed anxiety. A countdown with a default next action is a system."
+  </div>
+</section>
+
+<section>
+  <h2>Contract Expiry Dashboard — Verdict</h2>
+  <p>Ship with conditions: a 90-day handoff plan with a named City steward, staleness signals in the product, and Phase 1 limited to read-only transparency.</p>
+  <p>Passed all five fatal flaw tests. The risk is organizational abandonment, not technical failure.</p>
+  <p>If Procurement adopts it within 90 days, this becomes civic infrastructure for contract oversight.</p>
+</section>
+
+<!-- 2. Expiry Alerts (MC 89) -->
+
+<section>
+  <h2>Expiry Alerts <span class="badge badge-conditions">CONDITIONS</span></h2>
+  <p>The behavioral complement to the dashboard — weekly email digests warning procurement staff which contracts approach expiry. Same Socrata foundation, push instead of pull.</p>
+  <p>Ranked #3 of 73 ideas. <span class="tier tier-s">TIER S</span></p>
+  <div class="persona-quote">
+    <span class="name">Funder</span>
+    "The funder's job isn't to fund the code — it's to fund the 90-day window between 'it exists' and 'someone owns it.'"
+  </div>
+</section>
+
+<section>
+  <h2>Expiry Alerts — Verdict</h2>
+  <p>Ship with conditions. The fatal flaw is organizational: without an authorized email list and Procurement buy-in, the product stays a demo that sends to personal Gmail.</p>
+  <p>Procurement must name a champion and test delivery against City spam filters before any wide rollout.</p>
+  <p>If adopted, push beats pull — alerts create urgency that a dashboard alone never will.</p>
+</section>
+
+<!-- 3. Drift Scanner (MC 85) -->
+
+<section>
+  <h2>Contract-Payment Drift Scanner <span class="badge badge-conditions">CONDITIONS</span></h2>
+  <p>Joins the contracts dataset with Richmond's Payment Register to flag overruns, post-term payments, and spending anomalies — an audit intelligence layer built entirely on public data.</p>
+  <p>Ranked #8 of 73 ideas. <span class="tier tier-s">TIER S</span></p>
+  <div class="persona-quote">
+    <span class="name">Mayor</span>
+    "Low integration cost, high oversight signal."
+  </div>
+</section>
+
+<section>
+  <h2>Drift Scanner — Verdict</h2>
+  <p>Ship with conditions. Flags must be framed as triage, not findings — a "possible anomaly" is not a "proven violation."</p>
+  <p>Gate zero: validate the join key between the two datasets and document the match rate before going live.</p>
+  <p>If the join works cleanly, this becomes the fiscal watchdog layer that contract transparency has been missing.</p>
+</section>
+
+<!-- Transition within procurement cluster -->
+
+<section>
+  <h2>The Procurement Cluster — Below the Line</h2>
+  <p>While the top three procurement ideas scored high on simplicity and public data, the remaining four attempted more ambitious approaches — AI extraction, federated search, vendor portals.</p>
+  <p>Each ran into the same wall: OnBase and RAPIDS have no public API for the contract PDFs where the real value lives.</p>
+</section>
+
+<!-- 4. RVA Contract Lens (MC 77) -->
+
+<section>
+  <h2>RVA Contract Lens <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-kill">RE-SCOPE</span></h2>
+  <p>Pitched as a federated AI engine delivering eight-second procurement verdicts across city, state, and federal sources simultaneously.</p>
+  <p>The roundtable found the full architecture blocked by vendor walls, API terms of service, and AI governance gaps.</p>
+  <div class="persona-quote">
+    <span class="name">Frontliner</span>
+    "An eight-second verdict without performance memos, budget, and legal review would be ignored or dangerous."
+  </div>
+</section>
+
+<section>
+  <h2>RVA Contract Lens <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Re-scope required. The full AI verdict engine is not viable without City systems integration and legal sign-off.</p>
+  <p>A narrower Socrata search with deep links to cooperative portals could ship, but overlaps with the Expiry Dashboard without adding a distinct lane.</p>
+  <p>The most distinctive long-term direction is OCDS publishing, following Portland's lead.</p>
+</section>
+
+<!-- 5. CivicPulse AI (MC 75) -->
+
+<section>
+  <h2>CivicPulse AI <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">CONDITIONS</span></h2>
+  <p>A dual-pane tool using AI to extract fields from contract PDFs and display them alongside the source document for human verification.</p>
+  <p>Aligned with emerging norms for governed procurement AI, but blocked by the OnBase wall for any citywide corpus.</p>
+  <div class="persona-quote">
+    <span class="name">City Attorney</span>
+    "Wrong expiry or dollar figure from an LLM is not a UX bug — it is potential fiscal or legal exposure."
+  </div>
+</section>
+
+<section>
+  <h2>CivicPulse AI <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Promising demo with a conditional path to pilot. Must choose one wedge — cooperative search or governed extraction — and defer claims of parity with the official contract repository.</p>
+  <p>Production blocked by OnBase access and AR 2.13 governance review, neither of which is a weekend solve.</p>
+  <p>If paired with a DIT charter and Procurement co-design, the extraction layer could save real staff hours.</p>
+</section>
+
+<!-- 6. Mira (MC 75) -->
+
+<section>
+  <h2>Mira <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">PILOT</span></h2>
+  <p>An Azure-based AI assistant that reads contract PDFs, extracts structured fields, and offers per-contract chat — built on Azure Document Intelligence with a full RAG stack.</p>
+  <p>The chat feature is where hallucination risk lives, and no accuracy metrics exist for Richmond documents.</p>
+  <div class="persona-quote">
+    <span class="name">Auditor</span>
+    "Until you publish precision and recall on Richmond PDFs, the product is a demo, not an evidence-based procurement system."
+  </div>
+</section>
+
+<section>
+  <h2>Mira <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Pilot with scope cuts. Lead with extraction and a human-confirmed checklist; disable the generative chat until field-level accuracy is measured on real City documents.</p>
+  <p>Dual failure mode: an authority gap (no governed OnBase path) and a generative trust gap (no measured accuracy).</p>
+  <p>If scoped to a checklist accelerator with source citations, this fits the IDP pattern proven in peer cities.</p>
+</section>
+
+<!-- 7. Vendor Contract Mgmt (MC 68) -->
+
+<section>
+  <h2>Vendor Contract Mgmt <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-kill">RE-SCOPE</span></h2>
+  <p>A two-sided Next.js portal where City staff and vendors each log in to view contracts, with AI-generated summaries — creating what the roundtable called "a second narrative of contract truth."</p>
+  <p>Lowest-ranked procurement idea in the pillar. <span class="tier tier-b">TIER B</span></p>
+  <div class="persona-quote">
+    <span class="name">Frontliner</span>
+    "I need one system of record, not a fourth place."
+  </div>
+</section>
+
+<section>
+  <h2>Vendor Contract Mgmt <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Re-scope to a thin Socrata explorer with no uncited AI. The dual-portal vendor login has no institutional mandate, no business owner, and no path to becoming the system of record.</p>
+  <p>Finance and Audit will not treat a Firebase-authenticated shadow repository as authoritative.</p>
+  <p>The team's energy would be better directed toward the Socrata pipeline tools that already have momentum.</p>
+</section>
+
+<!-- ———————————— THE SERVICE NAVIGATION CLUSTER ———————————— -->
+
+<section>
+  <h2>The Service Navigation Cluster</h2>
+  <p class="subtitle">Five ideas, one wall, and a clear lesson.</p>
+  <p>Five ideas asked the same question: how do you help a Richmond resident find the right City service on the first try?</p>
+  <p>All five collided with the 311/AvePoint wall — and their answers reveal very different strategies for working around it.</p>
+</section>
+
+<!-- 8. Service Wizard (MC 95) -->
+
+<section>
+  <h2>Service Wizard <span class="badge badge-conditions">CONDITIONS</span></h2>
+  <p>The highest-scoring idea in this pillar. A deterministic, no-AI decision tree that guides residents to the right form, phone number, or office through plain-language questions — modeled on GOV.UK Smart Answers.</p>
+  <p>Ranked #7 of 73 ideas. <span class="tier tier-s">TIER S</span></p>
+  <div class="persona-quote">
+    <span class="name">Civic Innovator</span>
+    "The most boring pattern may be the most trustworthy."
+  </div>
+</section>
+
+<section>
+  <h2>Service Wizard — Verdict</h2>
+  <p>Ship with governance conditions. The fatal flaw is taxonomy drift: without a named owner refreshing the decision tree when departments reorganize, the wizard becomes confidently wrong routing.</p>
+  <p>No 311 API required, no AI governance risk, and a strong equity story through human-translatable Spanish.</p>
+  <p>If adopted by 311 or digital services, this is the safest path to "route right the first time."</p>
+</section>
+
+<!-- 9. Hey804 (MC 83) -->
+
+<section>
+  <h2>Hey804 <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">REFINE</span></h2>
+  <p>An AI-powered widget for the rva.gov homepage, using Claude to classify resident questions and return verified links — never generating answers, only routing to official sources.</p>
+  <p>The team's key design choice: refuse to answer when confidence is low; escalate to phone or 311 instead.</p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "Value equals what it refuses to synthesize, not eloquence."
+  </div>
+</section>
+
+<section>
+  <h2>Hey804 <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Refine before shipping. Needs a named City owner under AR 2.13, a curated knowledge base with freshness discipline, and a path to 311 voice for residents who can't use the web.</p>
+  <p>No single fatal flaw, but conditional on ownership, curation, and inclusion.</p>
+  <p>The "classify, don't generate" architecture is the right instinct in a post-NYC-MyCity world.</p>
+</section>
+
+<!-- 10. Council Routing Memo (MC 80) -->
+
+<section>
+  <h2>Council Routing Memo <span class="badge badge-conditions">PILOT</span></h2>
+  <p>A lightweight form that helps Council district office staff generate a structured routing memo when residents call — standardizing the handoff from "switchboard" to the right department.</p>
+  <p>Ranked #24 of 73 ideas. <span class="tier tier-a">TIER A</span></p>
+  <div class="persona-quote">
+    <span class="name">Frontliner</span>
+    "Resident on the line — I need the right department in under two minutes."
+  </div>
+</section>
+
+<section>
+  <h2>Council Routing Memo — Verdict</h2>
+  <p>Pilot first with one Council office. Validate the taxonomy against 20 real cases before expanding — if the map misroutes high-stakes issues, the memo becomes confidently wrong infrastructure.</p>
+  <p>Pattern A ships without the AvePoint wall; ticket integration stays on the roadmap until DIT opens a gateway.</p>
+  <p>Low cost, low risk, and it directly solves a pain every district office experiences daily.</p>
+</section>
+
+<!-- 11. Text-311 (MC 76) -->
+
+<section>
+  <h2>Text-311 <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">REFINE</span></h2>
+  <p>An SMS channel for 311 requests, targeting residents without smartphones or broadband — the strongest equity argument of any service navigation idea. <span class="tier tier-c">TIER C</span></p>
+  <p>The demo claimed real-time integration with Dynamics 365, but the tech stack says there is no public API.</p>
+  <div class="persona-quote">
+    <span class="name">Citizen</span>
+    "Highest fit for any-phone, no-broadband residents — but intake-only feels like a black hole."
+  </div>
+</section>
+
+<section>
+  <h2>Text-311 <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Refine. The demo's integration claims are false against the tech stack, and that gap must be corrected before any credible pilot.</p>
+  <p>An honest version exists: Twilio with structured menus and a manual handoff to 311 operations, paired with City endorsement.</p>
+  <p>The equity case is real — this is the only idea that reaches residents with just a basic phone — but it cannot ship on false premises.</p>
+</section>
+
+<!-- 12. RVA Help (MC 75) -->
+
+<section>
+  <h2>RVA Help <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">REFINE</span></h2>
+  <p>An AI-assisted tool that helps residents describe their issue clearly, suggests the top three matching service categories, and links to the correct submission channel — a translator between resident language and City taxonomy.</p>
+  <div class="persona-quote">
+    <span class="name">Activist</span>
+    "Misclassification can route homelessness-related inquiries toward enforcement workflows."
+  </div>
+</section>
+
+<section>
+  <h2>RVA Help <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Refine to a wall-aware referral tool. Ship top-three suggestions with human escalation for sensitive topics — not a shadow CRM that claims to manage the ticket lifecycle.</p>
+  <p>The full ticket system is blocked by the 311 wall and AR 2.13 governance, but the referral layer is viable.</p>
+  <p>Strongest when paired with the Service Wizard as complementary tools: deterministic routing plus AI-assisted intake.</p>
+</section>
+
+<!-- ———————————— THE TRANSPARENCY CLUSTER ———————————— -->
+
+<section>
+  <h2>The Transparency Cluster</h2>
+  <p class="subtitle">Three ideas, three different views of City Hall.</p>
+  <p>Three ideas stepped back from specific workflows to ask a broader question: can the City make itself legible to the people it serves?</p>
+  <p>Each answers with a different lens — budget, strategy, or operations.</p>
+</section>
+
+<!-- 13. City Budget Dashboard (MC 80) -->
+
+<section>
+  <h2>City Budget Dashboard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">CONDITIONS</span></h2>
+  <p>A Tableau Public dashboard built on Socrata budget data, with drill-down to agency line items and an LLM feature mapping spending to MAP pillar priorities.</p>
+  <p>Strong execution, but addresses fiscal transparency rather than the pillar's assigned problem statements.</p>
+  <div class="persona-quote">
+    <span class="name">Budget Analyst</span>
+    "The fatal flaw is not Tableau — it is absence of a committed owner and pipeline for authoritative, current numbers."
+  </div>
+</section>
+
+<section>
+  <h2>Budget Dashboard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Ship as a civic layer if Budget &amp; Strategic Planning formalizes the refresh pipeline and owns the truth claim.</p>
+  <p>Without that, the dashboard drifts from official figures and becomes narrative decoration — numbers that look authoritative but aren't current enough to trust.</p>
+  <p>The LLM pillar-mapping feature triggers AR 2.13 expectations and needs DIT review.</p>
+</section>
+
+<!-- 14. MAP Tracker (MC 75) -->
+
+<section>
+  <h2>MAP Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">REFINE</span></h2>
+  <p>A progress dashboard for the Mayor's Action Plan, tracking KPIs across all seven pillars — and the only idea where department heads actually participated during the hackathon.</p>
+  <p>Ranked #23 of 73 ideas. <span class="tier tier-a">TIER A</span></p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "Not a website but a governance OS — the meeting cadence matters more than the dashboard."
+  </div>
+</section>
+
+<section>
+  <h2>MAP Tracker <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — Verdict</h2>
+  <p>Refine to Go. Ship under the Mayor's Office with a mandated update cadence and a path to AchieveIt integration for automation.</p>
+  <p>Without executive discipline, quarterly data entry atrophies and the site becomes stale. Software is cheap; governance is not.</p>
+  <p>Does not address service navigation or procurement — but fits the MAP transparency mission directly.</p>
+</section>
+
+<!-- 15. City Activity Transparency System (MC 72) -->
+
+<section>
+  <h2>City Activity Transparency <span class="badge badge-conditions">CONDITIONS</span></h2>
+  <p>A Boston CityScore-style dashboard aggregating KPIs across City operations into one public view with data freshness indicators — the most ambitious transparency play in the pillar.</p>
+  <p>Also the most exposed to Richmond's data gaps.</p>
+  <div class="persona-quote">
+    <span class="name">Citizen</span>
+    "If half the tiles say 'data unavailable,' the page feels like an excuse."
+  </div>
+</section>
+
+<section>
+  <h2>Activity Transparency — Verdict</h2>
+  <p>Ship with conditions if scoped to Pattern A: curated tiles from Socrata, Legistar, and public GeoHub only, with a gap register pointing at the walls it cannot cross.</p>
+  <p>The full real-time common operating picture is blocked by 311, fleet GPS, and EnerGov. Dashboards without meeting cadences become wallpaper.</p>
+  <p>If paired with a governance charter and named owner, this could become Richmond's version of CitiStat.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ACT 5: WHAT IT MEANS                                          -->
+<!-- ============================================================ -->
+
+<section>
+  <h2>What Should Ship</h2>
+  <p><strong>Contract Expiry Dashboard</strong> — #1 of 73. Public contract timeline, zero cost, zero IT dependency.</p>
+  <p><strong>Service Wizard</strong> — No-AI routing that's trustworthy because it's boring.</p>
+  <p><strong>Expiry Alerts</strong> — Push beats pull for procurement attention.</p>
+  <p><strong>Drift Scanner</strong> — Audit intelligence from joining two public datasets.</p>
+</section>
+
+<section>
+  <h2>What Shouldn't — and Why</h2>
+  <p><strong>RVA Contract Lens</strong> — Full AI federation blocked by vendor walls, API terms, and governance gaps.</p>
+  <p><strong>Vendor Contract Mgmt</strong> — Shadow system without institutional mandate or business owner.</p>
+  <p><strong>Text-311 (as demoed)</strong> — Claims real-time 311 integration that doesn't exist. An honest pilot version is viable.</p>
+</section>
+
+<section>
+  <h2>What This Pillar Tells Us</h2>
+  <p>Procurement ideas can ship because the data is public and clean. Service navigation ideas are walled off from the system residents actually use.</p>
+  <p>The Socrata Contracts Pipeline proves that open data plus commodity hosting can produce Tier S civic tools at zero cost — if someone commits to owning them past demo day.</p>
+  <p>The 311/AvePoint wall is not a hackathon problem to solve — it's a procurement and partnership conversation the City needs to have.</p>
+</section>
+
+</div><!-- .slides -->
+</div><!-- .reveal -->
+
+<div class="footer">RVA Hacks 2026 — Roundtable Evaluation · A Thriving City Hall</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  width: 1280,
+  height: 720,
+  margin: 0.1,
+  minScale: 0.2,
+  maxScale: 1.0,
+  transition: 'fade',
+  transitionSpeed: 'default',
+  center: true,
+  controlsTutorial: false,
+  disableLayout: false,
+});
+</script>
+</body>
+</html>

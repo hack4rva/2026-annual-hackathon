@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Thriving Economy — Roundtable Evaluation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+<style>
+  :root {
+    --header: #1a365d;
+    --ship: #22543d;
+    --ship-bg: #f0fff4;
+    --conditions: #744210;
+    --conditions-bg: #fffff0;
+    --kill: #9b2c2c;
+    --kill-bg: #fff5f5;
+    --hold: #553c9a;
+    --hold-bg: #faf5ff;
+    --accent: #2b6cb0;
+    --muted: #718096;
+  }
+
+  .reveal {
+    font-family: 'Fira Code', monospace;
+  }
+
+  .reveal h1 {
+    color: var(--header);
+    font-size: 2.0em;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    letter-spacing: -0.03em;
+  }
+
+  .reveal h2 {
+    color: var(--header);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4em;
+  }
+
+  .reveal h3 {
+    color: var(--header);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .reveal p {
+    font-size: 0.72em;
+    line-height: 1.55;
+    color: #2d3748;
+    max-width: 88%;
+    margin: 0 auto 0.5em auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .reveal li {
+    font-size: 0.68em;
+    line-height: 1.45;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+  }
+
+  .persona-quote {
+    background: #f7fafc;
+    border-left: 5px solid var(--accent);
+    padding: 16px 24px;
+    margin: 20px auto;
+    max-width: 85%;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.7em;
+    line-height: 1.6;
+    font-style: italic;
+    color: #2d3748;
+  }
+
+  .persona-quote .name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--header);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.55em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .badge-ship { background: var(--ship-bg); color: var(--ship); border: 2px solid var(--ship); }
+  .badge-conditions { background: var(--conditions-bg); color: var(--conditions); border: 2px solid var(--conditions); }
+  .badge-kill { background: var(--kill-bg); color: var(--kill); border: 2px solid var(--kill); }
+  .badge-hold { background: var(--hold-bg); color: var(--hold); border: 2px solid var(--hold); }
+
+  .reveal table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.42em;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  .reveal th {
+    background: var(--header);
+    color: #fff;
+    padding: 4px 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .reveal td {
+    padding: 3px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.3;
+  }
+  .reveal tr:nth-child(even) td { background: #f7fafc; }
+
+  .subtitle {
+    font-size: 0.7em;
+    color: var(--muted);
+    margin-top: -0.3em;
+  }
+
+  .tier {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 0.55em;
+    font-weight: 700;
+  }
+  .tier-s { background: #c6f6d5; color: #22543d; }
+  .tier-a { background: #bee3f8; color: #2a4365; }
+  .tier-b { background: #fefcbf; color: #975a16; }
+  .tier-c { background: #fed7d7; color: #9b2c2c; }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--header);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    padding: 5px 20px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .reveal .slides section {
+    padding-bottom: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 100%;
+  }
+
+  .reveal .slides section > * {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reveal .slides section h1,
+  .reveal .slides section h2 {
+    max-width: 95%;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- ACT 1: SETTING THE STAGE                          -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<section>
+  <h1>A Thriving Economy</h1>
+  <p>Lowering barriers so more Richmond entrepreneurs and minority-owned businesses can participate in the local economy.</p>
+  <p class="subtitle">RVA Hacks 2026 — Post-Event Evaluation</p>
+</section>
+
+<section>
+  <h2>The Problem</h2>
+  <p>Richmond's minority-owned businesses struggle to find City contracts that match their capabilities. First-time entrepreneurs don't know what steps to take, or in what order, to start a business.</p>
+  <p>The information exists — but it's buried across vendor portals, PDFs, and word-of-mouth networks that favor insiders.</p>
+</section>
+
+<section>
+  <h2>Two Challenges</h2>
+  <p><strong>MBE Contracting Discovery</strong> — Help minority-owned businesses identify and understand City contracting opportunities that match their capabilities.</p>
+  <p><strong>Small Business Navigation</strong> — Help first-time entrepreneurs understand what steps to take, in what order, to start and register a business in Richmond.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- ACT 2: HOW WE EVALUATED                           -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<section>
+  <h2>How We Evaluated</h2>
+  <p>We didn't just score these ideas. We put each one through a simulated civic roundtable with seven distinct perspectives — from the Mayor testing political alignment to the Citizen asking who gets left out.</p>
+  <p>Every idea had to survive scrutiny from people who would actually use, fund, or maintain it.</p>
+</section>
+
+<section>
+  <h2>Seven Voices at the Table</h2>
+  <p>Every idea faced seven perspectives: the <strong>Mayor</strong> testing political alignment, the <strong>Innovator</strong> pushing ambition, the <strong>Frontliner</strong> asking if staff would use it, the <strong>Citizen</strong> checking who gets left out, the <strong>Architect</strong> validating technical feasibility, the <strong>Activist</strong> mapping the competitive landscape, and the <strong>Funder</strong> asking who pays in Year Three.</p>
+</section>
+
+<section>
+  <h2>Four Phases of Scrutiny</h2>
+  <p>Each idea passed through independent persona assessment, convergence debate, direct challenges between personas on the hardest tradeoffs, and a final pass/fail test against five fatal flaw criteria.</p>
+  <p>No idea advanced without surviving all four phases.</p>
+</section>
+
+<section>
+  <h2>What Kills an Idea</h2>
+  <p>Five tests separate ideas that can ship from ideas that can't. Does the required data exist? Does a vendor wall block the MVP? Would anyone own it past demo day? Could it harm the residents it claims to serve? Would it embarrass the City if shipped as-is?</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- ACT 3: WHAT WE FOUND                              -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<section>
+  <h2>Ten Ideas at a Glance</h2>
+  <table>
+    <thead>
+      <tr><th>Idea</th><th>Verdict</th><th>Tier</th><th>Mayor's Choice</th><th>Pillar Award</th><th>Moonshot</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Richmond Spend Mirror</td><td><span class="badge badge-ship">GO</span></td><td><span class="tier tier-s">S</span></td><td>101</td><td>99</td><td>88</td></tr>
+      <tr><td>Business Launch Wizard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">GO*</span></td><td><span class="tier tier-a">A</span></td><td>92</td><td>90</td><td>78</td></tr>
+      <tr><td>Vendor Onboarding Wizard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">SHIP*</span></td><td><span class="tier tier-a">A</span></td><td>91</td><td>87</td><td>73</td></tr>
+      <tr><td>TradePath RVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">REFRAME</span></td><td><span class="tier tier-b">B</span></td><td>88</td><td>88</td><td>82</td></tr>
+      <tr><td>Contract Navigator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-conditions">REFINE</span></td><td><span class="tier tier-a">A</span></td><td>83</td><td>81</td><td>70</td></tr>
+      <tr><td>OMBD Match Dashboard</td><td><span class="badge badge-hold">REFINE</span></td><td><span class="tier tier-b">B</span></td><td>81</td><td>83</td><td>76</td></tr>
+      <tr><td>Pivot Delta Map</td><td><span class="badge badge-hold">REFINE</span></td><td><span class="tier tier-a">A</span></td><td>76</td><td>78</td><td>71</td></tr>
+      <tr><td>iBuild <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">REFINE</span></td><td><span class="tier tier-a">A</span></td><td>72</td><td>72</td><td>64</td></tr>
+      <tr><td>CareerBridge <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">REFINE</span></td><td><span class="tier tier-a">A</span></td><td>65</td><td>65</td><td>—</td></tr>
+      <tr><td>You Get What You Give <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span></td><td><span class="badge badge-hold">REFRAME</span></td><td><span class="tier tier-b">B</span></td><td>63</td><td>61</td><td>54</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.38em;color:#718096;margin-top:8px;"><span style="color:#d69e2e;">★</span> = hackathon demo built by a human team &nbsp;&nbsp;|&nbsp;&nbsp; no star = AI-generated post-event idea</p>
+  <p class="subtitle">MC = Mayor's Choice · PA = Pillar Award · MS = Moonshot · Tier = Implementation Readiness (S highest)</p>
+</section>
+
+<section>
+  <h2>The Headlines</h2>
+  <p>Of ten ideas evaluated, three are ready to ship, four need refinement, and three are solving the wrong problem for this pillar. The #2-ranked idea across all 73 hackathon submissions — Richmond Spend Mirror — came from this pillar.</p>
+  <p>The strongest ideas share one trait: they build on public Socrata open data and avoid the vendor walls that block everyone else.</p>
+</section>
+
+<section>
+  <h2>The B2GNow Wall</h2>
+  <p>The defining infrastructure constraint in this pillar is B2GNow — the vendor database behind OMBD's certified MBE directory. It has no public API, and no weekend workaround exists for automated vendor matching.</p>
+  <p>The strongest Economy ideas succeed precisely because they sidestep this wall and build on public Socrata contract data instead.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- ACT 4: IDEA DEEP DIVES                            -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<!-- ── 1. RICHMOND SPEND MIRROR ── -->
+
+<section>
+  <h2>Richmond Spend Mirror <span class="badge badge-ship">GO</span></h2>
+  <p>A public dashboard showing where Richmond's contracting dollars go — which departments, which commodity categories, and which vendors win repeat awards. Built entirely on open Socrata data with no vendor API needed, it surfaces renewal cycles so MBE firms can prepare before contracts expire.</p>
+  <div class="persona-quote">
+    <span class="name">Activist</span>
+    "Richmond is not starting a category — Boston, NYC, Portland, and Chicago already publish spend dashboards. Richmond is shipping a zero-permission version that sidesteps the B2GNow wall entirely."
+  </div>
+  <p><span class="tier tier-s">TIER S</span> &nbsp; Ranked #2 of 73 ideas for implementation readiness. Survivability: 23/25.</p>
+</section>
+
+<section>
+  <h2>Spend Mirror — The Verdict</h2>
+  <p>The panel recommends shipping this idea immediately. It passed all five fatal flaw tests — no structural walls, no vendor dependencies, negligible hosting costs. The only condition is equity: a plain-language NAICS mapping must be part of the definition of done.</p>
+  <p>If open data quality improves, Spend Mirror becomes the foundation for a broader MBE contracting intelligence pipeline across the City.</p>
+</section>
+
+<!-- ── 2. RICHMOND BUSINESS LAUNCH WIZARD ── -->
+
+<section>
+  <h2>Business Launch Wizard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">GO*</span></h2>
+  <p>While Spend Mirror shows vendors where the money goes, the Business Launch Wizard guides entrepreneurs through their first steps. Enter a location, learn the zoning, permits, and licensing requirements specific to that site — before you visit a single City counter.</p>
+  <div class="persona-quote">
+    <span class="name">Frontliner</span>
+    "Orlando and Cincinnati hit 95–98% self-service deflection on comparable deployments. This pattern works if the rules are maintained."
+  </div>
+  <p><span class="tier tier-a">TIER A</span> &nbsp; Ranked #29 of 73. Survivability: 18/25.</p>
+</section>
+
+<section>
+  <h2>Launch Wizard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel recommends shipping a narrow MVP covering a few business types with hand-curated rules. No fatal flaws were detected. The conditions: name a departmental owner, fund quarterly content reviews, and label all zoning data with freshness dates.</p>
+  <p>If permitting modernization replaces EnerGov with better public surfaces, this wizard's value grows without rebuilding anything.</p>
+</section>
+
+<!-- ── 3. VENDOR ONBOARDING WIZARD ── -->
+
+<section>
+  <h2>Vendor Onboarding Wizard <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">SHIP*</span></h2>
+  <p>Once an entrepreneur decides to sell to the City, this tool picks up where the Launch Wizard leaves off. It walks first-time vendors through every registration step — SAM.gov, eVA, OMBD, BidNet, iSupplier — in the right order, with realistic timelines.</p>
+  <div class="persona-quote">
+    <span class="name">Citizen</span>
+    "As an MBE owner without compliance staff, I care whether this saves real clock time or only rearranges PDFs."
+  </div>
+  <p><span class="tier tier-a">TIER A</span> &nbsp; Ranked #20 of 73. Survivability: 20/25.</p>
+</section>
+
+<section>
+  <h2>Vendor Onboarding — The Verdict</h2>
+  <p>The panel recommends shipping with conditions. No fatal flaws, but OMBD must own the content and review it quarterly. The tool should be digital pre-work before an OMBD appointment — not a replacement for human support.</p>
+  <p>Bundled with Spend Mirror and Contract Navigator, these three tools create a natural pipeline: see what the City buys, learn how to become eligible, then find your match.</p>
+</section>
+
+<!-- ── 4. TRADEPATH RVA ── -->
+
+<section>
+  <h2>TradePath RVA <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">REFRAME</span></h2>
+  <p>A different kind of economic participation tool. TradePath is a mobile-first navigator for residents exploring skilled trades careers, with barrier assessment for childcare, transport, and tools — plus a revolving micro-loan fund through People's Advantage FCU with a committed $50K pilot.</p>
+  <div class="persona-quote">
+    <span class="name">Citizen</span>
+    "As someone on a phone after a double shift, I care about boots, childcare, gas, and timing — TradePath speaks my language."
+  </div>
+  <p><span class="tier tier-b">TIER B</span> &nbsp; Ranked #46 of 73. Survivability: 15/25.</p>
+</section>
+
+<section>
+  <h2>TradePath <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel recommends reframing, not killing. The product doesn't answer the stated problem — how to start a business. It answers workforce pathways. The execution is strong and the credit union commitment is genuinely rare, but judges scoring against Small Business Navigation will cap Impact regardless.</p>
+  <p>If reclassified under Thriving Families — Youth Employment Pathways, the same product scores significantly higher on pillar alignment.</p>
+</section>
+
+<!-- ── 5. RICHMOND CONTRACT NAVIGATOR ── -->
+
+<section>
+  <h2>Contract Navigator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-conditions">REFINE</span></h2>
+  <p>Returning to MBE contracting, Contract Navigator uses AI to translate procurement jargon into plain English. It helps vendors understand which City contracts match their capabilities, with a glossary, readiness roadmap, and transparent match explanations.</p>
+  <div class="persona-quote">
+    <span class="name">Frontliner</span>
+    "Procurement staff already do informal matching at clinics. A vendor-facing tool is education and triage — not a substitute for reading the actual solicitation."
+  </div>
+  <p><span class="tier tier-a">TIER A</span> &nbsp; Ranked #25 of 73. Survivability: 19/25.</p>
+</section>
+
+<section>
+  <h2>Contract Navigator <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel found one strategic fatal flaw: positioning as "live opportunity discovery" when the open data only contains historical awarded contracts would break vendor trust. Fix this by renaming scope to "understand what the City buys" and pursuing a live solicitation feed as Phase 2.</p>
+  <p>With honest scope and validated match quality, this becomes a strong companion to Spend Mirror — explaining the contracts that the dashboard surfaces.</p>
+</section>
+
+<!-- ── 6. OMBD PROACTIVE MATCH DASHBOARD ── -->
+
+<section>
+  <h2>OMBD Match Dashboard <span class="badge badge-hold">REFINE</span></h2>
+  <p>This idea pushes MBE matching further — from vendor self-service to staff-driven outreach. It would match certified vendors to relevant City contracting opportunities using five-digit commodity code precision, replacing manual listserv blasts with curated shortlists.</p>
+  <div class="persona-quote">
+    <span class="name">Innovator</span>
+    "The product is not a better directory but proactive, code-precise matching — curated shortlists instead of listserv noise."
+  </div>
+  <p><span class="tier tier-b">TIER B</span> &nbsp; Ranked #44 of 73. Survivability: 15/25.</p>
+</section>
+
+<section>
+  <h2>OMBD Match <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>Politically the strongest idea in the pillar — OMBD is the natural owner, and MAP alignment is direct. But it runs headfirst into the B2GNow wall: vendor data lives behind a system with no public API, and without it, matching collapses into a low-trust recommender.</p>
+  <p>A CSV export agreement with OMBD would unlock this idea, but that partnership isn't a weekend deliverable.</p>
+</section>
+
+<!-- ── 7. PIVOT DELTA MAP ── -->
+
+<section>
+  <h2>Pivot Delta Map <span class="badge badge-hold">REFINE</span></h2>
+  <p>Shifting from contracting to corridors, Pivot Delta Map asks a different economic question. It visualizes business openings, closings, and ownership changes at the corridor level — Richmond's first "storefront dynamics" lens for economic development staff.</p>
+  <div class="persona-quote">
+    <span class="name">Architect</span>
+    "Virginia SCC registered-agent addresses often sit at attorneys and CPAs, not storefronts. The MVP must label the layer honestly or the project misleads."
+  </div>
+  <p><span class="tier tier-a">TIER A</span> &nbsp; Ranked #39 of 73. Survivability: 16/25.</p>
+</section>
+
+<section>
+  <h2>Pivot Delta Map — The Verdict</h2>
+  <p>The panel found a conditional fatal flaw: treating SCC filings alone as a neighborhood business map produces a credible-looking false picture, because registered-agent addresses aren't storefronts. If Richmond publishes business license location data, this becomes powerful. Without it, the map must be honestly labeled or not shipped.</p>
+  <p>The strongest deliverable may be a policy ask — a one-pager defining the open economic development data Richmond should publish.</p>
+</section>
+
+<!-- ── 8. IBUILD ── -->
+
+<section>
+  <h2>iBuild <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">REFINE</span></h2>
+  <p>Where Pivot Delta Map visualizes business dynamics, iBuild focuses on a specific friction point: building permits. Enter what you want to build and where, get a checklist of required permits, estimated fees, and rough timelines — all upstream of EnerGov, with no API dependency.</p>
+  <div class="persona-quote">
+    <span class="name">Frontliner</span>
+    "Counter staff will not send people to an unofficial wizard unless outputs match reality. Otherwise it creates more rework when applicants show up with wrong expectations."
+  </div>
+  <p><span class="tier tier-a">TIER A</span> &nbsp; Estimated survivability: 16–19/25.</p>
+</section>
+
+<section>
+  <h2>iBuild <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel says refine. This is a proven civic pattern — Salt Lake City, Tacoma, and Tulsa run similar permit estimators — but the problem statement mismatch is real. iBuild answers "how to get a building permit," not "how to start a business."</p>
+  <p>Fix the framing and partner with permit technicians for rule accuracy. If EnerGov's replacement exposes better APIs, the wizard can connect directly — but the narrow guidance tool stays valid either way.</p>
+</section>
+
+<!-- ── 9. CAREERBRIDGE ── -->
+
+<section>
+  <h2>CareerBridge <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> <span class="badge badge-hold">REFINE</span></h2>
+  <p>CareerBridge moves even further from the pillar's stated problems. It's an AI-powered career exploration tool with a swipe-based interface, barrier tags, and resource matching — polished, accessible, with colorblind mode and optional accounts.</p>
+  <div class="persona-quote">
+    <span class="name">Mayor</span>
+    "MAP fit as submitted is weak. If reframed under Thriving Families — Youth Employment Pathways, the same product aligns cleanly with MAP language."
+  </div>
+  <p><span class="tier tier-a">TIER A</span> &nbsp; Survivability: 16/25.</p>
+</section>
+
+<section>
+  <h2>CareerBridge <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel recommends re-homing, not killing. User Value and Execution both scored 4 — the prototype works and residents would use it. But it solves career exploration, not business startup or MBE contracting. Under Economy, Impact is capped at 2.</p>
+  <p>The named flaw is an outcome-ownership gap: digital navigation without employer-tethered programs and measurement doesn't produce durable wage gains.</p>
+</section>
+
+<!-- ── 10. YOU GET WHAT YOU GIVE ── -->
+
+<section>
+  <h2>You Get What You Give RVA <span class="badge badge-hold">REFRAME</span></h2>
+  <p>Our final idea also sits at the boundary of this pillar's scope. It's a B2B partnership finder built on Virginia SCC data — enter your business type and get matched with potential local partners, vendors, and customers using AI-enriched entity descriptions.</p>
+  <div class="persona-quote">
+    <span class="name">Evaluator</span>
+    "The civic ask is sequenced startup navigation. This demo solves mature-business networking. That is not a nuance — it is a category error."
+  </div>
+  <p><span class="tier tier-b">TIER B</span> &nbsp; Survivability: 15/25.</p>
+</section>
+
+<section>
+  <h2>You Get What You Give <span style="color:#d69e2e;font-size:0.8em;" title="Hackathon demo — built by a human team">★</span> — The Verdict</h2>
+  <p>The panel recommends shipping as ecosystem tooling, not as a City product. The execution is solid, but SCC data privileges already-registered businesses — leaving out the informal and first-time entrepreneurs the problem statement is meant to center.</p>
+  <p>The natural home is a Chamber of Commerce or startup ecosystem organization, not City Hall.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- ACT 5: WHAT IT MEANS                              -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<section>
+  <h2>What Should Ship</h2>
+  <p><strong>Richmond Spend Mirror</strong> — Open-data dashboard showing where City contracting dollars concentrate, giving MBE firms renewal intelligence.</p>
+  <p><strong>Business Launch Wizard</strong> — Step-by-step, address-aware guide for first-time entrepreneurs navigating Richmond's startup requirements.</p>
+  <p><strong>Vendor Onboarding Wizard</strong> — Ordered checklist walking MBE vendors through federal, state, and local registration in sequence.</p>
+</section>
+
+<section>
+  <h2>What Needs Work — and Why</h2>
+  <p><strong>OMBD Match Dashboard</strong> hits the B2GNow wall — no vendor API means no authoritative matching data.</p>
+  <p><strong>Pivot Delta Map</strong> needs business license data Richmond doesn't publish — SCC filings alone produce a false picture.</p>
+  <p><strong>CareerBridge</strong> and <strong>TradePath RVA</strong> solve real problems under the wrong pillar label.</p>
+  <p><strong>You Get What You Give</strong> serves already-registered businesses, not the first-timers the problem statement targets.</p>
+</section>
+
+<section>
+  <h2>What This Pillar Tells Us</h2>
+  <p>The B2GNow wall is the defining constraint — and the best teams found a way around it. Richmond Spend Mirror proves that open data plus focused design outperforms complex integrations. It's the #2 idea of 73 across the entire hackathon.</p>
+  <p>Half the Small Business Navigation submissions solved adjacent problems instead of the stated one — a signal that Richmond's actual startup friction may be less visible than its workforce and permitting pain.</p>
+</section>
+
+</div><!-- .slides -->
+</div><!-- .reveal -->
+
+<div class="footer">RVA Hacks 2026 — Roundtable Evaluation · A Thriving Economy</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  width: 1280,
+  height: 720,
+  margin: 0.1,
+  minScale: 0.2,
+  maxScale: 1.0,
+  transition: 'fade',
+  transitionSpeed: 'default',
+  center: true,
+  controlsTutorial: false,
+  disableLayout: false,
+});
+</script>
+</body>
+</html>

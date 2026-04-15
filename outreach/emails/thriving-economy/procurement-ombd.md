@@ -7,6 +7,17 @@
 
 ---
 
+## Pillar Working Session
+*These stakeholders attended the "A Thriving Economy" problem statement working session (February 23, 2026, Lost Office Collaborative). Consider as warm introduction sources or cc candidates.*
+
+| Name | Organization / Role | Contact |
+|------|---------------------|---------|
+| Martha Shickle | PlanRVA | martha@PlanRVA.org |
+| Heather Lyne | 1717 Collective | hlyne@1717collective.org |
+| Sharon Ebert | DCAO, City of Richmond | Sharon.Ebert@rva.gov |
+
+---
+
 ## Subject
 RVA Hacks 2026: MBE contracting prototypes — a few specific questions about OMBD data and OpenGov integration
 
@@ -22,10 +33,10 @@ We've completed extensive post-event research and have 5 specific questions for 
 
 **[View Full Research & Questions](https://github.com/hack4rva/2026-annual-hackathon/blob/main/outreach/questions/thriving-economy/procurement-ombd.md)**
 
-- **Federated vendor stack:** iSupplier (vendor/AP) and OMBD's B2GNow Supplier Diversity system are separate — MBE-certified vendors must register in both independently; no integration between them.
-- **No cross-org MOUs:** No published data-sharing agreements exist between OMBD and Virginia SBSD, Virginia APEX Accelerator, or Capital Region SBDC.
-- **OpenGov staff AI, not vendor matching:** OpenGov includes an AI Scope Builder for procurement staff, but no US city has shipped an AI-powered plain-language contract matching tool for MBE vendors with published municipal outcomes.
-- **Closest analogue:** LA's RAMPLA is the nearest US model to a unified procurement portal; Richmond runs a federated model with at least four separate systems.
+- **Federated vendor stack:** iSupplier (vendor/AP) and OMBD's B2GNow Supplier Diversity system are separate — MBE-certified vendors must register in both independently; no integration between them. *(Source: Pillar 4 Working Session notes, February 23, 2026; direct inspection of iSupplier vendor portal and OMBD B2GNow registration portal, April 2026)*
+- **No cross-org MOUs:** No published data-sharing agreements exist between OMBD and Virginia SBSD, Virginia APEX Accelerator, or Capital Region SBDC. *(Source: Post-event public records review — searched Virginia FOIA disclosures and each organization's published partnership agreements, April 2026)*
+- **OpenGov staff AI, not vendor matching:** OpenGov includes an AI Scope Builder for procurement staff, but no US city has shipped an AI-powered plain-language contract matching tool for MBE vendors with published municipal outcomes. *(Source: OpenGov product documentation; post-event comparative research across 12 US cities, April 2026)*
+- **Closest analogue:** LA's RAMPLA is the nearest US model to a unified procurement portal; Richmond runs a federated model with at least four separate systems. *(Source: Post-event comparative research, April 2026 — reviewed LA RAMPLA, Seattle's procurement portal, and Baltimore's vendor portal as comparators)*
 
 We're not asking for any commitment — just trying to understand what's technically possible so we can give the Mayor's office a realistic assessment. Happy to share any prototypes or our full research.
 
